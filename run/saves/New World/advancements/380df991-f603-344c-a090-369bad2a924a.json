@@ -1,25 +1,20 @@
 {
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2023-03-28 15:57:35 +0200"
+      "wild_wilder_wildest": "2023-03-28 18:36:57 +0200"
     },
     "done": true
   },
-  "wildaside:spread_onehundred": {
+  "wildaside:unsafe_haven": {
     "criteria": {
-      "spread_onehundred": "2023-03-28 15:58:04 +0200"
-    },
-    "done": true
-  },
-  "wildaside:hickory_log_hidden": {
-    "criteria": {
-      "hickory_log_hidden": "2023-03-28 15:58:47 +0200"
+      "unsafe_haven": "2023-03-28 18:38:03 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2023-03-28 15:57:36 +0200"
+      "minecraft:river": "2023-03-28 18:37:57 +0200",
+      "minecraft:forest": "2023-03-28 18:37:56 +0200"
     },
     "done": false
   },
