@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "substilium_block",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SubstiliumStem"
+      },
+      {
+        "value": "CUSTOM:SubstiliumStem"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SubstiliumStem"
+      },
+      {
+        "value": "CUSTOM:SubstiliumStem"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SubstiliumBlock"
+    },
+    "name": "substilium_block",
+    "namespace": "mod"
+  }
+}

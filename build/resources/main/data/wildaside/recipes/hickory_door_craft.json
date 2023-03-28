@@ -1,0 +1,18 @@
+{
+  "group": "hickory_trapdoor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "wildaside:hickory_planks"
+    }
+  },
+  "result": {
+    "item": "wildaside:hickory_door",
+    "count": 3
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Barrier Of Bacteria",
+    "achievementDescription": "Place down a Spore Blaster",
+    "achievementIcon": {
+      "value": "CUSTOM:SporeBlaster"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 10,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:DangerousWarfare"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"block_placed\" x=\"44\" y=\"16\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:SporeBlaster</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "wildaside:bioengineer_workspace",
+    "wildaside:compressed_substilium_soil",
+    "wildaside:smooth_substilium_soil",
+    "wildaside:chiseled_substilium_soil",
+    "wildaside:substilium_soil_tiles",
+    "wildaside:cracked_substilium_soil_tiles",
+    "wildaside:smooth_substilium_soil_stairs",
+    "wildaside:substilium_soil_tile_stairs",
+    "wildaside:cracked_substilium_soil_tile_stairs",
+    "wildaside:smooth_substilium_soil_slab",
+    "wildaside:substilium_soil_tile_slab",
+    "wildaside:cracked_substilium_soil_tile_slab",
+    "wildaside:smooth_substilium_soil_wall",
+    "wildaside:substilium_soil_tile_wall",
+    "wildaside:cracked_substilium_soil_tile_wall",
+    "wildaside:smooth_substilium_soil_pressure_plate",
+    "wildaside:substilium_soil_tile_pressure_plate",
+    "wildaside:cracked_substilium_soil_tile_pressure_plate",
+    "wildaside:smooth_substilium_soil_button",
+    "wildaside:substilium_soil_tile_button",
+    "wildaside:cracked_substilium_soil_tile_button"
+  ]
+}

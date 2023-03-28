@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "wildaside:vibrion_block",
+    "wildaside:hanging_vibrion_vines",
+    "wildaside:natural_spore_blaster",
+    "wildaside:spore_blaster",
+    "wildaside:vibrion_growth_head",
+    "wildaside:hickory_leaves",
+    "wildaside:red_glowing_hickory_leaves",
+    "wildaside:brown_glowing_hickory_leaves",
+    "wildaside:yellow_glowing_hickory_leaves",
+    "wildaside:green_glowing_hickory_leaves",
+    "wildaside:hanging_vibrion_vines_plant"
+  ]
+}

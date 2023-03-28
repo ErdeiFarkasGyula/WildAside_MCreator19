@@ -1,0 +1,17 @@
+{
+  "group": "substilium_trapdoor",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wildaside:substilium_planks"
+    }
+  },
+  "result": {
+    "item": "wildaside:substilium_trapdoor",
+    "count": 2
+  }
+}

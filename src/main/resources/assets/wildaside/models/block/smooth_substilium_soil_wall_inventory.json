@@ -1,0 +1,8 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "wildaside:blocks/smooth_substilium_soil",
+    "particle": "wildaside:blocks/smooth_substilium_soil"
+  },
+  "render_type": "cutout"
+}

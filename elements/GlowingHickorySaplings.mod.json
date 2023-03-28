@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:RedGlowingHickorySapling"
+      },
+      {
+        "value": "CUSTOM:YellowGlowingHickorySapling"
+      },
+      {
+        "value": "CUSTOM:BrownGlowingHickorySapling"
+      },
+      {
+        "value": "CUSTOM:GreenGlowingHickorySapling"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "glowing_hickory_saplings",
+    "namespace": "mod"
+  }
+}

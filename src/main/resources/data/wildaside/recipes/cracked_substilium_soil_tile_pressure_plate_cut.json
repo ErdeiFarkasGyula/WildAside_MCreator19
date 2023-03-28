@@ -1,0 +1,9 @@
+{
+  "group": "acked_substilium_soil_tile_pressure_plate",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "wildaside:cracked_substilium_soil_tiles"
+  },
+  "result": "wildaside:cracked_substilium_soil_tile_pressure_plate"
+}

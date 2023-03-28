@@ -1,0 +1,17 @@
+{
+  "group": "vibrion_glass_pane",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wildaside:vibrion_glass"
+    }
+  },
+  "result": {
+    "item": "wildaside:vibrion_glass_pane",
+    "count": 16
+  }
+}

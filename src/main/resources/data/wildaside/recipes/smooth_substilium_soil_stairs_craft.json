@@ -1,0 +1,18 @@
+{
+  "group": "smooth_substilium_soil_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " ##",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wildaside:smooth_substilium_soil"
+    }
+  },
+  "result": {
+    "item": "wildaside:smooth_substilium_soil_stairs",
+    "count": 4
+  }
+}

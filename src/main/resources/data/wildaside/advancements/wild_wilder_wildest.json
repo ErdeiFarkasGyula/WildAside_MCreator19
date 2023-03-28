@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "wildaside:textures/screens/substilium_stem_top.png",
+    "icon": {
+      "item": "wildaside:vibrion_block"
+    },
+    "title": {
+      "translate": "advancements.wild_wilder_wildest.title"
+    },
+    "description": {
+      "translate": "advancements.wild_wilder_wildest.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "wild_wilder_wildest": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

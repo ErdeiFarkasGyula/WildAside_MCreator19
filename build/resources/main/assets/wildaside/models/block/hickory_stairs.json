@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "wildaside:blocks/hickory_planks",
+    "top": "wildaside:blocks/hickory_planks",
+    "side": "wildaside:blocks/hickory_planks"
+  },
+  "render_type": "cutout"
+}

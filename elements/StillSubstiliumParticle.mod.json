@@ -1,0 +1,21 @@
+{
+  "_fv": 39,
+  "_type": "particle",
+  "definition": {
+    "texture": "substilium_particle.png",
+    "animate": true,
+    "frameDuration": 20,
+    "width": 0.2,
+    "height": 0.2,
+    "scale": 2.0,
+    "speedFactor": 1.0,
+    "gravity": 0.0,
+    "maxAge": 30,
+    "maxAgeDiff": 15,
+    "angularVelocity": 0.0,
+    "angularAcceleration": 0.0,
+    "canCollide": false,
+    "alwaysShow": false,
+    "renderType": "LIT"
+  }
+}

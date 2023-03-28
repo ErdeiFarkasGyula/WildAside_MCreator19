@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "smooth_substilium_soil_slab",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:SmoothSubstiliumSoil"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:SmoothSubstiliumSoilSlab"
+    },
+    "name": "smooth_substilium_soil_slab_cut",
+    "namespace": "mod"
+  }
+}

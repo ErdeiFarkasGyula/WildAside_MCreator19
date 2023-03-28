@@ -1,0 +1,20 @@
+{
+  "group": "substilium_fence",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "USU",
+    "USU"
+  ],
+  "key": {
+    "U": {
+      "item": "wildaside:substilium_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "wildaside:substilium_fence",
+    "count": 3
+  }
+}

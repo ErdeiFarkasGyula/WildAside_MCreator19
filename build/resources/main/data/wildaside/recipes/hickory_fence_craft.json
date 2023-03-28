@@ -1,0 +1,20 @@
+{
+  "group": "hickory_fence",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ISI",
+    "ISI"
+  ],
+  "key": {
+    "I": {
+      "item": "wildaside:hickory_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "wildaside:hickory_fence",
+    "count": 3
+  }
+}

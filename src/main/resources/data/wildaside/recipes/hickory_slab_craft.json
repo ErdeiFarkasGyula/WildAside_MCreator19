@@ -1,0 +1,16 @@
+{
+  "group": "hickory_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wildaside:hickory_planks"
+    }
+  },
+  "result": {
+    "item": "wildaside:hickory_slab",
+    "count": 6
+  }
+}

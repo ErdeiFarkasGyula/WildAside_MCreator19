@@ -1,0 +1,17 @@
+{
+  "group": "compressed_substilium_soil",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "wildaside:substilium_soil"
+    }
+  },
+  "result": {
+    "item": "wildaside:compressed_substilium_soil",
+    "count": 2
+  }
+}

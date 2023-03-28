@@ -1,0 +1,18 @@
+{
+  "group": "substilium_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  #",
+    " ##",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wildaside:substilium_planks"
+    }
+  },
+  "result": {
+    "item": "wildaside:substilium_stairs",
+    "count": 4
+  }
+}

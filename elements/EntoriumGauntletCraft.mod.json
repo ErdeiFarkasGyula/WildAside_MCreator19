@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "entorium_gauntlet",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Entorium"
+      },
+      {
+        "value": "CUSTOM:Entorium"
+      },
+      {
+        "value": "CUSTOM:Entorium"
+      },
+      {
+        "value": "CUSTOM:Entorium"
+      },
+      {
+        "value": "CUSTOM:EntoriumSporebomb"
+      },
+      {
+        "value": "CUSTOM:Entorium"
+      },
+      {
+        "value": "CUSTOM:Entorium"
+      },
+      {
+        "value": "Items.GOLDEN_PICKAXE"
+      },
+      {
+        "value": "CUSTOM:Entorium"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EntoriumGauntlet"
+    },
+    "name": "entorium_gauntlet",
+    "namespace": "mod"
+  }
+}

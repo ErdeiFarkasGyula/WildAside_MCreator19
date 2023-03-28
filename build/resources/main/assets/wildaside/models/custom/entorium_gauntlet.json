@@ -1,0 +1,372 @@
+{
+  "credit": "Made by Gyula using Blockbench",
+  "texture_size": [
+    32,
+    32
+  ],
+  "elements": [
+    {
+      "name": "base",
+      "from": [
+        -0.5,
+        11,
+        5
+      ],
+      "to": [
+        4.5,
+        17,
+        10
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          2,
+          24,
+          7.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            2.5,
+            2.5,
+            5,
+            5.5
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            0,
+            2.5,
+            2.5,
+            5.5
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            7.5,
+            2.5,
+            10,
+            5.5
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            5,
+            2.5,
+            7.5,
+            5.5
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            5,
+            2.5,
+            2.5,
+            0
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            7.5,
+            0,
+            5,
+            2.5
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "fingers",
+      "from": [
+        -0.75,
+        9.25,
+        6
+      ],
+      "to": [
+        3.25,
+        12.25,
+        9
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          2,
+          24,
+          7.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            7,
+            3.5,
+            8.5
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            0,
+            7,
+            1.5,
+            8.5
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            5,
+            7,
+            7,
+            8.5
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            3.5,
+            7,
+            5,
+            8.5
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            3.5,
+            7,
+            1.5,
+            5.5
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            5.5,
+            5.5,
+            3.5,
+            7
+          ],
+          "texture": "#1"
+        }
+      }
+    },
+    {
+      "name": "finger1",
+      "from": [
+        -2,
+        9.75,
+        5.9
+      ],
+      "to": [
+        0,
+        12.75,
+        8.9
+      ],
+      "rotation": {
+        "angle": 22.5,
+        "axis": "z",
+        "origin": [
+          2,
+          24,
+          7.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            7,
+            8.5,
+            8,
+            10
+          ],
+          "texture": "#1"
+        },
+        "east": {
+          "uv": [
+            5.5,
+            8.5,
+            7,
+            10
+          ],
+          "texture": "#1"
+        },
+        "south": {
+          "uv": [
+            9.5,
+            8.5,
+            10.5,
+            10
+          ],
+          "texture": "#1"
+        },
+        "west": {
+          "uv": [
+            8,
+            8.5,
+            9.5,
+            10
+          ],
+          "texture": "#1"
+        },
+        "up": {
+          "uv": [
+            8,
+            8.5,
+            7,
+            7
+          ],
+          "texture": "#1"
+        },
+        "down": {
+          "uv": [
+            9,
+            7,
+            8,
+            8.5
+          ],
+          "texture": "#1"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        -90,
+        0,
+        -180
+      ],
+      "translation": [
+        -6,
+        -1.5,
+        -4
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        -6,
+        -2.5,
+        -4
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -90,
+        0,
+        -180
+      ],
+      "translation": [
+        -7.25,
+        1.5,
+        -3.25
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        90,
+        0,
+        0
+      ],
+      "translation": [
+        -7.35,
+        0.25,
+        -3.25
+      ]
+    },
+    "ground": {
+      "translation": [
+        4.5,
+        0,
+        0
+      ],
+      "scale": [
+        0.8,
+        0.8,
+        0.8
+      ]
+    },
+    "gui": {
+      "translation": [
+        10.25,
+        -8.75,
+        0
+      ],
+      "scale": [
+        1.7,
+        1.7,
+        1.7
+      ]
+    },
+    "head": {
+      "rotation": [
+        177,
+        0,
+        0
+      ],
+      "translation": [
+        12,
+        23,
+        -1.5
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    },
+    "fixed": {
+      "translation": [
+        12,
+        -10,
+        0
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "gaunletRight",
+      "origin": [
+        -5,
+        24,
+        0
+      ],
+      "color": 0,
+      "children": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "name": "gauntletEmpty",
+      "origin": [
+        0,
+        0,
+        0
+      ],
+      "color": 0,
+      "children": []
+    }
+  ]
+}

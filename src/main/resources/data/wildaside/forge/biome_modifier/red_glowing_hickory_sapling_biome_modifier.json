@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "wildaside:glowing_hickory_forest",
+  "features": "wildaside:red_glowing_hickory_sapling",
+  "step": "vegetal_decoration"
+}

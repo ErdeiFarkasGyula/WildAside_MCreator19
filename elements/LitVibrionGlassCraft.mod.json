@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "lit_vibrion_glass",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:VibrionGlass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:VibrionGlass"
+      },
+      {
+        "value": "CUSTOM:VibrionBlock"
+      },
+      {
+        "value": "CUSTOM:VibrionGlass"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:VibrionGlass"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LitVibrionGlass"
+    },
+    "name": "lit_vibrion_glass",
+    "namespace": "mod"
+  }
+}

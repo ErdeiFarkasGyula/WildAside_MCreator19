@@ -1,0 +1,31 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "entorium_gauntlet",
+    "customModelName": "entorium_gauntlet:default",
+    "name": "Entorium Gauntlet",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:WildasideTab"
+    },
+    "toolType": "MultiTool",
+    "harvestLevel": 5,
+    "efficiency": 100.0,
+    "attackSpeed": 1.0,
+    "enchantability": 1,
+    "damageVsEntity": 4.0,
+    "usageCount": 420,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Entorium"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

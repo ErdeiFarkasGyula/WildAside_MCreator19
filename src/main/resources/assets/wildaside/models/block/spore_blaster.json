@@ -1,0 +1,9 @@
+{
+  "parent": "wildaside:custom/spore_blaster",
+  "textures": {
+    "all": "wildaside:blocks/sporeblaster",
+    "particle": "wildaside:blocks/vibrion_block",
+    "sporeblaster": "wildaside:blocks/sporeblaster"
+  },
+  "render_type": "cutout"
+}

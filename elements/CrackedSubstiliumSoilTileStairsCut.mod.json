@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "cracked_substilium_soil_tile_stairs",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:CrackedSubstiliumSoilTiles"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:CrackedSubstiliumSoilTileStairs"
+    },
+    "name": "cracked_substilium_soil_tile_stairs_cut",
+    "namespace": "mod"
+  }
+}

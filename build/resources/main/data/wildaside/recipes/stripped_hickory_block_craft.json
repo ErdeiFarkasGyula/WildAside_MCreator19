@@ -1,0 +1,17 @@
+{
+  "group": "stripped_hickory_block",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "wildaside:stripped_hickory_log"
+    }
+  },
+  "result": {
+    "item": "wildaside:stripped_hickory_block",
+    "count": 3
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "spore_blaster",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:Vibrion"
+      },
+      {
+        "value": "CUSTOM:EntoriumSporebomb"
+      },
+      {
+        "value": "CUSTOM:Vibrion"
+      },
+      {
+        "value": "CUSTOM:Entorium"
+      },
+      {
+        "value": "Blocks.DISPENSER"
+      },
+      {
+        "value": "CUSTOM:Entorium"
+      },
+      {
+        "value": "CUSTOM:SubstiliumSoil"
+      },
+      {
+        "value": "CUSTOM:SubstiliumSoil"
+      },
+      {
+        "value": "CUSTOM:SubstiliumSoil"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SporeBlaster"
+    },
+    "name": "spore_blaster",
+    "namespace": "mod"
+  }
+}

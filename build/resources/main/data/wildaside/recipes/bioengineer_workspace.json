@@ -1,0 +1,24 @@
+{
+  "group": "bioengineer_workspace",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NQN",
+    "IQI",
+    "IQI"
+  ],
+  "key": {
+    "N": {
+      "item": "wildaside:entorium"
+    },
+    "Q": {
+      "item": "minecraft:quartz_block"
+    },
+    "I": {
+      "item": "wildaside:vibrion"
+    }
+  },
+  "result": {
+    "item": "wildaside:bioengineer_workspace",
+    "count": 1
+  }
+}

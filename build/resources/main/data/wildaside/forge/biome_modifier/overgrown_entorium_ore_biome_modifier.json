@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "wildaside:vibrion_hive",
+  "features": "wildaside:overgrown_entorium_ore",
+  "step": "underground_ores"
+}

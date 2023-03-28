@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "hickory_fence",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HickoryPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:HickoryPlanks"
+      },
+      {
+        "value": "CUSTOM:HickoryPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:HickoryPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HickoryFence"
+    },
+    "name": "hickory_fence_craft",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "group": "substilium_soil_tile_pressure_plate",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "wildaside:substilium_soil_tiles"
+    }
+  },
+  "result": {
+    "item": "wildaside:substilium_soil_tile_pressure_plate",
+    "count": 1
+  }
+}

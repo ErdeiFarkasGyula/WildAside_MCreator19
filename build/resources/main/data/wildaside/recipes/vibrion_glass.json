@@ -1,0 +1,21 @@
+{
+  "group": "vibrion_glass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GIG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:glass"
+    },
+    "I": {
+      "item": "wildaside:vibrion_gel"
+    }
+  },
+  "result": {
+    "item": "wildaside:vibrion_glass",
+    "count": 4
+  }
+}

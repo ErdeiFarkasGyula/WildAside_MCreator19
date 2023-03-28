@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 0.1,
+    "cookingTime": 100,
+    "recipeRetstackSize": 1,
+    "group": "magenta_dye",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:SubstiliumShroom"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.DYE#13"
+    },
+    "name": "substilium_shroom",
+    "namespace": "mod"
+  }
+}

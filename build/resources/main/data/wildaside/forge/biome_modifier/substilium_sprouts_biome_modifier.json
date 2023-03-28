@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "wildaside:vibrion_hive",
+  "features": "wildaside:substilium_sprouts",
+  "step": "vegetal_decoration"
+}

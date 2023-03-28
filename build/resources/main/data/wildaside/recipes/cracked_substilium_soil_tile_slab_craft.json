@@ -1,0 +1,16 @@
+{
+  "group": "cracked_substilium_soil_tile_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "wildaside:cracked_substilium_soil_tiles"
+    }
+  },
+  "result": {
+    "item": "wildaside:cracked_substilium_soil_tile_slab",
+    "count": 6
+  }
+}

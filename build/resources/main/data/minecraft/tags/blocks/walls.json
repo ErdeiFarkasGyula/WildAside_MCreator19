@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "wildaside:smooth_substilium_soil_wall",
+    "wildaside:substilium_soil_tile_wall",
+    "wildaside:cracked_substilium_soil_tile_wall"
+  ]
+}

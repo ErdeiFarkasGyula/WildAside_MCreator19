@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "wildaside:blocks/green_glowing_hickory_leaves"
+  }
+}

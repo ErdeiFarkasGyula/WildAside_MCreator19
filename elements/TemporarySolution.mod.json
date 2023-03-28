@@ -1,0 +1,25 @@
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Temporary Solution",
+    "achievementDescription": "Consume an Entorium Pill",
+    "achievementIcon": {
+      "value": "CUSTOM:EntoriumPill"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 4,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:PetrifiedAntibiotic"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_consumed\" x=\"45\" y=\"26\"><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:EntoriumPill</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

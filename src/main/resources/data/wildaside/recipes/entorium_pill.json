@@ -1,0 +1,21 @@
+{
+  "group": "entorium_pill",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "INI",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_nugget"
+    },
+    "N": {
+      "item": "wildaside:entorium"
+    }
+  },
+  "result": {
+    "item": "wildaside:entorium_pill",
+    "count": 1
+  }
+}

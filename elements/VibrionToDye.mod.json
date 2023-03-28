@@ -1,0 +1,20 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 2.0,
+    "cookingTime": 400,
+    "recipeRetstackSize": 1,
+    "group": "yellow_dye",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Vibrion"
+    },
+    "smeltingReturnStack": {
+      "value": "Items.DYE#11"
+    },
+    "name": "vibrion_to_dye",
+    "namespace": "mod"
+  }
+}

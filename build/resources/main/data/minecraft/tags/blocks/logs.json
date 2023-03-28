@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "wildaside:stripped_substilium_block",
+    "wildaside:substilium_stem",
+    "wildaside:stripped_substilium_stem",
+    "wildaside:substilium_block",
+    "wildaside:hickory_block",
+    "wildaside:stripped_hickory_block",
+    "wildaside:hickory_log",
+    "wildaside:stripped_hickory_log"
+  ]
+}

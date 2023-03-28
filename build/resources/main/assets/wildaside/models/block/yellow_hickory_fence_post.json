@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "wildaside:blocks/yellow_hickory_planks",
+    "particle": "wildaside:blocks/yellow_hickory_planks"
+  },
+  "render_type": "cutout"
+}

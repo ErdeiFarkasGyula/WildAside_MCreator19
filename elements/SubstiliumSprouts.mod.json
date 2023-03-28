@@ -1,0 +1,114 @@
+{
+  "_fv": 39,
+  "_type": "plant",
+  "definition": {
+    "renderType": 12,
+    "texture": "substilium_sprouts",
+    "textureBottom": "",
+    "customModelName": "Cross model",
+    "itemTexture": "substilium_sprouts",
+    "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
+    "plantType": "normal",
+    "staticPlantGenerationType": "Grass",
+    "suspiciousStewEffect": "SPEED",
+    "suspiciousStewDuration": 100,
+    "growapableSpawnType": "Cave",
+    "growapableMaxHeight": 3,
+    "doublePlantGenerationType": "Flower",
+    "customBoundingBox": false,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
+    "name": "Substilium Sprouts",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:WildasideTab"
+    },
+    "hardness": 0.1,
+    "resistance": 0.0,
+    "luminance": 0,
+    "unbreakable": false,
+    "isSolid": false,
+    "isCustomSoundType": false,
+    "soundOnStep": {
+      "value": "ROOT"
+    },
+    "breakSound": {
+      "value": ""
+    },
+    "stepSound": {
+      "value": ""
+    },
+    "placeSound": {
+      "value": ""
+    },
+    "hitSound": {
+      "value": ""
+    },
+    "fallSound": {
+      "value": ""
+    },
+    "useLootTableForDrops": false,
+    "customDrop": {
+      "value": ""
+    },
+    "dropAmount": 1,
+    "forceTicking": false,
+    "emissiveRendering": false,
+    "hasTileEntity": false,
+    "isReplaceable": true,
+    "colorOnMap": "CYAN",
+    "creativePickItem": {
+      "value": ""
+    },
+    "offsetType": "XZ",
+    "aiPathNodeType": "OPEN",
+    "flammability": 0,
+    "fireSpreadSpeed": 60,
+    "jumpFactor": 1.0,
+    "speedFactor": 1.0,
+    "canBePlacedOn": [
+      {
+        "value": "CUSTOM:SubstiliumSoil"
+      },
+      {
+        "value": "CUSTOM:OvergrownEntoriumOre"
+      }
+    ],
+    "isBonemealable": false,
+    "frequencyOnChunks": 40,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:VibrionHive"
+      }
+    ],
+    "patchSize": 512,
+    "generateAtAnyHeight": true,
+    "onBlockAdded": {
+      "name": "Spawn7SubstiliumParticles"
+    },
+    "onDestroyedByPlayer": {
+      "name": "Spawn7SubstiliumParticles"
+    },
+    "onDestroyedByExplosion": {
+      "name": "Spawn7SubstiliumParticles"
+    },
+    "onRightClicked": {
+      "name": "Spawn7SubstiliumParticles"
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "substilium_door",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SubstiliumPlanks"
+      },
+      {
+        "value": "CUSTOM:SubstiliumPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SubstiliumPlanks"
+      },
+      {
+        "value": "CUSTOM:SubstiliumPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SubstiliumPlanks"
+      },
+      {
+        "value": "CUSTOM:SubstiliumPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SubstiliumDoor"
+    },
+    "name": "substilium_door",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "group": "lit_vibrion_glass",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " I ",
+    "IBI",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "wildaside:vibrion_glass"
+    },
+    "B": {
+      "item": "wildaside:vibrion_block"
+    }
+  },
+  "result": {
+    "item": "wildaside:lit_vibrion_glass",
+    "count": 4
+  }
+}

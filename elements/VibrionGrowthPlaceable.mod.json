@@ -1,0 +1,24 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SubstiliumSoil"
+      },
+      {
+        "value": "CUSTOM:OvergrownEntoriumOre"
+      },
+      {
+        "value": "CUSTOM:VibrionGrowthStem"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "vibrion_growth_placeable",
+    "namespace": "mod"
+  }
+}

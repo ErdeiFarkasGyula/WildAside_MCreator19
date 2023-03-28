@@ -1,0 +1,16 @@
+{
+  "group": "white_dye",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "wildaside:spotted_wintergreen"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_dye",
+    "count": 1
+  }
+}

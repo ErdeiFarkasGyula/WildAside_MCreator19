@@ -1,0 +1,24 @@
+{
+  "group": "entorium_gauntlet",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "NNN",
+    "NTN",
+    "NGN"
+  ],
+  "key": {
+    "N": {
+      "item": "wildaside:entorium"
+    },
+    "T": {
+      "item": "wildaside:entorium_sporebomb"
+    },
+    "G": {
+      "item": "minecraft:golden_pickaxe"
+    }
+  },
+  "result": {
+    "item": "wildaside:entorium_gauntlet",
+    "count": 1
+  }
+}

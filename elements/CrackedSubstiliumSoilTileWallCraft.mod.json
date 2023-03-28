@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 6,
+    "group": "cracked_substilium_soil_tile_wall",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CrackedSubstiliumSoilTiles"
+      },
+      {
+        "value": "CUSTOM:CrackedSubstiliumSoilTiles"
+      },
+      {
+        "value": "CUSTOM:CrackedSubstiliumSoilTiles"
+      },
+      {
+        "value": "CUSTOM:CrackedSubstiliumSoilTiles"
+      },
+      {
+        "value": "CUSTOM:CrackedSubstiliumSoilTiles"
+      },
+      {
+        "value": "CUSTOM:CrackedSubstiliumSoilTiles"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CrackedSubstiliumSoilTileWall"
+    },
+    "name": "cracked_substilium_soil_tile_wall_craft",
+    "namespace": "mod"
+  }
+}

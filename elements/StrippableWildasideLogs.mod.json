@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SubstiliumStem"
+      },
+      {
+        "value": "CUSTOM:SubstiliumBlock"
+      },
+      {
+        "value": "CUSTOM:HickoryLog"
+      },
+      {
+        "value": "CUSTOM:HickoryBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "strippable_wildaside_logs",
+    "namespace": "mod"
+  }
+}

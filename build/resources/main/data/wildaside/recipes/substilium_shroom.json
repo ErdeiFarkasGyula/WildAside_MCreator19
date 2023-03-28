@@ -1,0 +1,10 @@
+{
+  "group": "magenta_dye",
+  "type": "minecraft:smelting",
+  "experience": 0.1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "wildaside:substilium_shroom"
+  },
+  "result": "minecraft:magenta_dye"
+}

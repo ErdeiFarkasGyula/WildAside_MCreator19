@@ -1,0 +1,7 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "wildaside:blocks/substilium_tiles"
+  },
+  "render_type": "cutout"
+}

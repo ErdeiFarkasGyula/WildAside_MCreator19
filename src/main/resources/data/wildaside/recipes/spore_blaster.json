@@ -1,0 +1,30 @@
+{
+  "group": "spore_blaster",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "INI",
+    "TDT",
+    "UUU"
+  ],
+  "key": {
+    "I": {
+      "item": "wildaside:vibrion"
+    },
+    "N": {
+      "item": "wildaside:entorium_sporebomb"
+    },
+    "T": {
+      "item": "wildaside:entorium"
+    },
+    "D": {
+      "item": "minecraft:dispenser"
+    },
+    "U": {
+      "item": "wildaside:substilium_soil"
+    }
+  },
+  "result": {
+    "item": "wildaside:spore_blaster",
+    "count": 2
+  }
+}

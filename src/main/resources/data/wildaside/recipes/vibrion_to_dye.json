@@ -1,0 +1,10 @@
+{
+  "group": "yellow_dye",
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 400,
+  "ingredient": {
+    "item": "wildaside:vibrion"
+  },
+  "result": "minecraft:yellow_dye"
+}

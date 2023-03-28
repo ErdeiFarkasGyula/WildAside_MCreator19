@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "substilium_fence",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:SubstiliumPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:SubstiliumPlanks"
+      },
+      {
+        "value": "CUSTOM:SubstiliumPlanks"
+      },
+      {
+        "value": "Items.STICK"
+      },
+      {
+        "value": "CUSTOM:SubstiliumPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SubstiliumFence"
+    },
+    "name": "substilium_fence",
+    "namespace": "mod"
+  }
+}

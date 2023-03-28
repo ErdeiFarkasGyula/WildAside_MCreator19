@@ -1,0 +1,27 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:RedGlowingEssence"
+      },
+      {
+        "value": "CUSTOM:BrownGlowingEssence"
+      },
+      {
+        "value": "CUSTOM:GreenGlowingEssence"
+      },
+      {
+        "value": "CUSTOM:YellowGlowingEssence"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "glowing_essences",
+    "namespace": "mod"
+  }
+}
