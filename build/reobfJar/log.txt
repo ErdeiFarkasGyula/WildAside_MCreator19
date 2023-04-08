@@ -2,6 +2,7 @@ Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
 Arguments: '--in-jar, C:\MCreatorWorkspaces\wildaside_1.19\build\libs\modid-1.0.jar, --out-jar, C:\MCreatorWorkspaces\wildaside_1.19\build\reobfJar\output.jar, --srg-in, C:\MCreatorWorkspaces\wildaside_1.19\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
+ - C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\vazkii\patchouli\Patchouli\1.19.2-77_mapped_official_1.19.2\Patchouli-1.19.2-77_mapped_official_1.19.2-api.jar
  - C:\MCreatorWorkspaces\wildaside_1.19\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0_mapped_official_1.19.2\forge-1.19.2-43.2.0_mapped_official_1.19.2.jar
  - C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.19.2\client-extra.jar
  - C:\Users\Felhasználó\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.19.2-43.2.0\3e6e8b7b5e1dbc6ee01a20f74675f223b64c7847\fmlloader-1.19.2-43.2.0.jar

@@ -1,0 +1,30 @@
+{
+  "_fv": 39,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Wildaside Lexicon Giver Adv",
+    "achievementDescription": "Wildaside Lexicon Giver Adv",
+    "achievementIcon": {
+      "value": "CUSTOM:SpottedWintergreen"
+    },
+    "background": "Default",
+    "disableDisplay": true,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [
+      "GivePlayerWildasideLexicon"
+    ],
+    "rewardRecipes": [
+      "WildasideLexionCraft1",
+      "WildasideLexionCraft2"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 0,
+    "achievementType": "task",
+    "parent": {
+      "value": "CUSTOM:WildWilderWildest"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"62\" y=\"128\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

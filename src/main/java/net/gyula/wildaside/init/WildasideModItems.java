@@ -128,6 +128,9 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> GLOWING_HICKORY_TREE_GROWER = block(WildasideModBlocks.GLOWING_HICKORY_TREE_GROWER, null);
 	public static final RegistryObject<Item> HANGING_VIBRION_VEGETATION_GROWER = block(WildasideModBlocks.HANGING_VIBRION_VEGETATION_GROWER, null);
 	public static final RegistryObject<Item> SUBSTILIUM_TREE_GROWER = block(WildasideModBlocks.SUBSTILIUM_TREE_GROWER, null);
+	public static final RegistryObject<Item> BALD_CYPRESS_LOG = block(WildasideModBlocks.BALD_CYPRESS_LOG, WildasideModTabs.TAB_WILDASIDE_TAB);
+	public static final RegistryObject<Item> BALD_CYPRESS_PLANKS = block(WildasideModBlocks.BALD_CYPRESS_PLANKS, WildasideModTabs.TAB_WILDASIDE_TAB);
+	public static final RegistryObject<Item> BALD_CYPRESS_BLOCK = block(WildasideModBlocks.BALD_CYPRESS_BLOCK, WildasideModTabs.TAB_WILDASIDE_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

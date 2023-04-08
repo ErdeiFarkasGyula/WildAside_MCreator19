@@ -7,7 +7,9 @@
     "wildaside:substilium_block",
     "wildaside:hickory_block",
     "wildaside:stripped_hickory_block",
+    "wildaside:bald_cypress_block",
     "wildaside:hickory_log",
+    "wildaside:bald_cypress_log",
     "wildaside:stripped_hickory_log"
   ]
 }

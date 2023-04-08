@@ -37,6 +37,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.gyula.wildaside.procedures.Spawn7ParticlesProcedure;
 import net.gyula.wildaside.procedures.GiveContamintionInCubeProcedure;
 import net.gyula.wildaside.init.WildasideModBlocks;
 
@@ -115,10 +116,7 @@ public class HangingVibrionVinesPlantBlock extends WeepingVinesPlantBlock implem
 
 	@Override
 	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(WildasideModBlocks.HANGING_VIBRION_VINES.get(), 1));
 	}
 
 	@Override
@@ -132,6 +130,7 @@ public class HangingVibrionVinesPlantBlock extends WeepingVinesPlantBlock implem
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
 		GiveContamintionInCubeProcedure.execute(world, x, y, z);
+		Spawn7ParticlesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return InteractionResult.SUCCESS;
 	}
 

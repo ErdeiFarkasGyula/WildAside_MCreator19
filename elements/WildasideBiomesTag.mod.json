@@ -1,0 +1,24 @@
+{
+  "_fv": 39,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "CUSTOM:GlowingHickoryForest"
+      },
+      {
+        "value": "CUSTOM:HickoryForest"
+      },
+      {
+        "value": "CUSTOM:VibrionHive"
+      }
+    ],
+    "name": "wildaside_biomes",
+    "namespace": "mod"
+  }
+}

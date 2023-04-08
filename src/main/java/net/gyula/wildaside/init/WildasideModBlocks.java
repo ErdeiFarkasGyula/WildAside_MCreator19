@@ -102,6 +102,9 @@ import net.gyula.wildaside.block.ChiseledSubstiliumSoilBlock;
 import net.gyula.wildaside.block.BrownGlowingHickorySaplingBlock;
 import net.gyula.wildaside.block.BrownGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.BioengineerWorkspaceBlock;
+import net.gyula.wildaside.block.BaldCypressPlanksBlock;
+import net.gyula.wildaside.block.BaldCypressLogBlock;
+import net.gyula.wildaside.block.BaldCypressBlockBlock;
 import net.gyula.wildaside.WildasideMod;
 
 public class WildasideModBlocks {
@@ -194,6 +197,9 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> GLOWING_HICKORY_TREE_GROWER = REGISTRY.register("glowing_hickory_tree_grower", () -> new GlowingHickoryTreeGrowerBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VEGETATION_GROWER = REGISTRY.register("hanging_vibrion_vegetation_grower", () -> new HangingVibrionVegetationGrowerBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower", () -> new SubstiliumTreeGrowerBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_LOG = REGISTRY.register("bald_cypress_log", () -> new BaldCypressLogBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_PLANKS = REGISTRY.register("bald_cypress_planks", () -> new BaldCypressPlanksBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_BLOCK = REGISTRY.register("bald_cypress_block", () -> new BaldCypressBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

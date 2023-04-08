@@ -39,6 +39,7 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 
+import net.gyula.wildaside.procedures.Spawn7ParticlesProcedure;
 import net.gyula.wildaside.procedures.GiveContamintionInCubeProcedure;
 
 import net.gyula.wildaside.init.WildasideModBlocks;
@@ -130,6 +131,7 @@ public class HangingVibrionVinesBlock extends WeepingVinesBlock implements Simpl
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
 		GiveContamintionInCubeProcedure.execute(world, x, y, z);
+		Spawn7ParticlesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return InteractionResult.SUCCESS;
 	}
 

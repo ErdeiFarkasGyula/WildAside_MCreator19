@@ -1,5 +1,13 @@
 {
-  "bookGuiScale": 0,
+  "bookGuiScale": 4,
   "clickedVisualize": false,
-  "bookData": {}
+  "bookData": {
+    "wildaside:wildaside_lexicon": {
+      "viewedEntries": [
+        "wildaside:test/test_entry"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
+    }
+  }
 }

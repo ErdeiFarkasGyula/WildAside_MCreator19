@@ -36,7 +36,8 @@
     "experience": 3,
     "recipes": [
       "wildaside:vibrion_block",
-      "wildaside:vibrion_to_dye"
+      "wildaside:vibrion_to_dye",
+      "wildaside:wildaside_lexion_craft_1"
     ]
   },
   "parent": "wildaside:unsafe_haven"
