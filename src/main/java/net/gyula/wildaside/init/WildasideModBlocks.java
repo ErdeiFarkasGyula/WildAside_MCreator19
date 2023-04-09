@@ -104,6 +104,7 @@ import net.gyula.wildaside.block.BrownGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.BioengineerWorkspaceBlock;
 import net.gyula.wildaside.block.BaldCypressPlanksBlock;
 import net.gyula.wildaside.block.BaldCypressLogBlock;
+import net.gyula.wildaside.block.BaldCypressLeavesBlock;
 import net.gyula.wildaside.block.BaldCypressBlockBlock;
 import net.gyula.wildaside.WildasideMod;
 
@@ -200,6 +201,7 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> BALD_CYPRESS_LOG = REGISTRY.register("bald_cypress_log", () -> new BaldCypressLogBlock());
 	public static final RegistryObject<Block> BALD_CYPRESS_PLANKS = REGISTRY.register("bald_cypress_planks", () -> new BaldCypressPlanksBlock());
 	public static final RegistryObject<Block> BALD_CYPRESS_BLOCK = REGISTRY.register("bald_cypress_block", () -> new BaldCypressBlockBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_LEAVES = REGISTRY.register("bald_cypress_leaves", () -> new BaldCypressLeavesBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -207,12 +209,14 @@ public class WildasideModBlocks {
 		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 			HickoryLeavesBlock.blockColorLoad(event);
 			FallenHickoryLeavesBlock.blockColorLoad(event);
+			BaldCypressLeavesBlock.blockColorLoad(event);
 		}
 
 		@SubscribeEvent
 		public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
 			HickoryLeavesBlock.itemColorLoad(event);
 			FallenHickoryLeavesBlock.itemColorLoad(event);
+			BaldCypressLeavesBlock.itemColorLoad(event);
 		}
 	}
 }

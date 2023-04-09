@@ -9024,6 +9024,23 @@
         ]
       },
       "path": "~/Blocks"
+    },
+    {
+      "name": "BaldCypressLeaves",
+      "type": "block",
+      "sortid": 533,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bald_cypress_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/block/BaldCypressLeavesBlock.java",
+          "src/main/resources/assets/wildaside/models/item/bald_cypress_leaves.json",
+          "src/main/resources/assets/wildaside/models/block/bald_cypress_leaves.json",
+          "src/main/resources/assets/wildaside/blockstates/bald_cypress_leaves.json"
+        ]
+      },
+      "path": "~/Blocks"
     }
   ],
   "variable_elements": [
@@ -9079,13 +9096,13 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
       "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
-      "advancements.grow_the_glow.title": "Grow The Glow",
+      "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
       "item.wildaside.entorium": "Entorium",
+      "advancements.grow_the_glow.title": "Grow The Glow",
       "block.wildaside.vibrion_block": "Vibrion Block",
-      "advancements.stripped_substilium_stem_hidden.title": "Stripped Substilium Stem Hidden",
       "advancements.we_need_to_cook.descr": "Place down a Bioengineer Workspace",
+      "advancements.stripped_substilium_stem_hidden.title": "Stripped Substilium Stem Hidden",
       "wildaside.lexicon.name": "Wild Aside\u0027s Lexicon",
       "item.wildaside.brown_glowing_essence": "Brown Glowing Essence",
       "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
@@ -9245,7 +9262,8 @@
       "block.wildaside.hickory_tree_grower": "Hickory Tree Grower",
       "advancements.glimmering_glass.title": "Glimmering Glass",
       "block.wildaside.vibrion_growth_head": "Vibrion Growth Head",
-      "advancements.extensive_research.descr": "Shear an Overgrown Substilium Soil Block with Revealing"
+      "advancements.extensive_research.descr": "Shear an Overgrown Substilium Soil Block with Revealing",
+      "block.wildaside.bald_cypress_leaves": "Hickory Leaves"
     }
   },
   "foldersRoot": {

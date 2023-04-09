@@ -8977,6 +8977,7 @@
     {
       "name": "BaldCypressLog",
       "type": "block",
+      "sortid": 530,
       "compiles": true,
       "locked_code": false,
       "registry_name": "bald_cypress_log",
@@ -8986,6 +8987,57 @@
           "src/main/resources/assets/wildaside/models/item/bald_cypress_log.json",
           "src/main/resources/assets/wildaside/blockstates/bald_cypress_log.json",
           "src/main/resources/assets/wildaside/models/block/bald_cypress_log.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BaldCypressPlanks",
+      "type": "block",
+      "sortid": 531,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bald_cypress_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildaside/blockstates/bald_cypress_planks.json",
+          "src/main/java/net/gyula/wildaside/block/BaldCypressPlanksBlock.java",
+          "src/main/resources/assets/wildaside/models/item/bald_cypress_planks.json",
+          "src/main/resources/assets/wildaside/models/block/bald_cypress_planks.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BaldCypressBlock",
+      "type": "block",
+      "sortid": 532,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bald_cypress_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/wildaside/models/block/bald_cypress_block.json",
+          "src/main/java/net/gyula/wildaside/block/BaldCypressBlockBlock.java",
+          "src/main/resources/assets/wildaside/models/item/bald_cypress_block.json",
+          "src/main/resources/assets/wildaside/blockstates/bald_cypress_block.json"
+        ]
+      },
+      "path": "~/Blocks"
+    },
+    {
+      "name": "BaldCypressLeaves",
+      "type": "block",
+      "sortid": 533,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bald_cypress_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/block/BaldCypressLeavesBlock.java",
+          "src/main/resources/assets/wildaside/models/item/bald_cypress_leaves.json",
+          "src/main/resources/assets/wildaside/models/block/bald_cypress_leaves.json",
+          "src/main/resources/assets/wildaside/blockstates/bald_cypress_leaves.json"
         ]
       },
       "path": "~/Blocks"
@@ -9044,13 +9096,13 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
       "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
-      "advancements.grow_the_glow.title": "Grow The Glow",
+      "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
       "item.wildaside.entorium": "Entorium",
+      "advancements.grow_the_glow.title": "Grow The Glow",
       "block.wildaside.vibrion_block": "Vibrion Block",
-      "advancements.stripped_substilium_stem_hidden.title": "Stripped Substilium Stem Hidden",
       "advancements.we_need_to_cook.descr": "Place down a Bioengineer Workspace",
+      "advancements.stripped_substilium_stem_hidden.title": "Stripped Substilium Stem Hidden",
       "wildaside.lexicon.name": "Wild Aside\u0027s Lexicon",
       "item.wildaside.brown_glowing_essence": "Brown Glowing Essence",
       "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
@@ -9151,7 +9203,7 @@
       "block.wildaside.hickory_fence_gate": "Hickory Fence Gate",
       "block.wildaside.vibrion_roots": "Vibrion Roots",
       "advancements.wild_wilder_wildest.descr": "Open a world with Wild Aside",
-      "block.wildaside.bald_cypress_log": "Hickory Log",
+      "block.wildaside.bald_cypress_log": "Bald Cypress Log",
       "item.wildaside.hickory_nut": "Hickory Nut",
       "block.wildaside.overgrown_entorium_ore": "Overgrown Substilium Soil",
       "block.wildaside.hickory_stairs": "Hickory Stairs",
@@ -9196,8 +9248,10 @@
       "advancements.temporary_solution.title": "Temporary Solution",
       "advancements.substilium_stem_hidden.descr": "Substilium Stem Hidden",
       "item.wildaside.rutillion": "Rutillion",
+      "block.wildaside.bald_cypress_planks": "Bald Cypress Planks",
       "block.wildaside.cracked_substilium_soil_tile_button": "Cracked Substilium Soil Tile Button",
       "advancements.dangerous_warfare.descr": "Infect a mob or a player with an Entorium Sporebomb",
+      "block.wildaside.bald_cypress_block": "Bald Cypress Block",
       "advancements.hickory_planks_hidden.title": "Hickory Planks Hidden",
       "block.wildaside.substilium_slab": "Substilium Slab",
       "block.wildaside.spore_air": "Spore Air",
@@ -9208,7 +9262,8 @@
       "block.wildaside.hickory_tree_grower": "Hickory Tree Grower",
       "advancements.glimmering_glass.title": "Glimmering Glass",
       "block.wildaside.vibrion_growth_head": "Vibrion Growth Head",
-      "advancements.extensive_research.descr": "Shear an Overgrown Substilium Soil Block with Revealing"
+      "advancements.extensive_research.descr": "Shear an Overgrown Substilium Soil Block with Revealing",
+      "block.wildaside.bald_cypress_leaves": "Hickory Leaves"
     }
   },
   "foldersRoot": {
