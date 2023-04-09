@@ -45,7 +45,7 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> ENTORIUM_GAUNTLET = REGISTRY.register("entorium_gauntlet", () -> new EntoriumGauntletItem());
 	public static final RegistryObject<Item> SUBSTILIUM_SHROOM = block(WildasideModBlocks.SUBSTILIUM_SHROOM, WildasideModTabs.TAB_WILDASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_STEM = block(WildasideModBlocks.SUBSTILIUM_STEM, WildasideModTabs.TAB_WILDASIDE_TAB);
-	public static final RegistryObject<Item> SUBSTILIUM_BLOCK = block(WildasideModBlocks.SUBSTILIUM_BLOCK, WildasideModTabs.TAB_WILDASIDE_TAB);
+	public static final RegistryObject<Item> SUBSTILIUM_WOOD = block(WildasideModBlocks.SUBSTILIUM_WOOD, WildasideModTabs.TAB_WILDASIDE_TAB);
 	public static final RegistryObject<Item> STRIPPED_SUBSTILIUM_STEM = block(WildasideModBlocks.STRIPPED_SUBSTILIUM_STEM, WildasideModTabs.TAB_WILDASIDE_TAB);
 	public static final RegistryObject<Item> STRIPPED_SUBSTILIUM_BLOCK = block(WildasideModBlocks.STRIPPED_SUBSTILIUM_BLOCK, WildasideModTabs.TAB_WILDASIDE_TAB);
 	public static final RegistryObject<Item> SUBSTILIUM_PLANKS = block(WildasideModBlocks.SUBSTILIUM_PLANKS, WildasideModTabs.TAB_WILDASIDE_TAB);
@@ -87,7 +87,7 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> SUBSTILIUM_SOIL_TILE_BUTTON = block(WildasideModBlocks.SUBSTILIUM_SOIL_TILE_BUTTON, WildasideModTabs.TAB_WILDASIDE_TAB);
 	public static final RegistryObject<Item> CRACKED_SUBSTILIUM_SOIL_TILE_BUTTON = block(WildasideModBlocks.CRACKED_SUBSTILIUM_SOIL_TILE_BUTTON, WildasideModTabs.TAB_WILDASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_LOG = block(WildasideModBlocks.HICKORY_LOG, WildasideModTabs.TAB_WILDASIDE_TAB);
-	public static final RegistryObject<Item> HICKORY_BLOCK = block(WildasideModBlocks.HICKORY_BLOCK, WildasideModTabs.TAB_WILDASIDE_TAB);
+	public static final RegistryObject<Item> HICKORY_WOOD = block(WildasideModBlocks.HICKORY_WOOD, WildasideModTabs.TAB_WILDASIDE_TAB);
 	public static final RegistryObject<Item> STRIPPED_HICKORY_LOG = block(WildasideModBlocks.STRIPPED_HICKORY_LOG, WildasideModTabs.TAB_WILDASIDE_TAB);
 	public static final RegistryObject<Item> STRIPPED_HICKORY_BLOCK = block(WildasideModBlocks.STRIPPED_HICKORY_BLOCK, WildasideModTabs.TAB_WILDASIDE_TAB);
 	public static final RegistryObject<Item> HICKORY_PLANKS = block(WildasideModBlocks.HICKORY_PLANKS, WildasideModTabs.TAB_WILDASIDE_TAB);
@@ -130,7 +130,7 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> SUBSTILIUM_TREE_GROWER = block(WildasideModBlocks.SUBSTILIUM_TREE_GROWER, null);
 	public static final RegistryObject<Item> BALD_CYPRESS_LOG = block(WildasideModBlocks.BALD_CYPRESS_LOG, WildasideModTabs.TAB_WILDASIDE_TAB);
 	public static final RegistryObject<Item> BALD_CYPRESS_PLANKS = block(WildasideModBlocks.BALD_CYPRESS_PLANKS, WildasideModTabs.TAB_WILDASIDE_TAB);
-	public static final RegistryObject<Item> BALD_CYPRESS_BLOCK = block(WildasideModBlocks.BALD_CYPRESS_BLOCK, WildasideModTabs.TAB_WILDASIDE_TAB);
+	public static final RegistryObject<Item> BALD_CYPRESS_WOOD = block(WildasideModBlocks.BALD_CYPRESS_WOOD, WildasideModTabs.TAB_WILDASIDE_TAB);
 	public static final RegistryObject<Item> BALD_CYPRESS_LEAVES = block(WildasideModBlocks.BALD_CYPRESS_LEAVES, WildasideModTabs.TAB_WILDASIDE_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {

@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "wildaside:blocks/hickory_log_side",
+    "particle": "wildaside:blocks/hickory_log_side"
+  },
+  "render_type": "solid"
+}

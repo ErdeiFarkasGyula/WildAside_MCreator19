@@ -77,10 +77,10 @@ public class WildasideWoodStrippingProcedure {
 						world.setBlock(_bp, _bs, 3);
 					}
 				}
-				if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.HICKORY_BLOCK.get()) {
+				if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.HICKORY_WOOD.get()) {
 					{
 						BlockPos _bp = new BlockPos(x, y, z);
-						BlockState _bs = WildasideModBlocks.HICKORY_BLOCK.get().defaultBlockState();
+						BlockState _bs = WildasideModBlocks.HICKORY_WOOD.get().defaultBlockState();
 						BlockState _bso = world.getBlockState(_bp);
 						for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
 							Property _property = _bs.getBlock().getStateDefinition().getProperty(entry.getKey().getName());
@@ -109,7 +109,7 @@ public class WildasideWoodStrippingProcedure {
 						world.setBlock(_bp, _bs, 3);
 					}
 				}
-				if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.SUBSTILIUM_BLOCK.get()) {
+				if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.SUBSTILIUM_WOOD.get()) {
 					{
 						BlockPos _bp = new BlockPos(x, y, z);
 						BlockState _bs = WildasideModBlocks.STRIPPED_SUBSTILIUM_BLOCK.get().defaultBlockState();
