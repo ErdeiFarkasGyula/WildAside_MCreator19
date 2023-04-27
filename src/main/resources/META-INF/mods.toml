@@ -4,12 +4,15 @@ license="MIT License"
 
 [[mods]]
 modId="wildaside"
-version="0.0.9"
+version="0.1.1"
 displayName="Wild Aside"
 credits="Imagined by Gyula & Lyof. Developed by Gyula. Quality management by Lyof. Textures by Gyula & Dylanvhs. Concept art by Toma400 & Gyula. Special thanks to Aqu."
 displayURL="https://mcreator.net"
 logoFile="logo.png"
 authors="Gyula, Lyof, MCreator"
+description='''
+An amazing biome and exploration mod
+'''
 
 [[dependencies.wildaside]]
     modId="minecraft"

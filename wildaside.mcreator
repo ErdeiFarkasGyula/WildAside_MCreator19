@@ -9096,13 +9096,13 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
       "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
-      "advancements.grow_the_glow.title": "Grow The Glow",
+      "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
       "item.wildaside.entorium": "Entorium",
+      "advancements.grow_the_glow.title": "Grow The Glow",
       "block.wildaside.vibrion_block": "Vibrion Block",
-      "advancements.stripped_substilium_stem_hidden.title": "Stripped Substilium Stem Hidden",
       "advancements.we_need_to_cook.descr": "Place down a Bioengineer Workspace",
+      "advancements.stripped_substilium_stem_hidden.title": "Stripped Substilium Stem Hidden",
       "wildaside.lexicon.name": "Wild Aside\u0027s Lexicon",
       "item.wildaside.brown_glowing_essence": "Brown Glowing Essence",
       "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
@@ -9435,9 +9435,9 @@
   "workspaceSettings": {
     "modid": "wildaside",
     "modName": "Wild Aside",
-    "version": "0.0.9",
+    "version": "0.1.1",
+    "description": "An amazing biome and exploration mod",
     "author": "Gyula, Lyof, MCreator",
-    "websiteURL": "https://mcreator.net",
     "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
