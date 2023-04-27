@@ -5,6 +5,9 @@ import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
@@ -29,6 +32,12 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 public class FallenHickoryLeavesBlock extends FlowerBlock {
 	public FallenHickoryLeavesBlock() {
 		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.GRASS).sound(SoundType.GRASS).strength(0.1f, 0.1f).noCollission().offsetType(BlockBehaviour.OffsetType.NONE));
+	}
+
+	@Override
+	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
+		Vec3 offset = state.getOffset(world, pos);
+		return box(0, 0, 0, 16, 2, 16).move(offset.x, offset.y, offset.z);
 	}
 
 	@Override

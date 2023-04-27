@@ -28,6 +28,12 @@
       },
       {
         "value": "CUSTOM:StrippedSubstiliumBlock"
+      },
+      {
+        "value": "CUSTOM:BaldCypressLog"
+      },
+      {
+        "value": "CUSTOM:BaldCypressBlock"
       }
     ],
     "functions": [],

@@ -15,7 +15,8 @@
     "rewardLoot": [],
     "rewardRecipes": [
       "VibrionBlockCraft",
-      "VibrionToDye"
+      "VibrionToDye",
+      "WildasideLexionCraft1"
     ],
     "rewardFunction": "No function",
     "rewardXP": 3,

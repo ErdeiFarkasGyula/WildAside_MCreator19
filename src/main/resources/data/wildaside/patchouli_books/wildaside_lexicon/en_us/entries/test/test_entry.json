@@ -1,0 +1,11 @@
+{
+    "name": "Teszt Bekezdés",
+    "icon": "minecraft:writable_book",
+    "category": "wildaside:test_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Ez egy nagyon király teszt szöveg!"
+        }
+    ]
+}

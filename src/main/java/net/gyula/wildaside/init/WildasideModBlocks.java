@@ -102,6 +102,10 @@ import net.gyula.wildaside.block.ChiseledSubstiliumSoilBlock;
 import net.gyula.wildaside.block.BrownGlowingHickorySaplingBlock;
 import net.gyula.wildaside.block.BrownGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.BioengineerWorkspaceBlock;
+import net.gyula.wildaside.block.BaldCypressPlanksBlock;
+import net.gyula.wildaside.block.BaldCypressLogBlock;
+import net.gyula.wildaside.block.BaldCypressLeavesBlock;
+import net.gyula.wildaside.block.BaldCypressBlockBlock;
 import net.gyula.wildaside.WildasideMod;
 
 public class WildasideModBlocks {
@@ -117,7 +121,7 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> VIBRION_SPOREHOLDER = REGISTRY.register("vibrion_sporeholder", () -> new VibrionSporeholderBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_SHROOM = REGISTRY.register("substilium_shroom", () -> new SubstiliumShroomBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_STEM = REGISTRY.register("substilium_stem", () -> new SubstiliumStemBlock());
-	public static final RegistryObject<Block> SUBSTILIUM_BLOCK = REGISTRY.register("substilium_block", () -> new SubstiliumBlockBlock());
+	public static final RegistryObject<Block> SUBSTILIUM_WOOD = REGISTRY.register("substilium_wood", () -> new SubstiliumBlockBlock());
 	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_STEM = REGISTRY.register("stripped_substilium_stem", () -> new StrippedSubstiliumStemBlock());
 	public static final RegistryObject<Block> STRIPPED_SUBSTILIUM_BLOCK = REGISTRY.register("stripped_substilium_block", () -> new StrippedSubstiliumBlockBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_PLANKS = REGISTRY.register("substilium_planks", () -> new SubstiliumPlanksBlock());
@@ -159,7 +163,7 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SUBSTILIUM_SOIL_TILE_BUTTON = REGISTRY.register("substilium_soil_tile_button", () -> new SubstiliumSoilTileButtonBlock());
 	public static final RegistryObject<Block> CRACKED_SUBSTILIUM_SOIL_TILE_BUTTON = REGISTRY.register("cracked_substilium_soil_tile_button", () -> new CrackedSubstiliumSoilTileButtonBlock());
 	public static final RegistryObject<Block> HICKORY_LOG = REGISTRY.register("hickory_log", () -> new HickoryLogBlock());
-	public static final RegistryObject<Block> HICKORY_BLOCK = REGISTRY.register("hickory_block", () -> new HickoryBlockBlock());
+	public static final RegistryObject<Block> HICKORY_WOOD = REGISTRY.register("hickory_wood", () -> new HickoryBlockBlock());
 	public static final RegistryObject<Block> STRIPPED_HICKORY_LOG = REGISTRY.register("stripped_hickory_log", () -> new StrippedHickoryLogBlock());
 	public static final RegistryObject<Block> STRIPPED_HICKORY_BLOCK = REGISTRY.register("stripped_hickory_block", () -> new StrippedHickoryBlockBlock());
 	public static final RegistryObject<Block> HICKORY_PLANKS = REGISTRY.register("hickory_planks", () -> new HickoryPlanksBlock());
@@ -194,6 +198,10 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> GLOWING_HICKORY_TREE_GROWER = REGISTRY.register("glowing_hickory_tree_grower", () -> new GlowingHickoryTreeGrowerBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VEGETATION_GROWER = REGISTRY.register("hanging_vibrion_vegetation_grower", () -> new HangingVibrionVegetationGrowerBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower", () -> new SubstiliumTreeGrowerBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_LOG = REGISTRY.register("bald_cypress_log", () -> new BaldCypressLogBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_PLANKS = REGISTRY.register("bald_cypress_planks", () -> new BaldCypressPlanksBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_WOOD = REGISTRY.register("bald_cypress_wood", () -> new BaldCypressBlockBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_LEAVES = REGISTRY.register("bald_cypress_leaves", () -> new BaldCypressLeavesBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -201,12 +209,14 @@ public class WildasideModBlocks {
 		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 			HickoryLeavesBlock.blockColorLoad(event);
 			FallenHickoryLeavesBlock.blockColorLoad(event);
+			BaldCypressLeavesBlock.blockColorLoad(event);
 		}
 
 		@SubscribeEvent
 		public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
 			HickoryLeavesBlock.itemColorLoad(event);
 			FallenHickoryLeavesBlock.itemColorLoad(event);
+			BaldCypressLeavesBlock.itemColorLoad(event);
 		}
 	}
 }
