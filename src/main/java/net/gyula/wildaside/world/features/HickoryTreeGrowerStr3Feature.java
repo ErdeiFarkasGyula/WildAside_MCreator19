@@ -25,6 +25,7 @@ import net.minecraft.core.Holder;
 import net.minecraft.core.BlockPos;
 
 import net.gyula.wildaside.procedures.UpdateStructureProcedure;
+import net.gyula.wildaside.procedures.HickoryTreeGrowerStrAdditionalGenerationConditionProcedure;
 
 import java.util.Set;
 import java.util.List;
@@ -72,6 +73,8 @@ public class HickoryTreeGrowerStr3Feature extends Feature<NoneFeatureConfigurati
 				int x = spawnTo.getX();
 				int y = spawnTo.getY();
 				int z = spawnTo.getZ();
+				if (!HickoryTreeGrowerStrAdditionalGenerationConditionProcedure.execute(world, x, y, z))
+					continue;
 				if (template.placeInWorld(context.level(), spawnTo, spawnTo,
 						new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE).setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_BLOCK).setIgnoreEntities(false), context.random(), 2)) {
 					UpdateStructureProcedure.execute(world, x, y, z);

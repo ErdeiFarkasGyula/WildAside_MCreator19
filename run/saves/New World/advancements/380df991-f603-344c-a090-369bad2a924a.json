@@ -1,27 +1,33 @@
 {
-  "wildaside:wild_wilder_wildest": {
+  "wildaside:wildaside_lexicon_giver_adv": {
     "criteria": {
-      "wild_wilder_wildest": "2023-04-09 20:42:03 +0200"
+      "wildaside_lexicon_giver_adv": "2023-05-02 19:35:45 +0200"
     },
     "done": true
   },
-  "wildaside:hickory_log_hidden": {
+  "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "hickory_log_hidden": "2023-04-09 20:44:43 +0200"
+      "wild_wilder_wildest": "2023-05-02 19:34:52 +0200"
+    },
+    "done": true
+  },
+  "wildaside:unsafe_haven": {
+    "criteria": {
+      "unsafe_haven": "2023-05-02 19:37:27 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:sparse_jungle": "2023-04-09 20:42:05 +0200"
+      "minecraft:beach": "2023-05-02 19:35:33 +0200",
+      "minecraft:mangrove_swamp": "2023-05-02 19:34:54 +0200",
+      "minecraft:sparse_jungle": "2023-05-02 19:36:11 +0200",
+      "minecraft:river": "2023-05-02 19:37:33 +0200",
+      "minecraft:jungle": "2023-05-02 19:37:37 +0200",
+      "minecraft:windswept_savanna": "2023-05-02 19:37:04 +0200",
+      "minecraft:plains": "2023-05-02 19:36:45 +0200"
     },
     "done": false
-  },
-  "minecraft:story/root": {
-    "criteria": {
-      "crafting_table": "2023-04-09 20:44:35 +0200"
-    },
-    "done": true
   },
   "DataVersion": 3120
 }

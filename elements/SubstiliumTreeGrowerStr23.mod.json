@@ -26,6 +26,9 @@
       }
     ],
     "ignoreBlocks": "STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "SubstiliumTreeGrowerStrAdditionalGenerationCondition"
+    },
     "onStructureGenerated": {
       "name": "UpdateStructure"
     }
