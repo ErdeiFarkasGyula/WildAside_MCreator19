@@ -45,30 +45,30 @@ public class SubstiliumTreeGrowerUpdateTickProcedure {
 				world.setBlock(_bp, _bs, 3);
 			}
 			if (world.isEmptyBlock(new BlockPos(x, y + 1, z)) && world.isEmptyBlock(new BlockPos(x, y + 2, z)) && world.isEmptyBlock(new BlockPos(x, y + 3, z))) {
-				if (Math.random() >= 0.35) {
+				if (Math.random() >= 0.2) {
 					i = 0;
 					canPlaceLoop = 0;
 					canPlace = true;
 					if (Math.random() <= 0.7) {
 						height = Mth.nextInt(RandomSource.create(), 6, 12);
-						for (int index0 = 0; index0 < (int) (height); index0++) {
+						for (int index0 = 0; index0 < (int) height; index0++) {
 							canPlaceLoop = canPlaceLoop + 1;
 							if (world.getBlockState(new BlockPos(x, y + canPlaceLoop, z)).canOcclude()) {
 								canPlace = false;
 							}
 						}
 						if (canPlace == true) {
-							for (int index1 = 0; index1 < (int) (height); index1++) {
+							for (int index1 = 0; index1 < (int) height; index1++) {
 								world.setBlock(new BlockPos(x, y + i, z), WildasideModBlocks.SUBSTILIUM_STEM.get().defaultBlockState(), 3);
 								i = i + 1;
 							}
 							sx = -1;
 							found = false;
-							for (int index2 = 0; index2 < (int) (3); index2++) {
+							for (int index2 = 0; index2 < 3; index2++) {
 								sy = height / 3;
 								for (int index3 = 0; index3 < (int) (height - height / 3); index3++) {
 									sz = -1;
-									for (int index4 = 0; index4 < (int) (3); index4++) {
+									for (int index4 = 0; index4 < 3; index4++) {
 										if (Math.random() >= 0.69) {
 											if (!world.getBlockState(new BlockPos(x + sx, y + sy, z + sz)).canOcclude()) {
 												if (Math.random() >= 0.15) {
@@ -98,7 +98,7 @@ public class SubstiliumTreeGrowerUpdateTickProcedure {
 							}
 						}
 						if (canPlace == true) {
-							for (int index6 = 0; index6 < (int) (Math.round((canPlaceLoop - 1) * 0.8)); index6++) {
+							for (int index6 = 0; index6 < (int) Math.round((canPlaceLoop - 1) * 0.8); index6++) {
 								world.setBlock(new BlockPos(x, y + i, z), WildasideModBlocks.VIBRION_GROWTH_STEM.get().defaultBlockState(), 3);
 								i = i + 1;
 							}
@@ -107,7 +107,7 @@ public class SubstiliumTreeGrowerUpdateTickProcedure {
 					}
 				} else {
 					canPlace = true;
-					for (int index7 = 0; index7 < (int) (height); index7++) {
+					for (int index7 = 0; index7 < (int) height; index7++) {
 						canPlaceLoop = canPlaceLoop + 1;
 						if (world.getBlockState(new BlockPos(x, y + canPlaceLoop, z)).canOcclude()) {
 							canPlace = false;

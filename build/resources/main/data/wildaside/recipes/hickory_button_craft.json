@@ -2,10 +2,10 @@
   "group": "hickory_button",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#"
+    "0"
   ],
   "key": {
-    "#": {
+    "0": {
       "item": "wildaside:hickory_planks"
     }
   },

@@ -14,7 +14,7 @@ public class SporeBlasterUpdateTickProcedure {
 		double generator_distance = 0;
 		double power = 0;
 		power = world instanceof Level _lvl_getIndPow ? _lvl_getIndPow.getBestNeighborSignal(new BlockPos(x, y, z)) : 0;
-		for (int index0 = 0; index0 < (int) (power); index0++) {
+		for (int index0 = 0; index0 < (int) power; index0++) {
 			generator_distance = generator_distance + 1;
 			if (world.isEmptyBlock(new BlockPos(x + (new Object() {
 				public Direction getDirection(BlockPos pos) {

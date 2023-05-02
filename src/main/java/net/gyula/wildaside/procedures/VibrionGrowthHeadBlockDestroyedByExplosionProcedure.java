@@ -14,7 +14,7 @@ public class VibrionGrowthHeadBlockDestroyedByExplosionProcedure {
 		if (world instanceof ServerLevel _level)
 			_level.sendParticles((SimpleParticleType) (WildasideModParticleTypes.VIBRION_PARTICLE.get()), (x + 0.5), y, (z + 0.5), 10, (-0.2), 0.4, 0.2, 0.1);
 		i = 1;
-		for (int index0 = 0; index0 < (int) (30); index0++) {
+		for (int index0 = 0; index0 < 30; index0++) {
 			if ((world.getBlockState(new BlockPos(x, y - i, z))).getBlock() == WildasideModBlocks.VIBRION_GROWTH_STEM.get()) {
 				world.destroyBlock(new BlockPos(x, y - i, z), false);
 			} else {

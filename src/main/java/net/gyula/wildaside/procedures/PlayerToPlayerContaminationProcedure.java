@@ -13,9 +13,9 @@ public class PlayerToPlayerContaminationProcedure {
 		if (entity == null || sourceentity == null)
 			return;
 		if (0.6 >= Math.random()) {
-			if (entity instanceof LivingEntity _entity)
+			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
 				_entity.addEffect(new MobEffectInstance(WildasideModMobEffects.CONTAMINATION.get(), Mth.nextInt(RandomSource.create(), 200, 700),
-						(int) ((sourceentity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get()) ? _livEnt.getEffect(WildasideModMobEffects.CONTAMINATION.get()).getAmplifier() : 0) + 1), (false), (true)));
+						(int) ((sourceentity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get()) ? _livEnt.getEffect(WildasideModMobEffects.CONTAMINATION.get()).getAmplifier() : 0) + 1), false, true));
 		}
 	}
 }

@@ -2,12 +2,27 @@
   "group": "smooth_substilium_soil_stairs",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "  #",
-    " ##",
-    "###"
+    "  2",
+    " 45",
+    "678"
   ],
   "key": {
-    "#": {
+    "2": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "4": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "5": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "6": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "7": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "8": {
       "item": "wildaside:smooth_substilium_soil"
     }
   },

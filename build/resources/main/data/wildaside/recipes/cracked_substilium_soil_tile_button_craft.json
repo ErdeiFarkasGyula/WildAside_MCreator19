@@ -2,10 +2,10 @@
   "group": "cracked_substilium_soil_tile_button",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#"
+    "0"
   ],
   "key": {
-    "#": {
+    "0": {
       "item": "wildaside:cracked_substilium_soil_tiles"
     }
   },

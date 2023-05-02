@@ -14,7 +14,7 @@ public class NaturalSporeBlasterUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		double generator_distance = 0;
 		double gen_dis2 = 0;
-		for (int index0 = 0; index0 < (int) (Mth.nextInt(RandomSource.create(), 8, 15)); index0++) {
+		for (int index0 = 0; index0 < Mth.nextInt(RandomSource.create(), 8, 15); index0++) {
 			generator_distance = generator_distance + 1;
 			if (world.isEmptyBlock(new BlockPos(x + (new Object() {
 				public Direction getDirection(BlockPos pos) {
@@ -121,7 +121,7 @@ public class NaturalSporeBlasterUpdateTickProcedure {
 				break;
 			}
 		}
-		for (int index1 = 0; index1 < (int) (Mth.nextInt(RandomSource.create(), 8, 15)); index1++) {
+		for (int index1 = 0; index1 < Mth.nextInt(RandomSource.create(), 8, 15); index1++) {
 			gen_dis2 = gen_dis2 - 1;
 			if (world.isEmptyBlock(new BlockPos(x + (new Object() {
 				public Direction getDirection(BlockPos pos) {

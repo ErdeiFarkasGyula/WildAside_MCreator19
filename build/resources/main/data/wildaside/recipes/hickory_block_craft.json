@@ -2,11 +2,20 @@
   "group": "hickory_block",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "##",
-    "##"
+    "01",
+    "23"
   ],
   "key": {
-    "#": {
+    "0": {
+      "item": "wildaside:hickory_log"
+    },
+    "1": {
+      "item": "wildaside:hickory_log"
+    },
+    "2": {
+      "item": "wildaside:hickory_log"
+    },
+    "3": {
       "item": "wildaside:hickory_log"
     }
   },

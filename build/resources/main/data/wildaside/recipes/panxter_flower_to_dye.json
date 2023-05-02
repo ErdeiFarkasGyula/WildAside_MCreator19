@@ -2,10 +2,10 @@
   "group": "red_dye",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#"
+    "0"
   ],
   "key": {
-    "#": {
+    "0": {
       "item": "wildaside:panxter_flower"
     }
   },

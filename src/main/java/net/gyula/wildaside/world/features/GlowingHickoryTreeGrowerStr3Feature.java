@@ -60,7 +60,7 @@ public class GlowingHickoryTreeGrowerStr3Feature extends Feature<NoneFeatureConf
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
-		if ((context.random().nextInt(1000000) + 1) <= 1000000) {
+		if ((context.random().nextInt(1000000) + 1) <= 900000) {
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);

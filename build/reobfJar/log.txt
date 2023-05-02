@@ -1,4 +1,4 @@
-Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+Java Launcher: C:\Users\Felhasználó\Downloads\MCreator20232\jdk\bin\java.exe
 Arguments: '--in-jar, C:\MCreatorWorkspaces\wildaside_1.19\build\libs\modid-1.0.jar, --out-jar, C:\MCreatorWorkspaces\wildaside_1.19\build\reobfJar\output.jar, --srg-in, C:\MCreatorWorkspaces\wildaside_1.19\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar

@@ -2,10 +2,16 @@
   "group": "smooth_substilium_soil_slab",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###"
+    "012"
   ],
   "key": {
-    "#": {
+    "0": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "1": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "2": {
       "item": "wildaside:smooth_substilium_soil"
     }
   },

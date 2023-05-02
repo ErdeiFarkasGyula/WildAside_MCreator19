@@ -1,6 +1,8 @@
 
 package net.gyula.wildaside.world.biome;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
 import net.minecraft.world.level.biome.MobSpawnSettings;
 import net.minecraft.world.level.biome.Climate;
 import net.minecraft.world.level.biome.BiomeSpecialEffects;
@@ -9,7 +11,6 @@ import net.minecraft.world.level.biome.Biome;
 import net.minecraft.world.level.biome.AmbientParticleSettings;
 import net.minecraft.world.level.biome.AmbientMoodSettings;
 import net.minecraft.world.level.biome.AmbientAdditionsSettings;
-import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.worldgen.BiomeDefaultFeatures;
 import net.minecraft.core.particles.SimpleParticleType;
@@ -24,8 +25,9 @@ public class VibrionHiveBiome {
 
 	public static Biome createBiome() {
 		BiomeSpecialEffects effects = new BiomeSpecialEffects.Builder().fogColor(-6184663).waterColor(-6184663).waterFogColor(-6184663).skyColor(-6184663).foliageColorOverride(-6184663).grassColorOverride(-6184663)
-				.ambientLoopSound(new SoundEvent(new ResourceLocation("ambient.crimson_forest.loop"))).ambientMoodSound(new AmbientMoodSettings(new SoundEvent(new ResourceLocation("ambient.soul_sand_valley.mood")), 4000, 8, 2))
-				.ambientAdditionsSound(new AmbientAdditionsSettings(new SoundEvent(new ResourceLocation("ambient.nether_wastes.additions")), 0.0111D))
+				.ambientLoopSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.crimson_forest.loop")))
+				.ambientMoodSound(new AmbientMoodSettings(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.soul_sand_valley.mood")), 4000, 8, 2))
+				.ambientAdditionsSound(new AmbientAdditionsSettings(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.nether_wastes.additions")), 0.0111D))
 				.ambientParticle(new AmbientParticleSettings((SimpleParticleType) (WildasideModParticleTypes.STILL_SUBSTILIUM_PARTICLE.get()), 0.006f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);

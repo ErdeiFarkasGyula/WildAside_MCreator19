@@ -58,7 +58,7 @@ public class RedGlowingHickoryLeavesUpdateTickProcedure {
 		if (Math.random() >= 0.9) {
 			if (Math.random() >= 0.9) {
 				i = 1;
-				for (int index0 = 0; index0 < (int) (12); index0++) {
+				for (int index0 = 0; index0 < 12; index0++) {
 					if (world.isEmptyBlock(new BlockPos(x, y - i, z)) && (world.getBlockState(new BlockPos(x, y - (i + 1), z))).getBlock() == Blocks.GRASS_BLOCK) {
 						if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.HICKORY_LEAVES.get()) {
 							world.setBlock(new BlockPos(x, y - i, z), WildasideModBlocks.FALLEN_HICKORY_LEAVES.get().defaultBlockState(), 3);

@@ -44,7 +44,7 @@ public class BioengineerWorkspaceGuiConvertProcProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 				i = 0;
-				for (int index0 = 0; index0 < (int) (5); index0++) {
+				for (int index0 = 0; index0 < 5; index0++) {
 					if (entity instanceof ServerPlayer _player && _player.containerMenu instanceof Supplier _current && _current.get() instanceof Map _slots) {
 						((Slot) _slots.get((int) i)).remove(1);
 						_player.containerMenu.broadcastChanges();
@@ -67,8 +67,8 @@ public class BioengineerWorkspaceGuiConvertProcProcedure {
 					_player.containerMenu.broadcastChanges();
 				}
 				if (Math.random() >= 0.07) {
-					if (entity instanceof LivingEntity _entity)
-						_entity.addEffect(new MobEffectInstance(WildasideModMobEffects.CONTAMINATION.get(), 600, 1, (false), (true)));
+					if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+						_entity.addEffect(new MobEffectInstance(WildasideModMobEffects.CONTAMINATION.get(), 600, 1, false, true));
 				}
 			}
 		}

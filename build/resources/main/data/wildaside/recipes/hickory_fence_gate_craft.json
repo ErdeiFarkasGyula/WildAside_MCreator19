@@ -2,15 +2,27 @@
   "group": "hickory_fence_gate",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "SIS",
-    "SIS"
+    "012",
+    "345"
   ],
   "key": {
-    "S": {
+    "0": {
       "item": "minecraft:stick"
     },
-    "I": {
+    "1": {
       "item": "wildaside:hickory_planks"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "wildaside:hickory_planks"
+    },
+    "5": {
+      "item": "minecraft:stick"
     }
   },
   "result": {

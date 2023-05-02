@@ -2,10 +2,16 @@
   "group": "substilium_slab",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "###"
+    "012"
   ],
   "key": {
-    "#": {
+    "0": {
+      "item": "wildaside:substilium_planks"
+    },
+    "1": {
+      "item": "wildaside:substilium_planks"
+    },
+    "2": {
       "item": "wildaside:substilium_planks"
     }
   },

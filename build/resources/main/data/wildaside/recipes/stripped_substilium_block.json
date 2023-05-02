@@ -2,11 +2,20 @@
   "group": "stripped_substilium_block",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "##",
-    "##"
+    "01",
+    "23"
   ],
   "key": {
-    "#": {
+    "0": {
+      "item": "wildaside:stripped_substilium_stem"
+    },
+    "1": {
+      "item": "wildaside:stripped_substilium_stem"
+    },
+    "2": {
+      "item": "wildaside:stripped_substilium_stem"
+    },
+    "3": {
       "item": "wildaside:stripped_substilium_stem"
     }
   },

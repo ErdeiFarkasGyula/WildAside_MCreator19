@@ -2,10 +2,10 @@
   "group": "hickory_planks",
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "#"
+    "0"
   ],
   "key": {
-    "#": {
+    "0": {
       "item": "wildaside:stripped_hickory_log"
     }
   },

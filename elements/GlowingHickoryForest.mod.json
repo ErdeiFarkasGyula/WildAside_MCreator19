@@ -1,5 +1,5 @@
 {
-  "_fv": 39,
+  "_fv": 43,
   "_type": "biome",
   "definition": {
     "name": "Hickory Forest",
@@ -63,15 +63,6 @@
       "min": -0.3,
       "max": 0.7
     },
-    "grassPerChunk": 30,
-    "seagrassPerChunk": 0,
-    "flowersPerChunk": 15,
-    "mushroomsPerChunk": 0,
-    "bigMushroomsChunk": 1,
-    "sandPatchesPerChunk": 0,
-    "gravelPatchesPerChunk": 0,
-    "reedsPerChunk": 0,
-    "cactiPerChunk": 0,
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
     "treeType": 0,
@@ -88,6 +79,17 @@
     "treeFruits": {
       "value": ""
     },
+    "defaultFeatures": [
+      "Caves",
+      "Ores",
+      "TaigaLargeFerns",
+      "TaigaRocks",
+      "Lakes",
+      "PlainsTallGrass",
+      "TallSeagrassLush",
+      "ForestGrass",
+      "DefaultFlowers"
+    ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
     "spawnMineshaftMesa": false,
@@ -108,15 +110,6 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "defaultFeatures": [
-      "Caves",
-      "Ores",
-      "TaigaLargeFerns",
-      "TaigaRocks",
-      "Lakes",
-      "PlainsTallGrass",
-      "TallSeagrassLush"
-    ],
     "spawnEntries": [
       {
         "entity": {
