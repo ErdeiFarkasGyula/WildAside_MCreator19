@@ -13,7 +13,10 @@
     "announceToChat": true,
     "hideIfNotCompleted": false,
     "rewardLoot": [],
-    "rewardRecipes": [],
+    "rewardRecipes": [
+      "WildasideLexionCraft1",
+      "WildasideLexionCraft2"
+    ],
     "rewardFunction": "No function",
     "rewardXP": 0,
     "achievementType": "task",

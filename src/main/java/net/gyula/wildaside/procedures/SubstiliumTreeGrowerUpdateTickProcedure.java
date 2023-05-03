@@ -45,7 +45,7 @@ public class SubstiliumTreeGrowerUpdateTickProcedure {
 				world.setBlock(_bp, _bs, 3);
 			}
 			if (world.isEmptyBlock(new BlockPos(x, y + 1, z)) && world.isEmptyBlock(new BlockPos(x, y + 2, z)) && world.isEmptyBlock(new BlockPos(x, y + 3, z))) {
-				if (Math.random() >= 0.2) {
+				if (Math.random() >= 0.3) {
 					i = 0;
 					canPlaceLoop = 0;
 					canPlace = true;
@@ -114,28 +114,68 @@ public class SubstiliumTreeGrowerUpdateTickProcedure {
 						}
 					}
 					if (canPlace == true) {
-						if (Math.random() >= 0.6) {
-							if (world instanceof ServerLevel _serverworld) {
-								StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "substilium_mushroom_1"));
-								if (template != null) {
-									template.placeInWorld(_serverworld, new BlockPos(x - 2, y, z - 2), new BlockPos(x - 2, y, z - 2), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-											_serverworld.random, 3);
+						if (Math.random() >= 0.35) {
+							if (Math.random() >= 0.6) {
+								if (world instanceof ServerLevel _serverworld) {
+									StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "substilium_mushroom_1"));
+									if (template != null) {
+										template.placeInWorld(_serverworld, new BlockPos(x - 2, y, z - 2), new BlockPos(x - 2, y, z - 2), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
+												_serverworld.random, 3);
+									}
 								}
-							}
-						} else if (Math.random() >= 0.6) {
-							if (world instanceof ServerLevel _serverworld) {
-								StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "substilium_mushroom_2"));
-								if (template != null) {
-									template.placeInWorld(_serverworld, new BlockPos(x - 2, y, z - 2), new BlockPos(x - 2, y, z - 2), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-											_serverworld.random, 3);
+							} else if (Math.random() >= 0.6) {
+								if (world instanceof ServerLevel _serverworld) {
+									StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "substilium_mushroom_2"));
+									if (template != null) {
+										template.placeInWorld(_serverworld, new BlockPos(x - 2, y, z - 2), new BlockPos(x - 2, y, z - 2), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
+												_serverworld.random, 3);
+									}
+								}
+							} else {
+								if (world instanceof ServerLevel _serverworld) {
+									StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "substilium_mushroom_3"));
+									if (template != null) {
+										template.placeInWorld(_serverworld, new BlockPos(x - 2, y, z - 2), new BlockPos(x - 2, y, z - 2), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
+												_serverworld.random, 3);
+									}
 								}
 							}
 						} else {
-							if (world instanceof ServerLevel _serverworld) {
-								StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "substilium_mushroom_3"));
-								if (template != null) {
-									template.placeInWorld(_serverworld, new BlockPos(x - 2, y, z - 2), new BlockPos(x - 2, y, z - 2), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-											_serverworld.random, 3);
+							if (Math.random() >= 0.7) {
+								if (Math.random() >= 0.5) {
+									if (world instanceof ServerLevel _serverworld) {
+										StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "taller_substilium_shroom_tree"));
+										if (template != null) {
+											template.placeInWorld(_serverworld, new BlockPos(x - 2, y, z - 2), new BlockPos(x - 2, y, z - 2), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
+													_serverworld.random, 3);
+										}
+									}
+								} else {
+									if (world instanceof ServerLevel _serverworld) {
+										StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "taller_substilium_shroom_tree_2"));
+										if (template != null) {
+											template.placeInWorld(_serverworld, new BlockPos(x - 2, y, z - 2), new BlockPos(x - 2, y, z - 2), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
+													_serverworld.random, 3);
+										}
+									}
+								}
+							} else {
+								if (Math.random() >= 0.5) {
+									if (world instanceof ServerLevel _serverworld) {
+										StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "tallest_substilium_shroom_tree_2"));
+										if (template != null) {
+											template.placeInWorld(_serverworld, new BlockPos(x - 3, y, z - 3), new BlockPos(x - 3, y, z - 3), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
+													_serverworld.random, 3);
+										}
+									}
+								} else {
+									if (world instanceof ServerLevel _serverworld) {
+										StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "tallest_substilium_shroom_tree_1"));
+										if (template != null) {
+											template.placeInWorld(_serverworld, new BlockPos(x - 3, y, z - 3), new BlockPos(x - 3, y, z - 3), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
+													_serverworld.random, 3);
+										}
+									}
 								}
 							}
 						}

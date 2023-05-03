@@ -94,7 +94,9 @@
     "defaultFeatures": [
       "Caves",
       "Fossils",
-      "MonsterRooms"
+      "MonsterRooms",
+      "ExtraEmeraldOre",
+      "ExtraGoldOre"
     ],
     "spawnStronghold": true,
     "spawnMineshaft": true,

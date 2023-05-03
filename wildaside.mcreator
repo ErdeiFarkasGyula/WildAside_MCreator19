@@ -6336,126 +6336,6 @@
       "path": "~/Structures/Substilium Tree Grower"
     },
     {
-      "name": "SubstiliumTreeGrowerStr8",
-      "type": "structure",
-      "sortid": 359,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_8",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr8Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_8_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr9",
-      "type": "structure",
-      "sortid": 360,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_9",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_9_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr9Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr10",
-      "type": "structure",
-      "sortid": 361,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_10",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr10Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_10_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr11",
-      "type": "structure",
-      "sortid": 362,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_11",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr11Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_11_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr12",
-      "type": "structure",
-      "sortid": 363,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_12",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr12Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_12_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr13",
-      "type": "structure",
-      "sortid": 364,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_13",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_13_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr13Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr14",
-      "type": "structure",
-      "sortid": 365,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_14",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr14Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_14_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr15",
-      "type": "structure",
-      "sortid": 366,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_15",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_15_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr15Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
       "name": "HangingVibrionVegetationGrowerStr2",
       "type": "structure",
       "sortid": 367,
@@ -6814,231 +6694,6 @@
         ]
       },
       "path": "~/Structures/Hanging Vibrion Vegetation"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr16",
-      "type": "structure",
-      "sortid": 392,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_16",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr16Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_16_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr17",
-      "type": "structure",
-      "sortid": 393,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_17",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_17_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr17Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr18",
-      "type": "structure",
-      "sortid": 394,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_18",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr18Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_18_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr19",
-      "type": "structure",
-      "sortid": 395,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_19",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr19Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_19_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr20",
-      "type": "structure",
-      "sortid": 396,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_20",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_20_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr20Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr21",
-      "type": "structure",
-      "sortid": 397,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_21",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr21Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_21_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr22",
-      "type": "structure",
-      "sortid": 398,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_22",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr22Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_22_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr23",
-      "type": "structure",
-      "sortid": 399,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_23",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr23Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_23_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr24",
-      "type": "structure",
-      "sortid": 400,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_24",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr24Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_24_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr25",
-      "type": "structure",
-      "sortid": 401,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_25",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr25Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_25_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr26",
-      "type": "structure",
-      "sortid": 402,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_26",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_26_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr26Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr27",
-      "type": "structure",
-      "sortid": 403,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_27",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr27Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_27_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr28",
-      "type": "structure",
-      "sortid": 404,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_28",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_28_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr28Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr29",
-      "type": "structure",
-      "sortid": 405,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_29",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr29Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_29_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr30",
-      "type": "structure",
-      "sortid": 406,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_30",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr30Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_30_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
     },
     {
       "name": "HangingVibrionVegetationGrowerStr26",
@@ -7629,306 +7284,6 @@
       "path": "~/Structures/Natural Sporeblasters"
     },
     {
-      "name": "SubstiliumTreeGrowerStr31",
-      "type": "structure",
-      "sortid": 444,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_31",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr31Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_31_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr32",
-      "type": "structure",
-      "sortid": 445,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_32",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr32Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_32_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr33",
-      "type": "structure",
-      "sortid": 446,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_33",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr33Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_33_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr34",
-      "type": "structure",
-      "sortid": 447,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_34",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr34Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_34_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr35",
-      "type": "structure",
-      "sortid": 448,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_35",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr35Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_35_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr36",
-      "type": "structure",
-      "sortid": 449,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_36",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_36_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr36Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr37",
-      "type": "structure",
-      "sortid": 450,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_37",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_37_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr37Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr38",
-      "type": "structure",
-      "sortid": 451,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_38",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr38Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_38_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr39",
-      "type": "structure",
-      "sortid": 452,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_39",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr39Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_39_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr40",
-      "type": "structure",
-      "sortid": 453,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_40",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_40_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr40Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr41",
-      "type": "structure",
-      "sortid": 454,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_41",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr41Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_41_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr42",
-      "type": "structure",
-      "sortid": 455,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_42",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr42Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_42_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr43",
-      "type": "structure",
-      "sortid": 456,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_43",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr43Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_43_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr44",
-      "type": "structure",
-      "sortid": 457,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_44",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_44_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr44Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr45",
-      "type": "structure",
-      "sortid": 458,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_45",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr45Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_45_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr46",
-      "type": "structure",
-      "sortid": 459,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_46",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr46Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_46_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr47",
-      "type": "structure",
-      "sortid": 460,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_47",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_47_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr47Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr48",
-      "type": "structure",
-      "sortid": 461,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_48",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_48_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr48Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr49",
-      "type": "structure",
-      "sortid": 462,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_49",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr49Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_49_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr50",
-      "type": "structure",
-      "sortid": 463,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_50",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_50_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr50Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
       "name": "HangingVibrionVegetationGrowerStr36",
       "type": "structure",
       "sortid": 464,
@@ -8079,456 +7434,6 @@
       "path": "~/Structures/Hanging Vibrion Vegetation"
     },
     {
-      "name": "SubstiliumTreeGrowerStr51",
-      "type": "structure",
-      "sortid": 474,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_51",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_51_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr51Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr52",
-      "type": "structure",
-      "sortid": 475,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_52",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_52_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr52Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr53",
-      "type": "structure",
-      "sortid": 476,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_53",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr53Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_53_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr54",
-      "type": "structure",
-      "sortid": 477,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_54",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr54Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_54_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr55",
-      "type": "structure",
-      "sortid": 478,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_55",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_55_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr55Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr56",
-      "type": "structure",
-      "sortid": 479,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_56",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_56_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr56Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr57",
-      "type": "structure",
-      "sortid": 480,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_57",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr57Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_57_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr58",
-      "type": "structure",
-      "sortid": 481,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_58",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_58_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr58Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr59",
-      "type": "structure",
-      "sortid": 482,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_59",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_59_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr59Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr60",
-      "type": "structure",
-      "sortid": 483,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_60",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr60Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_60_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr61",
-      "type": "structure",
-      "sortid": 484,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_61",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_61_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr61Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr62",
-      "type": "structure",
-      "sortid": 485,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_62",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_62_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr62Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr63",
-      "type": "structure",
-      "sortid": 486,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_63",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_63_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr63Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr64",
-      "type": "structure",
-      "sortid": 487,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_64",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr64Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_64_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr65",
-      "type": "structure",
-      "sortid": 488,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_65",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr65Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_65_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr66",
-      "type": "structure",
-      "sortid": 489,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_66",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_66_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr66Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr67",
-      "type": "structure",
-      "sortid": 490,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_67",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_67_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr67Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr68",
-      "type": "structure",
-      "sortid": 491,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_68",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr68Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_68_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr69",
-      "type": "structure",
-      "sortid": 492,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_69",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_69_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr69Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr70",
-      "type": "structure",
-      "sortid": 493,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_70",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_70_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr70Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr71",
-      "type": "structure",
-      "sortid": 494,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_71",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_71_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr71Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr72",
-      "type": "structure",
-      "sortid": 495,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_72",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_72_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr72Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr73",
-      "type": "structure",
-      "sortid": 496,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_73",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_73_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr73Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr74",
-      "type": "structure",
-      "sortid": 497,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_74",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_74_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr74Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr75",
-      "type": "structure",
-      "sortid": 498,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_75",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr75Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_75_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr76",
-      "type": "structure",
-      "sortid": 499,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_76",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr76Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_76_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr77",
-      "type": "structure",
-      "sortid": 500,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_77",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_77_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr77Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr78",
-      "type": "structure",
-      "sortid": 501,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_78",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_78_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr78Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr79",
-      "type": "structure",
-      "sortid": 502,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_79",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_79_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr79Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr80",
-      "type": "structure",
-      "sortid": 503,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_80",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_80_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr80Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
       "name": "HickoryTreeGrowerStr3",
       "type": "structure",
       "sortid": 504,
@@ -8542,156 +7447,6 @@
         ]
       },
       "path": "~/Structures/Hickory"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr81",
-      "type": "structure",
-      "sortid": 505,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_81",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr81Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_81_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr82",
-      "type": "structure",
-      "sortid": 506,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_82",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_82_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr82Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr83",
-      "type": "structure",
-      "sortid": 507,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_83",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_83_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr83Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr84",
-      "type": "structure",
-      "sortid": 508,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_84",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_84_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr84Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr85",
-      "type": "structure",
-      "sortid": 509,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_85",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr85Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_85_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr86",
-      "type": "structure",
-      "sortid": 510,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_86",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr86Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_86_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr87",
-      "type": "structure",
-      "sortid": 511,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_87",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_87_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr87Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr88",
-      "type": "structure",
-      "sortid": 512,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_88",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_88_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr88Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr89",
-      "type": "structure",
-      "sortid": 513,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_89",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr89Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_89_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr90",
-      "type": "structure",
-      "sortid": 514,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_90",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_90_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr90Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
     },
     {
       "name": "VibrionGrowthHeadLoot",
@@ -9157,211 +7912,239 @@
       "path": "~/Procedures/Grower"
     },
     {
-      "name": "SubstiliumTreeGrowerStr91",
+      "name": "NaturalSporeblasterStr30",
       "type": "structure",
-      "sortid": 540,
+      "sortid": 579,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_91",
+      "registry_name": "natural_sporeblaster_str_30",
       "metadata": {
         "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_91_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr91Feature.java"
+          "src/main/java/net/gyula/wildaside/world/features/NaturalSporeblasterStr30Feature.java",
+          "src/main/resources/data/wildaside/forge/biome_modifier/natural_sporeblaster_str_30_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures/Natural Sporeblasters"
+    },
+    {
+      "name": "NaturalSporeblasterStr31",
+      "type": "structure",
+      "sortid": 580,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_sporeblaster_str_31",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/world/features/NaturalSporeblasterStr31Feature.java",
+          "src/main/resources/data/wildaside/forge/biome_modifier/natural_sporeblaster_str_31_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures/Natural Sporeblasters"
+    },
+    {
+      "name": "NaturalSporeblasterStr32",
+      "type": "structure",
+      "sortid": 581,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_sporeblaster_str_32",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/forge/biome_modifier/natural_sporeblaster_str_32_biome_modifier.json",
+          "src/main/java/net/gyula/wildaside/world/features/NaturalSporeblasterStr32Feature.java"
+        ]
+      },
+      "path": "~/Structures/Natural Sporeblasters"
+    },
+    {
+      "name": "NaturalSporeblasterStr33",
+      "type": "structure",
+      "sortid": 582,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_sporeblaster_str_33",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/world/features/NaturalSporeblasterStr33Feature.java",
+          "src/main/resources/data/wildaside/forge/biome_modifier/natural_sporeblaster_str_33_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures/Natural Sporeblasters"
+    },
+    {
+      "name": "NaturalSporeblasterStr34",
+      "type": "structure",
+      "sortid": 583,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_sporeblaster_str_34",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/forge/biome_modifier/natural_sporeblaster_str_34_biome_modifier.json",
+          "src/main/java/net/gyula/wildaside/world/features/NaturalSporeblasterStr34Feature.java"
+        ]
+      },
+      "path": "~/Structures/Natural Sporeblasters"
+    },
+    {
+      "name": "NaturalSporeblasterStr35",
+      "type": "structure",
+      "sortid": 584,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_sporeblaster_str_35",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/world/features/NaturalSporeblasterStr35Feature.java",
+          "src/main/resources/data/wildaside/forge/biome_modifier/natural_sporeblaster_str_35_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures/Natural Sporeblasters"
+    },
+    {
+      "name": "NaturalSporeblasterStr36",
+      "type": "structure",
+      "sortid": 585,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_sporeblaster_str_36",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/forge/biome_modifier/natural_sporeblaster_str_36_biome_modifier.json",
+          "src/main/java/net/gyula/wildaside/world/features/NaturalSporeblasterStr36Feature.java"
+        ]
+      },
+      "path": "~/Structures/Natural Sporeblasters"
+    },
+    {
+      "name": "NaturalSporeblasterStr37",
+      "type": "structure",
+      "sortid": 586,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_sporeblaster_str_37",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/world/features/NaturalSporeblasterStr37Feature.java",
+          "src/main/resources/data/wildaside/forge/biome_modifier/natural_sporeblaster_str_37_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures/Natural Sporeblasters"
+    },
+    {
+      "name": "NaturalSporeblasterStr38",
+      "type": "structure",
+      "sortid": 587,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_sporeblaster_str_38",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/world/features/NaturalSporeblasterStr38Feature.java",
+          "src/main/resources/data/wildaside/forge/biome_modifier/natural_sporeblaster_str_38_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures/Natural Sporeblasters"
+    },
+    {
+      "name": "NaturalSporeblasterStr39",
+      "type": "structure",
+      "sortid": 588,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natural_sporeblaster_str_39",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/world/features/NaturalSporeblasterStr39Feature.java",
+          "src/main/resources/data/wildaside/forge/biome_modifier/natural_sporeblaster_str_39_biome_modifier.json"
+        ]
+      },
+      "path": "~/Structures/Natural Sporeblasters"
+    },
+    {
+      "name": "GivePlayersLexiconWhenEnteringWildasideBiomes",
+      "type": "gamerule",
+      "sortid": 629,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "give_players_lexicon_when_entering_wildaside_biomes",
+      "metadata": {
+        "files": [],
+        "type": "logic"
+      },
+      "path": "~/Gamerules"
+    },
+    {
+      "name": "SubstiliumTreeGrowerStr8",
+      "type": "structure",
+      "sortid": 630,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "substilium_tree_grower_str_8",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr8Feature.java",
+          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_8_biome_modifier.json"
         ]
       },
       "path": "~/Structures/Substilium Tree Grower"
     },
     {
-      "name": "SubstiliumTreeGrowerStr92",
+      "name": "SubstiliumTreeGrowerStr9",
       "type": "structure",
-      "sortid": 541,
+      "sortid": 631,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_92",
+      "registry_name": "substilium_tree_grower_str_9",
       "metadata": {
         "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr92Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_92_biome_modifier.json"
+          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_9_biome_modifier.json",
+          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr9Feature.java"
         ]
       },
       "path": "~/Structures/Substilium Tree Grower"
     },
     {
-      "name": "SubstiliumTreeGrowerStr93",
+      "name": "SubstiliumTreeGrowerStr10",
       "type": "structure",
-      "sortid": 542,
+      "sortid": 632,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_93",
+      "registry_name": "substilium_tree_grower_str_10",
       "metadata": {
         "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_93_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr93Feature.java"
+          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr10Feature.java",
+          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_10_biome_modifier.json"
         ]
       },
       "path": "~/Structures/Substilium Tree Grower"
     },
     {
-      "name": "SubstiliumTreeGrowerStr94",
+      "name": "SubstiliumTreeGrowerStr11",
       "type": "structure",
-      "sortid": 543,
+      "sortid": 633,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_94",
+      "registry_name": "substilium_tree_grower_str_11",
       "metadata": {
         "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_94_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr94Feature.java"
+          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr11Feature.java",
+          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_11_biome_modifier.json"
         ]
       },
       "path": "~/Structures/Substilium Tree Grower"
     },
     {
-      "name": "SubstiliumTreeGrowerStr95",
+      "name": "SubstiliumTreeGrowerStr12",
       "type": "structure",
-      "sortid": 544,
+      "sortid": 634,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_95",
+      "registry_name": "substilium_tree_grower_str_12",
       "metadata": {
         "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr95Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_95_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr96",
-      "type": "structure",
-      "sortid": 545,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_96",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr96Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_96_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr97",
-      "type": "structure",
-      "sortid": 546,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_97",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr97Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_97_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr98",
-      "type": "structure",
-      "sortid": 547,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_98",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_98_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr98Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr99",
-      "type": "structure",
-      "sortid": 548,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_99",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_99_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr99Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr101",
-      "type": "structure",
-      "sortid": 549,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_101",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_101_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr101Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr102",
-      "type": "structure",
-      "sortid": 550,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_102",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr102Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_102_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr103",
-      "type": "structure",
-      "sortid": 551,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_103",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr103Feature.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_103_biome_modifier.json"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr104",
-      "type": "structure",
-      "sortid": 552,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_104",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_104_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr104Feature.java"
-        ]
-      },
-      "path": "~/Structures/Substilium Tree Grower"
-    },
-    {
-      "name": "SubstiliumTreeGrowerStr105",
-      "type": "structure",
-      "sortid": 553,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "substilium_tree_grower_str_105",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_105_biome_modifier.json",
-          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr105Feature.java"
+          "src/main/java/net/gyula/wildaside/world/features/SubstiliumTreeGrowerStr12Feature.java",
+          "src/main/resources/data/wildaside/forge/biome_modifier/substilium_tree_grower_str_12_biome_modifier.json"
         ]
       },
       "path": "~/Structures/Substilium Tree Grower"
@@ -9475,7 +8258,7 @@
       "advancements.petrified_antibiotic.title": "Petrified Antibiotic",
       "advancements.quattuor_essentiae.title": "Quattuor Essentiae",
       "effect.wildaside.contamination": "Contamination",
-      "gamerule.wildasideDebugMode": "WildAside Debugmode",
+      "gamerule.wildasideDebugMode": "Wild Aside Debugmode",
       "block.wildaside.compressed_substilium_soil": "Compressed Substilium Soil",
       "block.wildaside.cracked_substilium_soil_tile_wall": "Cracked Substilium Soil Tile Wall",
       "advancements.spread_onehundred.title": "Spread 100",
@@ -9498,10 +8281,11 @@
       "block.wildaside.hickory_slab": "Hickory Slab",
       "block.wildaside.substilium_door": "Substilium Door",
       "block.wildaside.substilium_soil_tile_stairs": "Substilium Soil Tile Stairs",
-      "gamerule.wildasideDebugMode.description": "Used by the developers of WildAside. Not recommended to use!",
+      "gamerule.wildasideDebugMode.description": "Used by the developers of Wild Aside. Not recommended to use!",
       "block.wildaside.substilium_trapdoor": "Substilium Trapdoor",
       "effect.wildaside.immune_protection": "Immune-protection",
       "block.wildaside.yellow_glowing_hickory_leaves": "Yellow Glowing Hickory Leaves",
+      "gamerule.giveWildasideLexiconOnJoin.description": "Give players a Wild Aside lexicon when joining a world for the first time",
       "advancements.stripped_hickory_log_hidden.title": "Stripped Hickory Log Hidden",
       "advancements.hickory_log_hidden.descr": "Hickory Log Hidden",
       "block.wildaside.panxter_flower": "Panxter Flower",
@@ -9519,6 +8303,7 @@
       "advancements.stripped_substilium_stem_hidden.descr": "Stripped Substilium Stem Hidden",
       "block.wildaside.hickory_pressure_plate": "Hickory Pressure Plate",
       "block.wildaside.substilium_soil_tile_wall": "Substilium Soil Tile Wall",
+      "gamerule.givePlayersLexiconWhenEnteringWildasideBiomes": "Give players a lexicon when entering Wild Aside biomes",
       "block.wildaside.substilium_stairs": "Substilium Stairs",
       "advancements.barrier_of_bacteria.title": "Barrier Of Bacteria",
       "advancements.dangerous_warfare.title": "Dangerous Warfare",
@@ -9530,6 +8315,7 @@
       "advancements.wild_wilder_wildest.descr": "Open a world with Wild Aside",
       "block.wildaside.bald_cypress_log": "Bald Cypress Log",
       "item.wildaside.hickory_nut": "Hickory Nut",
+      "gamerule.giveWildasideLexiconOnJoin": "Give Wild Aside Lexicon on join",
       "block.wildaside.overgrown_entorium_ore": "Overgrown Substilium Soil",
       "block.wildaside.hickory_stairs": "Hickory Stairs",
       "block.wildaside.red_glowing_hickory_sapling": "Red Glowing Hickory Sapling",
@@ -9555,6 +8341,7 @@
       "advancements.unsafe_haven.title": "Unsafe Haven",
       "advancements.glowing_wonder.title": "Glowing Wonder",
       "advancements.useful_finding.title": "Useful Finding",
+      "gamerule.givePlayersLexiconWhenEnteringWildasideBiomes.description": "Give players a Wild Aside lexicon when entering a Wild Aside biome for the first time",
       "block.wildaside.smooth_substilium_soil_slab": "Smooth Substilium Soil Slab",
       "advancements.glowing_wonder.descr": "Enter a Glowing Hickory Forest biome during the night",
       "item.wildaside.green_glowing_essence": "Green Glowing Essence",

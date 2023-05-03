@@ -1,31 +1,19 @@
 {
-  "wildaside:wildaside_lexicon_giver_adv": {
-    "criteria": {
-      "wildaside_lexicon_giver_adv": "2023-05-02 22:19:35 +0200"
-    },
-    "done": true
-  },
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2023-05-02 22:19:26 +0200"
-    },
-    "done": true
-  },
-  "wildaside:spread_onehundred": {
-    "criteria": {
-      "spread_onehundred": "2023-05-02 22:19:42 +0200"
+      "wild_wilder_wildest": "2023-05-03 17:52:59 +0200"
     },
     "done": true
   },
   "wildaside:unsafe_haven": {
     "criteria": {
-      "unsafe_haven": "2023-05-02 22:19:36 +0200"
+      "unsafe_haven": "2023-05-03 17:54:26 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:snowy_taiga": "2023-05-02 22:19:28 +0200"
+      "minecraft:snowy_plains": "2023-05-03 17:53:01 +0200"
     },
     "done": false
   },

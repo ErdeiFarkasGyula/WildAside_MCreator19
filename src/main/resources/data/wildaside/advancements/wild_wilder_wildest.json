@@ -19,5 +19,12 @@
     "wild_wilder_wildest": {
       "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "wildaside:wildaside_lexion_craft_1",
+      "wildaside:wildaside_lexion_craft_2"
+    ]
   }
 }

@@ -3,8 +3,8 @@
   "_type": "gamerule",
   "definition": {
     "type": "Logic",
-    "displayName": "WildAside Debugmode",
-    "description": "Used by the developers of WildAside. Not recommended to use!",
+    "displayName": "Wild Aside Debugmode",
+    "description": "Used by the developers of Wild Aside. Not recommended to use!",
     "category": "MISC",
     "defaultValueLogic": false,
     "defaultValueNumber": 0

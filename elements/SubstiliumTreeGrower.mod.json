@@ -3,9 +3,9 @@
   "_type": "block",
   "definition": {
     "texture": "substilium_stem_top",
-    "textureTop": "",
+    "textureTop": "substilium_stem_top",
     "textureLeft": "",
-    "textureFront": "",
+    "textureFront": "substilium_stem_top",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,

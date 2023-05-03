@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Give players a lexicon when entering Wild Aside biomes",
+    "description": "Give players a Wild Aside lexicon when entering a Wild Aside biome for the first time",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}

@@ -31,6 +31,8 @@ public class VibrionHiveBiome {
 				.ambientParticle(new AmbientParticleSettings((SimpleParticleType) (WildasideModParticleTypes.STILL_SUBSTILIUM_PARTICLE.get()), 0.006f)).build();
 		BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder();
 		BiomeDefaultFeatures.addDefaultCarversAndLakes(biomeGenerationSettings);
+		BiomeDefaultFeatures.addExtraGold(biomeGenerationSettings);
+		BiomeDefaultFeatures.addExtraEmeralds(biomeGenerationSettings);
 		BiomeDefaultFeatures.addFossilDecoration(biomeGenerationSettings);
 		BiomeDefaultFeatures.addDefaultMonsterRoom(biomeGenerationSettings);
 		MobSpawnSettings.Builder mobSpawnInfo = new MobSpawnSettings.Builder();

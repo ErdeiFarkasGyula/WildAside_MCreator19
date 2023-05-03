@@ -62,7 +62,7 @@ public class SubstiliumTreeGrowerStr3Feature extends Feature<NoneFeatureConfigur
 			return false;
 		boolean anyPlaced = false;
 		if ((context.random().nextInt(1000000) + 1) <= 1000000) {
-			int count = context.random().nextInt(1) + 1;
+			int count = context.random().nextInt(1) + 16;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);
 				int k = context.origin().getZ() + context.random().nextInt(16);
@@ -78,7 +78,7 @@ public class SubstiliumTreeGrowerStr3Feature extends Feature<NoneFeatureConfigur
 				if (!SubstiliumTreeGrowerStrAdditionalGenerationConditionProcedure.execute(world, x, y, z))
 					continue;
 				if (template.placeInWorld(context.level(), spawnTo, spawnTo,
-						new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE).setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_BLOCK).setIgnoreEntities(false), context.random(), 2)) {
+						new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE).setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_AND_AIR).setIgnoreEntities(false), context.random(), 2)) {
 					UpdateStructureProcedure.execute(world, x, y, z);
 					anyPlaced = true;
 				}
