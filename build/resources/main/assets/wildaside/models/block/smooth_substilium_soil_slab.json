@@ -1,9 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "wildaside:blocks/smooth_substilium_soil",
-    "top": "wildaside:blocks/smooth_substilium_soil",
-    "side": "wildaside:blocks/smooth_substilium_soil"
-  },
-  "render_type": "cutout"
-}

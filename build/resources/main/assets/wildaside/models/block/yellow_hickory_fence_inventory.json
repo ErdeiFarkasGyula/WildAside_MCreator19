@@ -1,8 +1,0 @@
-{
-  "parent": "block/fence_inventory",
-  "textures": {
-    "texture": "wildaside:blocks/yellow_hickory_planks",
-    "particle": "wildaside:blocks/yellow_hickory_planks"
-  },
-  "render_type": "cutout"
-}

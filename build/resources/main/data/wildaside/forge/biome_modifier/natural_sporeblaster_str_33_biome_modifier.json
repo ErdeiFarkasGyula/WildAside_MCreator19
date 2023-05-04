@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "wildaside:vibrion_hive",
-  "features": "wildaside:natural_sporeblaster_str_33",
-  "step": "underground_structures"
-}

@@ -1,9 +1,0 @@
-{
-  "parent": "block/inner_stairs",
-  "textures": {
-    "bottom": "wildaside:blocks/yellow_hickory_planks",
-    "top": "wildaside:blocks/yellow_hickory_planks",
-    "side": "wildaside:blocks/yellow_hickory_planks"
-  },
-  "render_type": "cutout"
-}

@@ -54,26 +54,8 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.19.2-43.2.0'
 }
 
-repositories {
-    maven { url 'https://maven.blamejared.com' }
-}
-
-dependencies {
-    compileOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.2-77:api")
-    runtimeOnly fg.deobf("vazkii.patchouli:Patchouli:1.19.2-77")
-}
-
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
-}
-
-minecraft {
-    runs {
-        client {
-            property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
-        }
-    }
 }
 
 apply from: 'mcreator.gradle'

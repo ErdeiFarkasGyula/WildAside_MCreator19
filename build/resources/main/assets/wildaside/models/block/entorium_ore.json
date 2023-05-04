@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "wildaside:blocks/entorium_ore",
-    "particle": "wildaside:blocks/entorium_ore"
-  },
-  "render_type": "solid"
-}

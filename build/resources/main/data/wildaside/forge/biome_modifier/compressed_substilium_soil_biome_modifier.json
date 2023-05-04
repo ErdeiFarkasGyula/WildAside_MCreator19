@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "wildaside:vibrion_hive",
-  "features": "wildaside:compressed_substilium_soil",
-  "step": "underground_ores"
-}

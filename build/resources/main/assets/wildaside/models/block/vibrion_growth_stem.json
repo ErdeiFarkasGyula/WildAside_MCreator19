@@ -1,9 +1,0 @@
-{
-  "parent": "wildaside:custom/vibrion_growth_stem",
-  "textures": {
-    "all": "wildaside:blocks/vibrion_growth_stem",
-    "particle": "wildaside:blocks/substilium_soil",
-    "0": "wildaside:blocks/vibrion_growth_stem"
-  },
-  "render_type": "cutout"
-}

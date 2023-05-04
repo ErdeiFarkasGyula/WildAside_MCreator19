@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "wildaside:blocks/green_glowing_hickory_leaves",
-    "particle": "wildaside:blocks/green_glowing_hickory_leaves"
-  }
-}

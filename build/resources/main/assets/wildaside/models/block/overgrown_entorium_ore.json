@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "wildaside:blocks/overgrown_entorium_ore",
-    "particle": "wildaside:blocks/overgrown_entorium_ore"
-  },
-  "render_type": "solid"
-}

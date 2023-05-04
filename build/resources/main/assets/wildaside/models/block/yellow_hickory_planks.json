@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "wildaside:blocks/yellow_hickory_planks",
-    "particle": "wildaside:blocks/yellow_hickory_planks"
-  },
-  "render_type": "solid"
-}

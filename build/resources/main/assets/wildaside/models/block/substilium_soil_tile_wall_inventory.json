@@ -1,8 +1,0 @@
-{
-  "parent": "block/wall_inventory",
-  "textures": {
-    "wall": "wildaside:blocks/substilium_tiles",
-    "particle": "wildaside:blocks/substilium_tiles"
-  },
-  "render_type": "cutout"
-}

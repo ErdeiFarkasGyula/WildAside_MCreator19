@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry output="bin/main" kind="src" path="src/main/java">
 		<attributes>
 			<attribute name="gradle_scope" value="main"/>
@@ -31,8 +30,9 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:\MCreatorWorkspaces\wildaside_1.19\build\natives"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2-recomp.jar">
+	<classpathentry kind="lib" path="C:/MCreatorWorkspaces/wildaside_1.19/build/fg_cache/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -417,6 +417,11 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.1/f5858d34e06053b1866858fed7a685cf0c6b5926/lwjgl-jemalloc-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-jemalloc/3.3.1/cae85c4edb219c88b6a0c26a87955ad98dc9519d/lwjgl-jemalloc-3.3.1-natives-windows-arm64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.1/9c563bf7c10b71c6609b9f96a7c7859bdf05d21f/lwjgl-openal-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.1/2623a6b8ae1dfcd880738656a9f0243d2e6840bd/lwjgl-openal-3.3.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
@@ -428,6 +433,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.1/9c563bf7c10b71c6609b9f96a7c7859bdf05d21f/lwjgl-openal-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.1/888349f7b1be6fbae58bf8edfb9ef12def04c4e3/lwjgl-openal-3.3.1-natives-windows-x86.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.1/9c563bf7c10b71c6609b9f96a7c7859bdf05d21f/lwjgl-openal-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-openal/3.3.1/40d65f1a7368a2aa47336f9cb69f5a190cf9975a/lwjgl-openal-3.3.1-natives-windows-arm64.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -447,6 +457,11 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.1/1a827bc02651fa44d32f424c380edc6d53f94a62/lwjgl-opengl-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-opengl/3.3.1/527d78f1e9056aff3ed02ce93019c73c5e8f1721/lwjgl-opengl-3.3.1-natives-windows-arm64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.1/e502700e6a1a0d02bddb8b4ef85afcdc15c88358/lwjgl-glfw-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.1/cbac1b8d30cb4795149c1ef540f912671a8616d0/lwjgl-glfw-3.3.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
@@ -458,6 +473,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.1/e502700e6a1a0d02bddb8b4ef85afcdc15c88358/lwjgl-glfw-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.1/b997e3391d6ce8f05487e7335d95c606043884a1/lwjgl-glfw-3.3.1-natives-windows-x86.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.1/e502700e6a1a0d02bddb8b4ef85afcdc15c88358/lwjgl-glfw-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-glfw/3.3.1/beda65ee503443e60aa196d58ed31f8d001dc22a/lwjgl-glfw-3.3.1-natives-windows-arm64.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -477,6 +497,11 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.1/22cb295464f44068add8443204ec8c85fd379cbe/lwjgl-stb-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-stb/3.3.1/fde63cdd2605c00636721a6c8b961e41d1f6b247/lwjgl-stb-3.3.1-natives-windows-arm64.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.1/4784c20508b51386ce9d572632524a5bf47ccb40/lwjgl-tinyfd-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.1/ff1914111ef2e3e0110ef2dabc8d8cdaad82347/lwjgl-tinyfd-3.3.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
@@ -488,6 +513,11 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.1/4784c20508b51386ce9d572632524a5bf47ccb40/lwjgl-tinyfd-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.1/842eedd876fae354abc308c98a263f6bbc9e8a4d/lwjgl-tinyfd-3.3.1-natives-windows-x86.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.1/4784c20508b51386ce9d572632524a5bf47ccb40/lwjgl-tinyfd-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl-tinyfd/3.3.1/83a5e780df610829ff3a737822b4f931cffecd91/lwjgl-tinyfd-3.3.1-natives-windows-arm64.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -507,12 +537,12 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.13.9/4b5618644de70793f2917b51dd63214f5ffaee09/text2speech-1.13.9-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.13.9/5f4e3a6ef86cb021f7ca87ca192cddb50c26eb59/text2speech-1.13.9.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.1/e918fb595d1ca293a68807a9da8b519ea348a67a/lwjgl-3.3.1-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.lwjgl/lwjgl/3.3.1/f46cadcf95675908fd3a550d63d9d709cb68998/lwjgl-3.3.1-natives-windows-arm64.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.13.9/4b5618644de70793f2917b51dd63214f5ffaee09/text2speech-1.13.9-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.13.9/7a90898b29e5c72f90ba6ebe86fa78a6afd7d3eb/text2speech-1.13.9-natives-windows.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.16.7/9b31a4efa417c674b2a25d5ab001e1909a3865bd/text2speech-1.16.7-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/com.mojang/text2speech/1.16.7/ee4095669061d1fe4bce5fea23d69d1520bc2d58/text2speech-1.16.7.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>

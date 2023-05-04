@@ -1,7 +1,0 @@
-{
-  "parent": "block/template_glass_pane_noside",
-  "textures": {
-    "pane": "wildaside:blocks/vibrion_gel_glass_pane"
-  },
-  "render_type": "translucent"
-}
