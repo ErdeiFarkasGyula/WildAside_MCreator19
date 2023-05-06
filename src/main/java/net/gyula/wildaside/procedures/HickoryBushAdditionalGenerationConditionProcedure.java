@@ -16,7 +16,7 @@ public class HickoryBushAdditionalGenerationConditionProcedure {
 			for (int index1 = 0; index1 < 1; index1++) {
 				sz = 0;
 				for (int index2 = 0; index2 < 5; index2++) {
-					if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == Blocks.GRASS_BLOCK) {
+					if ((world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == Blocks.GRASS_BLOCK) {
 						grass = grass + 1;
 					}
 					sz = sz + 1;

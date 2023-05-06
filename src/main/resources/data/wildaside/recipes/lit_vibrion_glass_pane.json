@@ -1,6 +1,7 @@
 {
-  "group": "lit_vibrion_glass_pane",
   "type": "minecraft:crafting_shaped",
+  "group": "lit_vibrion_glass_pane",
+  "category": "misc",
   "pattern": [
     "012",
     "345"

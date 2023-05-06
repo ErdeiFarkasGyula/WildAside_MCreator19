@@ -1,7 +1,7 @@
 {
   "parent": "block/leaves",
   "textures": {
-    "all": "wildaside:blocks/bald_cypress_leaves",
-    "particle": "wildaside:blocks/bald_cypress_leaves"
+    "all": "wildaside:block/bald_cypress_leaves",
+    "particle": "wildaside:block/bald_cypress_leaves"
   }
 }

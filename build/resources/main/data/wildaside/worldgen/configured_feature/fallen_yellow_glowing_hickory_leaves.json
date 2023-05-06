@@ -1,0 +1,28 @@
+{
+  "type": "wildaside:fallen_yellow_glowing_hickory_leaves",
+  "config": {
+    "tries": 64,
+    "feature": {
+      "feature": {
+        "type": "minecraft:simple_block",
+        "config": {
+          "to_place": {
+            "type": "minecraft:simple_state_provider",
+            "state": {
+              "Name": "wildaside:fallen_yellow_glowing_hickory_leaves"
+            }
+          }
+        }
+      },
+      "placement": [
+        {
+          "type": "minecraft:block_predicate_filter",
+          "predicate": {
+            "type": "minecraft:matching_blocks",
+            "blocks": "minecraft:air"
+          }
+        }
+      ]
+    }
+  }
+}

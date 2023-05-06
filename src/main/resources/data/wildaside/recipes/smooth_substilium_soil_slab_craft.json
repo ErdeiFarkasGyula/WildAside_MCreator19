@@ -1,6 +1,7 @@
 {
-  "group": "smooth_substilium_soil_slab",
   "type": "minecraft:crafting_shaped",
+  "group": "smooth_substilium_soil_slab",
+  "category": "misc",
   "pattern": [
     "012"
   ],

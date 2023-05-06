@@ -60,11 +60,6 @@ public class HickoryFenceBlock extends FenceBlock {
 		HickoryPlanksBlockAddedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
-	@OnlyIn(Dist.CLIENT)
-	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(WildasideModBlocks.HICKORY_FENCE.get(), renderType -> renderType == RenderType.cutout());
-	}
-
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
 		   pBuilder.add(NORTH, EAST, WEST, SOUTH, WATERLOGGED, IS_YELLOW);

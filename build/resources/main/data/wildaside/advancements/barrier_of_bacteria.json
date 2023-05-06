@@ -18,11 +18,7 @@
     "barrier_of_bacteria": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "item": {
-          "items": [
-            "wildaside:spore_blaster"
-          ]
-        }
+        "block": "wildaside:spore_blaster"
       }
     }
   },

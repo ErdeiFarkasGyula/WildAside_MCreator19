@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wildaside:items/entorium_sporebomb"
+    "layer0": "wildaside:item/entorium_sporebomb"
   },
   "display": {
     "thirdperson_righthand": {

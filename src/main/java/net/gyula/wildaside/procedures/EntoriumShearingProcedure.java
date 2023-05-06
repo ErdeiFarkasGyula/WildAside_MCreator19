@@ -33,7 +33,6 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 import javax.annotation.Nullable;
 
 import java.util.Map;
-import java.util.Iterator;
 
 @Mod.EventBusSubscriber
 public class EntoriumShearingProcedure {
@@ -55,7 +54,7 @@ public class EntoriumShearingProcedure {
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
-		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.OVERGROWN_ENTORIUM_ORE.get()) {
+		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == WildasideModBlocks.OVERGROWN_ENTORIUM_ORE.get()) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.SHEARS) {
 				if (EnchantmentHelper.getItemEnchantmentLevel(WildasideModEnchantments.REVEALING.get(), (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) != 0) {
 					sx = -1;
@@ -65,9 +64,9 @@ public class EntoriumShearingProcedure {
 						for (int index1 = 0; index1 < 3; index1++) {
 							sz = -1;
 							for (int index2 = 0; index2 < 3; index2++) {
-								if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.OVERGROWN_ENTORIUM_ORE.get()) {
+								if ((world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.OVERGROWN_ENTORIUM_ORE.get()) {
 									{
-										BlockPos _bp = new BlockPos(x + sx, y + sy, z + sz);
+										BlockPos _bp = BlockPos.containing(x + sx, y + sy, z + sz);
 										BlockState _bs = WildasideModBlocks.ENTORIUM_ORE.get().defaultBlockState();
 										BlockState _bso = world.getBlockState(_bp);
 										for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -91,7 +90,7 @@ public class EntoriumShearingProcedure {
 					if (found == true) {
 						if (world instanceof Level _level) {
 							if (!_level.isClientSide()) {
-								_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1);
+								_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1);
 							} else {
 								_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1, false);
 							}
@@ -100,18 +99,16 @@ public class EntoriumShearingProcedure {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:useful_finding"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 							if (!_ap.isDone()) {
-								Iterator _iterator = _ap.getRemainingCriteria().iterator();
-								while (_iterator.hasNext())
-									_player.getAdvancements().award(_adv, (String) _iterator.next());
+								for (String criteria : _ap.getRemainingCriteria())
+									_player.getAdvancements().award(_adv, criteria);
 							}
 						}
 						if (entity instanceof ServerPlayer _player) {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:extensive_research"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 							if (!_ap.isDone()) {
-								Iterator _iterator = _ap.getRemainingCriteria().iterator();
-								while (_iterator.hasNext())
-									_player.getAdvancements().award(_adv, (String) _iterator.next());
+								for (String criteria : _ap.getRemainingCriteria())
+									_player.getAdvancements().award(_adv, criteria);
 							}
 						}
 						if (!(new Object() {
@@ -136,7 +133,7 @@ public class EntoriumShearingProcedure {
 					}
 				} else {
 					{
-						BlockPos _bp = new BlockPos(x, y, z);
+						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockState _bs = WildasideModBlocks.ENTORIUM_ORE.get().defaultBlockState();
 						BlockState _bso = world.getBlockState(_bp);
 						for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -151,7 +148,7 @@ public class EntoriumShearingProcedure {
 					}
 					if (world instanceof Level _level) {
 						if (!_level.isClientSide()) {
-							_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1);
+							_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1);
 						} else {
 							_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.mooshroom.shear")), SoundSource.BLOCKS, 1, 1, false);
 						}
@@ -160,9 +157,8 @@ public class EntoriumShearingProcedure {
 						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:useful_finding"));
 						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 						if (!_ap.isDone()) {
-							Iterator _iterator = _ap.getRemainingCriteria().iterator();
-							while (_iterator.hasNext())
-								_player.getAdvancements().award(_adv, (String) _iterator.next());
+							for (String criteria : _ap.getRemainingCriteria())
+								_player.getAdvancements().award(_adv, criteria);
 						}
 					}
 					if (!(new Object() {

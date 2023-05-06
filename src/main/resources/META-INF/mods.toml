@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[43,)"
+loaderVersion="[45,)"
 license="MIT License"
 
 [[mods]]
@@ -7,7 +7,7 @@ modId="wildaside"
 version="0.1.1"
 displayName="Wild Aside"
 credits="Imagined by Gyula & Lyof. Developed by Gyula. Quality management by Lyof. Textures by Gyula & Dylanvhs. Concept art by Toma400 & Gyula. Special thanks to Aqu."
-displayURL="https://mcreator.net"
+displayURL="https://discord.gg/qeu8JSzGR4"
 logoFile="logo.png"
 authors="Gyula, Lyof, MCreator"
 description='''
@@ -17,7 +17,7 @@ An amazing biome and exploration mod
 [[dependencies.wildaside]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.2]"
+    versionRange="[1.19.4]"
     ordering="NONE"
     side="BOTH"
 

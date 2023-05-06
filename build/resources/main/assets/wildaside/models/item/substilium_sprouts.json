@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wildaside:items/substilium_sprouts"
+    "layer0": "wildaside:item/substilium_sprouts"
   }
 }

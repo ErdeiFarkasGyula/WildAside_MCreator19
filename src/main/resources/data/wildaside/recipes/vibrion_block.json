@@ -1,6 +1,7 @@
 {
-  "group": "vibrion_block",
   "type": "minecraft:crafting_shaped",
+  "group": "vibrion_block",
+  "category": "misc",
   "pattern": [
     "01",
     "23"

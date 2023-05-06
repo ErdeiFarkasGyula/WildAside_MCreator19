@@ -29,7 +29,6 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
-import net.gyula.wildaside.init.WildasideModTabs;
 import net.gyula.wildaside.init.WildasideModParticleTypes;
 import net.gyula.wildaside.init.WildasideModMobEffects;
 import net.gyula.wildaside.init.WildasideModMenus;
@@ -39,12 +38,13 @@ import net.gyula.wildaside.init.WildasideModEntities;
 import net.gyula.wildaside.init.WildasideModEnchantments;
 import net.gyula.wildaside.init.WildasideModBlocks;
 import net.gyula.wildaside.init.WildasideModBlockEntities;
-import net.gyula.wildaside.init.WildasideModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
+import java.util.concurrent.ConcurrentLinkedQueue;
 import java.util.List;
+import java.util.Collection;
 import java.util.ArrayList;
 import java.util.AbstractMap;
 
@@ -55,21 +55,19 @@ public class WildasideMod {
 
 	public WildasideMod() {
 		MinecraftForge.EVENT_BUS.register(this);
-		WildasideModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		WildasideModBlocks.REGISTRY.register(bus);
 		WildasideModItems.REGISTRY.register(bus);
 		WildasideModEntities.REGISTRY.register(bus);
 		WildasideModBlockEntities.REGISTRY.register(bus);
-		WildasideModFeatures.REGISTRY.register(bus);
+		WildasideModEnchantments.REGISTRY.register(bus);
 
+		WildasideModParticleTypes.REGISTRY.register(bus);
 		WildasideModMobEffects.REGISTRY.register(bus);
 
-		WildasideModEnchantments.REGISTRY.register(bus);
-		WildasideModParticleTypes.REGISTRY.register(bus);
 		WildasideModMenus.REGISTRY.register(bus);
-		WildasideModBiomes.REGISTRY.register(bus);
+		WildasideModFeatures.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
@@ -81,7 +79,7 @@ public class WildasideMod {
 		messageID++;
 	}
 
-	private static final List<AbstractMap.SimpleEntry<Runnable, Integer>> workQueue = new ArrayList<>();
+	private static final Collection<AbstractMap.SimpleEntry<Runnable, Integer>> workQueue = new ConcurrentLinkedQueue<>();
 
 	public static void queueServerWork(int tick, Runnable action) {
 		workQueue.add(new AbstractMap.SimpleEntry(action, tick));

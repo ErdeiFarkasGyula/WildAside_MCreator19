@@ -22,8 +22,6 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 import javax.annotation.Nullable;
 
-import java.util.Iterator;
-
 @Mod.EventBusSubscriber
 public class GrowTheGlowProcProcedure {
 	@SubscribeEvent
@@ -40,9 +38,9 @@ public class GrowTheGlowProcProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("wildaside:glowing_hickory_sapling")))) {
+		if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(new ResourceLocation("wildaside:glowing_hickory_sapling")))) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.BONE_MEAL) {
-				if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.RED_GLOWING_HICKORY_SAPLING.get()) {
+				if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == WildasideModBlocks.RED_GLOWING_HICKORY_SAPLING.get()) {
 					{
 						boolean _setval = true;
 						entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
@@ -51,7 +49,7 @@ public class GrowTheGlowProcProcedure {
 						});
 					}
 				} else {
-					if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.YELLOW_GLOWING_HICKORY_SAPLING.get()) {
+					if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == WildasideModBlocks.YELLOW_GLOWING_HICKORY_SAPLING.get()) {
 						{
 							boolean _setval = true;
 							entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
@@ -60,7 +58,7 @@ public class GrowTheGlowProcProcedure {
 							});
 						}
 					} else {
-						if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.BROWN_GLOWING_HICKORY_SAPLING.get()) {
+						if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == WildasideModBlocks.BROWN_GLOWING_HICKORY_SAPLING.get()) {
 							{
 								boolean _setval = true;
 								entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
@@ -69,7 +67,7 @@ public class GrowTheGlowProcProcedure {
 								});
 							}
 						} else {
-							if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.GREEN_GLOWING_HICKORY_SAPLING.get()) {
+							if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == WildasideModBlocks.GREEN_GLOWING_HICKORY_SAPLING.get()) {
 								{
 									boolean _setval = true;
 									entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
@@ -89,9 +87,8 @@ public class GrowTheGlowProcProcedure {
 						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:grow_the_glow"));
 						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 						if (!_ap.isDone()) {
-							Iterator _iterator = _ap.getRemainingCriteria().iterator();
-							while (_iterator.hasNext())
-								_player.getAdvancements().award(_adv, (String) _iterator.next());
+							for (String criteria : _ap.getRemainingCriteria())
+								_player.getAdvancements().award(_adv, criteria);
 						}
 					}
 				}

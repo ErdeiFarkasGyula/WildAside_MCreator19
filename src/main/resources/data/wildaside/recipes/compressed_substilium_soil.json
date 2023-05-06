@@ -1,6 +1,7 @@
 {
-  "group": "compressed_substilium_soil",
   "type": "minecraft:crafting_shaped",
+  "group": "compressed_substilium_soil",
+  "category": "misc",
   "pattern": [
     "01",
     "23"

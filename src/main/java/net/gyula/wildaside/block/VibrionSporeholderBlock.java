@@ -32,7 +32,7 @@ import net.gyula.wildaside.procedures.GiveContaminationEffectProcedure;
 
 public class VibrionSporeholderBlock extends FlowerBlock {
 	public VibrionSporeholderBlock() {
-		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.FUNGUS).strength(1.5f, 2f).lightLevel(s -> 5).noCollission());
+		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.FUNGUS).strength(1.5f, 2f).lightLevel(s -> 5).noCollission());
 	}
 
 	@Override

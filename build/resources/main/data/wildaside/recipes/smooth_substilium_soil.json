@@ -1,6 +1,6 @@
 {
-  "group": "smooth_substilium_soil",
   "type": "minecraft:stonecutting",
+  "group": "smooth_substilium_soil",
   "count": 1,
   "ingredient": {
     "item": "wildaside:compressed_substilium_soil"

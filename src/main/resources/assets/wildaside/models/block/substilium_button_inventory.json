@@ -1,7 +1,7 @@
 {
   "parent": "block/button_inventory",
   "textures": {
-    "texture": "wildaside:blocks/substilium_planks"
+    "texture": "wildaside:block/substilium_planks"
   },
   "render_type": "cutout"
 }

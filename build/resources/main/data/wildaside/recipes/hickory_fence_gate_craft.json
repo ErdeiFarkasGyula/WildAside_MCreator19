@@ -1,6 +1,7 @@
 {
-  "group": "hickory_fence_gate",
   "type": "minecraft:crafting_shaped",
+  "group": "hickory_fence_gate",
+  "category": "misc",
   "pattern": [
     "012",
     "345"

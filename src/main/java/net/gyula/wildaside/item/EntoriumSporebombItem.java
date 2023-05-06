@@ -14,12 +14,11 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
 import net.gyula.wildaside.procedures.EntoriumSporebombRangedItemUsedProcedure;
-import net.gyula.wildaside.init.WildasideModTabs;
 import net.gyula.wildaside.entity.EntoriumSporebombEntity;
 
 public class EntoriumSporebombItem extends Item {
 	public EntoriumSporebombItem() {
-		super(new Item.Properties().tab(WildasideModTabs.TAB_WILDASIDE_TAB).durability(1));
+		super(new Item.Properties().durability(1));
 	}
 
 	@Override
@@ -39,8 +38,7 @@ public class EntoriumSporebombItem extends Item {
 	}
 
 	@Override
-	public void onUsingTick(ItemStack itemstack, LivingEntity entityLiving, int count) {
-		Level world = entityLiving.level;
+	public void onUseTick(Level world, LivingEntity entityLiving, ItemStack itemstack, int count) {
 		if (!world.isClientSide() && entityLiving instanceof ServerPlayer entity) {
 			double x = entity.getX();
 			double y = entity.getY();

@@ -19,7 +19,6 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.core.BlockPos;
 
-import net.gyula.wildaside.init.WildasideModTabs;
 import net.gyula.wildaside.init.WildasideModItems;
 
 import com.google.common.collect.Multimap;
@@ -51,7 +50,7 @@ public class EntoriumGauntletItem extends TieredItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(WildasideModItems.ENTORIUM.get()));
 			}
-		}, new Item.Properties().tab(WildasideModTabs.TAB_WILDASIDE_TAB));
+		}, new Item.Properties());
 	}
 
 	@Override

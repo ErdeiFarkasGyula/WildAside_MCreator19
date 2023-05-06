@@ -1,6 +1,6 @@
 {
-  "group": "cracked_substilium_soil_tile_wall",
   "type": "minecraft:stonecutting",
+  "group": "cracked_substilium_soil_tile_wall",
   "count": 1,
   "ingredient": {
     "item": "wildaside:cracked_substilium_soil_tiles"

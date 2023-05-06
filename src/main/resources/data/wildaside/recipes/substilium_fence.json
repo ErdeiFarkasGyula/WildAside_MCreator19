@@ -1,6 +1,7 @@
 {
-  "group": "substilium_fence",
   "type": "minecraft:crafting_shaped",
+  "group": "substilium_fence",
+  "category": "misc",
   "pattern": [
     "012",
     "345"

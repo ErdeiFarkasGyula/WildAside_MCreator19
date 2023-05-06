@@ -7,6 +7,6 @@ import net.minecraft.core.BlockPos;
 
 public class UpdateStructureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		world.scheduleTick(new BlockPos(x, y, z), world.getBlockState(new BlockPos(x, y, z)).getBlock(), Mth.nextInt(RandomSource.create(), 1, 10));
+		world.scheduleTick(BlockPos.containing(x, y, z), world.getBlockState(BlockPos.containing(x, y, z)).getBlock(), Mth.nextInt(RandomSource.create(), 1, 10));
 	}
 }

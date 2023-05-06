@@ -52,11 +52,11 @@ public class GlowingEssenceLeavesTransformProcProcedure {
 		double sz = 0;
 		BlockState block = Blocks.AIR.defaultBlockState();
 		BlockState block2 = Blocks.AIR.defaultBlockState();
-		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.HICKORY_LEAVES.get() || (world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.FALLEN_HICKORY_LEAVES.get()) {
+		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == WildasideModBlocks.HICKORY_LEAVES.get() || (world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == WildasideModBlocks.FALLEN_HICKORY_LEAVES.get()) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).is(ItemTags.create(new ResourceLocation("wildaside:glowing_essences")))) {
 				if (entity instanceof LivingEntity _entity)
 					_entity.swing(InteractionHand.MAIN_HAND, true);
-				((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)).setCount((int) (((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)).getCount() - 1));
+				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setCount((int) ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1));
 				if (entity instanceof Player _player) {
 					ItemStack _setstack = new ItemStack(Items.GLASS_BOTTLE);
 					_setstack.setCount(1);
@@ -64,7 +64,7 @@ public class GlowingEssenceLeavesTransformProcProcedure {
 				}
 				if (world instanceof Level _level) {
 					if (!_level.isClientSide()) {
-						_level.playSound(null, new BlockPos(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bottle.empty")), SoundSource.PLAYERS, 1, (float) 0.7);
+						_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bottle.empty")), SoundSource.PLAYERS, 1, (float) 0.7);
 					} else {
 						_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.bottle.empty")), SoundSource.PLAYERS, 1, (float) 0.7, false);
 					}
@@ -89,9 +89,9 @@ public class GlowingEssenceLeavesTransformProcProcedure {
 					for (int index1 = 0; index1 < 3; index1++) {
 						sz = -1;
 						for (int index2 = 0; index2 < 3; index2++) {
-							if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.HICKORY_LEAVES.get()) {
+							if ((world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.HICKORY_LEAVES.get()) {
 								{
-									BlockPos _bp = new BlockPos(x + sx, y + sy, z + sz);
+									BlockPos _bp = BlockPos.containing(x + sx, y + sy, z + sz);
 									BlockState _bs = block;
 									BlockState _bso = world.getBlockState(_bp);
 									for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {
@@ -105,9 +105,9 @@ public class GlowingEssenceLeavesTransformProcProcedure {
 									world.setBlock(_bp, _bs, 3);
 								}
 							} else {
-								if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.FALLEN_HICKORY_LEAVES.get()) {
+								if ((world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.FALLEN_HICKORY_LEAVES.get()) {
 									{
-										BlockPos _bp = new BlockPos(x + sx, y + sy, z + sz);
+										BlockPos _bp = BlockPos.containing(x + sx, y + sy, z + sz);
 										BlockState _bs = block2;
 										BlockState _bso = world.getBlockState(_bp);
 										for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

@@ -1,9 +1,9 @@
 {
   "parent": "block/slab",
   "textures": {
-    "bottom": "wildaside:blocks/substilium_planks",
-    "top": "wildaside:blocks/substilium_planks",
-    "side": "wildaside:blocks/substilium_planks"
+    "bottom": "wildaside:block/substilium_planks",
+    "top": "wildaside:block/substilium_planks",
+    "side": "wildaside:block/substilium_planks"
   },
   "render_type": "cutout"
 }

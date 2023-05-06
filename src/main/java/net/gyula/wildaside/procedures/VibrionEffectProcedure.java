@@ -13,8 +13,6 @@ import net.minecraft.advancements.Advancement;
 
 import net.gyula.wildaside.init.WildasideModMobEffects;
 
-import java.util.Iterator;
-
 public class VibrionEffectProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
@@ -30,9 +28,8 @@ public class VibrionEffectProcedure {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:spread_onehundred"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 				if (!_ap.isDone()) {
-					Iterator _iterator = _ap.getRemainingCriteria().iterator();
-					while (_iterator.hasNext())
-						_player.getAdvancements().award(_adv, (String) _iterator.next());
+					for (String criteria : _ap.getRemainingCriteria())
+						_player.getAdvancements().award(_adv, criteria);
 				}
 			}
 		}

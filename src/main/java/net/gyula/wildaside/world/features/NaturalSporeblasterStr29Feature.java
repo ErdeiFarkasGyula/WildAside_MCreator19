@@ -4,12 +4,9 @@ package net.gyula.wildaside.world.features;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings;
 import net.minecraft.world.level.levelgen.structure.templatesystem.BlockIgnoreProcessor;
-import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
 import net.minecraft.world.level.levelgen.feature.Feature;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
@@ -19,9 +16,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.data.worldgen.placement.PlacementUtils;
-import net.minecraft.data.worldgen.features.FeatureUtils;
-import net.minecraft.core.Holder;
 import net.minecraft.core.BlockPos;
 
 import net.gyula.wildaside.procedures.UpdateStructureProcedure;
@@ -32,17 +26,6 @@ import java.util.Set;
 import java.util.List;
 
 public class NaturalSporeblasterStr29Feature extends Feature<NoneFeatureConfiguration> {
-	public static NaturalSporeblasterStr29Feature FEATURE = null;
-	public static Holder<ConfiguredFeature<NoneFeatureConfiguration, ?>> CONFIGURED_FEATURE = null;
-	public static Holder<PlacedFeature> PLACED_FEATURE = null;
-
-	public static Feature<?> feature() {
-		FEATURE = new NaturalSporeblasterStr29Feature();
-		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:natural_sporeblaster_str_29", FEATURE, FeatureConfiguration.NONE);
-		PLACED_FEATURE = PlacementUtils.register("wildaside:natural_sporeblaster_str_29", CONFIGURED_FEATURE, List.of());
-		return FEATURE;
-	}
-
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 	private final List<Block> base_blocks;
 	private StructureTemplate template = null;

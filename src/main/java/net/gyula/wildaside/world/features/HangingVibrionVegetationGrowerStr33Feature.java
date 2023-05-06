@@ -4,12 +4,9 @@ package net.gyula.wildaside.world.features;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplate;
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructurePlaceSettings;
 import net.minecraft.world.level.levelgen.structure.templatesystem.BlockIgnoreProcessor;
-import net.minecraft.world.level.levelgen.placement.PlacedFeature;
 import net.minecraft.world.level.levelgen.feature.configurations.NoneFeatureConfiguration;
-import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
 import net.minecraft.world.level.levelgen.feature.Feature;
-import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
@@ -18,29 +15,14 @@ import net.minecraft.world.level.Level;
 import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.data.worldgen.placement.PlacementUtils;
-import net.minecraft.data.worldgen.features.FeatureUtils;
-import net.minecraft.core.Holder;
 import net.minecraft.core.BlockPos;
 
 import net.gyula.wildaside.procedures.UpdateStructureProcedure;
 import net.gyula.wildaside.procedures.HangingVibrionVegetationGrowerStr1AdditionalGenerationConditionProcedure;
 
 import java.util.Set;
-import java.util.List;
 
 public class HangingVibrionVegetationGrowerStr33Feature extends Feature<NoneFeatureConfiguration> {
-	public static HangingVibrionVegetationGrowerStr33Feature FEATURE = null;
-	public static Holder<ConfiguredFeature<NoneFeatureConfiguration, ?>> CONFIGURED_FEATURE = null;
-	public static Holder<PlacedFeature> PLACED_FEATURE = null;
-
-	public static Feature<?> feature() {
-		FEATURE = new HangingVibrionVegetationGrowerStr33Feature();
-		CONFIGURED_FEATURE = FeatureUtils.register("wildaside:hanging_vibrion_vegetation_grower_str_33", FEATURE, FeatureConfiguration.NONE);
-		PLACED_FEATURE = PlacementUtils.register("wildaside:hanging_vibrion_vegetation_grower_str_33", CONFIGURED_FEATURE, List.of());
-		return FEATURE;
-	}
-
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 	private StructureTemplate template = null;
 

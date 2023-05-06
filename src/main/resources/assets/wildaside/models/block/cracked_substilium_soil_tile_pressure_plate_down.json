@@ -1,7 +1,7 @@
 {
   "parent": "block/pressure_plate_down",
   "textures": {
-    "texture": "wildaside:blocks/cracked_substilium_tiles"
+    "texture": "wildaside:block/cracked_substilium_tiles"
   },
   "render_type": "cutout"
 }

@@ -18,11 +18,7 @@
     "we_need_to_cook": {
       "trigger": "minecraft:placed_block",
       "conditions": {
-        "item": {
-          "items": [
-            "wildaside:bioengineer_workspace"
-          ]
-        }
+        "block": "wildaside:bioengineer_workspace"
       }
     }
   },

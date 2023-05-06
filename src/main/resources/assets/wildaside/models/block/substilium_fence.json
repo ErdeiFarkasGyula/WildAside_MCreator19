@@ -1,8 +1,8 @@
 {
   "parent": "block/fence_side",
   "textures": {
-    "texture": "wildaside:blocks/substilium_planks",
-    "particle": "wildaside:blocks/substilium_planks"
+    "texture": "wildaside:block/substilium_planks",
+    "particle": "wildaside:block/substilium_planks"
   },
   "render_type": "cutout"
 }

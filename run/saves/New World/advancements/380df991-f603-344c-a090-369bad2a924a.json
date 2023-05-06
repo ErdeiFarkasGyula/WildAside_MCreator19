@@ -1,15 +1,31 @@
 {
-  "wildaside:wild_wilder_wildest": {
+  "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "wild_wilder_wildest": "2023-05-06 13:52:44 +0200"
+      "unlock_right_away": "2023-05-06 15:22:27 +0200"
+    },
+    "done": true
+  },
+  "wildaside:unsafe_haven": {
+    "criteria": {
+      "unsafe_haven": "2023-05-06 15:24:04 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:savanna": "2023-05-06 13:52:46 +0200"
+      "minecraft:birch_forest": "2023-05-06 15:22:33 +0200",
+      "minecraft:grove": "2023-05-06 15:23:09 +0200",
+      "minecraft:forest": "2023-05-06 15:23:11 +0200",
+      "minecraft:lush_caves": "2023-05-06 15:23:58 +0200",
+      "minecraft:old_growth_birch_forest": "2023-05-06 15:23:19 +0200"
     },
     "done": false
   },
-  "DataVersion": 3120
+  "wildaside:wild_wilder_wildest": {
+    "criteria": {
+      "wild_wilder_wildest": "2023-05-06 15:22:27 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
 }

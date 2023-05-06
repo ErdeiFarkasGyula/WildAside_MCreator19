@@ -1,7 +1,7 @@
 {
   "parent": "block/button",
   "textures": {
-    "texture": "wildaside:blocks/hickory_planks"
+    "texture": "wildaside:block/hickory_planks"
   },
   "render_type": "cutout"
 }

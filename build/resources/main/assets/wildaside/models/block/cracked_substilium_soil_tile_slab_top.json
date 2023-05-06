@@ -1,9 +1,9 @@
 {
   "parent": "block/slab_top",
   "textures": {
-    "bottom": "wildaside:blocks/cracked_substilium_tiles",
-    "top": "wildaside:blocks/cracked_substilium_tiles",
-    "side": "wildaside:blocks/cracked_substilium_tiles"
+    "bottom": "wildaside:block/cracked_substilium_tiles",
+    "top": "wildaside:block/cracked_substilium_tiles",
+    "side": "wildaside:block/cracked_substilium_tiles"
   },
   "render_type": "cutout"
 }

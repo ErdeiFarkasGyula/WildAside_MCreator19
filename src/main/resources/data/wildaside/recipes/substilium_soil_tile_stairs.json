@@ -1,6 +1,7 @@
 {
-  "group": "substilium_soil_tile_stairs",
   "type": "minecraft:crafting_shaped",
+  "group": "substilium_soil_tile_stairs",
+  "category": "misc",
   "pattern": [
     "  2",
     " 45",

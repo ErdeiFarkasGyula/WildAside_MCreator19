@@ -11,14 +11,14 @@ public class HickoryPlanksBlockAddedProcedure {
 		if (is_set == false) {
 			if (0.37 > Math.random()) {
 				{
-					BlockPos _pos = new BlockPos(x, y, z);
+					BlockPos _pos = BlockPos.containing(x, y, z);
 					BlockState _bs = world.getBlockState(_pos);
 					if (_bs.getBlock().getStateDefinition().getProperty("is_yellow") instanceof BooleanProperty _booleanProp)
 						world.setBlock(_pos, _bs.setValue(_booleanProp, true), 3);
 				}
 			} else {
 				{
-					BlockPos _pos = new BlockPos(x, y, z);
+					BlockPos _pos = BlockPos.containing(x, y, z);
 					BlockState _bs = world.getBlockState(_pos);
 					if (_bs.getBlock().getStateDefinition().getProperty("is_yellow") instanceof BooleanProperty _booleanProp)
 						world.setBlock(_pos, _bs.setValue(_booleanProp, false), 3);

@@ -1,9 +1,9 @@
 {
   "parent": "block/cube_bottom_top",
   "textures": {
-    "bottom": "wildaside:blocks/yellow_hickory_planks",
-    "top": "wildaside:blocks/yellow_hickory_planks",
-    "side": "wildaside:blocks/yellow_hickory_planks"
+    "bottom": "wildaside:block/yellow_hickory_planks",
+    "top": "wildaside:block/yellow_hickory_planks",
+    "side": "wildaside:block/yellow_hickory_planks"
   },
   "render_type": "cutout"
 }

@@ -1,0 +1,6 @@
+JVM:         E:\MCreatorWorkspaces\MCreator20232\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--inJar", "E:\WildAside_MCreator19\build\fg_cache\mcp\1.19.4-20230314.122934\joined\3ab1402de1ed1ab77b3fff65ae494a064308ae0b\rename\output.jar", "--outJar", "E:\WildAside_MCreator19\build\fg_cache\mcp\1.19.4-20230314.122934\joined\3ab1402de1ed1ab77b3fff65ae494a064308ae0b\AccessTransformer\output.jar", "--atFile", "E:\WildAside_MCreator19\src\main\resources\META-INF\accesstransformer.cfg", "--atFile", "C:\Users\FELHAS~1\AppData\Local\Temp\FG_ats_3463724079669360957.cfg"
+Classpath:   C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
+Working Dir: E:\WildAside_MCreator19\build\fg_cache\mcp\1.19.4-20230314.122934\joined\3ab1402de1ed1ab77b3fff65ae494a064308ae0b\AccessTransformer
+Main Class:  net.minecraftforge.accesstransformer.TransformerProcessor

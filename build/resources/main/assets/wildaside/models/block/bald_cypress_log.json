@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "wildaside:blocks/bald_cypress_log_top",
-    "up": "wildaside:blocks/bald_cypress_log_top",
-    "north": "wildaside:blocks/bald_cypress_log_side",
-    "east": "wildaside:blocks/bald_cypress_log_side",
-    "south": "wildaside:blocks/bald_cypress_log_side",
-    "west": "wildaside:blocks/bald_cypress_log_side",
-    "particle": "wildaside:blocks/bald_cypress_log_top"
+    "down": "wildaside:block/bald_cypress_log_top",
+    "up": "wildaside:block/bald_cypress_log_top",
+    "north": "wildaside:block/bald_cypress_log_side",
+    "east": "wildaside:block/bald_cypress_log_side",
+    "south": "wildaside:block/bald_cypress_log_side",
+    "west": "wildaside:block/bald_cypress_log_side",
+    "particle": "wildaside:block/bald_cypress_log_top"
   },
   "render_type": "solid"
 }

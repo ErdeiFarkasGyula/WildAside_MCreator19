@@ -25,8 +25,6 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 import javax.annotation.Nullable;
 
-import java.util.Iterator;
-
 @Mod.EventBusSubscriber
 public class GlowingEssenceProcProcedure {
 	@SubscribeEvent
@@ -44,10 +42,10 @@ public class GlowingEssenceProcProcedure {
 		if (entity == null)
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.HONEY_BOTTLE) {
-			if ((world.getBlockState(new BlockPos(x, y, z))).is(BlockTags.create(new ResourceLocation("wildaside:glowing_hickory_leaves")))) {
-				if (world.getBlockState(new BlockPos(x, y, z)).getLightEmission(world, new BlockPos(x, y, z)) >= 7) {
-					((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)).setCount((int) (((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)).getCount() - 1));
-					if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.RED_GLOWING_HICKORY_LEAVES.get()) {
+			if ((world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(new ResourceLocation("wildaside:glowing_hickory_leaves")))) {
+				if (world.getBlockState(BlockPos.containing(x, y, z)).getLightEmission(world, BlockPos.containing(x, y, z)) >= 7) {
+					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).setCount((int) ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getCount() - 1));
+					if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == WildasideModBlocks.RED_GLOWING_HICKORY_LEAVES.get()) {
 						if (entity instanceof Player _player) {
 							ItemStack _setstack = new ItemStack(WildasideModItems.RED_GLOWING_ESSENCE.get());
 							_setstack.setCount(1);
@@ -61,7 +59,7 @@ public class GlowingEssenceProcProcedure {
 							});
 						}
 					} else {
-						if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.YELLOW_GLOWING_HICKORY_LEAVES.get()) {
+						if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == WildasideModBlocks.YELLOW_GLOWING_HICKORY_LEAVES.get()) {
 							if (entity instanceof Player _player) {
 								ItemStack _setstack = new ItemStack(WildasideModItems.YELLOW_GLOWING_ESSENCE.get());
 								_setstack.setCount(1);
@@ -75,7 +73,7 @@ public class GlowingEssenceProcProcedure {
 								});
 							}
 						} else {
-							if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.BROWN_GLOWING_HICKORY_LEAVES.get()) {
+							if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == WildasideModBlocks.BROWN_GLOWING_HICKORY_LEAVES.get()) {
 								if (entity instanceof Player _player) {
 									ItemStack _setstack = new ItemStack(WildasideModItems.BROWN_GLOWING_ESSENCE.get());
 									_setstack.setCount(1);
@@ -89,7 +87,7 @@ public class GlowingEssenceProcProcedure {
 									});
 								}
 							} else {
-								if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == WildasideModBlocks.GREEN_GLOWING_HICKORY_LEAVES.get()) {
+								if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == WildasideModBlocks.GREEN_GLOWING_HICKORY_LEAVES.get()) {
 									if (entity instanceof Player _player) {
 										ItemStack _setstack = new ItemStack(WildasideModItems.GREEN_GLOWING_ESSENCE.get());
 										_setstack.setCount(1);
@@ -114,9 +112,8 @@ public class GlowingEssenceProcProcedure {
 							Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:quattuor_essentiae"));
 							AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 							if (!_ap.isDone()) {
-								Iterator _iterator = _ap.getRemainingCriteria().iterator();
-								while (_iterator.hasNext())
-									_player.getAdvancements().award(_adv, (String) _iterator.next());
+								for (String criteria : _ap.getRemainingCriteria())
+									_player.getAdvancements().award(_adv, criteria);
 							}
 						}
 					}

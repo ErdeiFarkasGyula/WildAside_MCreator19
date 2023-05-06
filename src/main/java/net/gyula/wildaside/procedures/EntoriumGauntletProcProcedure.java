@@ -6,9 +6,7 @@ import net.minecraftforge.eventbus.api.Event;
 import net.minecraftforge.event.level.BlockEvent;
 
 import net.minecraft.world.level.LevelAccessor;
-import net.minecraft.world.level.Level;
 import net.minecraft.world.level.GameType;
-import net.minecraft.world.item.enchantment.EnchantmentHelper;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.item.ItemEntity;
@@ -44,11 +42,11 @@ public class EntoriumGauntletProcProcedure {
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == WildasideModItems.ENTORIUM_GAUNTLET.get()) {
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles((SimpleParticleType) (WildasideModParticleTypes.VIBRION_PARTICLE.get()), (x + 0.5), y, (z + 0.5), 2, (-0.2), 0.4, 0.2, 0.1);
-			if (!(0.1 + EnchantmentHelper.getItemEnchantmentLevel(WildasideModEnchantments.RELIABLE_RESEARCH.get(), (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 0.1 > Math.random())) {
+			if (!(0.1 + (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(WildasideModEnchantments.RELIABLE_RESEARCH.get()) * 0.1 > Math.random())) {
 				if (event != null && event.isCancelable()) {
 					event.setCanceled(true);
 				}
-				world.destroyBlock(new BlockPos(x, y, z), false);
+				world.destroyBlock(BlockPos.containing(x, y, z), false);
 				if (!(new Object() {
 					public boolean checkGamemode(Entity _ent) {
 						if (_ent instanceof ServerPlayer _serverPlayer) {
@@ -68,8 +66,8 @@ public class EntoriumGauntletProcProcedure {
 						}
 					}
 				}
-				if (0.001 + EnchantmentHelper.getItemEnchantmentLevel(WildasideModEnchantments.RELIABLE_RESEARCH.get(), (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)) * 0.04 > Math.random()) {
-					if (world instanceof Level _level && !_level.isClientSide()) {
+				if (0.001 + (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getEnchantmentLevel(WildasideModEnchantments.RELIABLE_RESEARCH.get()) * 0.04 > Math.random()) {
+					if (world instanceof ServerLevel _level) {
 						ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(WildasideModItems.VIBRION.get()));
 						entityToSpawn.setPickUpDelay(0);
 						_level.addFreshEntity(entityToSpawn);

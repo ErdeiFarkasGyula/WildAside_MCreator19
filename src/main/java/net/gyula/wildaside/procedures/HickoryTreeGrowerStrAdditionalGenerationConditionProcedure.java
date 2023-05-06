@@ -18,7 +18,7 @@ public class HickoryTreeGrowerStrAdditionalGenerationConditionProcedure {
 			for (int index1 = 0; index1 < 2; index1++) {
 				sz = 2;
 				for (int index2 = 0; index2 < 3; index2++) {
-					if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.HICKORY_LOG.get()) {
+					if ((world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.HICKORY_LOG.get()) {
 						found = true;
 					}
 					sz = sz + 1;
