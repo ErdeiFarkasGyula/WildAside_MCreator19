@@ -1,19 +1,13 @@
 {
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2023-05-03 17:52:59 +0200"
-    },
-    "done": true
-  },
-  "wildaside:unsafe_haven": {
-    "criteria": {
-      "unsafe_haven": "2023-05-03 17:54:26 +0200"
+      "wild_wilder_wildest": "2023-05-06 13:52:44 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:snowy_plains": "2023-05-03 17:53:01 +0200"
+      "minecraft:savanna": "2023-05-06 13:52:46 +0200"
     },
     "done": false
   },
