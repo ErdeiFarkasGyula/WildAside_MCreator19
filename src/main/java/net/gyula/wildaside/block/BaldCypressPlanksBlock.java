@@ -18,7 +18,7 @@ import java.util.Collections;
 
 public class BaldCypressPlanksBlock extends Block {
 	public BaldCypressPlanksBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.COLOR_GREEN).sound(SoundType.WOOD).strength(1.5f, 4f));
+		super(BlockBehaviour.Properties.of(Material.WOOD, MaterialColor.TERRACOTTA_ORANGE).sound(SoundType.WOOD).strength(1.3f, 3f));
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class BaldCypressPlanksBlock extends Block {
 
 	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
-		return 3;
+		return 4;
 	}
 
 	@Override

@@ -3,37 +3,19 @@
   "group": "entorium_gauntlet",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "EEE",
+    "ENE",
+    "EGE"
   ],
   "key": {
-    "0": {
+    "E": {
       "item": "wildaside:entorium"
     },
-    "1": {
-      "item": "wildaside:entorium"
-    },
-    "2": {
-      "item": "wildaside:entorium"
-    },
-    "3": {
-      "item": "wildaside:entorium"
-    },
-    "4": {
+    "N": {
       "item": "wildaside:entorium_sporebomb"
     },
-    "5": {
-      "item": "wildaside:entorium"
-    },
-    "6": {
-      "item": "wildaside:entorium"
-    },
-    "7": {
+    "G": {
       "item": "minecraft:golden_pickaxe"
-    },
-    "8": {
-      "item": "wildaside:entorium"
     }
   },
   "result": {

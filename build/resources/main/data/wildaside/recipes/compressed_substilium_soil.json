@@ -3,20 +3,11 @@
   "group": "compressed_substilium_soil",
   "category": "misc",
   "pattern": [
-    "01",
-    "23"
+    "SS",
+    "SS"
   ],
   "key": {
-    "0": {
-      "item": "wildaside:substilium_soil"
-    },
-    "1": {
-      "item": "wildaside:substilium_soil"
-    },
-    "2": {
-      "item": "wildaside:substilium_soil"
-    },
-    "3": {
+    "S": {
       "item": "wildaside:substilium_soil"
     }
   },

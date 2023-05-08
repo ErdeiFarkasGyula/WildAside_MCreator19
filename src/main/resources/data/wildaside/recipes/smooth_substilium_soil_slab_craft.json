@@ -3,16 +3,10 @@
   "group": "smooth_substilium_soil_slab",
   "category": "misc",
   "pattern": [
-    "012"
+    "SSS"
   ],
   "key": {
-    "0": {
-      "item": "wildaside:smooth_substilium_soil"
-    },
-    "1": {
-      "item": "wildaside:smooth_substilium_soil"
-    },
-    "2": {
+    "S": {
       "item": "wildaside:smooth_substilium_soil"
     }
   },

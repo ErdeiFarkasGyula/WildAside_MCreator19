@@ -121,16 +121,24 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> YELLOW_GLOWING_ESSENCE = REGISTRY.register("yellow_glowing_essence", () -> new YellowGlowingEssenceItem());
 	public static final RegistryObject<Item> GREEN_GLOWING_ESSENCE = REGISTRY.register("green_glowing_essence", () -> new GreenGlowingEssenceItem());
 	public static final RegistryObject<Item> RUTILLION = REGISTRY.register("rutillion", () -> new RutillionItem());
+	public static final RegistryObject<Item> BALD_CYPRESS_LOG = block(WildasideModBlocks.BALD_CYPRESS_LOG);
+	public static final RegistryObject<Item> BALD_CYPRESS_WOOD = block(WildasideModBlocks.BALD_CYPRESS_WOOD);
+	public static final RegistryObject<Item> BALD_CYPRESS_PLANKS = block(WildasideModBlocks.BALD_CYPRESS_PLANKS);
+	public static final RegistryObject<Item> BALD_CYPRESS_LEAVES = block(WildasideModBlocks.BALD_CYPRESS_LEAVES);
 	public static final RegistryObject<Item> HANGING_VIBRION_VINES_PLANT = block(WildasideModBlocks.HANGING_VIBRION_VINES_PLANT);
 	public static final RegistryObject<Item> SPORE_AIR = block(WildasideModBlocks.SPORE_AIR);
 	public static final RegistryObject<Item> HICKORY_TREE_GROWER = block(WildasideModBlocks.HICKORY_TREE_GROWER);
 	public static final RegistryObject<Item> GLOWING_HICKORY_TREE_GROWER = block(WildasideModBlocks.GLOWING_HICKORY_TREE_GROWER);
 	public static final RegistryObject<Item> HANGING_VIBRION_VEGETATION_GROWER = block(WildasideModBlocks.HANGING_VIBRION_VEGETATION_GROWER);
 	public static final RegistryObject<Item> SUBSTILIUM_TREE_GROWER = block(WildasideModBlocks.SUBSTILIUM_TREE_GROWER);
-	public static final RegistryObject<Item> BALD_CYPRESS_LOG = block(WildasideModBlocks.BALD_CYPRESS_LOG);
-	public static final RegistryObject<Item> BALD_CYPRESS_PLANKS = block(WildasideModBlocks.BALD_CYPRESS_PLANKS);
-	public static final RegistryObject<Item> BALD_CYPRESS_WOOD = block(WildasideModBlocks.BALD_CYPRESS_WOOD);
-	public static final RegistryObject<Item> BALD_CYPRESS_LEAVES = block(WildasideModBlocks.BALD_CYPRESS_LEAVES);
+	public static final RegistryObject<Item> STRIPPED_BALD_CYPRESS_LOG = block(WildasideModBlocks.STRIPPED_BALD_CYPRESS_LOG);
+	public static final RegistryObject<Item> STRIPPED_BALD_CYPRESS_WOOD = block(WildasideModBlocks.STRIPPED_BALD_CYPRESS_WOOD);
+	public static final RegistryObject<Item> BALD_CYPRESS_STAIRS = block(WildasideModBlocks.BALD_CYPRESS_STAIRS);
+	public static final RegistryObject<Item> BALD_CYPRESS_SLAB = block(WildasideModBlocks.BALD_CYPRESS_SLAB);
+	public static final RegistryObject<Item> BALD_CYPRESS_FENCE = block(WildasideModBlocks.BALD_CYPRESS_FENCE);
+	public static final RegistryObject<Item> BALD_CYPRESS_FENCE_GATE = block(WildasideModBlocks.BALD_CYPRESS_FENCE_GATE);
+	public static final RegistryObject<Item> BALD_CYPRESS_PRESSURE_PLATE = block(WildasideModBlocks.BALD_CYPRESS_PRESSURE_PLATE);
+	public static final RegistryObject<Item> BALD_CYPRESS_BUTTON = block(WildasideModBlocks.BALD_CYPRESS_BUTTON);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

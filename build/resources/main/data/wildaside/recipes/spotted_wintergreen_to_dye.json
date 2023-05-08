@@ -3,10 +3,10 @@
   "group": "white_dye",
   "category": "misc",
   "pattern": [
-    "0"
+    "S"
   ],
   "key": {
-    "0": {
+    "S": {
       "item": "wildaside:spotted_wintergreen"
     }
   },

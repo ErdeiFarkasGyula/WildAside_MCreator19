@@ -3,16 +3,10 @@
   "group": "cracked_substilium_soil_tile_slab",
   "category": "misc",
   "pattern": [
-    "012"
+    "CCC"
   ],
   "key": {
-    "0": {
-      "item": "wildaside:cracked_substilium_soil_tiles"
-    },
-    "1": {
-      "item": "wildaside:cracked_substilium_soil_tiles"
-    },
-    "2": {
+    "C": {
       "item": "wildaside:cracked_substilium_soil_tiles"
     }
   },

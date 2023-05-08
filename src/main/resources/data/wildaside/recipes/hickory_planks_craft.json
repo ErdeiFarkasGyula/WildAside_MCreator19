@@ -3,10 +3,10 @@
   "group": "hickory_planks",
   "category": "misc",
   "pattern": [
-    "0"
+    "H"
   ],
   "key": {
-    "0": {
+    "H": {
       "item": "wildaside:hickory_log"
     }
   },

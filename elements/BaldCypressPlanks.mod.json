@@ -35,8 +35,8 @@
     ],
     "name": "Bald Cypress Planks",
     "specialInfo": [],
-    "hardness": 1.5,
-    "resistance": 4.0,
+    "hardness": 1.3,
+    "resistance": 3.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -63,13 +63,13 @@
     "emittedRedstonePower": {
       "fixedValue": 15.0
     },
-    "colorOnMap": "GREEN",
+    "colorOnMap": "ORANGE_TERRACOTTA",
     "creativePickItem": {
       "value": ""
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 3,
+    "flammability": 4,
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,

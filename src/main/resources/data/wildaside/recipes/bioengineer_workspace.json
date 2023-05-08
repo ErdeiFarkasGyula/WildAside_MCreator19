@@ -3,36 +3,18 @@
   "group": "bioengineer_workspace",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "EQE",
+    "VQV",
+    "VQV"
   ],
   "key": {
-    "0": {
+    "E": {
       "item": "wildaside:entorium"
     },
-    "1": {
+    "Q": {
       "item": "minecraft:quartz_block"
     },
-    "2": {
-      "item": "wildaside:entorium"
-    },
-    "3": {
-      "item": "wildaside:vibrion"
-    },
-    "4": {
-      "item": "minecraft:quartz_block"
-    },
-    "5": {
-      "item": "wildaside:vibrion"
-    },
-    "6": {
-      "item": "wildaside:vibrion"
-    },
-    "7": {
-      "item": "minecraft:quartz_block"
-    },
-    "8": {
+    "V": {
       "item": "wildaside:vibrion"
     }
   },

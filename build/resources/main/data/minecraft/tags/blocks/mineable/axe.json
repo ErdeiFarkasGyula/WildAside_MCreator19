@@ -29,7 +29,15 @@
     "wildaside:hickory_door",
     "wildaside:hickory_trapdoor",
     "wildaside:bald_cypress_log",
+    "wildaside:bald_cypress_wood",
     "wildaside:bald_cypress_planks",
-    "wildaside:bald_cypress_wood"
+    "wildaside:stripped_bald_cypress_log",
+    "wildaside:stripped_bald_cypress_wood",
+    "wildaside:bald_cypress_stairs",
+    "wildaside:bald_cypress_slab",
+    "wildaside:bald_cypress_fence",
+    "wildaside:bald_cypress_fence_gate",
+    "wildaside:bald_cypress_pressure_plate",
+    "wildaside:bald_cypress_button"
   ]
 }

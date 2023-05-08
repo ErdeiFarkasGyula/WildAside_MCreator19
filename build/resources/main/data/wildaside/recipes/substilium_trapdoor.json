@@ -3,26 +3,11 @@
   "group": "substilium_trapdoor",
   "category": "misc",
   "pattern": [
-    "012",
-    "345"
+    "SSS",
+    "SSS"
   ],
   "key": {
-    "0": {
-      "item": "wildaside:substilium_planks"
-    },
-    "1": {
-      "item": "wildaside:substilium_planks"
-    },
-    "2": {
-      "item": "wildaside:substilium_planks"
-    },
-    "3": {
-      "item": "wildaside:substilium_planks"
-    },
-    "4": {
-      "item": "wildaside:substilium_planks"
-    },
-    "5": {
+    "S": {
       "item": "wildaside:substilium_planks"
     }
   },

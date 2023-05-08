@@ -3,20 +3,11 @@
   "group": "stripped_hickory_block",
   "category": "misc",
   "pattern": [
-    "01",
-    "23"
+    "SS",
+    "SS"
   ],
   "key": {
-    "0": {
-      "item": "wildaside:stripped_hickory_log"
-    },
-    "1": {
-      "item": "wildaside:stripped_hickory_log"
-    },
-    "2": {
-      "item": "wildaside:stripped_hickory_log"
-    },
-    "3": {
+    "S": {
       "item": "wildaside:stripped_hickory_log"
     }
   },

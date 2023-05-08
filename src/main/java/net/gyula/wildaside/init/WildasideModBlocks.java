@@ -49,6 +49,8 @@ import net.gyula.wildaside.block.StrippedSubstiliumStemBlock;
 import net.gyula.wildaside.block.StrippedSubstiliumBlockBlock;
 import net.gyula.wildaside.block.StrippedHickoryLogBlock;
 import net.gyula.wildaside.block.StrippedHickoryBlockBlock;
+import net.gyula.wildaside.block.StrippedBaldCypressWoodBlock;
+import net.gyula.wildaside.block.StrippedBaldCypressLogBlock;
 import net.gyula.wildaside.block.SpottedWintergreenBlock;
 import net.gyula.wildaside.block.SporeBlasterBlock;
 import net.gyula.wildaside.block.SporeAirBlock;
@@ -102,9 +104,15 @@ import net.gyula.wildaside.block.ChiseledSubstiliumSoilBlock;
 import net.gyula.wildaside.block.BrownGlowingHickorySaplingBlock;
 import net.gyula.wildaside.block.BrownGlowingHickoryLeavesBlock;
 import net.gyula.wildaside.block.BioengineerWorkspaceBlock;
+import net.gyula.wildaside.block.BaldCypressStairsBlock;
+import net.gyula.wildaside.block.BaldCypressSlabBlock;
+import net.gyula.wildaside.block.BaldCypressPressurePlateBlock;
 import net.gyula.wildaside.block.BaldCypressPlanksBlock;
 import net.gyula.wildaside.block.BaldCypressLogBlock;
 import net.gyula.wildaside.block.BaldCypressLeavesBlock;
+import net.gyula.wildaside.block.BaldCypressFenceGateBlock;
+import net.gyula.wildaside.block.BaldCypressFenceBlock;
+import net.gyula.wildaside.block.BaldCypressButtonBlock;
 import net.gyula.wildaside.block.BaldCypressBlockBlock;
 import net.gyula.wildaside.WildasideMod;
 
@@ -192,16 +200,24 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> GREEN_GLOWING_HICKORY_SAPLING = REGISTRY.register("green_glowing_hickory_sapling", () -> new GreenGlowingHickorySaplingBlock());
 	public static final RegistryObject<Block> PANXTER_FLOWER = REGISTRY.register("panxter_flower", () -> new PanxterFlowerBlock());
 	public static final RegistryObject<Block> SPOTTED_WINTERGREEN = REGISTRY.register("spotted_wintergreen", () -> new SpottedWintergreenBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_LOG = REGISTRY.register("bald_cypress_log", () -> new BaldCypressLogBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_WOOD = REGISTRY.register("bald_cypress_wood", () -> new BaldCypressBlockBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_PLANKS = REGISTRY.register("bald_cypress_planks", () -> new BaldCypressPlanksBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_LEAVES = REGISTRY.register("bald_cypress_leaves", () -> new BaldCypressLeavesBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VINES_PLANT = REGISTRY.register("hanging_vibrion_vines_plant", () -> new HangingVibrionVinesPlantBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
 	public static final RegistryObject<Block> HICKORY_TREE_GROWER = REGISTRY.register("hickory_tree_grower", () -> new HickoryTreeGrowerBlock());
 	public static final RegistryObject<Block> GLOWING_HICKORY_TREE_GROWER = REGISTRY.register("glowing_hickory_tree_grower", () -> new GlowingHickoryTreeGrowerBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VEGETATION_GROWER = REGISTRY.register("hanging_vibrion_vegetation_grower", () -> new HangingVibrionVegetationGrowerBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower", () -> new SubstiliumTreeGrowerBlock());
-	public static final RegistryObject<Block> BALD_CYPRESS_LOG = REGISTRY.register("bald_cypress_log", () -> new BaldCypressLogBlock());
-	public static final RegistryObject<Block> BALD_CYPRESS_PLANKS = REGISTRY.register("bald_cypress_planks", () -> new BaldCypressPlanksBlock());
-	public static final RegistryObject<Block> BALD_CYPRESS_WOOD = REGISTRY.register("bald_cypress_wood", () -> new BaldCypressBlockBlock());
-	public static final RegistryObject<Block> BALD_CYPRESS_LEAVES = REGISTRY.register("bald_cypress_leaves", () -> new BaldCypressLeavesBlock());
+	public static final RegistryObject<Block> STRIPPED_BALD_CYPRESS_LOG = REGISTRY.register("stripped_bald_cypress_log", () -> new StrippedBaldCypressLogBlock());
+	public static final RegistryObject<Block> STRIPPED_BALD_CYPRESS_WOOD = REGISTRY.register("stripped_bald_cypress_wood", () -> new StrippedBaldCypressWoodBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_STAIRS = REGISTRY.register("bald_cypress_stairs", () -> new BaldCypressStairsBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_SLAB = REGISTRY.register("bald_cypress_slab", () -> new BaldCypressSlabBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_FENCE = REGISTRY.register("bald_cypress_fence", () -> new BaldCypressFenceBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_FENCE_GATE = REGISTRY.register("bald_cypress_fence_gate", () -> new BaldCypressFenceGateBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_PRESSURE_PLATE = REGISTRY.register("bald_cypress_pressure_plate", () -> new BaldCypressPressurePlateBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_BUTTON = REGISTRY.register("bald_cypress_button", () -> new BaldCypressButtonBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

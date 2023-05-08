@@ -3,13 +3,10 @@
   "group": "smooth_substilium_soil_pressure_plate",
   "category": "misc",
   "pattern": [
-    "01"
+    "SS"
   ],
   "key": {
-    "0": {
-      "item": "wildaside:smooth_substilium_soil"
-    },
-    "1": {
+    "S": {
       "item": "wildaside:smooth_substilium_soil"
     }
   },

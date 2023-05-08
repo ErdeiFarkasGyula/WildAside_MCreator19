@@ -3,20 +3,11 @@
   "group": "stripped_substilium_block",
   "category": "misc",
   "pattern": [
-    "01",
-    "23"
+    "SS",
+    "SS"
   ],
   "key": {
-    "0": {
-      "item": "wildaside:stripped_substilium_stem"
-    },
-    "1": {
-      "item": "wildaside:stripped_substilium_stem"
-    },
-    "2": {
-      "item": "wildaside:stripped_substilium_stem"
-    },
-    "3": {
+    "S": {
       "item": "wildaside:stripped_substilium_stem"
     }
   },

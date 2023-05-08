@@ -3,10 +3,10 @@
   "group": "red_dye",
   "category": "misc",
   "pattern": [
-    "0"
+    "P"
   ],
   "key": {
-    "0": {
+    "P": {
       "item": "wildaside:panxter_flower"
     }
   },

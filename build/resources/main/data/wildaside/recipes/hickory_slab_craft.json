@@ -3,16 +3,10 @@
   "group": "hickory_slab",
   "category": "misc",
   "pattern": [
-    "012"
+    "HHH"
   ],
   "key": {
-    "0": {
-      "item": "wildaside:hickory_planks"
-    },
-    "1": {
-      "item": "wildaside:hickory_planks"
-    },
-    "2": {
+    "H": {
       "item": "wildaside:hickory_planks"
     }
   },

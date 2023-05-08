@@ -3,25 +3,16 @@
   "group": "entorium_pill",
   "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " I ",
+    "IEI",
+    " I "
   ],
   "key": {
-    "1": {
+    "I": {
       "item": "minecraft:iron_nugget"
     },
-    "3": {
-      "item": "minecraft:iron_nugget"
-    },
-    "4": {
+    "E": {
       "item": "wildaside:entorium"
-    },
-    "5": {
-      "item": "minecraft:iron_nugget"
-    },
-    "7": {
-      "item": "minecraft:iron_nugget"
     }
   },
   "result": {

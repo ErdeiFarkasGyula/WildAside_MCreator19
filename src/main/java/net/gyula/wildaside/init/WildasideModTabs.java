@@ -112,9 +112,17 @@ public class WildasideModTabs {
 					tabData.accept(WildasideModItems.GREEN_GLOWING_ESSENCE.get());
 					tabData.accept(WildasideModItems.RUTILLION.get());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_LOG.get().asItem());
-					tabData.accept(WildasideModBlocks.BALD_CYPRESS_PLANKS.get().asItem());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_WOOD.get().asItem());
+					tabData.accept(WildasideModBlocks.BALD_CYPRESS_PLANKS.get().asItem());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_LEAVES.get().asItem());
+					tabData.accept(WildasideModBlocks.STRIPPED_BALD_CYPRESS_LOG.get().asItem());
+					tabData.accept(WildasideModBlocks.STRIPPED_BALD_CYPRESS_WOOD.get().asItem());
+					tabData.accept(WildasideModBlocks.BALD_CYPRESS_STAIRS.get().asItem());
+					tabData.accept(WildasideModBlocks.BALD_CYPRESS_SLAB.get().asItem());
+					tabData.accept(WildasideModBlocks.BALD_CYPRESS_FENCE.get().asItem());
+					tabData.accept(WildasideModBlocks.BALD_CYPRESS_FENCE_GATE.get().asItem());
+					tabData.accept(WildasideModBlocks.BALD_CYPRESS_PRESSURE_PLATE.get().asItem());
+					tabData.accept(WildasideModBlocks.BALD_CYPRESS_BUTTON.get().asItem());
 				})
 
 		);
