@@ -10,9 +10,7 @@ credits="Imagined by Gyula & Lyof. Developed by Gyula. Quality management by Lyo
 displayURL="https://discord.gg/qeu8JSzGR4"
 logoFile="logo.png"
 authors="Gyula, Lyof, MCreator"
-description='''
-An amazing biome and exploration mod
-'''
+description="An amazing biome and exploration mod"
 
 [[dependencies.wildaside]]
     modId="minecraft"

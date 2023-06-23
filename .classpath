@@ -32,7 +32,7 @@
 	</classpathentry>
 	<classpathentry kind="output" path="bin/default"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
-	<classpathentry sourcepath="E:/WildAside_MCreator19/build/fg_cache/net/minecraftforge/forge/1.19.4-45.0.39_mapped_official_1.19.4/forge-1.19.4-45.0.39_mapped_official_1.19.4-sources.jar" kind="lib" path="E:/WildAside_MCreator19/build/fg_cache/net/minecraftforge/forge/1.19.4-45.0.39_mapped_official_1.19.4/forge-1.19.4-45.0.39_mapped_official_1.19.4.jar">
+	<classpathentry sourcepath="E:/WildAside_MCreator19/build/fg_cache/net/minecraftforge/forge/1.19.4-45.1.0_mapped_official_1.19.4/forge-1.19.4-45.1.0_mapped_official_1.19.4-sources.jar" kind="lib" path="E:/WildAside_MCreator19/build/fg_cache/net/minecraftforge/forge/1.19.4-45.1.0_mapped_official_1.19.4/forge-1.19.4-45.1.0_mapped_official_1.19.4.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -42,7 +42,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlloader/1.19.4-45.0.39/a710e2065ce7f4425d1577d233e4ddb64282946c/fmlloader-1.19.4-45.0.39-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlloader/1.19.4-45.0.39/504eed67a462975cc8ce0bceddf41ec02d48d8f2/fmlloader-1.19.4-45.0.39.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlloader/1.19.4-45.1.0/eec55269d7635734b8ff2437e45f35736c9e795f/fmlloader-1.19.4-45.1.0-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlloader/1.19.4-45.1.0/19f2cac18253bfe899117e601fcbef66d28ebe08/fmlloader-1.19.4-45.1.0.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -97,27 +97,27 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.3/1692e21847cf3db0b24e1938553cab84f50bf03d/asm-commons-9.3-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.3/1f2a432d1212f5c352ae607d7b61dcae20c20af5/asm-commons-9.3.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.5/3b13ed8d997eb49e62d7e237dd37ce8e9e825208/asm-commons-9.5-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-commons/9.5/19ab5b5800a3910d30d3a3e64fdb00fd0cb42de0/asm-commons-9.5.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.3/7a969dd37607523cfd3b9d2ef1a3e78882bfe647/asm-util-9.3-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.3/9595bc05510d0bd4b610188b77333fe4851a1975/asm-util-9.3.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.5/a957cd8d5834981ffbea32104fa45971e38d8f1a/asm-util-9.5-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/9.5/64b5a1fc8c1b15ed2efd6a063e976bc8d3dc5ffe/asm-util-9.5.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.3/fbcbbfcd8c350fea66dd36e63b1e118d4ab3370c/asm-analysis-9.3-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.3/4b071f211b37c38e0e9f5998550197c8593f6ad8/asm-analysis-9.3.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.5/47b38de3ca0cb7c6d14efc52f83bd69b763698ac/asm-analysis-9.5-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/9.5/490bacc77de7cbc0be1a30bb3471072d705be4a4/asm-analysis-9.5.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.3/cc1987e5e291659c366c4b9be35d105d40a518a/asm-tree-9.3-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.3/78d2ecd61318b5a58cd04fb237636c0e86b77d97/asm-tree-9.3.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.5/c7aaa36489c3f86b32f707f0b944f8b7165fbe3f/asm-tree-9.5-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/9.5/fd33c8b6373abaa675be407082fdfda35021254a/asm-tree-9.5.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.3/ce26e415ccafa10c6624a07bdb38d969110f568f/asm-9.3-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.3/8e6300ef51c1d801a7ed62d07cd221aca3a90640/asm-9.3.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.5/75c1feea760d9b5c12394bf366bdd9bd65ce4c83/asm-9.5-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/9.5/dc6ea1875f4d64fbc85e1691c95b96a3d8569c90/asm-9.5.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -137,7 +137,7 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.19.4-45.0.39/4e220ee4e91e957bae1c76372b5f16fe8dfb15ed/fmlcore-1.19.4-45.0.39-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.19.4-45.0.39/84bfb39a7a636123395fdaa94458aa7a0f03f374/fmlcore-1.19.4-45.0.39.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.19.4-45.1.0/bc670ac841be421beefbc4cd26f0303e2cf76c17/fmlcore-1.19.4-45.1.0-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/fmlcore/1.19.4-45.1.0/c21da731e12998ed3a9fddba965c75c42c63404e/fmlcore-1.19.4-45.1.0.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
@@ -212,17 +212,17 @@
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.19.4-45.0.39/eee4c8940dff4b55e55c1d120328da85ed377bfe/javafmllanguage-1.19.4-45.0.39-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.19.4-45.0.39/38061dc383629c295f52e4ef91fd570630a16d3a/javafmllanguage-1.19.4-45.0.39.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.19.4-45.1.0/ea58407d4483d5362e3e8de4f0cc72ba6bd07c03/javafmllanguage-1.19.4-45.1.0-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/javafmllanguage/1.19.4-45.1.0/b0e84ca3a357ff3c21236b9cff29dc11728c2fc1/javafmllanguage-1.19.4-45.1.0.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.19.4-45.0.39/5e9aaf9f070c169b1ffd0e832a4e5aa0f0923954/lowcodelanguage-1.19.4-45.0.39-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.19.4-45.0.39/b7f02155d0e5463cb5df868b938fb64e7c86f3ca/lowcodelanguage-1.19.4-45.0.39.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.19.4-45.1.0/1067140c8a6824db0c4a2918edf4a7952b493758/lowcodelanguage-1.19.4-45.1.0-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/lowcodelanguage/1.19.4-45.1.0/ab850b1d43a0870a58cd14eef8007e7a9f2d5d24/lowcodelanguage-1.19.4-45.1.0.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.19.4-45.0.39/11734bd18dcc07556535e5ecdd51a819ace01387/mclanguage-1.19.4-45.0.39-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.19.4-45.0.39/e927da309108213fd737afe71c91af4e23ba125a/mclanguage-1.19.4-45.0.39.jar">
+	<classpathentry sourcepath="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.19.4-45.1.0/da2eeb3b5e1892d23b017495d8f17d8a35743822/mclanguage-1.19.4-45.1.0-sources.jar" kind="lib" path="C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/net.minecraftforge/mclanguage/1.19.4-45.1.0/97118201a6b56edf1c41a03f94b03c5d39980c2f/mclanguage-1.19.4-45.1.0.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>

@@ -1,6 +1,6 @@
 {
   "has_precipitation": false,
-  "temperature": 0.19999999999999998,
+  "temperature": 0.2,
   "downfall": 0,
   "effects": {
     "ambient_sound": "ambient.crimson_forest.loop",

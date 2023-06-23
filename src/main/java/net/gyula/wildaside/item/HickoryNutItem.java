@@ -7,6 +7,6 @@ import net.minecraft.world.food.FoodProperties;
 
 public class HickoryNutItem extends Item {
 	public HickoryNutItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.19999999999999998f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.2f).build()));
 	}
 }

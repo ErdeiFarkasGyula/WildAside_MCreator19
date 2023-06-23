@@ -1,5 +1,5 @@
-Java Launcher: E:\MCreatorWorkspaces\MCreator20232\jdk\bin\java.exe
-Arguments: '--clean, C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.4-20230314.122934\joined-1.19.4-20230314.122934-srg.jar, --output, E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.0.39\forge-1.19.4-45.0.39-binpatched.jar, --apply, E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.0.39\forge-1.19.4-45.0.39-binpatches.lzma'
+Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+Arguments: '--clean, C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.4-20230314.122934\joined-1.19.4-20230314.122934-srg.jar, --output, E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatched.jar, --apply, E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatches.lzma'
 Classpath:
  - C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar
 Working directory: E:\WildAside_MCreator19\build\_applyBinpatches_2
@@ -7,12 +7,12 @@ Main class: net.minecraftforge.binarypatcher.ConsoleTool
 ====================================
 Applying: 
   Clean:     C:\Users\Felhasznￃﾡlￃﾳ\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.4-20230314.122934\joined-1.19.4-20230314.122934-srg.jar
-  Output:    E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.0.39\forge-1.19.4-45.0.39-binpatched.jar
+  Output:    E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatched.jar
   KeepData:  false
   Unpatched: false
   Pack200:   false
   Legacy:    false
-Loading patches file: E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.0.39\forge-1.19.4-45.0.39-binpatches.lzma
+Loading patches file: E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatches.lzma
   Reading patch com.mojang.blaze3d.pipeline.RenderTarget.binpatch
     Checksum: e3acb46a Exists: true
   Reading patch com.mojang.blaze3d.platform.GlStateManager$BlendState.binpatch
@@ -259,6 +259,10 @@ Loading patches file: E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\
     Checksum: bb44f917 Exists: true
   Reading patch net.minecraft.client.gui.components.toasts.ToastComponent.binpatch
     Checksum: 1bb743ab Exists: true
+  Reading patch net.minecraft.client.gui.screens.ChatScreen$1.binpatch
+    Checksum: 3e6800e3 Exists: true
+  Reading patch net.minecraft.client.gui.screens.ChatScreen.binpatch
+    Checksum: 4f839f38 Exists: true
   Reading patch net.minecraft.client.gui.screens.LoadingOverlay$LogoTexture.binpatch
     Checksum: a654f264 Exists: true
   Reading patch net.minecraft.client.gui.screens.LoadingOverlay.binpatch
@@ -323,6 +327,10 @@ Loading patches file: E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\
     Checksum: cbde1d7d Exists: true
   Reading patch net.minecraft.client.gui.screens.inventory.tooltip.ClientTooltipComponent.binpatch
     Checksum: 61132e79 Exists: true
+  Reading patch net.minecraft.client.gui.screens.inventory.tooltip.TooltipRenderUtil$BlitPainter.binpatch
+    Checksum: 90c9c663 Exists: true
+  Reading patch net.minecraft.client.gui.screens.inventory.tooltip.TooltipRenderUtil.binpatch
+    Checksum: d5d94bf3 Exists: true
   Reading patch net.minecraft.client.gui.screens.multiplayer.JoinMultiplayerScreen.binpatch
     Checksum: a67f8ab3 Exists: true
   Reading patch net.minecraft.client.gui.screens.multiplayer.ServerSelectionList$Entry.binpatch
@@ -367,12 +375,20 @@ Loading patches file: E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\
     Checksum: d33b0a08 Exists: true
   Reading patch net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.binpatch
     Checksum: 63aff3db Exists: true
+  Reading patch net.minecraft.client.gui.screens.worldselection.PresetEditor.binpatch
+    Checksum: 2872487e Exists: true
   Reading patch net.minecraft.client.gui.screens.worldselection.WorldCreationContext$DimensionsUpdater.binpatch
     Checksum: aca63abd Exists: true
   Reading patch net.minecraft.client.gui.screens.worldselection.WorldCreationContext$OptionsModifier.binpatch
     Checksum: 4dcfe4bc Exists: true
   Reading patch net.minecraft.client.gui.screens.worldselection.WorldCreationContext.binpatch
     Checksum: c284783e Exists: true
+  Reading patch net.minecraft.client.gui.screens.worldselection.WorldCreationUiState$SelectedGameMode.binpatch
+    Checksum: 7da5d388 Exists: true
+  Reading patch net.minecraft.client.gui.screens.worldselection.WorldCreationUiState$WorldTypeEntry.binpatch
+    Checksum: 2972ab9b Exists: true
+  Reading patch net.minecraft.client.gui.screens.worldselection.WorldCreationUiState.binpatch
+    Checksum: c0a67a7e Exists: true
   Reading patch net.minecraft.client.gui.screens.worldselection.WorldOpenFlows$1Data.binpatch
     Checksum: 76c1e598 Exists: true
   Reading patch net.minecraft.client.gui.screens.worldselection.WorldOpenFlows.binpatch
@@ -2001,6 +2017,8 @@ Loading patches file: E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\
     Checksum: 8e95f2c0 Exists: true
   Reading patch net.minecraft.world.item.BucketItem.binpatch
     Checksum: 24574ff7 Exists: true
+  Reading patch net.minecraft.world.item.BundleItem.binpatch
+    Checksum: 4d180512 Exists: true
   Reading patch net.minecraft.world.item.ChorusFruitItem.binpatch
     Checksum: 34c4609a Exists: true
   Reading patch net.minecraft.world.item.CreativeModeTab$1.binpatch
@@ -2865,6 +2883,8 @@ Processing: C:\Users\Felhasznￃﾡlￃﾳ\.mcreator\gradle\caches\forge_gradle\
   Patching net/minecraft/client/gui/components/DebugScreenOverlay 1/1
   Patching net/minecraft/client/gui/components/toasts/ToastComponent$ToastInstance 1/1
   Patching net/minecraft/client/gui/components/toasts/ToastComponent 1/1
+  Patching net/minecraft/client/gui/screens/ChatScreen$1 1/1
+  Patching net/minecraft/client/gui/screens/ChatScreen 1/1
   Patching net/minecraft/client/gui/screens/LoadingOverlay$LogoTexture 1/1
   Patching net/minecraft/client/gui/screens/LoadingOverlay 1/1
   Patching net/minecraft/client/gui/screens/MenuScreens$ScreenConstructor 1/1
@@ -2897,6 +2917,8 @@ Processing: C:\Users\Felhasznￃﾡlￃﾳ\.mcreator\gradle\caches\forge_gradle\
   Patching net/minecraft/client/gui/screens/inventory/MerchantScreen$TradeOfferButton 1/1
   Patching net/minecraft/client/gui/screens/inventory/MerchantScreen 1/1
   Patching net/minecraft/client/gui/screens/inventory/tooltip/ClientTooltipComponent 1/1
+  Patching net/minecraft/client/gui/screens/inventory/tooltip/TooltipRenderUtil$BlitPainter 1/1
+  Patching net/minecraft/client/gui/screens/inventory/tooltip/TooltipRenderUtil 1/1
   Patching net/minecraft/client/gui/screens/multiplayer/JoinMultiplayerScreen 1/1
   Patching net/minecraft/client/gui/screens/multiplayer/ServerSelectionList$Entry 1/1
   Patching net/minecraft/client/gui/screens/multiplayer/ServerSelectionList$LANHeader 1/1
@@ -2919,9 +2941,13 @@ Processing: C:\Users\Felhasznￃﾡlￃﾳ\.mcreator\gradle\caches\forge_gradle\
   Patching net/minecraft/client/gui/screens/worldselection/CreateWorldScreen$WorldTab$2 1/1
   Patching net/minecraft/client/gui/screens/worldselection/CreateWorldScreen$WorldTab 1/1
   Patching net/minecraft/client/gui/screens/worldselection/CreateWorldScreen 1/1
+  Patching net/minecraft/client/gui/screens/worldselection/PresetEditor 1/1
   Patching net/minecraft/client/gui/screens/worldselection/WorldCreationContext$DimensionsUpdater 1/1
   Patching net/minecraft/client/gui/screens/worldselection/WorldCreationContext$OptionsModifier 1/1
   Patching net/minecraft/client/gui/screens/worldselection/WorldCreationContext 1/1
+  Patching net/minecraft/client/gui/screens/worldselection/WorldCreationUiState$SelectedGameMode 1/1
+  Patching net/minecraft/client/gui/screens/worldselection/WorldCreationUiState$WorldTypeEntry 1/1
+  Patching net/minecraft/client/gui/screens/worldselection/WorldCreationUiState 1/1
   Patching net/minecraft/client/gui/screens/worldselection/WorldOpenFlows$1Data 1/1
   Patching net/minecraft/client/gui/screens/worldselection/WorldOpenFlows 1/1
   Patching net/minecraft/client/gui/screens/worldselection/WorldSelectionList$Entry 1/1
@@ -3736,6 +3762,7 @@ Processing: C:\Users\Felhasznￃﾡlￃﾳ\.mcreator\gradle\caches\forge_gradle\
   Patching net/minecraft/world/item/BrushItem$DustParticlesDelta 1/1
   Patching net/minecraft/world/item/BrushItem 1/1
   Patching net/minecraft/world/item/BucketItem 1/1
+  Patching net/minecraft/world/item/BundleItem 1/1
   Patching net/minecraft/world/item/ChorusFruitItem 1/1
   Patching net/minecraft/world/item/CreativeModeTab$1 1/1
   Patching net/minecraft/world/item/CreativeModeTab$Builder 1/1

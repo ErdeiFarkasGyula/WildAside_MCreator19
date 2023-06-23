@@ -68,6 +68,7 @@ public class WildasideMod {
 
 		WildasideModMenus.REGISTRY.register(bus);
 		WildasideModFeatures.REGISTRY.register(bus);
+
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

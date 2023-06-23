@@ -10,11 +10,11 @@ public class ImmuneProtectionOnEffectActiveTickProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get())) {
+		if (entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(WildasideModMobEffects.CONTAMINATION.get())) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeEffect(WildasideModMobEffects.CONTAMINATION.get());
 		}
-		if (entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(MobEffects.POISON)) {
+		if (entity instanceof LivingEntity _livEnt2 && _livEnt2.hasEffect(MobEffects.POISON)) {
 			if (entity instanceof LivingEntity _entity)
 				_entity.removeEffect(MobEffects.POISON);
 		}
