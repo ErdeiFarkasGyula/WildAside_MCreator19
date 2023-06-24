@@ -37,7 +37,7 @@
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 4,
+    "luminance": 1,
     "unbreakable": false,
     "isSolid": false,
     "isCustomSoundType": false,

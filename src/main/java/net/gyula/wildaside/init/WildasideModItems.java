@@ -62,8 +62,6 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> ENTORIUM_ORE = block(WildasideModBlocks.ENTORIUM_ORE);
 	public static final RegistryObject<Item> NATURAL_SPORE_BLASTER = block(WildasideModBlocks.NATURAL_SPORE_BLASTER);
 	public static final RegistryObject<Item> SPORE_BLASTER = block(WildasideModBlocks.SPORE_BLASTER);
-	public static final RegistryObject<Item> VIBRION_GROWTH_STEM = block(WildasideModBlocks.VIBRION_GROWTH_STEM);
-	public static final RegistryObject<Item> VIBRION_GROWTH_HEAD = block(WildasideModBlocks.VIBRION_GROWTH_HEAD);
 	public static final RegistryObject<Item> BIOENGINEER_WORKSPACE = block(WildasideModBlocks.BIOENGINEER_WORKSPACE);
 	public static final RegistryObject<Item> COMPRESSED_SUBSTILIUM_SOIL = block(WildasideModBlocks.COMPRESSED_SUBSTILIUM_SOIL);
 	public static final RegistryObject<Item> SMOOTH_SUBSTILIUM_SOIL = block(WildasideModBlocks.SMOOTH_SUBSTILIUM_SOIL);

@@ -2986,7 +2986,7 @@
       "name": "VibrionGrowthStemBlockDestroyedByPlayer",
       "type": "procedure",
       "sortid": 169,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "vibrion_growth_stem_block_destroyed_by_player",
       "metadata": {
@@ -3019,27 +3019,10 @@
       "path": "~/Procedures/Vibrion Growth"
     },
     {
-      "name": "VibrionGrowthStem",
-      "type": "block",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vibrion_growth_stem",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/wildaside/blockstates/vibrion_growth_stem.json",
-          "src/main/resources/assets/wildaside/models/item/vibrion_growth_stem.json",
-          "src/main/resources/assets/wildaside/models/block/vibrion_growth_stem.json",
-          "src/main/java/net/gyula/wildaside/block/VibrionGrowthStemBlock.java"
-        ]
-      },
-      "path": "~/Blocks"
-    },
-    {
       "name": "VibrionGrowthHeadBlockValidPlacementCondition",
       "type": "procedure",
       "sortid": 170,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "vibrion_growth_head_block_valid_placement_condition",
       "metadata": {
@@ -3072,7 +3055,7 @@
       "name": "VibrionGrowthHeadBlockDestroyedByPlayer",
       "type": "procedure",
       "sortid": 171,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "vibrion_growth_head_block_destroyed_by_player",
       "metadata": {
@@ -3108,7 +3091,7 @@
       "name": "VibrionGrowthHeadBlockDestroyedByExplosion",
       "type": "procedure",
       "sortid": 172,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "vibrion_growth_head_block_destroyed_by_explosion",
       "metadata": {
@@ -3135,23 +3118,6 @@
         ]
       },
       "path": "~/Procedures/Vibrion Growth"
-    },
-    {
-      "name": "VibrionGrowthHead",
-      "type": "block",
-      "sortid": 36,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vibrion_growth_head",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/wildaside/models/item/vibrion_growth_head.json",
-          "src/main/resources/assets/wildaside/blockstates/vibrion_growth_head.json",
-          "src/main/resources/assets/wildaside/models/block/vibrion_growth_head.json",
-          "src/main/java/net/gyula/wildaside/block/VibrionGrowthHeadBlock.java"
-        ]
-      },
-      "path": "~/Blocks"
     },
     {
       "name": "PanxterFlower",
@@ -6181,7 +6147,7 @@
       "name": "SubstiliumTreeGrowerUpdateTick",
       "type": "procedure",
       "sortid": 338,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "substilium_tree_grower_update_tick",
       "metadata": {
@@ -8589,13 +8555,13 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
       "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
-      "item.wildaside.entorium": "Entorium",
+      "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
       "advancements.grow_the_glow.title": "Grow The Glow",
+      "item.wildaside.entorium": "Entorium",
       "block.wildaside.vibrion_block": "Vibrion Block",
-      "advancements.we_need_to_cook.descr": "Place down a Bioengineer Workspace",
       "advancements.stripped_substilium_stem_hidden.title": "Stripped Substilium Stem Hidden",
+      "advancements.we_need_to_cook.descr": "Place down a Bioengineer Workspace",
       "wildaside.lexicon.name": "Wild Aside\u0027s Lexicon",
       "item.wildaside.brown_glowing_essence": "Brown Glowing Essence",
       "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
@@ -8748,7 +8714,6 @@
       "advancements.through_hundreds_of_mutations.descr": "Obtain a Vibrion",
       "advancements.wildaside_lexicon_giver_adv.descr": "Wildaside Lexicon Giver Adv",
       "block.wildaside.smooth_substilium_soil_stairs": "Smooth Substilium Soil Stairs",
-      "block.wildaside.vibrion_growth_stem": "Vibrion Growth Stem",
       "block.wildaside.natural_spore_blaster": "Natural Spore Blaster",
       "advancements.temporary_solution.title": "Temporary Solution",
       "advancements.substilium_stem_hidden.descr": "Substilium Stem Hidden",
@@ -8767,7 +8732,6 @@
       "block.wildaside.substilium_pressure_plate": "Substilium Pressure Plate",
       "block.wildaside.hickory_tree_grower": "Hickory Tree Grower",
       "advancements.glimmering_glass.title": "Glimmering Glass",
-      "block.wildaside.vibrion_growth_head": "Vibrion Growth Head",
       "advancements.extensive_research.descr": "Shear an Overgrown Substilium Soil Block with Revealing",
       "block.wildaside.bald_cypress_leaves": "Hickory Leaves"
     }

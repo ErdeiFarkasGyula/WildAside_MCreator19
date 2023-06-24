@@ -49,65 +49,47 @@ public class SubstiliumTreeGrowerUpdateTickProcedure {
 					i = 0;
 					canPlaceLoop = 0;
 					canPlace = true;
-					if (Math.random() <= 0.7) {
-						height = Mth.nextInt(RandomSource.create(), 6, 12);
-						for (int index0 = 0; index0 < (int) height; index0++) {
-							canPlaceLoop = canPlaceLoop + 1;
-							if (world.getBlockState(BlockPos.containing(x, y + canPlaceLoop, z)).canOcclude()) {
-								canPlace = false;
-							}
+					height = Mth.nextInt(RandomSource.create(), 6, 12);
+					for (int index0 = 0; index0 < (int) height; index0++) {
+						canPlaceLoop = canPlaceLoop + 1;
+						if (world.getBlockState(BlockPos.containing(x, y + canPlaceLoop, z)).canOcclude()) {
+							canPlace = false;
 						}
-						if (canPlace == true) {
-							for (int index1 = 0; index1 < (int) height; index1++) {
-								world.setBlock(BlockPos.containing(x, y + i, z), WildasideModBlocks.SUBSTILIUM_STEM.get().defaultBlockState(), 3);
-								i = i + 1;
-							}
-							sx = -1;
-							found = false;
-							for (int index2 = 0; index2 < 3; index2++) {
-								sy = height / 3;
-								for (int index3 = 0; index3 < (int) (height - height / 3); index3++) {
-									sz = -1;
-									for (int index4 = 0; index4 < 3; index4++) {
-										if (Math.random() >= 0.69) {
-											if (!world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz)).canOcclude()) {
-												if (Math.random() >= 0.15) {
-													world.setBlock(BlockPos.containing(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
-												} else {
-													world.setBlock(BlockPos.containing(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_GEL.get().defaultBlockState(), 3);
-												}
+					}
+					if (canPlace == true) {
+						for (int index1 = 0; index1 < (int) height; index1++) {
+							world.setBlock(BlockPos.containing(x, y + i, z), WildasideModBlocks.SUBSTILIUM_STEM.get().defaultBlockState(), 3);
+							i = i + 1;
+						}
+						sx = -1;
+						found = false;
+						for (int index2 = 0; index2 < 3; index2++) {
+							sy = height / 3;
+							for (int index3 = 0; index3 < (int) (height - height / 3); index3++) {
+								sz = -1;
+								for (int index4 = 0; index4 < 3; index4++) {
+									if (Math.random() >= 0.69) {
+										if (!world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz)).canOcclude()) {
+											if (Math.random() >= 0.15) {
+												world.setBlock(BlockPos.containing(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
+											} else {
+												world.setBlock(BlockPos.containing(x + sx, y + sy, z + sz), WildasideModBlocks.VIBRION_GEL.get().defaultBlockState(), 3);
 											}
 										}
-										sz = sz + 1;
 									}
-									sy = sy + 1;
+									sz = sz + 1;
 								}
-								sx = sx + 1;
+								sy = sy + 1;
 							}
-							if (!world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz)).canOcclude()) {
-								world.setBlock(BlockPos.containing(x, y + height, z), WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
-							}
+							sx = sx + 1;
 						}
-					} else {
-						for (int index5 = 0; index5 < (int) (Mth.nextInt(RandomSource.create(), 12, 24) + Mth.nextInt(RandomSource.create(), -5, 5)); index5++) {
-							if (!world.getBlockState(BlockPos.containing(x, y + canPlaceLoop, z)).canOcclude()) {
-								canPlaceLoop = canPlaceLoop + 1;
-							} else {
-								canPlace = false;
-								break;
-							}
-						}
-						if (canPlace == true) {
-							for (int index6 = 0; index6 < (int) Math.round((canPlaceLoop - 1) * 0.8); index6++) {
-								world.setBlock(BlockPos.containing(x, y + i, z), WildasideModBlocks.VIBRION_GROWTH_STEM.get().defaultBlockState(), 3);
-								i = i + 1;
-							}
-							world.setBlock(BlockPos.containing(x, y + Math.round((canPlaceLoop - 1) * 0.8), z), WildasideModBlocks.VIBRION_GROWTH_HEAD.get().defaultBlockState(), 3);
+						if (!world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz)).canOcclude()) {
+							world.setBlock(BlockPos.containing(x, y + height, z), WildasideModBlocks.VIBRION_BLOCK.get().defaultBlockState(), 3);
 						}
 					}
 				} else {
 					canPlace = true;
-					for (int index7 = 0; index7 < (int) height; index7++) {
+					for (int index5 = 0; index5 < (int) height; index5++) {
 						canPlaceLoop = canPlaceLoop + 1;
 						if (world.getBlockState(BlockPos.containing(x, y + canPlaceLoop, z)).canOcclude()) {
 							canPlace = false;

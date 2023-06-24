@@ -52,8 +52,6 @@ public class WildasideModTabs {
 					tabData.accept(WildasideModBlocks.ENTORIUM_ORE.get().asItem());
 					tabData.accept(WildasideModBlocks.NATURAL_SPORE_BLASTER.get().asItem());
 					tabData.accept(WildasideModBlocks.SPORE_BLASTER.get().asItem());
-					tabData.accept(WildasideModBlocks.VIBRION_GROWTH_STEM.get().asItem());
-					tabData.accept(WildasideModBlocks.VIBRION_GROWTH_HEAD.get().asItem());
 					tabData.accept(WildasideModBlocks.BIOENGINEER_WORKSPACE.get().asItem());
 					tabData.accept(WildasideModBlocks.COMPRESSED_SUBSTILIUM_SOIL.get().asItem());
 					tabData.accept(WildasideModBlocks.SMOOTH_SUBSTILIUM_SOIL.get().asItem());
