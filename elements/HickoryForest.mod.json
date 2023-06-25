@@ -57,11 +57,11 @@
     },
     "genErosion": {
       "min": -1.0,
-      "max": 0.35
+      "max": 0.4
     },
     "genWeirdness": {
-      "min": -0.7,
-      "max": 0.35
+      "min": -1.0,
+      "max": 0.5
     },
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",

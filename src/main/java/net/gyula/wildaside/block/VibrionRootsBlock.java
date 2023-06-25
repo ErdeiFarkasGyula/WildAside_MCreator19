@@ -30,6 +30,7 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.gyula.wildaside.procedures.Spawn7ParticlesProcedure;
+import net.gyula.wildaside.procedures.GiveContamintionInCubeProcedure;
 import net.gyula.wildaside.init.WildasideModBlocks;
 
 import java.util.List;
@@ -37,7 +38,7 @@ import java.util.Collections;
 
 public class VibrionRootsBlock extends FlowerBlock {
 	public VibrionRootsBlock() {
-		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.ROOTS).instabreak().lightLevel(s -> 1).noCollission());
+		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.ROOTS).instabreak().lightLevel(s -> 3).noCollission());
 	}
 
 	@Override
@@ -107,7 +108,7 @@ public class VibrionRootsBlock extends FlowerBlock {
 	@Override
 	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
 		super.use(blockstate, world, pos, entity, hand, hit);
-		Spawn7ParticlesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		GiveContamintionInCubeProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return InteractionResult.SUCCESS;
 	}
 }

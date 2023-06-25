@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "hickory_fence",
-  "category": "misc",
+  "category": "building",
   "pattern": [
     "HSH",
     "HSH"

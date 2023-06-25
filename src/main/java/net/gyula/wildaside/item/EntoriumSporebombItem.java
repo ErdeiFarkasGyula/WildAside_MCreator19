@@ -18,7 +18,7 @@ import net.gyula.wildaside.entity.EntoriumSporebombEntity;
 
 public class EntoriumSporebombItem extends Item {
 	public EntoriumSporebombItem() {
-		super(new Item.Properties().durability(1));
+		super(new Item.Properties().stacksTo(1));
 	}
 
 	@Override
@@ -38,7 +38,7 @@ public class EntoriumSporebombItem extends Item {
 	}
 
 	@Override
-	public void onUseTick(Level world, LivingEntity entityLiving, ItemStack itemstack, int count) {
+	public void releaseUsing(ItemStack itemstack, Level world, LivingEntity entityLiving, int timeLeft) {
 		if (!world.isClientSide() && entityLiving instanceof ServerPlayer entity) {
 			double x = entity.getX();
 			double y = entity.getY();
@@ -48,7 +48,6 @@ public class EntoriumSporebombItem extends Item {
 				itemstack.hurtAndBreak(1, entity, e -> e.broadcastBreakEvent(entity.getUsedItemHand()));
 				entityarrow.pickup = AbstractArrow.Pickup.DISALLOWED;
 				EntoriumSporebombRangedItemUsedProcedure.execute(entity, itemstack);
-				entity.releaseUsingItem();
 			}
 		}
 	}

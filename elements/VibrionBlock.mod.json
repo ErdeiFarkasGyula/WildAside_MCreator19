@@ -118,7 +118,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onRightClicked": {
-      "name": "Spawn7Particles"
+      "name": "VibrionBlockOnBlockRightClicked"
     },
     "onBlockAdded": {
       "name": "Spawn7Particles"

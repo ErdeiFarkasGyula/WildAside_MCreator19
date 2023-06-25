@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "hickory_slab",
-  "category": "misc",
+  "category": "building",
   "pattern": [
     "HHH"
   ],

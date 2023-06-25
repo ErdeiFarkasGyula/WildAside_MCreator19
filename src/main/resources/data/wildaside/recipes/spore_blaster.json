@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "spore_blaster",
-  "category": "misc",
+  "category": "redstone",
   "pattern": [
     "VEV",
     "NDN",

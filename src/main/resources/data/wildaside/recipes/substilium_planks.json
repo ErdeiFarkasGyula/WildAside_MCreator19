@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "substilium_planks",
-  "category": "misc",
+  "category": "building",
   "pattern": [
     "S"
   ],

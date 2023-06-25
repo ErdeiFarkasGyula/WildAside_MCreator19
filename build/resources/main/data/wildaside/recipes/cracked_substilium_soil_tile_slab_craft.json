@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "cracked_substilium_soil_tile_slab",
-  "category": "misc",
+  "category": "building",
   "pattern": [
     "CCC"
   ],

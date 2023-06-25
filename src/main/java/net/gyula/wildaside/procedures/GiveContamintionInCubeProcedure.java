@@ -48,5 +48,6 @@ public class GiveContamintionInCubeProcedure {
 				}
 			}
 		}
+		Spawn7ParticlesProcedure.execute(world, x, y, z);
 	}
 }

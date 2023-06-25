@@ -37,7 +37,7 @@
     },
     "hardness": 0.0,
     "resistance": 0.0,
-    "luminance": 1,
+    "luminance": 3,
     "unbreakable": false,
     "isSolid": false,
     "isCustomSoundType": false,
@@ -108,7 +108,7 @@
       "name": "Spawn7Particles"
     },
     "onRightClicked": {
-      "name": "Spawn7Particles"
+      "name": "GiveContamintionInCube"
     }
   }
 }

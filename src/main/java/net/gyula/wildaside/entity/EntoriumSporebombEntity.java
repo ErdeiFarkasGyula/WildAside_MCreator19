@@ -22,9 +22,9 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
-import net.gyula.wildaside.procedures.Spawn7ParticlesProcedure;
 import net.gyula.wildaside.procedures.EntoriumSporebombWhileProjectileFlyingTickProcedure;
 import net.gyula.wildaside.procedures.EntoriumSporebombProjectileHitsPlayerProcedure;
+import net.gyula.wildaside.procedures.EntoriumSporebombProjectileHitsBlockProcedure;
 import net.gyula.wildaside.init.WildasideModItems;
 import net.gyula.wildaside.init.WildasideModEntities;
 
@@ -83,7 +83,7 @@ public class EntoriumSporebombEntity extends AbstractArrow implements ItemSuppli
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		Spawn7ParticlesProcedure.execute(this.level, blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
+		EntoriumSporebombProjectileHitsBlockProcedure.execute(this.level, blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ(), this);
 	}
 
 	@Override

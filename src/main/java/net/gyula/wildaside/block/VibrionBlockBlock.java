@@ -25,6 +25,7 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
+import net.gyula.wildaside.procedures.VibrionBlockOnBlockRightClickedProcedure;
 import net.gyula.wildaside.procedures.Spawn7ParticlesProcedure;
 import net.gyula.wildaside.procedures.DropXP2_10Procedure;
 
@@ -87,7 +88,7 @@ public class VibrionBlockBlock extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		Spawn7ParticlesProcedure.execute(world, x, y, z);
+		VibrionBlockOnBlockRightClickedProcedure.execute(world, x, y, z);
 		return InteractionResult.SUCCESS;
 	}
 }

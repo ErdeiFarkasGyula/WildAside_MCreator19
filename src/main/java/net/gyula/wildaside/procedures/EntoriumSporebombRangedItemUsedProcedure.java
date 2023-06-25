@@ -23,6 +23,7 @@ public class EntoriumSporebombRangedItemUsedProcedure {
 		}.checkGamemode(entity))) {
 			if (entity instanceof Player _player)
 				_player.getCooldowns().addCooldown(itemstack.getItem(), 60);
+			itemstack.setCount((int) (itemstack.getCount() - 1));
 		}
 	}
 }

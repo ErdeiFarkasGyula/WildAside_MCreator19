@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "entorium_sporebomb",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Entorium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Entorium"
+      },
+      {
+        "value": "CUSTOM:VibrionBlock"
+      },
+      {
+        "value": "CUSTOM:Entorium"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:Entorium"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:EntoriumSporebomb"
+    },
+    "name": "entorium_sporebomb",
+    "namespace": "mod"
+  }
+}

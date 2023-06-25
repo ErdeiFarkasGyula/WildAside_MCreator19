@@ -1,0 +1,32 @@
+{
+  "_fv": 43,
+  "_type": "structure",
+  "definition": {
+    "structure": "hanging_vibrion_vegetation_grower",
+    "randomlyRotateStructure": false,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 1000000,
+    "minCountPerChunk": 16,
+    "maxCountPerChunk": 16,
+    "spawnLocation": "Underground",
+    "spawnHeightOffset": -1,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [
+      {
+        "value": "CUSTOM:VibrionHive"
+      }
+    ],
+    "ignoreBlocks": "STRUCTURE_BLOCK",
+    "generateCondition": {
+      "name": "HangingVibrionVegetationGrowerStr1AdditionalGenerationCondition"
+    },
+    "onStructureGenerated": {
+      "name": "UpdateStructure"
+    }
+  }
+}

@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "group": "hickory_fence_gate",
-  "category": "misc",
+  "category": "building",
   "pattern": [
     "SHS",
     "SHS"

@@ -14,8 +14,8 @@
     "ammoItem": {
       "value": ""
     },
-    "shootConstantly": true,
-    "usageCount": 1,
+    "shootConstantly": false,
+    "usageCount": 0,
     "actionSound": {
       "value": "entity.arrow.shoot"
     },
@@ -37,7 +37,7 @@
     "bulletModel": "Default",
     "customBulletModelTexture": "",
     "onBulletHitsBlock": {
-      "name": "Spawn7Particles"
+      "name": "EntoriumSporebombProjectileHitsBlock"
     },
     "onBulletHitsPlayer": {
       "name": "EntoriumSporebombProjectileHitsPlayer"
