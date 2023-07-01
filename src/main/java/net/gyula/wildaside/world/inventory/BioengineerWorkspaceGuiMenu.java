@@ -77,42 +77,56 @@ public class BioengineerWorkspaceGuiMenu extends AbstractContainerMenu implement
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 25, 14) {
+			private final int slot = 0;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return WildasideModItems.RED_GLOWING_ESSENCE.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 61, 50) {
+			private final int slot = 1;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return WildasideModItems.BROWN_GLOWING_ESSENCE.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 61, 14) {
+			private final int slot = 2;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return WildasideModItems.YELLOW_GLOWING_ESSENCE.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 25, 50) {
+			private final int slot = 3;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return WildasideModItems.GREEN_GLOWING_ESSENCE.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(4, this.addSlot(new SlotItemHandler(internal, 4, 43, 32) {
+			private final int slot = 4;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return WildasideModItems.VIBRION.get() == stack.getItem();
 			}
 		}));
 		this.customSlots.put(5, this.addSlot(new SlotItemHandler(internal, 5, 115, 33) {
+			private final int slot = 5;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
 		this.customSlots.put(6, this.addSlot(new SlotItemHandler(internal, 6, 133, 33) {
+			private final int slot = 6;
+
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;

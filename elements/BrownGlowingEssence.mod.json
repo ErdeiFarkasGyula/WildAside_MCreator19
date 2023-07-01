@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "brown_glowing_essence",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Brown Glowing Essence",
     "rarity": "UNCOMMON",
     "creativeTab": {

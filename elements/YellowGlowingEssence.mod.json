@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "yellow_glowing_essence",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Yellow Glowing Essence",
     "rarity": "UNCOMMON",
     "creativeTab": {

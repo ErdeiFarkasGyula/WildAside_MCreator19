@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "vibrion",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Vibrion",
     "rarity": "COMMON",
     "creativeTab": {

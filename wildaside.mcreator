@@ -2983,143 +2983,6 @@
       "path": "~/Procedures/Vibrion Growth"
     },
     {
-      "name": "VibrionGrowthStemBlockDestroyedByPlayer",
-      "type": "procedure",
-      "sortid": 169,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vibrion_growth_stem_block_destroyed_by_player",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/procedures/VibrionGrowthStemBlockDestroyedByPlayerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures/Vibrion Growth"
-    },
-    {
-      "name": "VibrionGrowthHeadBlockValidPlacementCondition",
-      "type": "procedure",
-      "sortid": 170,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vibrion_growth_head_block_valid_placement_condition",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/net/gyula/wildaside/procedures/VibrionGrowthHeadBlockValidPlacementConditionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures/Vibrion Growth"
-    },
-    {
-      "name": "VibrionGrowthHeadBlockDestroyedByPlayer",
-      "type": "procedure",
-      "sortid": 171,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vibrion_growth_head_block_destroyed_by_player",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/procedures/VibrionGrowthHeadBlockDestroyedByPlayerProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures/Vibrion Growth"
-    },
-    {
-      "name": "VibrionGrowthHeadBlockDestroyedByExplosion",
-      "type": "procedure",
-      "sortid": 172,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "vibrion_growth_head_block_destroyed_by_explosion",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/procedures/VibrionGrowthHeadBlockDestroyedByExplosionProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Procedures/Vibrion Growth"
-    },
-    {
       "name": "PanxterFlower",
       "type": "plant",
       "sortid": 87,
@@ -9333,13 +9196,13 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
       "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
-      "item.wildaside.entorium": "Entorium",
+      "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
       "advancements.grow_the_glow.title": "Grow The Glow",
+      "item.wildaside.entorium": "Entorium",
       "block.wildaside.vibrion_block": "Vibrion Block",
-      "advancements.we_need_to_cook.descr": "Place down a Bioengineer Workspace",
       "advancements.stripped_substilium_stem_hidden.title": "Stripped Substilium Stem Hidden",
+      "advancements.we_need_to_cook.descr": "Place down a Bioengineer Workspace",
       "wildaside.lexicon.name": "Wild Aside\u0027s Lexicon",
       "item.wildaside.brown_glowing_essence": "Brown Glowing Essence",
       "advancements.organic_building_materials.descr": "Obtain a Compressed Substilium Soil block",
@@ -9700,5 +9563,5 @@
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300223515
+  "mcreatorVersion": 202300326610
 }

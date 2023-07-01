@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "hickory_nut",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Hickory Nut",
     "rarity": "COMMON",
     "creativeTab": {

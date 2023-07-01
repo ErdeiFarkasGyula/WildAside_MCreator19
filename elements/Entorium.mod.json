@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "entorium",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Entorium",
     "rarity": "COMMON",
     "creativeTab": {

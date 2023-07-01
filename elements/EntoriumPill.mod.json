@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "entorium_pill",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Entorium Pill",
     "rarity": "COMMON",
     "creativeTab": {

@@ -5,6 +5,8 @@
     "renderType": 0,
     "texture": "rutillion",
     "customModelName": "Normal",
+    "customProperties": {},
+    "states": [],
     "name": "Rutillion",
     "rarity": "COMMON",
     "creativeTab": {
