@@ -44,7 +44,7 @@ public class GrowTheGlowProcProcedure {
 					{
 						boolean _setval = true;
 						entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-							capability.redGlowingHickoryEssence = _setval;
+							capability.RedGlowingHickorySapling = _setval;
 							capability.syncPlayerVariables(entity);
 						});
 					}
@@ -53,7 +53,7 @@ public class GrowTheGlowProcProcedure {
 						{
 							boolean _setval = true;
 							entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-								capability.yellowGlowingHickoryEssence = _setval;
+								capability.YellowGlowingHickorySapling = _setval;
 								capability.syncPlayerVariables(entity);
 							});
 						}
@@ -62,7 +62,7 @@ public class GrowTheGlowProcProcedure {
 							{
 								boolean _setval = true;
 								entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-									capability.brownGlowingHickoryEssence = _setval;
+									capability.BrownGlowingHickorySapling = _setval;
 									capability.syncPlayerVariables(entity);
 								});
 							}
@@ -71,7 +71,7 @@ public class GrowTheGlowProcProcedure {
 								{
 									boolean _setval = true;
 									entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-										capability.greenGlowingHickoryEssence = _setval;
+										capability.GreenGlowingHickorySapling = _setval;
 										capability.syncPlayerVariables(entity);
 									});
 								}
@@ -79,10 +79,10 @@ public class GrowTheGlowProcProcedure {
 						}
 					}
 				}
-				if ((entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new WildasideModVariables.PlayerVariables())).redGlowingHickoryEssence == true
-						&& (entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new WildasideModVariables.PlayerVariables())).brownGlowingHickoryEssence == true
-						&& (entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new WildasideModVariables.PlayerVariables())).yellowGlowingHickoryEssence == true
-						&& (entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new WildasideModVariables.PlayerVariables())).greenGlowingHickoryEssence == true) {
+				if ((entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new WildasideModVariables.PlayerVariables())).RedGlowingHickorySapling == true
+						&& (entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new WildasideModVariables.PlayerVariables())).BrownGlowingHickorySapling == true
+						&& (entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new WildasideModVariables.PlayerVariables())).YellowGlowingHickorySapling == true
+						&& (entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new WildasideModVariables.PlayerVariables())).GreenGlowingHickorySapling == true) {
 					if (entity instanceof ServerPlayer _player) {
 						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:grow_the_glow"));
 						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);

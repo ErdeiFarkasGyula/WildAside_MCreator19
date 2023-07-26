@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "We Need To Cook",
-    "achievementDescription": "Place down a Bioengineer Workspace",
+    "achievementDescription": "Use the Bioengineer Workspace to make Rutillion",
     "achievementIcon": {
       "value": "CUSTOM:BioengineerWorkspace"
     },
@@ -20,6 +20,6 @@
     "parent": {
       "value": "CUSTOM:PetrifiedAntibiotic"
     },
-    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"block_placed\" x=\"31\" y=\"13\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:BioengineerWorkspace</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"4\" y=\"108\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }
 }

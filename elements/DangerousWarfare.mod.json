@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Dangerous Warfare",
-    "achievementDescription": "Infect a mob or a player with an Entorium Sporebomb",
+    "achievementDescription": "Hit a mob or a player with an Entorium Sporebomb",
     "achievementIcon": {
       "value": "CUSTOM:EntoriumSporebomb"
     },
@@ -20,7 +20,7 @@
     "rewardXP": 5,
     "achievementType": "task",
     "parent": {
-      "value": "CUSTOM:UnsafeHaven"
+      "value": "CUSTOM:PetrifiedAntibiotic"
     },
     "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"custom_trigger\" x=\"35\" y=\"28\"><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
   }

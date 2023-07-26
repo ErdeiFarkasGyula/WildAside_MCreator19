@@ -3,7 +3,7 @@
   "_type": "achievement",
   "definition": {
     "achievementName": "Barrier Of Bacteria",
-    "achievementDescription": "Place down a Spore Blaster",
+    "achievementDescription": "Place down a Spore Blaster and activate it usign redstone",
     "achievementIcon": {
       "value": "CUSTOM:SporeBlaster"
     },

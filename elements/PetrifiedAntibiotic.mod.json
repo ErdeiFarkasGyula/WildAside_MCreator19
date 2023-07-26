@@ -15,7 +15,8 @@
     "rewardLoot": [],
     "rewardRecipes": [
       "EntoriumPillCraft",
-      "SporeBlasterCraft"
+      "SporeBlasterCraft",
+      "EntoriumSporebombCraft"
     ],
     "rewardFunction": "No function",
     "rewardXP": 5,

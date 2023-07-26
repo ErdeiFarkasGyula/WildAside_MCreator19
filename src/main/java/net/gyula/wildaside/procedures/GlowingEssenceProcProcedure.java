@@ -68,7 +68,7 @@ public class GlowingEssenceProcProcedure {
 							{
 								boolean _setval = true;
 								entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-									capability.redGlowingHickoryEssence = _setval;
+									capability.yellowGlowingHickoryEssence = _setval;
 									capability.syncPlayerVariables(entity);
 								});
 							}
@@ -82,7 +82,7 @@ public class GlowingEssenceProcProcedure {
 								{
 									boolean _setval = true;
 									entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-										capability.redGlowingHickoryEssence = _setval;
+										capability.brownGlowingHickoryEssence = _setval;
 										capability.syncPlayerVariables(entity);
 									});
 								}
@@ -96,7 +96,7 @@ public class GlowingEssenceProcProcedure {
 									{
 										boolean _setval = true;
 										entity.getCapability(WildasideModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
-											capability.redGlowingHickoryEssence = _setval;
+											capability.greenGlowingHickoryEssence = _setval;
 											capability.syncPlayerVariables(entity);
 										});
 									}

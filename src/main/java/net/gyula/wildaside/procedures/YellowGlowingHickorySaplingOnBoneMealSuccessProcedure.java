@@ -12,9 +12,9 @@ import net.minecraft.core.BlockPos;
 public class YellowGlowingHickorySaplingOnBoneMealSuccessProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if (world.isEmptyBlock(BlockPos.containing(x, y + 1, z))) {
-			if (Math.random() >= 0.93) {
+			if (Math.random() >= 0.85) {
 				if (world instanceof ServerLevel _serverworld) {
-					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "yellow_glowing_hickory_tree"));
+					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "yellow_flowing_hickory_tree_1"));
 					if (template != null) {
 						template.placeInWorld(_serverworld, BlockPos.containing(x - 3, y, z - 3), BlockPos.containing(x - 3, y, z - 3), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 								_serverworld.random, 3);

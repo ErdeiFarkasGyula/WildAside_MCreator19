@@ -16,10 +16,7 @@
   },
   "criteria": {
     "we_need_to_cook": {
-      "trigger": "minecraft:placed_block",
-      "conditions": {
-        "block": "wildaside:bioengineer_workspace"
-      }
+      "trigger": "minecraft:impossible"
     }
   },
   "rewards": {
