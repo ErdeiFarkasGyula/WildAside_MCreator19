@@ -1,8 +1,9 @@
 {
-  "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
   "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
-  "item.wildaside.entorium": "Entorium",
+  "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
   "advancements.grow_the_glow.title": "Grow The Glow",
+  "item.wildaside.entorium": "Entorium",
+  "advancements.still_not_enough.descr": "Try breaking Bedrock with an Entorium Gauntlet",
   "block.wildaside.vibrion_block": "Vibrion Block",
   "advancements.we_need_to_cook.descr": "Use the Bioengineer Workspace to make Rutillion",
   "advancements.stripped_substilium_stem_hidden.title": "Stripped Substilium Stem Hidden",
@@ -178,6 +179,7 @@
   "block.wildaside.substilium_pressure_plate": "Substilium Pressure Plate",
   "block.wildaside.hickory_tree_grower": "Hickory Tree Grower",
   "advancements.glimmering_glass.title": "Glimmering Glass",
+  "advancements.still_not_enough.title": "Still Not Enough",
   "advancements.extensive_research.descr": "Shear an Overgrown Substilium Soil Block with Revealing",
   "block.wildaside.bald_cypress_leaves": "Bald Cypress Leaves"
 }

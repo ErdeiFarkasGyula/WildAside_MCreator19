@@ -37,7 +37,8 @@
     "recipes": [
       "wildaside:entorium_pill",
       "wildaside:spore_blaster",
-      "wildaside:entorium_sporebomb"
+      "wildaside:entorium_sporebomb",
+      "wildaside:entorium_gauntlet"
     ]
   },
   "parent": "wildaside:useful_finding"
