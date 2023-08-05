@@ -121,6 +121,7 @@ public class WildasideModTabs {
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_FENCE_GATE.get().asItem());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_PRESSURE_PLATE.get().asItem());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_BUTTON.get().asItem());
+					tabData.accept(WildasideModItems.POOFER_SPAWN_EGG.get());
 				})
 
 		);

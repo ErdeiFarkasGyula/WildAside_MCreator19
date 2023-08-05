@@ -7,6 +7,7 @@ package net.gyula.wildaside.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -137,6 +138,7 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> BALD_CYPRESS_FENCE_GATE = block(WildasideModBlocks.BALD_CYPRESS_FENCE_GATE);
 	public static final RegistryObject<Item> BALD_CYPRESS_PRESSURE_PLATE = block(WildasideModBlocks.BALD_CYPRESS_PRESSURE_PLATE);
 	public static final RegistryObject<Item> BALD_CYPRESS_BUTTON = block(WildasideModBlocks.BALD_CYPRESS_BUTTON);
+	public static final RegistryObject<Item> POOFER_SPAWN_EGG = REGISTRY.register("poofer_spawn_egg", () -> new ForgeSpawnEggItem(WildasideModEntities.POOFER, -925091, -13949950, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
