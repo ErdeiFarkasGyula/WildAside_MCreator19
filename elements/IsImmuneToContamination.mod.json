@@ -6,7 +6,11 @@
     "items": [],
     "blocks": [],
     "functions": [],
-    "entities": [],
+    "entities": [
+      {
+        "value": "CUSTOM:Poofer"
+      }
+    ],
     "biomes": [],
     "name": "is_immune_to_contamination",
     "namespace": "mod"
