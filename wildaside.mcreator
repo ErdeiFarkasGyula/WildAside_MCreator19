@@ -9625,7 +9625,9 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.19.4",
     "credits": "Imagined by Gyula \u0026 Lyof. Developed by Gyula. Quality management by Lyof. Textures by Gyula \u0026 Dylanvhs. Concept art by Toma400 \u0026 Gyula. Special thanks to Aqu.",
     "modElementsPackage": "net.gyula.wildaside",

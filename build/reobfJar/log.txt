@@ -2,7 +2,8 @@ Java Launcher: G:\MCreator\MCreator.EAP.2023.326610.Windows.64bit\MCreatorEAP202
 Arguments: '--in-jar, E:\WildAside_MCreator19\build\libs\modid-1.0.jar, --out-jar, E:\WildAside_MCreator19\build\reobfJar\output.jar, --srg-in, E:\WildAside_MCreator19\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar
- - E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0_mapped_official_1.19.4\forge-1.19.4-45.1.0_mapped_official_1.19.4.jar
+ - C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\deobf_dependencies\software\bernie\geckolib\geckolib-forge-1.19.4\4.1.3_mapped_official_1.19.4\geckolib-forge-1.19.4-4.1.3_mapped_official_1.19.4.jar
+ - E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0_mapped_official_1.19.4\forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar
  - C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\minecraft_repo\versions\1.19.4\client-extra.jar
  - C:\Users\Felhasználó\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlloader\1.19.4-45.1.0\19f2cac18253bfe899117e601fcbef66d28ebe08\fmlloader-1.19.4-45.1.0.jar
  - C:\Users\Felhasználó\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\JarJarSelector\0.3.19\376cc9c8ea60720cf027c01fc033de915699801c\JarJarSelector-0.3.19.jar

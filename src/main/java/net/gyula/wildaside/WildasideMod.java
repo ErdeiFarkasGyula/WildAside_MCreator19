@@ -13,6 +13,8 @@
  */
 package net.gyula.wildaside;
 
+import software.bernie.geckolib.GeckoLib;
+
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -61,14 +63,15 @@ public class WildasideMod {
 		WildasideModItems.REGISTRY.register(bus);
 		WildasideModEntities.REGISTRY.register(bus);
 		WildasideModBlockEntities.REGISTRY.register(bus);
-		WildasideModEnchantments.REGISTRY.register(bus);
-
-		WildasideModParticleTypes.REGISTRY.register(bus);
-		WildasideModMobEffects.REGISTRY.register(bus);
-
-		WildasideModMenus.REGISTRY.register(bus);
 		WildasideModFeatures.REGISTRY.register(bus);
 
+		WildasideModMobEffects.REGISTRY.register(bus);
+
+		WildasideModEnchantments.REGISTRY.register(bus);
+		WildasideModParticleTypes.REGISTRY.register(bus);
+		WildasideModMenus.REGISTRY.register(bus);
+
+		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
