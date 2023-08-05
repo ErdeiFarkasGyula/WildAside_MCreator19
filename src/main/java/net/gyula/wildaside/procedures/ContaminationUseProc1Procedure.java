@@ -30,14 +30,16 @@ public class ContaminationUseProc1Procedure {
 	private static void execute(@Nullable Event event, Entity entity, Entity sourceentity) {
 		if (entity == null || sourceentity == null)
 			return;
-		{
-			ItemStack _ist = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-			if (_ist.hurt(sourceentity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get()) ? _livEnt.getEffect(WildasideModMobEffects.CONTAMINATION.get()).getAmplifier() : 0, RandomSource.create(),
-					null)) {
-				_ist.shrink(1);
-				_ist.setDamageValue(0);
+		if (sourceentity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(WildasideModMobEffects.CONTAMINATION.get())) {
+			{
+				ItemStack _ist = (sourceentity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
+				if (_ist.hurt(sourceentity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get()) ? _livEnt.getEffect(WildasideModMobEffects.CONTAMINATION.get()).getAmplifier() : 0, RandomSource.create(),
+						null)) {
+					_ist.shrink(1);
+					_ist.setDamageValue(0);
+				}
 			}
+			PlayerToPlayerContaminationProcedure.execute(entity, sourceentity);
 		}
-		PlayerToPlayerContaminationProcedure.execute(entity, sourceentity);
 	}
 }
