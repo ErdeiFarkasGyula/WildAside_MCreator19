@@ -3,7 +3,7 @@
   "biomes": "wildaside:vibrion_hive",
   "spawners": {
     "type": "wildaside:poofer",
-    "weight": 20,
+    "weight": 40,
     "minCount": 1,
     "maxCount": 3
   }

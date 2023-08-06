@@ -82,6 +82,7 @@ import net.gyula.wildaside.world.features.HickoryTreeGrowerStr4Feature;
 import net.gyula.wildaside.world.features.HickoryTreeGrowerStr3Feature;
 import net.gyula.wildaside.world.features.HickoryTreeGrowerStr2Feature;
 import net.gyula.wildaside.world.features.HickoryTreeGrowerStr1Feature;
+import net.gyula.wildaside.world.features.HickoryCabinStrFeature;
 import net.gyula.wildaside.world.features.HangingVibrionVegetationGrowerStr9Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVegetationGrowerStr8Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVegetationGrowerStr7Feature;
@@ -302,4 +303,5 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VEGETATION_GROWER_STR_67 = REGISTRY.register("hanging_vibrion_vegetation_grower_str_67", HangingVibrionVegetationGrowerStr67Feature::new);
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VEGETATION_GROWER_STR_68 = REGISTRY.register("hanging_vibrion_vegetation_grower_str_68", HangingVibrionVegetationGrowerStr68Feature::new);
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VEGETATION_GROWER_STR_69 = REGISTRY.register("hanging_vibrion_vegetation_grower_str_69", HangingVibrionVegetationGrowerStr69Feature::new);
+	public static final RegistryObject<Feature<?>> HICKORY_CABIN_STR = REGISTRY.register("hickory_cabin_str", HickoryCabinStrFeature::new);
 }

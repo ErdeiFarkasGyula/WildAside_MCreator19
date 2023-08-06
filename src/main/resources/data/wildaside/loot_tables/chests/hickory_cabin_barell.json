@@ -2,7 +2,10 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -12,7 +15,7 @@
             {
               "function": "set_count",
               "count": {
-                "min": 0,
+                "min": 1,
                 "max": 4
               }
             },
@@ -31,7 +34,7 @@
             {
               "function": "set_count",
               "count": {
-                "min": 0,
+                "min": 1,
                 "max": 2
               }
             },
@@ -378,7 +381,10 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -389,7 +395,7 @@
               "function": "set_count",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 4
               }
             },
             {
@@ -448,7 +454,10 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -458,8 +467,8 @@
             {
               "function": "set_count",
               "count": {
-                "min": 1,
-                "max": 4
+                "min": 2,
+                "max": 5
               }
             },
             {
@@ -491,7 +500,10 @@
       ]
     },
     {
-      "rolls": 1,
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -501,7 +513,7 @@
             {
               "function": "set_count",
               "count": {
-                "min": 1,
+                "min": 0,
                 "max": 1
               }
             },
@@ -510,7 +522,34 @@
               "treasure": true,
               "levels": {
                 "min": 2,
-                "max": 5
+                "max": 6
+              }
+            },
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:ore_drops"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
               }
             },
             {
@@ -527,14 +566,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:gunpowder",
-          "weight": 4,
+          "name": "wildaside:hickory_nut",
+          "weight": 7,
           "functions": [
             {
               "function": "set_count",
               "count": {
-                "min": 2,
-                "max": 4
+                "min": 0,
+                "max": 5
               }
             },
             {

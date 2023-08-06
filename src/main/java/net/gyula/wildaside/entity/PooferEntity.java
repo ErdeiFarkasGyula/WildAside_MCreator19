@@ -20,7 +20,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.monster.Monster;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
@@ -44,7 +44,8 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
-import net.minecraft.world.Difficulty;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerLevel;
@@ -171,6 +172,15 @@ public class PooferEntity extends Animal implements GeoEntity {
 	}
 
 	@Override
+	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
+		ItemStack itemstack = sourceentity.getItemInHand(hand);
+		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
+		super.mobInteract(sourceentity, hand);
+		sourceentity.startRiding(this);
+		return retval;
+	}
+
+	@Override
 	public void baseTick() {
 		super.baseTick();
 		this.refreshDimensions();
@@ -210,8 +220,7 @@ public class PooferEntity extends Animal implements GeoEntity {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(WildasideModEntities.POOFER.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
+		SpawnPlacements.register(WildasideModEntities.POOFER.get(), SpawnPlacements.Type.NO_RESTRICTIONS, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, Mob::checkMobSpawnRules);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {

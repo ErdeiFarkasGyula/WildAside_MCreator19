@@ -1,0 +1,73 @@
+{
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2023-08-06 12:57:34 +0200"
+    },
+    "done": true
+  },
+  "wildaside:spread_onehundred": {
+    "criteria": {
+      "spread_onehundred": "2023-08-06 13:00:26 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2023-08-06 12:55:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-08-06 12:57:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:birch_forest": "2023-08-06 12:59:57 +0200",
+      "minecraft:dark_forest": "2023-08-06 12:55:38 +0200",
+      "minecraft:river": "2023-08-06 12:57:09 +0200",
+      "minecraft:forest": "2023-08-06 12:57:35 +0200",
+      "minecraft:old_growth_birch_forest": "2023-08-06 12:57:07 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-08-06 12:57:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-08-06 12:57:34 +0200"
+    },
+    "done": true
+  },
+  "wildaside:wild_wilder_wildest": {
+    "criteria": {
+      "wild_wilder_wildest": "2023-08-06 12:55:06 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-08-06 12:57:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-08-06 12:57:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-08-06 12:57:34 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3337
+}

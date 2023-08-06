@@ -9237,6 +9237,57 @@
         ]
       },
       "path": "~/Loot Tables"
+    },
+    {
+      "name": "ContaminationOnEffectActiveTick",
+      "type": "procedure",
+      "sortid": 521,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "contamination_on_effect_active_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/ContaminationOnEffectActiveTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Procedures/Contamination"
+    },
+    {
+      "name": "HickoryCabinStr",
+      "type": "structure",
+      "sortid": 522,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_cabin_str",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/forge/biome_modifier/hickory_cabin_str_biome_modifier.json",
+          "src/main/java/net/gyula/wildaside/world/features/HickoryCabinStrFeature.java",
+          "src/main/resources/data/wildaside/worldgen/configured_feature/hickory_cabin_str.json",
+          "src/main/resources/data/wildaside/worldgen/placed_feature/hickory_cabin_str.json"
+        ]
+      },
+      "path": "~/Structures/Hickory"
+    },
+    {
+      "name": "HickoryCabinBarellSecret",
+      "type": "loottable",
+      "sortid": 523,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hickory_cabin_barell_secret",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/loot_tables/chests/hickory_cabin_barell_secret.json"
+        ]
+      },
+      "path": "~/Loot Tables"
     }
   ],
   "variable_elements": [
