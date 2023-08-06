@@ -39,6 +39,7 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> VIBRION_ROOTS = block(WildasideModBlocks.VIBRION_ROOTS);
 	public static final RegistryObject<Item> HANGING_VIBRION_VINES = block(WildasideModBlocks.HANGING_VIBRION_VINES);
 	public static final RegistryObject<Item> VIBRION_SPOREHOLDER = block(WildasideModBlocks.VIBRION_SPOREHOLDER);
+	public static final RegistryObject<Item> POOFER_SPAWN_EGG = REGISTRY.register("poofer_spawn_egg", () -> new ForgeSpawnEggItem(WildasideModEntities.POOFER, -925091, -13949950, new Item.Properties()));
 	public static final RegistryObject<Item> ENTORIUM = REGISTRY.register("entorium", () -> new EntoriumItem());
 	public static final RegistryObject<Item> ENTORIUM_PILL = REGISTRY.register("entorium_pill", () -> new EntoriumPillItem());
 	public static final RegistryObject<Item> ENTORIUM_SPOREBOMB = REGISTRY.register("entorium_sporebomb", () -> new EntoriumSporebombItem());
@@ -97,6 +98,7 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> HICKORY_BUTTON = block(WildasideModBlocks.HICKORY_BUTTON);
 	public static final RegistryObject<Item> HICKORY_DOOR = doubleBlock(WildasideModBlocks.HICKORY_DOOR);
 	public static final RegistryObject<Item> HICKORY_TRAPDOOR = block(WildasideModBlocks.HICKORY_TRAPDOOR);
+	public static final RegistryObject<Item> HICKORY_NUT = REGISTRY.register("hickory_nut", () -> new HickoryNutItem());
 	public static final RegistryObject<Item> HICKORY_LEAVES = block(WildasideModBlocks.HICKORY_LEAVES);
 	public static final RegistryObject<Item> RED_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.RED_GLOWING_HICKORY_LEAVES);
 	public static final RegistryObject<Item> BROWN_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.BROWN_GLOWING_HICKORY_LEAVES);
@@ -107,22 +109,29 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> FALLEN_BROWN_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.FALLEN_BROWN_GLOWING_HICKORY_LEAVES);
 	public static final RegistryObject<Item> FALLEN_YELLOW_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.FALLEN_YELLOW_GLOWING_HICKORY_LEAVES);
 	public static final RegistryObject<Item> FALLEN_GREEN_GLOWING_HICKORY_LEAVES = block(WildasideModBlocks.FALLEN_GREEN_GLOWING_HICKORY_LEAVES);
-	public static final RegistryObject<Item> HICKORY_NUT = REGISTRY.register("hickory_nut", () -> new HickoryNutItem());
 	public static final RegistryObject<Item> HICKORY_SAPLING = block(WildasideModBlocks.HICKORY_SAPLING);
 	public static final RegistryObject<Item> RED_GLOWING_HICKORY_SAPLING = block(WildasideModBlocks.RED_GLOWING_HICKORY_SAPLING);
 	public static final RegistryObject<Item> BROWN_GLOWING_HICKORY_SAPLING = block(WildasideModBlocks.BROWN_GLOWING_HICKORY_SAPLING);
 	public static final RegistryObject<Item> YELLOW_GLOWING_HICKORY_SAPLING = block(WildasideModBlocks.YELLOW_GLOWING_HICKORY_SAPLING);
 	public static final RegistryObject<Item> GREEN_GLOWING_HICKORY_SAPLING = block(WildasideModBlocks.GREEN_GLOWING_HICKORY_SAPLING);
-	public static final RegistryObject<Item> PANXTER_FLOWER = block(WildasideModBlocks.PANXTER_FLOWER);
-	public static final RegistryObject<Item> SPOTTED_WINTERGREEN = block(WildasideModBlocks.SPOTTED_WINTERGREEN);
 	public static final RegistryObject<Item> RED_GLOWING_ESSENCE = REGISTRY.register("red_glowing_essence", () -> new RedGlowingEssenceItem());
 	public static final RegistryObject<Item> BROWN_GLOWING_ESSENCE = REGISTRY.register("brown_glowing_essence", () -> new BrownGlowingEssenceItem());
 	public static final RegistryObject<Item> YELLOW_GLOWING_ESSENCE = REGISTRY.register("yellow_glowing_essence", () -> new YellowGlowingEssenceItem());
 	public static final RegistryObject<Item> GREEN_GLOWING_ESSENCE = REGISTRY.register("green_glowing_essence", () -> new GreenGlowingEssenceItem());
 	public static final RegistryObject<Item> RUTILLION = REGISTRY.register("rutillion", () -> new RutillionItem());
+	public static final RegistryObject<Item> PANXTER_FLOWER = block(WildasideModBlocks.PANXTER_FLOWER);
+	public static final RegistryObject<Item> SPOTTED_WINTERGREEN = block(WildasideModBlocks.SPOTTED_WINTERGREEN);
 	public static final RegistryObject<Item> BALD_CYPRESS_LOG = block(WildasideModBlocks.BALD_CYPRESS_LOG);
 	public static final RegistryObject<Item> BALD_CYPRESS_WOOD = block(WildasideModBlocks.BALD_CYPRESS_WOOD);
+	public static final RegistryObject<Item> STRIPPED_BALD_CYPRESS_LOG = block(WildasideModBlocks.STRIPPED_BALD_CYPRESS_LOG);
+	public static final RegistryObject<Item> STRIPPED_BALD_CYPRESS_WOOD = block(WildasideModBlocks.STRIPPED_BALD_CYPRESS_WOOD);
 	public static final RegistryObject<Item> BALD_CYPRESS_PLANKS = block(WildasideModBlocks.BALD_CYPRESS_PLANKS);
+	public static final RegistryObject<Item> BALD_CYPRESS_STAIRS = block(WildasideModBlocks.BALD_CYPRESS_STAIRS);
+	public static final RegistryObject<Item> BALD_CYPRESS_SLAB = block(WildasideModBlocks.BALD_CYPRESS_SLAB);
+	public static final RegistryObject<Item> BALD_CYPRESS_FENCE = block(WildasideModBlocks.BALD_CYPRESS_FENCE);
+	public static final RegistryObject<Item> BALD_CYPRESS_FENCE_GATE = block(WildasideModBlocks.BALD_CYPRESS_FENCE_GATE);
+	public static final RegistryObject<Item> BALD_CYPRESS_PRESSURE_PLATE = block(WildasideModBlocks.BALD_CYPRESS_PRESSURE_PLATE);
+	public static final RegistryObject<Item> BALD_CYPRESS_BUTTON = block(WildasideModBlocks.BALD_CYPRESS_BUTTON);
 	public static final RegistryObject<Item> BALD_CYPRESS_LEAVES = block(WildasideModBlocks.BALD_CYPRESS_LEAVES);
 	public static final RegistryObject<Item> HANGING_VIBRION_VINES_PLANT = block(WildasideModBlocks.HANGING_VIBRION_VINES_PLANT);
 	public static final RegistryObject<Item> SPORE_AIR = block(WildasideModBlocks.SPORE_AIR);
@@ -130,15 +139,6 @@ public class WildasideModItems {
 	public static final RegistryObject<Item> GLOWING_HICKORY_TREE_GROWER = block(WildasideModBlocks.GLOWING_HICKORY_TREE_GROWER);
 	public static final RegistryObject<Item> HANGING_VIBRION_VEGETATION_GROWER = block(WildasideModBlocks.HANGING_VIBRION_VEGETATION_GROWER);
 	public static final RegistryObject<Item> SUBSTILIUM_TREE_GROWER = block(WildasideModBlocks.SUBSTILIUM_TREE_GROWER);
-	public static final RegistryObject<Item> STRIPPED_BALD_CYPRESS_LOG = block(WildasideModBlocks.STRIPPED_BALD_CYPRESS_LOG);
-	public static final RegistryObject<Item> STRIPPED_BALD_CYPRESS_WOOD = block(WildasideModBlocks.STRIPPED_BALD_CYPRESS_WOOD);
-	public static final RegistryObject<Item> BALD_CYPRESS_STAIRS = block(WildasideModBlocks.BALD_CYPRESS_STAIRS);
-	public static final RegistryObject<Item> BALD_CYPRESS_SLAB = block(WildasideModBlocks.BALD_CYPRESS_SLAB);
-	public static final RegistryObject<Item> BALD_CYPRESS_FENCE = block(WildasideModBlocks.BALD_CYPRESS_FENCE);
-	public static final RegistryObject<Item> BALD_CYPRESS_FENCE_GATE = block(WildasideModBlocks.BALD_CYPRESS_FENCE_GATE);
-	public static final RegistryObject<Item> BALD_CYPRESS_PRESSURE_PLATE = block(WildasideModBlocks.BALD_CYPRESS_PRESSURE_PLATE);
-	public static final RegistryObject<Item> BALD_CYPRESS_BUTTON = block(WildasideModBlocks.BALD_CYPRESS_BUTTON);
-	public static final RegistryObject<Item> POOFER_SPAWN_EGG = REGISTRY.register("poofer_spawn_egg", () -> new ForgeSpawnEggItem(WildasideModEntities.POOFER, -925091, -13949950, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

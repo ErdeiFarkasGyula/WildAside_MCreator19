@@ -3,9 +3,9 @@
   "_type": "structure",
   "definition": {
     "structure": "hickory_cabin",
-    "randomlyRotateStructure": false,
+    "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 1569,
+    "spawnProbability": 700,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

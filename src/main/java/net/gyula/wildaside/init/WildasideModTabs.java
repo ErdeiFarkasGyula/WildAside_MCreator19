@@ -28,6 +28,7 @@ public class WildasideModTabs {
 					tabData.accept(WildasideModBlocks.VIBRION_ROOTS.get().asItem());
 					tabData.accept(WildasideModBlocks.HANGING_VIBRION_VINES.get().asItem());
 					tabData.accept(WildasideModBlocks.VIBRION_SPOREHOLDER.get().asItem());
+					tabData.accept(WildasideModItems.POOFER_SPAWN_EGG.get());
 					tabData.accept(WildasideModItems.ENTORIUM.get());
 					tabData.accept(WildasideModItems.ENTORIUM_PILL.get());
 					tabData.accept(WildasideModItems.ENTORIUM_SPOREBOMB.get());
@@ -86,6 +87,7 @@ public class WildasideModTabs {
 					tabData.accept(WildasideModBlocks.HICKORY_BUTTON.get().asItem());
 					tabData.accept(WildasideModBlocks.HICKORY_DOOR.get().asItem());
 					tabData.accept(WildasideModBlocks.HICKORY_TRAPDOOR.get().asItem());
+					tabData.accept(WildasideModItems.HICKORY_NUT.get());
 					tabData.accept(WildasideModBlocks.HICKORY_LEAVES.get().asItem());
 					tabData.accept(WildasideModBlocks.RED_GLOWING_HICKORY_LEAVES.get().asItem());
 					tabData.accept(WildasideModBlocks.BROWN_GLOWING_HICKORY_LEAVES.get().asItem());
@@ -96,32 +98,30 @@ public class WildasideModTabs {
 					tabData.accept(WildasideModBlocks.FALLEN_BROWN_GLOWING_HICKORY_LEAVES.get().asItem());
 					tabData.accept(WildasideModBlocks.FALLEN_YELLOW_GLOWING_HICKORY_LEAVES.get().asItem());
 					tabData.accept(WildasideModBlocks.FALLEN_GREEN_GLOWING_HICKORY_LEAVES.get().asItem());
-					tabData.accept(WildasideModItems.HICKORY_NUT.get());
 					tabData.accept(WildasideModBlocks.HICKORY_SAPLING.get().asItem());
 					tabData.accept(WildasideModBlocks.RED_GLOWING_HICKORY_SAPLING.get().asItem());
 					tabData.accept(WildasideModBlocks.BROWN_GLOWING_HICKORY_SAPLING.get().asItem());
 					tabData.accept(WildasideModBlocks.YELLOW_GLOWING_HICKORY_SAPLING.get().asItem());
 					tabData.accept(WildasideModBlocks.GREEN_GLOWING_HICKORY_SAPLING.get().asItem());
-					tabData.accept(WildasideModBlocks.PANXTER_FLOWER.get().asItem());
-					tabData.accept(WildasideModBlocks.SPOTTED_WINTERGREEN.get().asItem());
 					tabData.accept(WildasideModItems.RED_GLOWING_ESSENCE.get());
 					tabData.accept(WildasideModItems.BROWN_GLOWING_ESSENCE.get());
 					tabData.accept(WildasideModItems.YELLOW_GLOWING_ESSENCE.get());
 					tabData.accept(WildasideModItems.GREEN_GLOWING_ESSENCE.get());
 					tabData.accept(WildasideModItems.RUTILLION.get());
+					tabData.accept(WildasideModBlocks.PANXTER_FLOWER.get().asItem());
+					tabData.accept(WildasideModBlocks.SPOTTED_WINTERGREEN.get().asItem());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_LOG.get().asItem());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_WOOD.get().asItem());
-					tabData.accept(WildasideModBlocks.BALD_CYPRESS_PLANKS.get().asItem());
-					tabData.accept(WildasideModBlocks.BALD_CYPRESS_LEAVES.get().asItem());
 					tabData.accept(WildasideModBlocks.STRIPPED_BALD_CYPRESS_LOG.get().asItem());
 					tabData.accept(WildasideModBlocks.STRIPPED_BALD_CYPRESS_WOOD.get().asItem());
+					tabData.accept(WildasideModBlocks.BALD_CYPRESS_PLANKS.get().asItem());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_STAIRS.get().asItem());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_SLAB.get().asItem());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_FENCE.get().asItem());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_FENCE_GATE.get().asItem());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_PRESSURE_PLATE.get().asItem());
 					tabData.accept(WildasideModBlocks.BALD_CYPRESS_BUTTON.get().asItem());
-					tabData.accept(WildasideModItems.POOFER_SPAWN_EGG.get());
+					tabData.accept(WildasideModBlocks.BALD_CYPRESS_LEAVES.get().asItem());
 				})
 
 		);

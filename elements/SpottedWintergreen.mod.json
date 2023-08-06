@@ -80,7 +80,7 @@
     "speedFactor": 1.0,
     "canBePlacedOn": [],
     "isBonemealable": false,
-    "frequencyOnChunks": 20,
+    "frequencyOnChunks": 15,
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -92,7 +92,7 @@
         "value": "CUSTOM:HickoryForest"
       }
     ],
-    "patchSize": 20,
+    "patchSize": 15,
     "generateAtAnyHeight": false
   }
 }

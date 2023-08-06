@@ -1,7 +1,7 @@
 {
   "type": "wildaside:panxter_flower",
   "config": {
-    "tries": 20,
+    "tries": 15,
     "feature": {
       "feature": {
         "type": "minecraft:simple_block",

@@ -118,9 +118,9 @@ public class PooferEntity extends Animal implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new PanicGoal(this, 1.2));
-		this.goalSelector.addGoal(2, new TemptGoal(this, 1, Ingredient.of(WildasideModBlocks.VIBRION_BLOCK.get().asItem()), false));
-		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8, 20) {
+		this.goalSelector.addGoal(1, new PanicGoal(this, 1.4));
+		this.goalSelector.addGoal(2, new TemptGoal(this, 1.1, Ingredient.of(WildasideModBlocks.VIBRION_BLOCK.get().asItem()), false));
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 1, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				RandomSource random = PooferEntity.this.getRandom();
@@ -132,7 +132,7 @@ public class PooferEntity extends Animal implements GeoEntity {
 		});
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(5, new FloatGoal(this));
-		this.goalSelector.addGoal(6, new LeapAtTargetGoal(this, (float) 0.5));
+		this.goalSelector.addGoal(6, new LeapAtTargetGoal(this, (float) 0.7));
 	}
 
 	@Override
@@ -225,13 +225,13 @@ public class PooferEntity extends Animal implements GeoEntity {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.2);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
 		builder = builder.add(Attributes.MAX_HEALTH, 10);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.1);
-		builder = builder.add(Attributes.FLYING_SPEED, 0.2);
+		builder = builder.add(Attributes.FLYING_SPEED, 0.3);
 		return builder;
 	}
 

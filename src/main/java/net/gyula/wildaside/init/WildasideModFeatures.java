@@ -83,6 +83,11 @@ import net.gyula.wildaside.world.features.HickoryTreeGrowerStr3Feature;
 import net.gyula.wildaside.world.features.HickoryTreeGrowerStr2Feature;
 import net.gyula.wildaside.world.features.HickoryTreeGrowerStr1Feature;
 import net.gyula.wildaside.world.features.HickoryCabinStrFeature;
+import net.gyula.wildaside.world.features.HickoryCabin6Feature;
+import net.gyula.wildaside.world.features.HickoryCabin5Feature;
+import net.gyula.wildaside.world.features.HickoryCabin4Feature;
+import net.gyula.wildaside.world.features.HickoryCabin3Feature;
+import net.gyula.wildaside.world.features.HickoryCabin2Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVegetationGrowerStr9Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVegetationGrowerStr8Feature;
 import net.gyula.wildaside.world.features.HangingVibrionVegetationGrowerStr7Feature;
@@ -304,4 +309,9 @@ public class WildasideModFeatures {
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VEGETATION_GROWER_STR_68 = REGISTRY.register("hanging_vibrion_vegetation_grower_str_68", HangingVibrionVegetationGrowerStr68Feature::new);
 	public static final RegistryObject<Feature<?>> HANGING_VIBRION_VEGETATION_GROWER_STR_69 = REGISTRY.register("hanging_vibrion_vegetation_grower_str_69", HangingVibrionVegetationGrowerStr69Feature::new);
 	public static final RegistryObject<Feature<?>> HICKORY_CABIN_STR = REGISTRY.register("hickory_cabin_str", HickoryCabinStrFeature::new);
+	public static final RegistryObject<Feature<?>> HICKORY_CABIN_2 = REGISTRY.register("hickory_cabin_2", HickoryCabin2Feature::new);
+	public static final RegistryObject<Feature<?>> HICKORY_CABIN_3 = REGISTRY.register("hickory_cabin_3", HickoryCabin3Feature::new);
+	public static final RegistryObject<Feature<?>> HICKORY_CABIN_4 = REGISTRY.register("hickory_cabin_4", HickoryCabin4Feature::new);
+	public static final RegistryObject<Feature<?>> HICKORY_CABIN_5 = REGISTRY.register("hickory_cabin_5", HickoryCabin5Feature::new);
+	public static final RegistryObject<Feature<?>> HICKORY_CABIN_6 = REGISTRY.register("hickory_cabin_6", HickoryCabin6Feature::new);
 }

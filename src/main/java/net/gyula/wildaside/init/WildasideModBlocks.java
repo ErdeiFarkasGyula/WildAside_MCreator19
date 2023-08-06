@@ -198,7 +198,15 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> SPOTTED_WINTERGREEN = REGISTRY.register("spotted_wintergreen", () -> new SpottedWintergreenBlock());
 	public static final RegistryObject<Block> BALD_CYPRESS_LOG = REGISTRY.register("bald_cypress_log", () -> new BaldCypressLogBlock());
 	public static final RegistryObject<Block> BALD_CYPRESS_WOOD = REGISTRY.register("bald_cypress_wood", () -> new BaldCypressBlockBlock());
+	public static final RegistryObject<Block> STRIPPED_BALD_CYPRESS_LOG = REGISTRY.register("stripped_bald_cypress_log", () -> new StrippedBaldCypressLogBlock());
+	public static final RegistryObject<Block> STRIPPED_BALD_CYPRESS_WOOD = REGISTRY.register("stripped_bald_cypress_wood", () -> new StrippedBaldCypressWoodBlock());
 	public static final RegistryObject<Block> BALD_CYPRESS_PLANKS = REGISTRY.register("bald_cypress_planks", () -> new BaldCypressPlanksBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_STAIRS = REGISTRY.register("bald_cypress_stairs", () -> new BaldCypressStairsBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_SLAB = REGISTRY.register("bald_cypress_slab", () -> new BaldCypressSlabBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_FENCE = REGISTRY.register("bald_cypress_fence", () -> new BaldCypressFenceBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_FENCE_GATE = REGISTRY.register("bald_cypress_fence_gate", () -> new BaldCypressFenceGateBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_PRESSURE_PLATE = REGISTRY.register("bald_cypress_pressure_plate", () -> new BaldCypressPressurePlateBlock());
+	public static final RegistryObject<Block> BALD_CYPRESS_BUTTON = REGISTRY.register("bald_cypress_button", () -> new BaldCypressButtonBlock());
 	public static final RegistryObject<Block> BALD_CYPRESS_LEAVES = REGISTRY.register("bald_cypress_leaves", () -> new BaldCypressLeavesBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VINES_PLANT = REGISTRY.register("hanging_vibrion_vines_plant", () -> new HangingVibrionVinesPlantBlock());
 	public static final RegistryObject<Block> SPORE_AIR = REGISTRY.register("spore_air", () -> new SporeAirBlock());
@@ -206,14 +214,6 @@ public class WildasideModBlocks {
 	public static final RegistryObject<Block> GLOWING_HICKORY_TREE_GROWER = REGISTRY.register("glowing_hickory_tree_grower", () -> new GlowingHickoryTreeGrowerBlock());
 	public static final RegistryObject<Block> HANGING_VIBRION_VEGETATION_GROWER = REGISTRY.register("hanging_vibrion_vegetation_grower", () -> new HangingVibrionVegetationGrowerBlock());
 	public static final RegistryObject<Block> SUBSTILIUM_TREE_GROWER = REGISTRY.register("substilium_tree_grower", () -> new SubstiliumTreeGrowerBlock());
-	public static final RegistryObject<Block> STRIPPED_BALD_CYPRESS_LOG = REGISTRY.register("stripped_bald_cypress_log", () -> new StrippedBaldCypressLogBlock());
-	public static final RegistryObject<Block> STRIPPED_BALD_CYPRESS_WOOD = REGISTRY.register("stripped_bald_cypress_wood", () -> new StrippedBaldCypressWoodBlock());
-	public static final RegistryObject<Block> BALD_CYPRESS_STAIRS = REGISTRY.register("bald_cypress_stairs", () -> new BaldCypressStairsBlock());
-	public static final RegistryObject<Block> BALD_CYPRESS_SLAB = REGISTRY.register("bald_cypress_slab", () -> new BaldCypressSlabBlock());
-	public static final RegistryObject<Block> BALD_CYPRESS_FENCE = REGISTRY.register("bald_cypress_fence", () -> new BaldCypressFenceBlock());
-	public static final RegistryObject<Block> BALD_CYPRESS_FENCE_GATE = REGISTRY.register("bald_cypress_fence_gate", () -> new BaldCypressFenceGateBlock());
-	public static final RegistryObject<Block> BALD_CYPRESS_PRESSURE_PLATE = REGISTRY.register("bald_cypress_pressure_plate", () -> new BaldCypressPressurePlateBlock());
-	public static final RegistryObject<Block> BALD_CYPRESS_BUTTON = REGISTRY.register("bald_cypress_button", () -> new BaldCypressButtonBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

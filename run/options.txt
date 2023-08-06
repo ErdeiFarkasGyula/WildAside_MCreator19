@@ -31,7 +31,7 @@ glintStrength:0.75
 damageTiltStrength:1.0
 highContrast:false
 gamma:1.0
-renderDistance:12
+renderDistance:14
 simulationDistance:12
 entityDistanceScaling:1.0
 guiScale:3
@@ -63,7 +63,7 @@ chatHeightUnfocused:0.4375
 chatScale:1.0
 chatWidth:1.0
 notificationDisplayTime:1.0
-mipmapLevels:2
+mipmapLevels:4
 useNativeTransport:true
 mainHand:"right"
 attackIndicator:1
@@ -121,7 +121,7 @@ key_key.hotbar.9:key.keyboard.9
 soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:1.0
+soundCategory_weather:0.0
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0

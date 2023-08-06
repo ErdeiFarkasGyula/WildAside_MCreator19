@@ -17,7 +17,7 @@ import net.gyula.wildaside.client.renderer.PooferRenderer;
 public class WildasideModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(WildasideModEntities.ENTORIUM_SPOREBOMB.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(WildasideModEntities.POOFER.get(), PooferRenderer::new);
+		event.registerEntityRenderer(WildasideModEntities.ENTORIUM_SPOREBOMB.get(), ThrownItemRenderer::new);
 	}
 }

@@ -39,7 +39,7 @@ public class HickoryCabinStrFeature extends Feature<NoneFeatureConfiguration> {
 		if (template == null)
 			return false;
 		boolean anyPlaced = false;
-		if ((context.random().nextInt(1000000) + 1) <= 1569) {
+		if ((context.random().nextInt(1000000) + 1) <= 700) {
 			int count = context.random().nextInt(1) + 1;
 			for (int a = 0; a < count; a++) {
 				int i = context.origin().getX() + context.random().nextInt(16);
@@ -48,8 +48,8 @@ public class HickoryCabinStrFeature extends Feature<NoneFeatureConfiguration> {
 				if (!base_blocks.contains(context.level().getBlockState(new BlockPos(i, j, k)).getBlock()))
 					continue;
 				BlockPos spawnTo = new BlockPos(i + 0, j + -3, k + 0);
-				if (template.placeInWorld(context.level(), spawnTo, spawnTo,
-						new StructurePlaceSettings().setMirror(Mirror.NONE).setRotation(Rotation.NONE).setRandom(context.random()).addProcessor(BlockIgnoreProcessor.STRUCTURE_BLOCK).setIgnoreEntities(false), context.random(), 2)) {
+				if (template.placeInWorld(context.level(), spawnTo, spawnTo, new StructurePlaceSettings().setMirror(Mirror.values()[context.random().nextInt(2)]).setRotation(Rotation.values()[context.random().nextInt(3)]).setRandom(context.random())
+						.addProcessor(BlockIgnoreProcessor.STRUCTURE_BLOCK).setIgnoreEntities(false), context.random(), 2)) {
 					anyPlaced = true;
 				}
 			}
