@@ -9466,7 +9466,9 @@
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "wildaside_logo",
-    "requiredMods": [],
+    "requiredMods": [
+      "geckolib"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [

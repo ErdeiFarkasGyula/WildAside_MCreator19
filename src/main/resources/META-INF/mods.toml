@@ -20,6 +20,12 @@ description="An amazing biome and exploration mod"
     side="BOTH"
 
 
+[[dependencies.wildaside]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 [[dependencies.wildaside]]
     modId="geckolib"
