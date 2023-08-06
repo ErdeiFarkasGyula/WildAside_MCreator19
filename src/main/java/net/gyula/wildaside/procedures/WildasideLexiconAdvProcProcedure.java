@@ -10,7 +10,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.tags.TagKey;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.registries.Registries;
+import net.minecraft.core.Registry;
 import net.minecraft.core.BlockPos;
 import net.minecraft.advancements.AdvancementProgress;
 import net.minecraft.advancements.Advancement;
@@ -18,6 +18,8 @@ import net.minecraft.advancements.Advancement;
 import net.gyula.wildaside.init.WildasideModGameRules;
 
 import javax.annotation.Nullable;
+
+import java.util.Iterator;
 
 @Mod.EventBusSubscriber
 public class WildasideLexiconAdvProcProcedure {
@@ -36,13 +38,14 @@ public class WildasideLexiconAdvProcProcedure {
 		if (entity == null)
 			return;
 		if (world.getLevelData().getGameRules().getBoolean(WildasideModGameRules.GIVE_PLAYERS_LEXICON_WHEN_ENTERING_WILDASIDE_BIOMES) == true) {
-			if (world.getBiome(BlockPos.containing(x, y, z)).is(TagKey.create(Registries.BIOME, new ResourceLocation("wildaside:wildaside_biomes")))) {
+			if (world.getBiome(new BlockPos(x, y, z)).is(TagKey.create(Registry.BIOME_REGISTRY, new ResourceLocation("wildaside:wildaside_biomes")))) {
 				if (entity instanceof ServerPlayer _player) {
 					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:wildaside_lexicon_giver_adv"));
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 					if (!_ap.isDone()) {
-						for (String criteria : _ap.getRemainingCriteria())
-							_player.getAdvancements().award(_adv, criteria);
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
 					}
 				}
 			}

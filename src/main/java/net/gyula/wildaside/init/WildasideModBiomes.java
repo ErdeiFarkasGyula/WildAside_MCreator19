@@ -4,11 +4,15 @@
  */
 package net.gyula.wildaside.init;
 
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.server.ServerAboutToStartEvent;
 
 import net.minecraft.world.level.levelgen.placement.CaveSurface;
+import net.minecraft.world.level.levelgen.WorldGenSettings;
 import net.minecraft.world.level.levelgen.SurfaceRules;
 import net.minecraft.world.level.levelgen.NoiseGeneratorSettings;
 import net.minecraft.world.level.levelgen.NoiseBasedChunkGenerator;
@@ -23,12 +27,16 @@ import net.minecraft.world.level.biome.FeatureSorter;
 import net.minecraft.world.level.biome.Climate;
 import net.minecraft.world.level.biome.Biome;
 import net.minecraft.server.MinecraftServer;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.core.registries.Registries;
 import net.minecraft.core.Registry;
 import net.minecraft.core.Holder;
 
+import net.gyula.wildaside.world.biome.VibrionHiveBiome;
+import net.gyula.wildaside.world.biome.HickoryForestBiome;
+import net.gyula.wildaside.world.biome.GlowingHickoryForestBiome;
+import net.gyula.wildaside.WildasideMod;
+
+import java.util.Map;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -38,30 +46,35 @@ import com.google.common.base.Suppliers;
 
 @Mod.EventBusSubscriber
 public class WildasideModBiomes {
+	public static final DeferredRegister<Biome> REGISTRY = DeferredRegister.create(ForgeRegistries.BIOMES, WildasideMod.MODID);
+	public static final RegistryObject<Biome> VIBRION_HIVE = REGISTRY.register("vibrion_hive", VibrionHiveBiome::createBiome);
+	public static final RegistryObject<Biome> HICKORY_FOREST = REGISTRY.register("hickory_forest", HickoryForestBiome::createBiome);
+	public static final RegistryObject<Biome> GLOWING_HICKORY_FOREST = REGISTRY.register("glowing_hickory_forest", GlowingHickoryForestBiome::createBiome);
+
 	@SubscribeEvent
 	public static void onServerAboutToStart(ServerAboutToStartEvent event) {
 		MinecraftServer server = event.getServer();
-		Registry<DimensionType> dimensionTypeRegistry = server.registryAccess().registryOrThrow(Registries.DIMENSION_TYPE);
-		Registry<LevelStem> levelStemTypeRegistry = server.registryAccess().registryOrThrow(Registries.LEVEL_STEM);
-		Registry<Biome> biomeRegistry = server.registryAccess().registryOrThrow(Registries.BIOME);
-		for (LevelStem levelStem : levelStemTypeRegistry.stream().toList()) {
-			DimensionType dimensionType = levelStem.type().value();
+		Registry<DimensionType> dimensionTypeRegistry = server.registryAccess().registryOrThrow(Registry.DIMENSION_TYPE_REGISTRY);
+		Registry<Biome> biomeRegistry = server.registryAccess().registryOrThrow(Registry.BIOME_REGISTRY);
+		WorldGenSettings worldGenSettings = server.getWorldData().worldGenSettings();
+		for (Map.Entry<ResourceKey<LevelStem>, LevelStem> entry : worldGenSettings.dimensions().entrySet()) {
+			DimensionType dimensionType = entry.getValue().typeHolder().value();
 			if (dimensionType == dimensionTypeRegistry.getOrThrow(BuiltinDimensionTypes.OVERWORLD)) {
-				ChunkGenerator chunkGenerator = levelStem.generator();
+				ChunkGenerator chunkGenerator = entry.getValue().generator();
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
-					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters().values());
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.4f, 0.5f), Climate.Parameter.span(-0.4f, 0.5f), Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-1f, 0.4f), Climate.Parameter.point(0.0f),
-							Climate.Parameter.span(-1f, 0.5f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "hickory_forest")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.4f, 0.5f), Climate.Parameter.span(-0.4f, 0.5f), Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-1f, 0.4f), Climate.Parameter.point(1.0f),
-							Climate.Parameter.span(-1f, 0.5f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "hickory_forest")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.3f, 0.8f), Climate.Parameter.span(0f, 0.6999f), Climate.Parameter.span(0f, 1.3f), Climate.Parameter.span(-0.3f, 1.1f), Climate.Parameter.point(0.0f),
-							Climate.Parameter.span(-0.4f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "glowing_hickory_forest")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.3f, 0.8f), Climate.Parameter.span(0f, 0.6999f), Climate.Parameter.span(0f, 1.3f), Climate.Parameter.span(-0.3f, 1.1f), Climate.Parameter.point(1.0f),
-							Climate.Parameter.span(-0.4f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "glowing_hickory_forest")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(-1f, 0f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(0.4f, 1f), Climate.Parameter.span(0.2f, 0.9f),
-							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "vibrion_hive")))));
-					chunkGenerator.biomeSource = MultiNoiseBiomeSource.createFromList(new Climate.ParameterList<>(parameters));
+					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters.values());
+					for (Climate.ParameterPoint parameterPoint : HickoryForestBiome.PARAMETER_POINTS) {
+						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()))));
+					}
+					for (Climate.ParameterPoint parameterPoint : GlowingHickoryForestBiome.PARAMETER_POINTS) {
+						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, GLOWING_HICKORY_FOREST.getId()))));
+					}
+					for (Climate.ParameterPoint parameterPoint : VibrionHiveBiome.UNDERGROUND_PARAMETER_POINTS) {
+						parameters.add(new Pair<>(parameterPoint, biomeRegistry.getOrCreateHolderOrThrow(ResourceKey.create(Registry.BIOME_REGISTRY, VIBRION_HIVE.getId()))));
+					}
+
+					chunkGenerator.biomeSource = new MultiNoiseBiomeSource(new Climate.ParameterList<>(parameters), noiseSource.preset);
 					chunkGenerator.featuresPerStep = Suppliers
 							.memoize(() -> FeatureSorter.buildFeaturesPerStep(List.copyOf(chunkGenerator.biomeSource.possibleBiomes()), biome -> chunkGenerator.generationSettingsGetter.apply(biome).features(), true));
 				}
@@ -71,12 +84,11 @@ public class WildasideModBiomes {
 					SurfaceRules.RuleSource currentRuleSource = noiseGeneratorSettings.surfaceRule();
 					if (currentRuleSource instanceof SurfaceRules.SequenceRuleSource sequenceRuleSource) {
 						List<SurfaceRules.RuleSource> surfaceRules = new ArrayList<>(sequenceRuleSource.sequence());
-						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "vibrion_hive")), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(),
-								WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState()));
-						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "hickory_forest")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(),
-								Blocks.DIRT.defaultBlockState()));
-						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "glowing_hickory_forest")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(),
-								Blocks.DIRT.defaultBlockState()));
+						surfaceRules.add(1, anySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, VIBRION_HIVE.getId()), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(), WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState(),
+								WildasideModBlocks.SUBSTILIUM_SOIL.get().defaultBlockState()));
+						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, HICKORY_FOREST.getId()), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
+						surfaceRules.add(1,
+								preliminarySurfaceRule(ResourceKey.create(Registry.BIOME_REGISTRY, GLOWING_HICKORY_FOREST.getId()), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
 								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());
@@ -84,6 +96,7 @@ public class WildasideModBiomes {
 					}
 				}
 			}
+
 		}
 	}
 

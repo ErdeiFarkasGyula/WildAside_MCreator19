@@ -1,0 +1,46 @@
+{
+  "minecraft:recipes/misc/sugar_from_honey_bottle": {
+    "criteria": {
+      "has_honey_bottle": "2023-08-06 18:59:41 +0200"
+    },
+    "done": true
+  },
+  "wildaside:wild_wilder_wildest": {
+    "criteria": {
+      "wild_wilder_wildest": "2023-08-06 18:52:15 +0200"
+    },
+    "done": true
+  },
+  "wildaside:colourful_innit": {
+    "criteria": {
+      "colourful_innit": "2023-08-06 18:59:00 +0200"
+    },
+    "done": true
+  },
+  "wildaside:quattuor_essentiae": {
+    "criteria": {
+      "quattuor_essentiae": "2023-08-06 18:59:47 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/honey_block": {
+    "criteria": {
+      "has_honey_bottle": "2023-08-06 18:59:41 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:bamboo_jungle": "2023-08-06 18:59:46 +0200",
+      "minecraft:plains": "2023-08-06 18:52:16 +0200"
+    },
+    "done": false
+  },
+  "wildaside:glowing_wonder": {
+    "criteria": {
+      "glowing_wonder": "2023-08-06 18:59:05 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3120
+}

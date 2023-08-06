@@ -1,11 +1,12 @@
 {
   "multipart": [
-    {
+  	{
       "when": {
         "is_yellow": "false"
       },
       "apply": {
-        "model": "wildaside:block/hickory_fence_post"
+        "model": "wildaside:block/hickory_fence_post",
+        "uvlock": true
       }
     },
     {
@@ -13,9 +14,13 @@
         "is_yellow": "true"
       },
       "apply": {
-        "model":"wildaside:block/yellow_hickory_fence_post"
+        "model": "wildaside:block/yellow_hickory_fence_post",
+        "uvlock": true
       }
     },
+
+
+    
     {
       "when": {
         "north": "true",
@@ -28,32 +33,11 @@
     },
     {
       "when": {
-        "north": "true",
-        "is_yellow": "true"
-      },
-      "apply": {
-        "model": "wildaside:block/yellow_hickory_fence",
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
         "south": "true",
-        "is_yellow":"false"
+        "is_yellow": "false"
       },
       "apply": {
         "model": "wildaside:block/hickory_fence",
-        "y": 180,
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "south": "true",
-        "is_yellow":"true"
-      },
-      "apply": {
-        "model": "wildaside:block/yellow_hickory_fence",
         "y": 180,
         "uvlock": true
       }
@@ -65,17 +49,6 @@
       },
       "apply": {
         "model": "wildaside:block/hickory_fence",
-        "y": 270,
-        "uvlock": true
-      }
-    },
-    {
-      "when": {
-        "west": "true",
-        "is_yellow": "true"
-      },
-      "apply": {
-        "model": "wildaside:block/yellow_hickory_fence",
         "y": 270,
         "uvlock": true
       }
@@ -88,6 +61,41 @@
       "apply": {
         "model": "wildaside:block/hickory_fence",
         "y": 90,
+        "uvlock": true
+      }
+    },
+
+
+
+    {
+      "when": {
+        "north": "true",
+        "is_yellow": "true"
+      },
+      "apply": {
+        "model": "wildaside:block/yellow_hickory_fence",
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "south": "true",
+        "is_yellow": "true"
+      },
+      "apply": {
+        "model": "wildaside:block/yellow_hickory_fence",
+        "y": 180,
+        "uvlock": true
+      }
+    },
+    {
+      "when": {
+        "west": "true",
+        "is_yellow": "true"
+      },
+      "apply": {
+        "model": "wildaside:block/yellow_hickory_fence",
+        "y": 270,
         "uvlock": true
       }
     },

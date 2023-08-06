@@ -18,6 +18,8 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 import javax.annotation.Nullable;
 
+import java.util.Iterator;
+
 @Mod.EventBusSubscriber
 public class ItsShearingTimeProcProcedure {
 	@SubscribeEvent
@@ -43,8 +45,9 @@ public class ItsShearingTimeProcProcedure {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:its_shearing_time"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 				if (!_ap.isDone()) {
-					for (String criteria : _ap.getRemainingCriteria())
-						_player.getAdvancements().award(_adv, criteria);
+					Iterator _iterator = _ap.getRemainingCriteria().iterator();
+					while (_iterator.hasNext())
+						_player.getAdvancements().award(_adv, (String) _iterator.next());
 				}
 			}
 		}

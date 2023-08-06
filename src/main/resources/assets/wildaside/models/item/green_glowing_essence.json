@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wildaside:item/green_glowing_essence"
+    "layer0": "wildaside:items/green_glowing_essence"
   }
 }

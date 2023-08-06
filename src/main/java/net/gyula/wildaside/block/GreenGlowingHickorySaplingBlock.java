@@ -11,7 +11,6 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FlowerBlock;
 import net.minecraft.world.level.block.BonemealableBlock;
-import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
@@ -30,7 +29,7 @@ import java.util.Collections;
 
 public class GreenGlowingHickorySaplingBlock extends FlowerBlock implements BonemealableBlock {
 	public GreenGlowingHickorySaplingBlock() {
-		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().lightLevel(s -> 3).noCollission());
+		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT).randomTicks().sound(SoundType.GRASS).instabreak().lightLevel(s -> 3).noCollission());
 	}
 
 	@Override
@@ -68,7 +67,7 @@ public class GreenGlowingHickorySaplingBlock extends FlowerBlock implements Bone
 	}
 
 	@Override
-	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate, boolean clientSide) {
+	public boolean isValidBonemealTarget(BlockGetter worldIn, BlockPos pos, BlockState blockstate, boolean clientSide) {
 		return true;
 	}
 

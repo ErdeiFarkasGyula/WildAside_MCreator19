@@ -13,7 +13,7 @@
  */
 package net.gyula.wildaside;
 
-import software.bernie.geckolib.GeckoLib;
+import software.bernie.geckolib3.GeckoLib;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -31,6 +31,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.gyula.wildaside.init.WildasideModTabs;
 import net.gyula.wildaside.init.WildasideModParticleTypes;
 import net.gyula.wildaside.init.WildasideModMobEffects;
 import net.gyula.wildaside.init.WildasideModMenus;
@@ -40,6 +41,7 @@ import net.gyula.wildaside.init.WildasideModEntities;
 import net.gyula.wildaside.init.WildasideModEnchantments;
 import net.gyula.wildaside.init.WildasideModBlocks;
 import net.gyula.wildaside.init.WildasideModBlockEntities;
+import net.gyula.wildaside.init.WildasideModBiomes;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -57,6 +59,7 @@ public class WildasideMod {
 
 	public WildasideMod() {
 		MinecraftForge.EVENT_BUS.register(this);
+		WildasideModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		WildasideModBlocks.REGISTRY.register(bus);
@@ -70,6 +73,7 @@ public class WildasideMod {
 		WildasideModEnchantments.REGISTRY.register(bus);
 		WildasideModParticleTypes.REGISTRY.register(bus);
 		WildasideModMenus.REGISTRY.register(bus);
+		WildasideModBiomes.REGISTRY.register(bus);
 
 		GeckoLib.initialize();
 	}

@@ -1,9 +1,9 @@
 {
   "parent": "wildaside:custom/fallen_leaves",
   "textures": {
-    "all": "wildaside:block/green_glowing_hickory_leaves",
-    "particle": "wildaside:block/green_glowing_hickory_leaves",
-    "leaves": "wildaside:block/green_glowing_hickory_leaves"
+    "all": "wildaside:blocks/green_glowing_hickory_leaves",
+    "particle": "wildaside:blocks/green_glowing_hickory_leaves",
+    "leaves": "wildaside:blocks/green_glowing_hickory_leaves"
   },
   "render_type": "cutout"
 }

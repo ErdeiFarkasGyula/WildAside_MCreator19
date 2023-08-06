@@ -4,23 +4,23 @@ package net.gyula.wildaside.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.properties.WoodType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.FenceGateBlock;
 import net.minecraft.world.level.Level;
-import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.gyula.wildaside.procedures.HickoryPlanksBlockAddedProcedure;
+
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
-import net.gyula.wildaside.init.WildasideModBlocks;
-
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import java.util.List;
 import java.util.Collections;
@@ -30,7 +30,7 @@ public class HickoryFenceGateBlock extends FenceGateBlock {
 	public static final BooleanProperty IS_YELLOW = BooleanProperty.create("is_yellow");
 
 	public HickoryFenceGateBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_ORANGE).sound(SoundType.WOOD).strength(2.5f, 4f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape(), WoodType.OAK);
+		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_ORANGE).sound(SoundType.WOOD).strength(2.5f, 4f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
 	}
 
 	@Override
@@ -56,10 +56,9 @@ public class HickoryFenceGateBlock extends FenceGateBlock {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		HickoryPlanksBlockAddedProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
-
+	
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
-		pBuilder.add(FACING, OPEN, POWERED, IN_WALL, IS_YELLOW);
-	}
-
+      	pBuilder.add(IS_YELLOW, FACING, IN_WALL, OPEN, POWERED);
+   	}
 }

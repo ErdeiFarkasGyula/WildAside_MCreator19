@@ -4,7 +4,6 @@ package net.gyula.wildaside.block;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
-import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -16,10 +15,12 @@ import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
 import net.gyula.wildaside.procedures.HickoryPlanksBlockAddedProcedure;
+
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
-import net.gyula.wildaside.init.WildasideModBlocks;
-import net.minecraft.world.level.block.Block;
+import net.minecraftforge.api.distmarker.OnlyIn;
+import net.minecraftforge.api.distmarker.Dist;
 
 import java.util.List;
 import java.util.Collections;
@@ -27,9 +28,9 @@ import java.util.Collections;
 public class HickoryPressurePlateBlock extends PressurePlateBlock {
 
 	public static final BooleanProperty IS_YELLOW = BooleanProperty.create("is_yellow");
-	
+
 	public HickoryPressurePlateBlock() {
-		super(Sensitivity.MOBS, BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_ORANGE).sound(SoundType.WOOD).strength(2.5f, 4f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape(), BlockSetType.IRON);
+		super(Sensitivity.MOBS, BlockBehaviour.Properties.of(Material.STONE, MaterialColor.TERRACOTTA_ORANGE).sound(SoundType.WOOD).strength(2.5f, 4f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
 	}
 
 	@Override
@@ -58,7 +59,6 @@ public class HickoryPressurePlateBlock extends PressurePlateBlock {
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> pBuilder) {
-		pBuilder.add(POWERED, IS_YELLOW);
-	}
-
+      	pBuilder.add(IS_YELLOW, POWERED);
+   	}
 }

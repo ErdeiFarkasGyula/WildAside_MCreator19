@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "wildaside:item/vibrion_roots"
+    "layer0": "wildaside:items/vibrion_roots"
   }
 }

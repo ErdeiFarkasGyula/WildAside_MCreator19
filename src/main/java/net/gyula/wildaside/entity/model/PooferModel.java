@@ -1,12 +1,12 @@
 package net.gyula.wildaside.entity.model;
 
-import software.bernie.geckolib.model.GeoModel;
+import software.bernie.geckolib3.model.AnimatedGeoModel;
 
 import net.minecraft.resources.ResourceLocation;
 
 import net.gyula.wildaside.entity.PooferEntity;
 
-public class PooferModel extends GeoModel<PooferEntity> {
+public class PooferModel extends AnimatedGeoModel<PooferEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(PooferEntity entity) {
 		return new ResourceLocation("wildaside", "animations/poofer.animation.json");

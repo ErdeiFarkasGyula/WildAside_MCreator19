@@ -1,445 +1,546 @@
-[06Aug2023 17:02:47.292] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 3, --assetsDir, C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 45.1.0, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
-[06Aug2023 17:02:47.299] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[06Aug2023 17:02:47.490] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
-[06Aug2023 17:02:47.929] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Felhasználó\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.4-45.1.0\b0e84ca3a357ff3c21236b9cff29dc11728c2fc1\javafmllanguage-1.19.4-45.1.0.jar is missing mods.toml file
-[06Aug2023 17:02:47.934] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Felhasználó\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.4-45.1.0\ab850b1d43a0870a58cd14eef8007e7a9f2d5d24\lowcodelanguage-1.19.4-45.1.0.jar is missing mods.toml file
-[06Aug2023 17:02:47.938] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Felhasználó\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.4-45.1.0\97118201a6b56edf1c41a03f94b03c5d39980c2f\mclanguage-1.19.4-45.1.0.jar is missing mods.toml file
-[06Aug2023 17:02:47.943] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Felhasználó\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.4-45.1.0\c21da731e12998ed3a9fddba965c75c42c63404e\fmlcore-1.19.4-45.1.0.jar is missing mods.toml file
-[06Aug2023 17:02:48.059] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[06Aug2023 17:02:49.853] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 3]
-[06Aug2023 17:02:55.190] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 180 Datafixer optimizations took 201 milliseconds
-[06Aug2023 17:02:57.876] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/WildAside_MCreator19/build/fg_cache/net/minecraftforge/forge/1.19.4-45.1.0_mapped_official_1.19.4/forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar%23189!/assets/.mcassetsroot' uses unexpected schema
-[06Aug2023 17:02:57.877] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/WildAside_MCreator19/build/fg_cache/net/minecraftforge/forge/1.19.4-45.1.0_mapped_official_1.19.4/forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar%23189!/data/.mcassetsroot' uses unexpected schema
-[06Aug2023 17:02:57.901] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[06Aug2023 17:02:57.907] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[06Aug2023 17:02:58.060] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[06Aug2023 17:02:58.843] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.1.0, for MC 1.19.4 with MCP 20230314.122934
-[06Aug2023 17:02:58.847] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.1.0 Initialized
-[06Aug2023 17:03:00.766] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
-[06Aug2023 17:03:01.183] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
-[06Aug2023 17:03:01.827] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[06Aug2023 17:03:02.641] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 45.1.0 Target: null
-[06Aug2023 17:03:05.949] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.brush.brushing
-[06Aug2023 17:03:05.950] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.brush.brush_sand_completed
-[06Aug2023 17:03:05.951] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[06Aug2023 17:03:05.951] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[06Aug2023 17:03:05.951] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:music.overworld.cherry_grove
-[06Aug2023 17:03:06.005] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Hangszórók (Realtek High Definition Audio)
-[06Aug2023 17:03:06.006] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[06Aug2023 17:03:06.052] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[06Aug2023 17:03:06.072] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[06Aug2023 17:03:06.073] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[06Aug2023 17:03:06.074] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[06Aug2023 17:03:06.075] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[06Aug2023 17:03:06.080] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[06Aug2023 17:03:06.080] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[06Aug2023 17:03:06.080] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[06Aug2023 17:03:06.081] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[06Aug2023 17:03:06.260] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[06Aug2023 17:03:06.330] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[06Aug2023 17:03:06.334] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[06Aug2023 17:03:06.334] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[06Aug2023 17:03:06.895] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[06Aug2023 17:03:20.750] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Deleting level New World (2)
-[06Aug2023 17:03:20.751] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Attempt 1...
-[06Aug2023 17:03:22.925] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wildaside:wildaside_lexion_craft_2
+[06Aug2023 18:50:22.924] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.2.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[06Aug2023 18:50:22.929] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.7 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[06Aug2023 18:50:23.109] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Felhasználó/.mcreator/gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
+[06Aug2023 18:50:23.515] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Felhasználó\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.0\5713dfd49576886a7ffc353f14f067ad42369592\javafmllanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[06Aug2023 18:50:23.520] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Felhasználó\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.2.0\51c88985dd125457fb8b6c2c58a4f3b9349a6b57\lowcodelanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[06Aug2023 18:50:23.523] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Felhasználó\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.2.0\f4fa83ef8129c7f7cc5847fbafb07f7ae86c1bb\mclanguage-1.19.2-43.2.0.jar is missing mods.toml file
+[06Aug2023 18:50:23.527] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Felhasználó\.mcreator\gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.2.0\d4dcb5b809b7f035ac22b058941cf81f84451545\fmlcore-1.19.2-43.2.0.jar is missing mods.toml file
+[06Aug2023 18:50:23.641] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[06Aug2023 18:50:25.289] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[06Aug2023 18:50:29.227] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[06Aug2023 18:50:31.311] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/E:/WildAside_MCreator19/build/fg_cache/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/assets/.mcassetsroot' uses unexpected schema
+[06Aug2023 18:50:31.312] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/E:/WildAside_MCreator19/build/fg_cache/net/minecraftforge/forge/1.19.2-43.2.0_mapped_official_1.19.2/forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/data/.mcassetsroot' uses unexpected schema
+[06Aug2023 18:50:31.327] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[06Aug2023 18:50:31.332] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[06Aug2023 18:50:31.470] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[06Aug2023 18:50:32.206] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.0, for MC 1.19.2 with MCP 20220805.130853
+[06Aug2023 18:50:32.207] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.0 Initialized
+[06Aug2023 18:50:33.666] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: []
+[06Aug2023 18:50:34.003] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[06Aug2023 18:50:34.443] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[06Aug2023 18:50:35.247] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.2.0 Target: null
+[06Aug2023 18:50:47.503] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[06Aug2023 18:50:47.504] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[06Aug2023 18:50:47.583] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Hangszórók (Realtek High Definition Audio)
+[06Aug2023 18:50:47.584] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[06Aug2023 18:50:47.822] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[06Aug2023 18:50:47.832] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[06Aug2023 18:50:47.833] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[06Aug2023 18:50:47.835] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[06Aug2023 18:50:47.837] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[06Aug2023 18:50:47.838] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[06Aug2023 18:50:47.838] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[06Aug2023 18:50:49.108] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[06Aug2023 18:50:49.581] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[06Aug2023 18:50:49.584] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[06Aug2023 18:50:49.585] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[06Aug2023 18:50:49.946] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[06Aug2023 18:51:11.517] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Deleting level New World (3)
+[06Aug2023 18:51:11.517] [Render thread/INFO] [net.minecraft.world.level.storage.LevelStorageSource/]: Attempt 1...
+[06Aug2023 18:51:15.320] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wildaside:wildaside_lexion_craft_2
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
-	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$9(RecipeManager.java:170) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$9(RecipeManager.java:170) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:13) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:130) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$2(SelectWorldScreen.java:52) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.components.Button.onPress(Button.java:38) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:55) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:172) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:592) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:204) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:157) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:131) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:140) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:124) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$2(SelectWorldScreen.java:71) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:43) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:16) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:110) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:27) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:522) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:85) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:185) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%23168!/:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%23174!/:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar%23168!/:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1146) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:700) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.1.0.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Aug2023 17:03:22.965] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wildaside:wildaside_lexion_craft_1
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.2.0.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[06Aug2023 18:51:15.322] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wildaside:wildaside_lexion_craft_1
 com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
-	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$9(RecipeManager.java:170) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$9(RecipeManager.java:170) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:13) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:130) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$2(SelectWorldScreen.java:52) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.components.Button.onPress(Button.java:38) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:55) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:172) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:592) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:204) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:157) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:131) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:140) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:124) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$2(SelectWorldScreen.java:71) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:43) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:16) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:110) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:27) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:522) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:85) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:185) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%23168!/:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%23174!/:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar%23168!/:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1146) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:700) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.1.0.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Aug2023 17:03:22.988] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
-[06Aug2023 17:03:23.355] [Render thread/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table wildaside:advancement_reward/give_player_wildaside_lexicon
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.2.0.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[06Aug2023 18:51:15.349] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[06Aug2023 18:51:16.428] [Render thread/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table wildaside:advancement_reward/give_player_wildaside_lexicon
 com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
-	at net.minecraft.util.GsonHelper.lambda$convertToItem$0(GsonHelper.java:107) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.GsonHelper.lambda$convertToItem$0(GsonHelper.java:137) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
 	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
-	at net.minecraft.util.GsonHelper.convertToItem(GsonHelper.java:106) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.GsonHelper.getAsItem(GsonHelper.java:116) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:51) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:39) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:138) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:118) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:83) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:72) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:96) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
-	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:374) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:382) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
-	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
-	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
-	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:374) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:391) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:258) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:255) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
-	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
-	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:834) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.util.GsonHelper.convertToItem(GsonHelper.java:137) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.GsonHelper.getAsItem(GsonHelper.java:145) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:55) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:40) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:151) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:129) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:86) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:74) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%23154!/:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:455) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:463) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%23154!/:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:455) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:473) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%23154!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23187%23194!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
 	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
-	at net.minecraft.world.level.storage.loot.LootTables.apply(LootTables.java:38) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.world.level.storage.loot.LootTables.apply(LootTables.java:16) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:12) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.world.level.storage.loot.LootTables.apply(LootTables.java:38) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.apply(LootTables.java:16) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:13) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
 	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
 	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
-	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:65) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:126) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:130) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$2(SelectWorldScreen.java:52) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.components.Button.onPress(Button.java:38) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:55) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:172) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:39) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:92) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:592) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:89) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:189) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:90) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:188) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar:build 7]
-	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar:build 7]
-	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:204) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1173) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.Minecraft.run(Minecraft.java:719) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:205) ~[forge-1.19.4-45.1.0_mapped_official_1.19.4-recomp.jar:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:157) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:131) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:140) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.CreateWorldScreen.openFresh(CreateWorldScreen.java:124) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.worldselection.SelectWorldScreen.lambda$init$2(SelectWorldScreen.java:71) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.components.Button.onPress(Button.java:43) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractButton.onClick(AbstractButton.java:16) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.components.AbstractWidget.mouseClicked(AbstractWidget.java:110) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.components.events.ContainerEventHandler.mouseClicked(ContainerEventHandler.java:27) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$onPress$0(MouseHandler.java:88) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.gui.screens.Screen.wrapScreenError(Screen.java:522) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.onPress(MouseHandler.java:85) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$4(MouseHandler.java:185) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.execute(BlockableEventLoop.java:103) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.MouseHandler.lambda$setup$5(MouseHandler.java:184) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.1.jar%23168!/:build 7]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.1.jar%23174!/:build 7]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3474) ~[lwjgl-glfw-3.3.1.jar%23168!/:build 7]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:222) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1146) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:700) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.1.0.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[06Aug2023 17:03:23.424] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.424] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[7].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.424] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.425] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[14].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.425] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.425] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[8].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.425] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[6].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.425] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[5].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.425] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[12].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.425] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.425] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.425] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[4].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.425] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.425] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[7].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[9].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[10].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[3].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[6].entries[0].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[4].entries[0].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[3].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[5].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[4].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[4].entries[1].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.426] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.427] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[8].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.427] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[13].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.427] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[11].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.427] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
-[06Aug2023 17:03:23.576] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1207 advancements
-[06Aug2023 17:03:27.558] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.4
-[06Aug2023 17:03:27.558] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[06Aug2023 17:03:27.664] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World (2)\serverconfig\forge-server.toml is not correct. Correcting
-[06Aug2023 17:03:27.667] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
-[06Aug2023 17:03:27.667] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
-[06Aug2023 17:03:27.667] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
-[06Aug2023 17:03:27.667] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
-[06Aug2023 17:03:27.668] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
-[06Aug2023 17:03:27.668] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
-[06Aug2023 17:03:27.668] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
-[06Aug2023 17:03:33.845] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[06Aug2023 17:03:35.083] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Aug2023 17:03:35.084] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Aug2023 17:03:35.084] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Aug2023 17:03:35.405] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Aug2023 17:03:35.911] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Aug2023 17:03:36.415] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Aug2023 17:03:36.918] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Aug2023 17:03:37.385] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[06Aug2023 17:03:37.872] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[06Aug2023 17:03:38.408] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
-[06Aug2023 17:03:38.893] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
-[06Aug2023 17:03:39.388] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
-[06Aug2023 17:03:39.890] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[06Aug2023 17:03:40.382] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 5%
-[06Aug2023 17:03:40.874] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 7%
-[06Aug2023 17:03:41.395] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
-[06Aug2023 17:03:41.885] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 10%
-[06Aug2023 17:03:42.392] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
-[06Aug2023 17:03:42.938] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 14%
-[06Aug2023 17:03:43.387] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
-[06Aug2023 17:03:43.891] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 16%
-[06Aug2023 17:03:44.374] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
-[06Aug2023 17:03:44.909] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 20%
-[06Aug2023 17:03:45.380] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
-[06Aug2023 17:03:45.901] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
-[06Aug2023 17:03:46.392] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[06Aug2023 17:03:46.898] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 27%
-[06Aug2023 17:03:47.379] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 29%
-[06Aug2023 17:03:47.901] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
-[06Aug2023 17:03:48.379] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 33%
-[06Aug2023 17:03:48.888] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
-[06Aug2023 17:03:49.386] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 37%
-[06Aug2023 17:03:49.910] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 40%
-[06Aug2023 17:03:50.386] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
-[06Aug2023 17:03:50.890] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
-[06Aug2023 17:03:51.394] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 47%
-[06Aug2023 17:03:51.898] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 49%
-[06Aug2023 17:03:52.405] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 53%
-[06Aug2023 17:03:52.898] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[06Aug2023 17:03:53.410] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
-[06Aug2023 17:03:53.899] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
-[06Aug2023 17:03:54.396] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
-[06Aug2023 17:03:54.906] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[06Aug2023 17:03:56.442] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[06Aug2023 17:03:56.442] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[06Aug2023 17:03:56.442] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 63%
-[06Aug2023 17:03:56.904] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 67%
-[06Aug2023 17:03:57.388] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
-[06Aug2023 17:03:57.877] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 69%
-[06Aug2023 17:03:58.390] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
-[06Aug2023 17:03:58.891] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
-[06Aug2023 17:03:59.385] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
-[06Aug2023 17:03:59.878] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 79%
-[06Aug2023 17:04:00.372] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
-[06Aug2023 17:04:00.907] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
-[06Aug2023 17:04:01.398] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[06Aug2023 17:04:01.902] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
-[06Aug2023 17:04:02.399] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 90%
-[06Aug2023 17:04:02.901] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 92%
-[06Aug2023 17:04:03.406] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 96%
-[06Aug2023 17:04:03.901] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 99%
-[06Aug2023 17:04:03.914] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[06Aug2023 17:04:03.936] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 30065 ms
-[06Aug2023 17:04:04.014] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 14, from 10
-[06Aug2023 17:04:04.016] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[06Aug2023 17:04:04.166] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[06Aug2023 17:04:04.939] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[06Aug2023 17:04:04.991] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:cb9c0157] logged in with entity id 146 at (56.5, 72.0, -233.5)
-[06Aug2023 17:04:05.076] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[06Aug2023 17:04:05.218] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Wild Aside]
-[06Aug2023 17:04:05.501] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Wild Aside]
-[06Aug2023 17:04:05.765] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 12 advancements
-[06Aug2023 17:04:07.600] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06Aug2023 17:04:07.622] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06Aug2023 17:04:09.591] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06Aug2023 17:04:09.594] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06Aug2023 17:04:10.323] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3558ms or 71 ticks behind
-[06Aug2023 17:04:37.957] [Server thread/INFO] [net.minecraft.server.commands.LocateCommand/]: Locating element wildaside:glowing_hickory_forest took 75 ms
-[06Aug2023 17:04:37.964] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The nearest wildaside:glowing_hickory_forest is at [377, 106, -763] (430 blocks away)
-[06Aug2023 17:04:40.566] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 377.500000, 106.000000, -762.500000]
-[06Aug2023 17:04:40.567] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to 377.500000, 106.000000, -762.500000
-[06Aug2023 17:04:40.800] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Colourful, innit?]
-[06Aug2023 17:04:40.812] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Colourful, innit?]
-[06Aug2023 17:04:40.813] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 13 advancements
-[06Aug2023 17:04:58.316] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06Aug2023 17:04:58.325] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06Aug2023 17:04:58.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06Aug2023 17:04:58.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06Aug2023 17:05:03.858] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06Aug2023 17:05:03.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06Aug2023 17:05:04.027] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06Aug2023 17:05:04.028] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06Aug2023 17:06:01.822] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2023-08-06_17.06.01.png
-[06Aug2023 17:06:04.606] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2023-08-06_17.06.03.png
-[06Aug2023 17:06:05.497] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2023-08-06_17.06.04.png
-[06Aug2023 17:06:06.588] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4624ms or 92 ticks behind
-[06Aug2023 17:06:19.683] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06Aug2023 17:06:19.695] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06Aug2023 17:06:19.738] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06Aug2023 17:06:19.740] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06Aug2023 17:07:00.116] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06Aug2023 17:07:00.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06Aug2023 17:07:00.145] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06Aug2023 17:07:00.147] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06Aug2023 17:07:23.634] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
-[06Aug2023 17:07:23.635] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
-[06Aug2023 17:07:32.216] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06Aug2023 17:07:32.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06Aug2023 17:07:32.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06Aug2023 17:07:32.255] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06Aug2023 17:07:36.041] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
-[06Aug2023 17:07:36.051] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
-[06Aug2023 17:07:44.678] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 15 advancements
-[06Aug2023 17:07:57.774] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Grow The Glow]
-[06Aug2023 17:07:57.776] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Grow The Glow]
-[06Aug2023 17:07:57.782] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 15 advancements
-[06Aug2023 17:08:07.815] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06Aug2023 17:08:07.822] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06Aug2023 17:08:07.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06Aug2023 17:08:07.839] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06Aug2023 17:08:20.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Glowing Wonder]
-[06Aug2023 17:08:20.263] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Quattuor Essentiae]
-[06Aug2023 17:08:20.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Unsafe Haven]
-[06Aug2023 17:08:20.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [It's Shearing Time]
-[06Aug2023 17:08:20.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Useful Finding]
-[06Aug2023 17:08:20.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Extensive Research]
-[06Aug2023 17:08:20.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Petrified Antibiotic]
-[06Aug2023 17:08:20.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Temporary Solution]
-[06Aug2023 17:08:20.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [We Need To Cook]
-[06Aug2023 17:08:20.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Dangerous Warfare]
-[06Aug2023 17:08:20.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Still Not Enough]
-[06Aug2023 17:08:20.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has completed the challenge [Barrier Of Bacteria]
-[06Aug2023 17:08:20.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Danger Eliminated]
-[06Aug2023 17:08:20.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Organic Building Materials]
-[06Aug2023 17:08:20.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Spread 100]
-[06Aug2023 17:08:20.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Through Hundreds Of Mutations]
-[06Aug2023 17:08:20.270] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Glowing Wonder]
-[06Aug2023 17:08:20.270] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Glimmering Glass]
-[06Aug2023 17:08:20.271] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Quattuor Essentiae]
-[06Aug2023 17:08:20.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Granted 28 advancements to Dev]
-[06Aug2023 17:08:20.271] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Unsafe Haven]
-[06Aug2023 17:08:20.271] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [It's Shearing Time]
-[06Aug2023 17:08:20.272] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Useful Finding]
-[06Aug2023 17:08:20.272] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Extensive Research]
-[06Aug2023 17:08:20.272] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Petrified Antibiotic]
-[06Aug2023 17:08:20.272] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Temporary Solution]
-[06Aug2023 17:08:20.272] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [We Need To Cook]
-[06Aug2023 17:08:20.272] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Dangerous Warfare]
-[06Aug2023 17:08:20.273] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Still Not Enough]
-[06Aug2023 17:08:20.273] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has completed the challenge [Barrier Of Bacteria]
-[06Aug2023 17:08:20.273] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Danger Eliminated]
-[06Aug2023 17:08:20.273] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Organic Building Materials]
-[06Aug2023 17:08:20.273] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Spread 100]
-[06Aug2023 17:08:20.274] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Through Hundreds Of Mutations]
-[06Aug2023 17:08:20.274] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Glimmering Glass]
-[06Aug2023 17:08:20.274] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Granted 28 advancements to Dev
-[06Aug2023 17:08:20.282] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 32 advancements
-[06Aug2023 17:08:21.316] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06Aug2023 17:08:21.324] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06Aug2023 17:08:21.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06Aug2023 17:08:21.333] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06Aug2023 17:08:23.865] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06Aug2023 17:08:23.873] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06Aug2023 17:08:23.881] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06Aug2023 17:08:23.882] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06Aug2023 17:09:16.616] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06Aug2023 17:09:16.623] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06Aug2023 17:09:16.631] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06Aug2023 17:09:16.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[06Aug2023 17:09:29.128] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2023-08-06_17.09.28.png
-[06Aug2023 17:09:34.321] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Saved screenshot as 2023-08-06_17.09.33.png
-[06Aug2023 17:09:46.828] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[06Aug2023 17:09:46.841] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[06Aug2023 17:09:47.017] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[06Aug2023 17:09:47.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.2.0.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[06Aug2023 18:51:16.648] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.648] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[7].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.648] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.648] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[14].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.648] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.648] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[8].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.648] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[6].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.649] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[5].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.649] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[12].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.649] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.649] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.649] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[4].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.649] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.649] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[7].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.649] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[9].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[10].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[3].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[6].entries[0].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[4].entries[0].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[3].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[5].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.650] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[4].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.651] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.651] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[4].entries[1].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.651] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.651] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[8].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.651] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[13].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.651] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[11].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.651] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:16.809] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1207 advancements
+[06Aug2023 18:51:20.217] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wildaside:wildaside_lexion_craft_2
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$9(RecipeManager.java:170) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:13) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:157) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:131) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:116) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1072) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:700) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.2.0.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[06Aug2023 18:51:20.220] [Render thread/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe wildaside:wildaside_lexion_craft_1
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'patchouli:shapeless_book_recipe'
+	at net.minecraft.world.item.crafting.RecipeManager.lambda$fromJson$9(RecipeManager.java:170) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:67) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:34) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:13) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:157) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:131) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:116) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1072) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:700) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.2.0.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[06Aug2023 18:51:20.235] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[06Aug2023 18:51:21.165] [Render thread/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table wildaside:advancement_reward/give_player_wildaside_lexicon
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'patchouli:guide_book'
+	at net.minecraft.util.GsonHelper.lambda$convertToItem$0(GsonHelper.java:137) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.convertToItem(GsonHelper.java:137) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.GsonHelper.getAsItem(GsonHelper.java:145) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:55) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.deserialize(LootItem.java:40) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:151) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.deserializeCustom(LootPoolSingletonContainer.java:129) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:86) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.deserialize(LootPoolEntryContainer.java:74) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%23154!/:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:455) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:463) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%23154!/:?]
+	at net.minecraft.util.GsonHelper.convertToObject(GsonHelper.java:455) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.GsonHelper.getAsObject(GsonHelper.java:473) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%23154!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%23154!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23187%23194!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.apply(LootTables.java:38) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.apply(LootTables.java:16) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:13) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:69) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:157) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:23) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:131) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:116) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1072) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:700) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.main.Main.run(Main.java:212) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at net.minecraft.client.main.Main.main(Main.java:51) ~[forge-1.19.2-43.2.0_mapped_official_1.19.2.jar%23188!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:568) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.2-43.2.0.jar%23101!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.9.jar%23114!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[06Aug2023 18:51:21.429] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.430] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[7].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.430] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[4].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.430] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[14].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.430] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[1].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.430] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[8].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.430] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[6].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.430] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[5].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.430] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[12].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.430] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[4].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[7].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[9].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[10].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[3].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[6].entries[0].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[4].entries[0].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[3].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[1].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.431] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[5].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.432] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[0].entries[2].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.432] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[2].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.432] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[0].entries[0].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.432] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[5].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.432] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[4].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.432] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[0].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.432] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell_secret}.pools[4].entries[1].functions[2]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.432] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[3].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.432] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[8].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.432] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[13].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.432] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[11].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.432] [Render thread/WARN] [net.minecraft.world.level.storage.loot.LootTables/]: Found validation problem in {wildaside:chests/hickory_cabin_barell}.pools[2].entries[1].functions[1]: Parameters [<parameter minecraft:tool>] are not provided in this context
+[06Aug2023 18:51:21.476] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1207 advancements
+[06Aug2023 18:51:26.382] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
+[06Aug2023 18:51:26.382] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[06Aug2023 18:51:26.479] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World (3)\serverconfig\forge-server.toml is not correct. Correcting
+[06Aug2023 18:51:26.480] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[06Aug2023 18:51:26.481] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[06Aug2023 18:51:26.481] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[06Aug2023 18:51:26.482] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[06Aug2023 18:51:26.482] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[06Aug2023 18:51:26.482] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[06Aug2023 18:51:26.482] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[06Aug2023 18:51:26.482] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[06Aug2023 18:51:42.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[06Aug2023 18:51:43.408] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Aug2023 18:51:43.408] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Aug2023 18:51:43.408] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Aug2023 18:51:43.891] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Aug2023 18:51:44.341] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Aug2023 18:51:44.822] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[06Aug2023 18:51:45.339] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[06Aug2023 18:51:45.822] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[06Aug2023 18:51:46.313] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 1%
+[06Aug2023 18:51:46.811] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[06Aug2023 18:51:47.317] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[06Aug2023 18:51:47.807] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 4%
+[06Aug2023 18:51:48.323] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 6%
+[06Aug2023 18:51:48.817] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[06Aug2023 18:51:49.327] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[06Aug2023 18:51:49.801] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 9%
+[06Aug2023 18:51:50.314] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[06Aug2023 18:51:51.209] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 11%
+[06Aug2023 18:51:51.304] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 12%
+[06Aug2023 18:51:51.809] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 13%
+[06Aug2023 18:51:52.327] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[06Aug2023 18:51:52.799] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 15%
+[06Aug2023 18:51:53.302] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 18%
+[06Aug2023 18:51:53.802] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 19%
+[06Aug2023 18:51:54.310] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 22%
+[06Aug2023 18:51:54.830] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[06Aug2023 18:51:55.444] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 23%
+[06Aug2023 18:51:55.821] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 26%
+[06Aug2023 18:51:56.317] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 28%
+[06Aug2023 18:51:56.808] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 31%
+[06Aug2023 18:51:57.317] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 32%
+[06Aug2023 18:51:57.818] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 34%
+[06Aug2023 18:51:58.308] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
+[06Aug2023 18:51:58.806] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 36%
+[06Aug2023 18:51:59.301] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 38%
+[06Aug2023 18:51:59.832] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 41%
+[06Aug2023 18:52:00.313] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 42%
+[06Aug2023 18:52:00.819] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 44%
+[06Aug2023 18:52:01.312] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 46%
+[06Aug2023 18:52:01.808] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 48%
+[06Aug2023 18:52:02.326] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 50%
+[06Aug2023 18:52:02.812] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 52%
+[06Aug2023 18:52:03.299] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
+[06Aug2023 18:52:03.813] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[06Aug2023 18:52:04.312] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[06Aug2023 18:52:04.821] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 60%
+[06Aug2023 18:52:05.322] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 62%
+[06Aug2023 18:52:05.807] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 64%
+[06Aug2023 18:52:06.300] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 66%
+[06Aug2023 18:52:06.806] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[06Aug2023 18:52:07.313] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 70%
+[06Aug2023 18:52:07.827] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 72%
+[06Aug2023 18:52:08.306] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 74%
+[06Aug2023 18:52:08.801] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 76%
+[06Aug2023 18:52:09.301] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 78%
+[06Aug2023 18:52:09.823] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 81%
+[06Aug2023 18:52:10.300] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 83%
+[06Aug2023 18:52:10.802] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[06Aug2023 18:52:11.323] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
+[06Aug2023 18:52:11.821] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 88%
+[06Aug2023 18:52:12.315] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 91%
+[06Aug2023 18:52:12.813] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 93%
+[06Aug2023 18:52:13.311] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[06Aug2023 18:52:13.657] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 31359 ms
+[06Aug2023 18:52:13.658] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[06Aug2023 18:52:13.712] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 13, from 10
+[06Aug2023 18:52:13.714] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[06Aug2023 18:52:13.832] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[06Aug2023 18:52:14.996] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[06Aug2023 18:52:15.032] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@66415b26
+[06Aug2023 18:52:15.050] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:3eb2429d] logged in with entity id 214 at (18.5, 76.0, -21.5)
+[06Aug2023 18:52:15.151] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[06Aug2023 18:52:15.359] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Wild Aside]
+[06Aug2023 18:52:17.027] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Wild Aside]
+[06Aug2023 18:52:17.040] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 10 advancements
+[06Aug2023 18:52:18.701] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[06Aug2023 18:52:18.720] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[06Aug2023 18:52:20.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[06Aug2023 18:52:20.129] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[06Aug2023 18:58:42.928] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Spectator Mode]
+[06Aug2023 18:58:42.931] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Spectator Mode
+[06Aug2023 18:58:56.866] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] The nearest wildaside:glowing_hickory_forest is at [1650, 92, 765] (1861 blocks away)
+[06Aug2023 18:59:00.119] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Teleported Dev to 1650.500000, 92.000000, 765.500000]
+[06Aug2023 18:59:00.120] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2312ms or 46 ticks behind
+[06Aug2023 18:59:00.121] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Teleported Dev to 1650.500000, 92.000000, 765.500000
+[06Aug2023 18:59:00.987] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has reached the goal [Colourful, innit?]
+[06Aug2023 18:59:01.040] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has reached the goal [Colourful, innit?]
+[06Aug2023 18:59:01.042] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 11 advancements
+[06Aug2023 18:59:05.285] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set the time to 18000]
+[06Aug2023 18:59:05.286] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set the time to 18000
+[06Aug2023 18:59:05.315] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Glowing Wonder]
+[06Aug2023 18:59:05.319] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Glowing Wonder]
+[06Aug2023 18:59:05.384] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 11 advancements
+[06Aug2023 18:59:08.327] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Dev: Set own game mode to Creative Mode]
+[06Aug2023 18:59:08.329] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Set own game mode to Creative Mode
+[06Aug2023 18:59:11.858] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[06Aug2023 18:59:11.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[06Aug2023 18:59:11.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[06Aug2023 18:59:11.883] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[06Aug2023 18:59:33.157] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[06Aug2023 18:59:33.166] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[06Aug2023 18:59:33.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[06Aug2023 18:59:33.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[06Aug2023 18:59:41.693] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 14 advancements
+[06Aug2023 18:59:47.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev has made the advancement [Quattuor Essentiae]
+[06Aug2023 18:59:47.064] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Dev has made the advancement [Quattuor Essentiae]
+[06Aug2023 18:59:47.065] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 14 advancements
+[06Aug2023 18:59:49.458] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[06Aug2023 18:59:49.467] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[06Aug2023 18:59:49.483] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[06Aug2023 18:59:49.485] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether

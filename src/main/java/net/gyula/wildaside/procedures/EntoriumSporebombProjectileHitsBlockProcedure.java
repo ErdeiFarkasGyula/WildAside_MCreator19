@@ -14,6 +14,8 @@ import net.minecraft.advancements.Advancement;
 import net.gyula.wildaside.init.WildasideModParticleTypes;
 import net.gyula.wildaside.init.WildasideModBlocks;
 
+import java.util.Iterator;
+
 public class EntoriumSporebombProjectileHitsBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity immediatesourceentity) {
 		if (immediatesourceentity == null)
@@ -26,8 +28,9 @@ public class EntoriumSporebombProjectileHitsBlockProcedure {
 			Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:dangerous_warfare"));
 			AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 			if (!_ap.isDone()) {
-				for (String criteria : _ap.getRemainingCriteria())
-					_player.getAdvancements().award(_adv, criteria);
+				Iterator _iterator = _ap.getRemainingCriteria().iterator();
+				while (_iterator.hasNext())
+					_player.getAdvancements().award(_adv, (String) _iterator.next());
 			}
 		}
 		for (int index0 = 0; index0 < Mth.nextInt(RandomSource.create(), 3, 8); index0++) {
@@ -40,8 +43,8 @@ public class EntoriumSporebombProjectileHitsBlockProcedure {
 			for (int index2 = 0; index2 < 4; index2++) {
 				sz = -2;
 				for (int index3 = 0; index3 < 5; index3++) {
-					if (world.isEmptyBlock(BlockPos.containing(x + sx, y + sy, z + sz))) {
-						world.setBlock(BlockPos.containing(x + sx, y + sy, z + sz), WildasideModBlocks.SPORE_AIR.get().defaultBlockState(), 3);
+					if (world.isEmptyBlock(new BlockPos(x + sx, y + sy, z + sz))) {
+						world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.SPORE_AIR.get().defaultBlockState(), 3);
 					}
 					sz = sz + 1;
 				}
@@ -56,8 +59,8 @@ public class EntoriumSporebombProjectileHitsBlockProcedure {
 			for (int index5 = 0; index5 < 6; index5++) {
 				sz = -1;
 				for (int index6 = 0; index6 < 3; index6++) {
-					if (world.isEmptyBlock(BlockPos.containing(x + sx, y + sy, z + sz))) {
-						world.setBlock(BlockPos.containing(x + sx, y + sy, z + sz), WildasideModBlocks.SPORE_AIR.get().defaultBlockState(), 3);
+					if (world.isEmptyBlock(new BlockPos(x + sx, y + sy, z + sz))) {
+						world.setBlock(new BlockPos(x + sx, y + sy, z + sz), WildasideModBlocks.SPORE_AIR.get().defaultBlockState(), 3);
 					}
 					sz = sz + 1;
 				}

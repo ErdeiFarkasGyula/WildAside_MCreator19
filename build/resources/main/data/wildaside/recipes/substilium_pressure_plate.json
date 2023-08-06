@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "substilium_pressure_plate",
-  "category": "building",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "SS"
   ],

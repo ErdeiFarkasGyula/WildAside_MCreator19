@@ -30,7 +30,7 @@ public class ContaminationUseProc4Procedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(WildasideModMobEffects.CONTAMINATION.get())) {
+		if (entity instanceof LivingEntity _livEnt ? _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get()) : false) {
 			{
 				ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
 				if (_ist.hurt(entity instanceof LivingEntity _livEnt && _livEnt.hasEffect(WildasideModMobEffects.CONTAMINATION.get()) ? _livEnt.getEffect(WildasideModMobEffects.CONTAMINATION.get()).getAmplifier() : 0, RandomSource.create(), null)) {

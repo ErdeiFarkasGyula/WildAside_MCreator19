@@ -31,6 +31,7 @@ public class StillVibrionParticleParticle extends TextureSheetParticle {
 	}
 
 	private final SpriteSet spriteSet;
+
 	private float angularVelocity;
 	private float angularAcceleration;
 
@@ -38,6 +39,7 @@ public class StillVibrionParticleParticle extends TextureSheetParticle {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
+
 		this.lifetime = (int) Math.max(1, 30 + (this.random.nextInt(16) - 8));
 		this.gravity = 0f;
 		this.hasPhysics = false;

@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "wildaside:block/substilium_shroom",
-    "particle": "wildaside:block/substilium_shroom"
+    "all": "wildaside:blocks/substilium_shroom",
+    "particle": "wildaside:blocks/substilium_shroom"
   },
   "render_type": "solid"
 }

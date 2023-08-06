@@ -14,11 +14,12 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 
 import net.gyula.wildaside.procedures.EntoriumSporebombRangedItemUsedProcedure;
+import net.gyula.wildaside.init.WildasideModTabs;
 import net.gyula.wildaside.entity.EntoriumSporebombEntity;
 
 public class EntoriumSporebombItem extends Item {
 	public EntoriumSporebombItem() {
-		super(new Item.Properties().stacksTo(1));
+		super(new Item.Properties().tab(WildasideModTabs.TAB_WILDASIDE_TAB).stacksTo(1));
 	}
 
 	@Override

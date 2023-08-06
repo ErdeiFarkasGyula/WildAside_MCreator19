@@ -9,10 +9,13 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.entity.LivingEntity;
 
 import net.gyula.wildaside.procedures.VibrionEffectProcedure;
+import net.gyula.wildaside.init.WildasideModTabs;
 
 public class VibrionItem extends Item {
 	public VibrionItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.1f).alwaysEat().build()));
+		super(new Item.Properties().tab(WildasideModTabs.TAB_WILDASIDE_TAB).stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(0.1f).alwaysEat()
+
+				.build()));
 	}
 
 	@Override
@@ -21,6 +24,7 @@ public class VibrionItem extends Item {
 		double x = entity.getX();
 		double y = entity.getY();
 		double z = entity.getZ();
+
 		VibrionEffectProcedure.execute(entity);
 		return retval;
 	}

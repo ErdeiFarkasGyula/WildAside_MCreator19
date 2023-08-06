@@ -31,7 +31,7 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class FallenHickoryLeavesBlock extends FlowerBlock {
 	public FallenHickoryLeavesBlock() {
-		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.GRASS).sound(SoundType.GRASS).strength(0.1f, 0.1f).noCollission().offsetType(BlockBehaviour.OffsetType.NONE));
+		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.GRASS).sound(SoundType.GRASS).strength(0.1f, 0.1f).noCollission().offsetType(BlockBehaviour.OffsetType.NONE));
 	}
 
 	@Override

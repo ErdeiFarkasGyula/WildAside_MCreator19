@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "entorium_gauntlet",
-  "category": "equipment",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "EEE",
     "ENE",

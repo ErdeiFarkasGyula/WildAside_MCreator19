@@ -1,6 +1,6 @@
 {
-  "type": "minecraft:stonecutting",
   "group": "smooth_substilium_soil_stairs",
+  "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
     "item": "wildaside:smooth_substilium_soil"

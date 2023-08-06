@@ -1,6 +1,6 @@
 {
-  "type": "minecraft:stonecutting",
   "group": "cracked_substilium_soil_tiles",
+  "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
     "item": "wildaside:compressed_substilium_soil"

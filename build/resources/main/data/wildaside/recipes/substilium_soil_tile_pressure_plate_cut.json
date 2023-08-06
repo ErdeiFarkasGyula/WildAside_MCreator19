@@ -1,6 +1,6 @@
 {
-  "type": "minecraft:stonecutting",
   "group": "substilium_soil_tile_pressure_plate",
+  "type": "minecraft:stonecutting",
   "count": 1,
   "ingredient": {
     "item": "wildaside:substilium_soil_tiles"

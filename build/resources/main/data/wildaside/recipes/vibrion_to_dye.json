@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:smelting",
   "group": "yellow_dye",
-  "category": "misc",
+  "type": "minecraft:smelting",
   "experience": 2,
   "cookingtime": 400,
   "ingredient": {

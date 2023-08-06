@@ -1,7 +1,6 @@
 {
-  "type": "minecraft:crafting_shaped",
   "group": "red_dye",
-  "category": "misc",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
     "P"
   ],

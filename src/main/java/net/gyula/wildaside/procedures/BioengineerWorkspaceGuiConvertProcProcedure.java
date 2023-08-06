@@ -16,6 +16,7 @@ import net.gyula.wildaside.init.WildasideModItems;
 
 import java.util.function.Supplier;
 import java.util.Map;
+import java.util.Iterator;
 
 public class BioengineerWorkspaceGuiConvertProcProcedure {
 	public static void execute(Entity entity) {
@@ -77,8 +78,9 @@ public class BioengineerWorkspaceGuiConvertProcProcedure {
 					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:we_need_to_cook"));
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 					if (!_ap.isDone()) {
-						for (String criteria : _ap.getRemainingCriteria())
-							_player.getAdvancements().award(_adv, criteria);
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
 					}
 				}
 			}

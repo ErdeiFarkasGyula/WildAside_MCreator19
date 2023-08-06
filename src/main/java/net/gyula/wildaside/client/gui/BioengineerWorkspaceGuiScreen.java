@@ -8,6 +8,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.ImageButton;
 import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.Minecraft;
 
 import net.gyula.wildaside.world.inventory.BioengineerWorkspaceGuiMenu;
 import net.gyula.wildaside.network.BioengineerWorkspaceGuiButtonMessage;
@@ -85,17 +86,19 @@ public class BioengineerWorkspaceGuiScreen extends AbstractContainerScreen<Bioen
 	@Override
 	public void onClose() {
 		super.onClose();
+		Minecraft.getInstance().keyboardHandler.setSendRepeatsToGui(false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		button_convert = Button.builder(Component.translatable("gui.wildaside.bioengineer_workspace_gui.button_convert"), e -> {
+		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+		button_convert = new Button(this.leftPos + 101, this.topPos + 58, 61, 20, Component.translatable("gui.wildaside.bioengineer_workspace_gui.button_convert"), e -> {
 			if (true) {
 				WildasideMod.PACKET_HANDLER.sendToServer(new BioengineerWorkspaceGuiButtonMessage(0, x, y, z));
 				BioengineerWorkspaceGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 101, this.topPos + 58, 61, 20).build();
+		});
 		guistate.put("button:button_convert", button_convert);
 		this.addRenderableWidget(button_convert);
 		imagebutton_vibrion_gui = new ImageButton(this.leftPos + 42, this.topPos + 31, 18, 18, 0, 0, 18, new ResourceLocation("wildaside:textures/screens/atlas/imagebutton_vibrion_gui.png"), 18, 36, e -> {

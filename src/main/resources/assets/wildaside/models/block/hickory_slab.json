@@ -1,9 +1,9 @@
 {
   "parent": "block/slab",
   "textures": {
-    "bottom": "wildaside:block/hickory_planks",
-    "top": "wildaside:block/hickory_planks",
-    "side": "wildaside:block/hickory_planks"
+    "bottom": "wildaside:blocks/hickory_planks",
+    "top": "wildaside:blocks/hickory_planks",
+    "side": "wildaside:blocks/hickory_planks"
   },
   "render_type": "cutout"
 }

@@ -21,7 +21,7 @@ import java.util.Collections;
 
 public class PanxterFlowerBlock extends FlowerBlock {
 	public PanxterFlowerBlock() {
-		super(() -> MobEffects.POISON, 200, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_RED).sound(SoundType.GRASS).instabreak().noCollission());
+		super(MobEffects.POISON, 200, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_RED).sound(SoundType.GRASS).instabreak().noCollission());
 	}
 
 	@Override

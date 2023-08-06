@@ -26,7 +26,7 @@ import net.gyula.wildaside.procedures.FallenYellowGlowingHickoryLeavesPlantDestr
 
 public class FallenYellowGlowingHickoryLeavesBlock extends FlowerBlock {
 	public FallenYellowGlowingHickoryLeavesBlock() {
-		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.GRASS).sound(SoundType.GRASS).strength(0.1f, 0.1f).lightLevel(s -> 7).noCollission().offsetType(BlockBehaviour.OffsetType.NONE));
+		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.GRASS).sound(SoundType.GRASS).strength(0.1f, 0.1f).lightLevel(s -> 7).noCollission().offsetType(BlockBehaviour.OffsetType.NONE));
 	}
 
 	@Override

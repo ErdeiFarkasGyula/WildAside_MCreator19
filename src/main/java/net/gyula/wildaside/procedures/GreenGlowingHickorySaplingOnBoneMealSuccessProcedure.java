@@ -18,17 +18,18 @@ import net.minecraft.advancements.Advancement;
 
 import net.gyula.wildaside.network.WildasideModVariables;
 
+import java.util.Iterator;
 import java.util.Comparator;
 
 public class GreenGlowingHickorySaplingOnBoneMealSuccessProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (world.isEmptyBlock(BlockPos.containing(x, y + 1, z))) {
+		if (world.isEmptyBlock(new BlockPos(x, y + 1, z))) {
 			if (Math.random() >= 0.85) {
 				if (world instanceof ServerLevel _serverworld) {
 					StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("wildaside", "green_glowing_hickory_tree_1"));
 					if (template != null) {
-						template.placeInWorld(_serverworld, BlockPos.containing(x - 3, y, z - 3), BlockPos.containing(x - 3, y, z - 3), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
-								_serverworld.random, 3);
+						template.placeInWorld(_serverworld, new BlockPos(x - 3, y, z - 3), new BlockPos(x - 3, y, z - 3), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false), _serverworld.random,
+								3);
 					}
 				}
 				{
@@ -74,8 +75,9 @@ public class GreenGlowingHickorySaplingOnBoneMealSuccessProcedure {
 						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:grow_the_glow"));
 						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 						if (!_ap.isDone()) {
-							for (String criteria : _ap.getRemainingCriteria())
-								_player.getAdvancements().award(_adv, criteria);
+							Iterator _iterator = _ap.getRemainingCriteria().iterator();
+							while (_iterator.hasNext())
+								_player.getAdvancements().award(_adv, (String) _iterator.next());
 						}
 					}
 				}

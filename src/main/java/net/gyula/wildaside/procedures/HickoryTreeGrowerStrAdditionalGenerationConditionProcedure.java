@@ -18,8 +18,8 @@ public class HickoryTreeGrowerStrAdditionalGenerationConditionProcedure {
 			for (int index1 = 0; index1 < 5; index1++) {
 				sz = -1;
 				for (int index2 = 0; index2 < 3; index2++) {
-					if ((world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.HICKORY_TREE_GROWER.get()
-							|| (world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.GLOWING_HICKORY_TREE_GROWER.get()) {
+					if ((world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.HICKORY_TREE_GROWER.get()
+							|| (world.getBlockState(new BlockPos(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.GLOWING_HICKORY_TREE_GROWER.get()) {
 						found = true;
 					}
 					sz = sz + 1;

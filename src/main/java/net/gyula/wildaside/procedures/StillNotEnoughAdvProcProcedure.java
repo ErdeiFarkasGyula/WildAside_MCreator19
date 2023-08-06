@@ -20,6 +20,8 @@ import net.gyula.wildaside.init.WildasideModItems;
 
 import javax.annotation.Nullable;
 
+import java.util.Iterator;
+
 @Mod.EventBusSubscriber
 public class StillNotEnoughAdvProcProcedure {
 	@SubscribeEvent
@@ -36,14 +38,15 @@ public class StillNotEnoughAdvProcProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
-		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.BEDROCK) {
+		if ((world.getBlockState(new BlockPos(x, y, z))).getBlock() == Blocks.BEDROCK) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == WildasideModItems.ENTORIUM_GAUNTLET.get()) {
 				if (entity instanceof ServerPlayer _player) {
 					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:stripped_substilium_stem_hidden"));
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 					if (!_ap.isDone()) {
-						for (String criteria : _ap.getRemainingCriteria())
-							_player.getAdvancements().award(_adv, criteria);
+						Iterator _iterator = _ap.getRemainingCriteria().iterator();
+						while (_iterator.hasNext())
+							_player.getAdvancements().award(_adv, (String) _iterator.next());
 					}
 				}
 			}

@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class SpottedWintergreenBlock extends FlowerBlock {
 	public SpottedWintergreenBlock() {
-		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).instabreak().noCollission());
+		super(MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).instabreak().noCollission());
 	}
 
 	@Override

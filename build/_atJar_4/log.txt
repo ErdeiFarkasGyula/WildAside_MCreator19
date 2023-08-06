@@ -1,5 +1,5 @@
-Java Launcher: C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
-Arguments: '--inJar, E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-injected.jar, --outJar, E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0_mapped_official_1.19.4\forge-1.19.4-45.1.0_mapped_official_1.19.4.jar, --logFile, accesstransform.log, --atFile, E:\WildAside_MCreator19\src\main\resources\META-INF\accesstransformer.cfg, --atFile, E:\WildAside_MCreator19\build\_atJar_4\parent_at.cfg'
+Java Launcher: G:\MCreator\MCreator.EAP.2023.326610.Windows.64bit\MCreatorEAP2023326610\jdk\bin\java.exe
+Arguments: '--inJar, E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0\forge-1.19.2-43.2.0-injected.jar, --outJar, E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.2-43.2.0_mapped_official_1.19.2\forge-1.19.2-43.2.0_mapped_official_1.19.2.jar, --logFile, accesstransform.log, --atFile, E:\WildAside_MCreator19\src\main\resources\META-INF\accesstransformer.cfg, --atFile, E:\WildAside_MCreator19\build\_atJar_4\parent_at.cfg'
 Classpath:
  - C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.0.7\accesstransformers-8.0.7-fatjar.jar
 Working directory: E:\WildAside_MCreator19\build\_atJar_4
