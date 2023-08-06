@@ -1,24 +1,196 @@
 {
+  "wildaside:still_not_enough": {
+    "criteria": {
+      "still_not_enough": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:colourful_innit": {
+    "criteria": {
+      "colourful_innit": "2023-08-06 17:04:40 +0200"
+    },
+    "done": true
+  },
+  "wildaside:we_need_to_cook": {
+    "criteria": {
+      "we_need_to_cook": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:organic_building_materials": {
+    "criteria": {
+      "organic_building_materials": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:spread_onehundred": {
+    "criteria": {
+      "spread_onehundred": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:useful_finding": {
+    "criteria": {
+      "useful_finding": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/white_dye": {
+    "criteria": {
+      "has_bone_meal": "2023-08-06 17:07:44 +0200"
+    },
+    "done": true
+  },
+  "wildaside:extensive_research": {
+    "criteria": {
+      "extensive_research": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:through_hundreds_of_mutations": {
+    "criteria": {
+      "through_hundreds_of_mutations": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:stripped_hickory_log_hidden": {
+    "criteria": {
+      "stripped_hickory_log_hidden": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:vibrion_gel_hidden": {
+    "criteria": {
+      "vibrion_gel_hidden": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:barrier_of_bacteria": {
+    "criteria": {
+      "barrier_of_bacteria": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:substilium_planks_hidden": {
+    "criteria": {
+      "substilium_planks_hidden": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:dangerous_warfare": {
+    "criteria": {
+      "dangerous_warfare": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2023-08-06 16:45:02 +0200"
+      "unlock_right_away": "2023-08-06 17:04:05 +0200"
+    },
+    "done": true
+  },
+  "wildaside:hickory_planks_hidden": {
+    "criteria": {
+      "hickory_planks_hidden": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:unsafe_haven": {
+    "criteria": {
+      "unsafe_haven": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:wildaside_lexicon_giver_adv": {
+    "criteria": {
+      "wildaside_lexicon_giver_adv": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:its_shearing_time": {
+    "criteria": {
+      "its_shearing_time": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:quattuor_essentiae": {
+    "criteria": {
+      "quattuor_essentiae": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:glimmering_glass": {
+    "criteria": {
+      "glimmering_glass": "2023-08-06 17:08:20 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:birch_forest": "2023-08-06 16:47:43 +0200",
-      "minecraft:river": "2023-08-06 16:47:31 +0200",
-      "minecraft:forest": "2023-08-06 16:45:30 +0200",
-      "minecraft:jungle": "2023-08-06 16:48:36 +0200",
-      "minecraft:savanna": "2023-08-06 16:49:04 +0200",
-      "minecraft:plains": "2023-08-06 16:46:20 +0200"
+      "minecraft:beach": "2023-08-06 17:04:32 +0200",
+      "minecraft:river": "2023-08-06 17:06:58 +0200",
+      "minecraft:forest": "2023-08-06 17:04:07 +0200",
+      "minecraft:plains": "2023-08-06 17:06:23 +0200"
     },
     "done": false
   },
+  "wildaside:substilium_stem_hidden": {
+    "criteria": {
+      "substilium_stem_hidden": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:stripped_substilium_stem_hidden": {
+    "criteria": {
+      "stripped_substilium_stem_hidden": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:grow_the_glow": {
+    "criteria": {
+      "grow_the_glow": "2023-08-06 17:07:57 +0200"
+    },
+    "done": true
+  },
+  "wildaside:danger_eliminated": {
+    "criteria": {
+      "danger_eliminated": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2023-08-06 16:45:01 +0200"
+      "wild_wilder_wildest": "2023-08-06 17:04:05 +0200"
+    },
+    "done": true
+  },
+  "wildaside:petrified_antibiotic": {
+    "criteria": {
+      "petrified_antibiotic": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:glowing_wonder": {
+    "criteria": {
+      "glowing_wonder": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:temporary_solution": {
+    "criteria": {
+      "temporary_solution": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "wildaside:hickory_log_hidden": {
+    "criteria": {
+      "hickory_log_hidden": "2023-08-06 17:08:20 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bone_block": {
+    "criteria": {
+      "has_bone_meal": "2023-08-06 17:07:44 +0200"
     },
     "done": true
   },

@@ -12,10 +12,6 @@
     "underwaterBlock": {
       "value": "CUSTOM:SubstiliumSoil"
     },
-    "airColor": {
-      "value": -6184663,
-      "falpha": 0.0
-    },
     "grassColor": {
       "value": -6184663,
       "falpha": 0.0

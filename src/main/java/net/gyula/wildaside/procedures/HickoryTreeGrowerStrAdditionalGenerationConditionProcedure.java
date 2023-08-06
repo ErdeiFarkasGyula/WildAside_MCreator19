@@ -11,14 +11,15 @@ public class HickoryTreeGrowerStrAdditionalGenerationConditionProcedure {
 		double sx = 0;
 		double sy = 0;
 		double sz = 0;
-		sx = 2;
+		sx = -1;
 		found = false;
 		for (int index0 = 0; index0 < 3; index0++) {
-			sy = 1;
-			for (int index1 = 0; index1 < 2; index1++) {
-				sz = 2;
+			sy = -2;
+			for (int index1 = 0; index1 < 5; index1++) {
+				sz = -1;
 				for (int index2 = 0; index2 < 3; index2++) {
-					if ((world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.HICKORY_LOG.get()) {
+					if ((world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.HICKORY_TREE_GROWER.get()
+							|| (world.getBlockState(BlockPos.containing(x + sx, y + sy, z + sz))).getBlock() == WildasideModBlocks.GLOWING_HICKORY_TREE_GROWER.get()) {
 						found = true;
 					}
 					sz = sz + 1;
