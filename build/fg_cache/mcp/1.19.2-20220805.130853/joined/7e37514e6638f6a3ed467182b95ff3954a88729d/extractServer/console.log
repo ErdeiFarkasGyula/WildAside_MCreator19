@@ -1,0 +1,13 @@
+JVM:         G:\MCreator\MCreator.EAP.2023.326610.Windows.64bit\MCreatorEAP2023326610\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "bundler_extract", "--input", "E:\WildAside_MCreator19\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7e37514e6638f6a3ed467182b95ff3954a88729d\downloadServer\server.jar", "--output", "E:\WildAside_MCreator19\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7e37514e6638f6a3ed467182b95ff3954a88729d\extractServer\output.jar", "--jar-only"
+Classpath:   C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.3.0\installertools-1.3.0-fatjar.jar
+Working Dir: E:\WildAside_MCreator19\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7e37514e6638f6a3ed467182b95ff3954a88729d\extractServer
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: BUNDLER_EXTRACT
+Input:   E:\WildAside_MCreator19\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7e37514e6638f6a3ed467182b95ff3954a88729d\downloadServer\server.jar
+Output:  E:\WildAside_MCreator19\build\fg_cache\mcp\1.19.2-20220805.130853\joined\7e37514e6638f6a3ed467182b95ff3954a88729d\extractServer\output.jar
+All:     false
+JarOnly: true
+Libs:    false
+Extracted: versions/1.19.2/server-1.19.2.jar
