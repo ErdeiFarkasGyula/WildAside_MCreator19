@@ -1,6 +1,6 @@
 {
-  "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
   "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
+  "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
   "advancements.grow_the_glow.title": "Grow The Glow",
   "item.wildaside.entorium": "Entorium",
   "advancements.still_not_enough.descr": "Try breaking Bedrock with an Entorium Gauntlet",
@@ -91,6 +91,7 @@
   "block.wildaside.substilium_trapdoor": "Substilium Trapdoor",
   "effect.wildaside.immune_protection": "Immune-protection",
   "block.wildaside.yellow_glowing_hickory_leaves": "Yellow Glowing Hickory Leaves",
+  "gamerule.giveWildasideLexionToPlayer": "Give Wildaside Lexicon To Player",
   "block.wildaside.bald_cypress_pressure_plate": "Bald Cypress Pressure Plate",
   "gamerule.giveWildasideLexiconOnJoin.description": "Give players a Wild Aside lexicon when joining a world for the first time",
   "advancements.stripped_hickory_log_hidden.title": "Stripped Hickory Log Hidden",
@@ -114,6 +115,7 @@
   "gamerule.givePlayersLexiconWhenEnteringWildasideBiomes": "Give players a lexicon when entering Wild Aside biomes",
   "block.wildaside.substilium_stairs": "Substilium Stairs",
   "advancements.barrier_of_bacteria.title": "Barrier Of Bacteria",
+  "gamerule.giveWildasideLexionToPlayer.description": "Give Wildaside Lexicon To Player when entering a Wildaside biome",
   "advancements.dangerous_warfare.title": "Dangerous Warfare",
   "advancements.quattuor_essentiae.descr": "Obtain all four of Glowing Essences",
   "advancements.substilium_planks_hidden.title": "Substilium Planks Hidden",

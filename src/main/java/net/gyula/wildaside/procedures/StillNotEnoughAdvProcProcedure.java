@@ -39,7 +39,7 @@ public class StillNotEnoughAdvProcProcedure {
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == Blocks.BEDROCK) {
 			if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == WildasideModItems.ENTORIUM_GAUNTLET.get()) {
 				if (entity instanceof ServerPlayer _player) {
-					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:stripped_substilium_stem_hidden"));
+					Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:still_not_enough"));
 					AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
 					if (!_ap.isDone()) {
 						for (String criteria : _ap.getRemainingCriteria())

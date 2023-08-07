@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Logic",
+    "displayName": "Give Wildaside Lexicon To Player",
+    "description": "Give Wildaside Lexicon To Player when entering a Wildaside biome",
+    "category": "PLAYER",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 0
+  }
+}
