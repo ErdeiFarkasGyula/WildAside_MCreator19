@@ -9094,8 +9094,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
       "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
+      "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
       "advancements.grow_the_glow.title": "Grow The Glow",
       "item.wildaside.entorium": "Entorium",
       "advancements.still_not_enough.descr": "Try breaking Bedrock with an Entorium Gauntlet",
@@ -9479,5 +9479,5 @@
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300326610
+  "mcreatorVersion": 202300333711
 }

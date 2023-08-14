@@ -1,4 +1,4 @@
-Java Launcher: G:\MCreator\MCreator.EAP.2023.326610.Windows.64bit\MCreatorEAP2023326610\jdk\bin\java.exe
+Java Launcher: G:\MCreator.EAP.2023.333711.Windows.64bit\MCreatorEAP2023333711\jdk\bin\java.exe
 Arguments: '--in-jar, E:\WildAside_MCreator19\build\libs\modid-1.0.jar, --out-jar, E:\WildAside_MCreator19\build\reobfJar\output.jar, --srg-in, E:\WildAside_MCreator19\build\createMcpToSrg\output.tsrg, --live'
 Classpath:
  - C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\md-5\SpecialSource\1.11.0\SpecialSource-1.11.0-shaded.jar

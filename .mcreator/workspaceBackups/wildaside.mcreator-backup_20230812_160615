@@ -9458,7 +9458,7 @@
   "workspaceSettings": {
     "modid": "wildaside",
     "modName": "Wild Aside",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "An amazing biome and exploration mod",
     "author": "Gyula, Lyof, MCreator",
     "websiteURL": "https://discord.gg/qeu8JSzGR4",
@@ -9467,7 +9467,9 @@
     "serverSideOnly": false,
     "modPicture": "wildaside_logo",
     "requiredMods": [],
-    "dependencies": [],
+    "dependencies": [
+      "geckolib"
+    ],
     "dependants": [],
     "mcreatorDependencies": [
       "geckolib"

@@ -9094,8 +9094,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
       "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
+      "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
       "advancements.grow_the_glow.title": "Grow The Glow",
       "item.wildaside.entorium": "Entorium",
       "advancements.still_not_enough.descr": "Try breaking Bedrock with an Entorium Gauntlet",
@@ -9458,7 +9458,7 @@
   "workspaceSettings": {
     "modid": "wildaside",
     "modName": "Wild Aside",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "description": "An amazing biome and exploration mod",
     "author": "Gyula, Lyof, MCreator",
     "websiteURL": "https://discord.gg/qeu8JSzGR4",
@@ -9466,10 +9466,10 @@
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "wildaside_logo",
-    "requiredMods": [
+    "requiredMods": [],
+    "dependencies": [
       "geckolib"
     ],
-    "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
       "geckolib"
