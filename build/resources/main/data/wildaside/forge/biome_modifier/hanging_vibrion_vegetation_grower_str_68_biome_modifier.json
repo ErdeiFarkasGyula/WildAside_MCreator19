@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "wildaside:vibrion_hive",
-  "features": "wildaside:hanging_vibrion_vegetation_grower_str_68",
-  "step": "underground_structures"
-}

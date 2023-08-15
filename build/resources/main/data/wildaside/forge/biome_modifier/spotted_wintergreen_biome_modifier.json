@@ -1,9 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": [
-    "wildaside:hickory_forest",
-    "wildaside:glowing_hickory_forest"
-  ],
-  "features": "wildaside:spotted_wintergreen",
-  "step": "vegetal_decoration"
-}

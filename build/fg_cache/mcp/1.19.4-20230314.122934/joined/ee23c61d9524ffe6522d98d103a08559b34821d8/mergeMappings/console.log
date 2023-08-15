@@ -1,4 +1,4 @@
-JVM:         G:\MCreator\MCreator.EAP.2023.326610.Windows.64bit\MCreatorEAP2023326610\jdk\bin\java.exe
+JVM:         G:\MCreator.EAP.2023.333711.Windows.64bit\MCreatorEAP2023333711\jdk\bin\java.exe
 JVM Args:    
 Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "E:\WildAside_MCreator19\build\fg_cache\mcp\1.19.4-20230314.122934\joined\ee23c61d9524ffe6522d98d103a08559b34821d8\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "E:\WildAside_MCreator19\build\fg_cache\mcp\1.19.4-20230314.122934\joined\ee23c61d9524ffe6522d98d103a08559b34821d8\mergeMappings\output.jar"
 Classpath:   C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar

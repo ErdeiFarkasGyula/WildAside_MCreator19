@@ -1,4 +1,4 @@
-Java Launcher: G:\MCreator\MCreator.EAP.2023.326610.Windows.64bit\MCreatorEAP2023326610\jdk\bin\java.exe
+Java Launcher: G:\MCreator.EAP.2023.333711.Windows.64bit\MCreatorEAP2023333711\jdk\bin\java.exe
 Arguments: '--clean, C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\mcp_repo\net\minecraft\joined\1.19.4-20230314.122934\joined-1.19.4-20230314.122934-srg.jar, --output, E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatched.jar, --apply, E:\WildAside_MCreator19\build\fg_cache\net\minecraftforge\forge\1.19.4-45.1.0\forge-1.19.4-45.1.0-binpatches.lzma'
 Classpath:
  - C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\binarypatcher\1.1.1\binarypatcher-1.1.1-fatjar.jar

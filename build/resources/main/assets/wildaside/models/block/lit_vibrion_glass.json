@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "wildaside:block/vibrion_gel_glass_pane",
-    "particle": "wildaside:block/vibrion_gel_glass_pane"
-  },
-  "render_type": "translucent"
-}

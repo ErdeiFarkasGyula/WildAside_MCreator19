@@ -1,8 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "wildaside:block/vibrion_roots",
-    "particle": "wildaside:block/vibrion_block"
-  },
-  "render_type": "cutout"
-}

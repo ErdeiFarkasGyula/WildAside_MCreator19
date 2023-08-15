@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "wildaside:hickory_forest",
-  "features": "wildaside:hickory_tree_grower_str_5",
-  "step": "surface_structures"
-}
