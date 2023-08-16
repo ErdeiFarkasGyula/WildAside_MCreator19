@@ -3,12 +3,27 @@
   "group": "substilium_stairs",
   "category": "building",
   "pattern": [
-    "  S",
-    " SS",
-    "SSS"
+    "  2",
+    " 45",
+    "678"
   ],
   "key": {
-    "S": {
+    "2": {
+      "item": "wildaside:substilium_planks"
+    },
+    "4": {
+      "item": "wildaside:substilium_planks"
+    },
+    "5": {
+      "item": "wildaside:substilium_planks"
+    },
+    "6": {
+      "item": "wildaside:substilium_planks"
+    },
+    "7": {
+      "item": "wildaside:substilium_planks"
+    },
+    "8": {
       "item": "wildaside:substilium_planks"
     }
   },

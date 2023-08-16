@@ -3,11 +3,26 @@
   "group": "smooth_substilium_soil_wall",
   "category": "building",
   "pattern": [
-    "SSS",
-    "SSS"
+    "012",
+    "345"
   ],
   "key": {
-    "S": {
+    "0": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "1": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "2": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "3": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "4": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "5": {
       "item": "wildaside:smooth_substilium_soil"
     }
   },

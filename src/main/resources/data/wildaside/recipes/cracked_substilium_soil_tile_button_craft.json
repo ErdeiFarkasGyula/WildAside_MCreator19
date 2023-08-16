@@ -3,10 +3,10 @@
   "group": "cracked_substilium_soil_tile_button",
   "category": "building",
   "pattern": [
-    "C"
+    "0"
   ],
   "key": {
-    "C": {
+    "0": {
       "item": "wildaside:cracked_substilium_soil_tiles"
     }
   },

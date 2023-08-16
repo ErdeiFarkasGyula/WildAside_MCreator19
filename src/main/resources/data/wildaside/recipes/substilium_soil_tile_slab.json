@@ -3,10 +3,16 @@
   "group": "substilium_soil_tile_slab",
   "category": "building",
   "pattern": [
-    "SSS"
+    "012"
   ],
   "key": {
-    "S": {
+    "0": {
+      "item": "wildaside:substilium_soil_tiles"
+    },
+    "1": {
+      "item": "wildaside:substilium_soil_tiles"
+    },
+    "2": {
       "item": "wildaside:substilium_soil_tiles"
     }
   },

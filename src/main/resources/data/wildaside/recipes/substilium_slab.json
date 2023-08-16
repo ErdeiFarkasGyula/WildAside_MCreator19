@@ -3,10 +3,16 @@
   "group": "substilium_slab",
   "category": "building",
   "pattern": [
-    "SSS"
+    "012"
   ],
   "key": {
-    "S": {
+    "0": {
+      "item": "wildaside:substilium_planks"
+    },
+    "1": {
+      "item": "wildaside:substilium_planks"
+    },
+    "2": {
       "item": "wildaside:substilium_planks"
     }
   },

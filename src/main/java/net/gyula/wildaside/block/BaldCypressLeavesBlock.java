@@ -5,8 +5,7 @@ import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -25,7 +24,7 @@ import net.gyula.wildaside.init.WildasideModBlocks;
 
 public class BaldCypressLeavesBlock extends LeavesBlock {
 	public BaldCypressLeavesBlock() {
-		super(BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.COLOR_GREEN).sound(SoundType.GRASS).strength(0.2f).noOcclusion());
+		super(BlockBehaviour.Properties.of().ignitedByLava().mapColor(MapColor.COLOR_GREEN).sound(SoundType.GRASS).strength(0.2f).noOcclusion());
 	}
 
 	@Override

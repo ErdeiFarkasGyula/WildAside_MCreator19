@@ -3,16 +3,25 @@
   "group": "vibrion_glass",
   "category": "building",
   "pattern": [
-    " G ",
-    "GVG",
-    " G "
+    " 1 ",
+    "345",
+    " 7 "
   ],
   "key": {
-    "G": {
+    "1": {
       "item": "minecraft:glass"
     },
-    "V": {
+    "3": {
+      "item": "minecraft:glass"
+    },
+    "4": {
       "item": "wildaside:vibrion_gel"
+    },
+    "5": {
+      "item": "minecraft:glass"
+    },
+    "7": {
+      "item": "minecraft:glass"
     }
   },
   "result": {

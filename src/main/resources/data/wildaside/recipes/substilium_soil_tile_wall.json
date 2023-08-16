@@ -3,11 +3,26 @@
   "group": "substilium_soil_tile_wall",
   "category": "building",
   "pattern": [
-    "SSS",
-    "SSS"
+    "012",
+    "345"
   ],
   "key": {
-    "S": {
+    "0": {
+      "item": "wildaside:substilium_soil_tiles"
+    },
+    "1": {
+      "item": "wildaside:substilium_soil_tiles"
+    },
+    "2": {
+      "item": "wildaside:substilium_soil_tiles"
+    },
+    "3": {
+      "item": "wildaside:substilium_soil_tiles"
+    },
+    "4": {
+      "item": "wildaside:substilium_soil_tiles"
+    },
+    "5": {
       "item": "wildaside:substilium_soil_tiles"
     }
   },

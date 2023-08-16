@@ -1,11 +1,7 @@
 
 package net.gyula.wildaside.block;
 
-import net.minecraft.world.level.block.state.properties.BlockStateProperties;
-import net.minecraft.world.level.block.state.properties.BooleanProperty;
-import net.minecraft.world.level.block.state.properties.IntegerProperty;
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -39,7 +35,7 @@ public class GreenGlowingHickoryLeavesBlock extends LeavesBlock {
 	public static final BooleanProperty PERSISTENT = BlockStateProperties.PERSISTENT;
 
 	public GreenGlowingHickoryLeavesBlock() {
-		super(BlockBehaviour.Properties.of(Material.LEAVES, MaterialColor.COLOR_RED).sound(SoundType.GRASS).strength(0.3f).noOcclusion().lightLevel(wildasideGlowingLeavesLightToInt()));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_GREEN).sound(SoundType.GRASS).strength(0.3f).noOcclusion().lightLevel(wildasideGlowingLeavesLightToInt()));
 	}
 
 	@Override

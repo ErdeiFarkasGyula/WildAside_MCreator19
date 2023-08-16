@@ -9288,6 +9288,20 @@
         "type": "logic"
       },
       "path": "~/Gamerules"
+    },
+    {
+      "name": "HangingVibrionVinesPlantLoot",
+      "type": "loottable",
+      "sortid": 523,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hanging_vibrion_vines_plant_loot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/wildaside/loot_tables/blocks/hanging_vibrion_vines_plant.json"
+        ]
+      },
+      "path": "~/Loot Tables"
     }
   ],
   "variable_elements": [
@@ -9343,8 +9357,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
       "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
+      "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
       "advancements.grow_the_glow.title": "Grow The Glow",
       "item.wildaside.entorium": "Entorium",
       "advancements.still_not_enough.descr": "Try breaking Bedrock with an Entorium Gauntlet",
@@ -9725,10 +9739,10 @@
     "mcreatorDependencies": [
       "geckolib"
     ],
-    "currentGenerator": "forge-1.19.4",
+    "currentGenerator": "forge-1.20.1",
     "credits": "Imagined by Gyula \u0026 Lyof. Developed by Gyula. Quality management by Lyof. Textures by Gyula \u0026 Dylanvhs. Concept art by Toma400 \u0026 Gyula. Special thanks to Aqu.",
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300326610
+  "mcreatorVersion": 202300333711
 }

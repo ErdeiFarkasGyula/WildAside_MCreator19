@@ -3,9 +3,9 @@ package net.gyula.wildaside.block;
 
 import net.minecraftforge.common.IPlantable;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -23,9 +23,8 @@ import java.util.Collections;
 
 public class SmoothSubstiliumSoilPressurePlateBlock extends PressurePlateBlock {
 	public SmoothSubstiliumSoilPressurePlateBlock() {
-		super(Sensitivity.MOBS,
-				BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.POLISHED_DEEPSLATE).strength(2f, 5f).requiresCorrectToolForDrops().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape(),
-				BlockSetType.IRON);
+		super(Sensitivity.MOBS, BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.COLOR_CYAN).sound(SoundType.POLISHED_DEEPSLATE).strength(2f, 5f).requiresCorrectToolForDrops().noOcclusion()
+				.isRedstoneConductor((bs, br, bp) -> false).dynamicShape(), BlockSetType.IRON);
 	}
 
 	@Override
@@ -46,7 +45,7 @@ public class SmoothSubstiliumSoilPressurePlateBlock extends PressurePlateBlock {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

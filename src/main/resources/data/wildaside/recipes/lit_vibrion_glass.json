@@ -3,16 +3,25 @@
   "group": "lit_vibrion_glass",
   "category": "building",
   "pattern": [
-    " V ",
-    "VIV",
-    " V "
+    " 1 ",
+    "345",
+    " 7 "
   ],
   "key": {
-    "V": {
+    "1": {
       "item": "wildaside:vibrion_glass"
     },
-    "I": {
+    "3": {
+      "item": "wildaside:vibrion_glass"
+    },
+    "4": {
       "item": "wildaside:vibrion_block"
+    },
+    "5": {
+      "item": "wildaside:vibrion_glass"
+    },
+    "7": {
+      "item": "wildaside:vibrion_glass"
     }
   },
   "result": {

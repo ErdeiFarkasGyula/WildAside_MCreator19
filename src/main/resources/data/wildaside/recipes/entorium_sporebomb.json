@@ -3,16 +3,25 @@
   "group": "entorium_sporebomb",
   "category": "misc",
   "pattern": [
-    " E ",
-    "EVE",
-    " E "
+    " 1 ",
+    "345",
+    " 7 "
   ],
   "key": {
-    "E": {
+    "1": {
       "item": "wildaside:entorium"
     },
-    "V": {
+    "3": {
+      "item": "wildaside:entorium"
+    },
+    "4": {
       "item": "wildaside:vibrion_block"
+    },
+    "5": {
+      "item": "wildaside:entorium"
+    },
+    "7": {
+      "item": "wildaside:entorium"
     }
   },
   "result": {

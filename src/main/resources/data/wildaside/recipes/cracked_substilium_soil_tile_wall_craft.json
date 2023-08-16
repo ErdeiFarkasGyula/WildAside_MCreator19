@@ -3,11 +3,26 @@
   "group": "cracked_substilium_soil_tile_wall",
   "category": "building",
   "pattern": [
-    "CCC",
-    "CCC"
+    "012",
+    "345"
   ],
   "key": {
-    "C": {
+    "0": {
+      "item": "wildaside:cracked_substilium_soil_tiles"
+    },
+    "1": {
+      "item": "wildaside:cracked_substilium_soil_tiles"
+    },
+    "2": {
+      "item": "wildaside:cracked_substilium_soil_tiles"
+    },
+    "3": {
+      "item": "wildaside:cracked_substilium_soil_tiles"
+    },
+    "4": {
+      "item": "wildaside:cracked_substilium_soil_tiles"
+    },
+    "5": {
       "item": "wildaside:cracked_substilium_soil_tiles"
     }
   },

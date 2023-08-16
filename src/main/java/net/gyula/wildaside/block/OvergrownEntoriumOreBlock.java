@@ -5,8 +5,7 @@ import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -32,7 +31,7 @@ import java.util.List;
 
 public class OvergrownEntoriumOreBlock extends Block {
 	public OvergrownEntoriumOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.GRASS, MaterialColor.COLOR_CYAN).sound(SoundType.NETHER_ORE).strength(3.5f, 5f));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_CYAN).sound(SoundType.NETHER_ORE).strength(3.5f, 5f));
 	}
 
 	@Override

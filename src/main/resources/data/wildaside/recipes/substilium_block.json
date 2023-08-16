@@ -3,11 +3,20 @@
   "group": "substilium_block",
   "category": "building",
   "pattern": [
-    "SS",
-    "SS"
+    "01",
+    "23"
   ],
   "key": {
-    "S": {
+    "0": {
+      "item": "wildaside:substilium_stem"
+    },
+    "1": {
+      "item": "wildaside:substilium_stem"
+    },
+    "2": {
+      "item": "wildaside:substilium_stem"
+    },
+    "3": {
       "item": "wildaside:substilium_stem"
     }
   },

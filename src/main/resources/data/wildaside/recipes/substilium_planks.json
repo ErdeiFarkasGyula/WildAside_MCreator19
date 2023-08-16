@@ -3,10 +3,10 @@
   "group": "substilium_planks",
   "category": "building",
   "pattern": [
-    "S"
+    "0"
   ],
   "key": {
-    "S": {
+    "0": {
       "item": "wildaside:substilium_stem"
     }
   },

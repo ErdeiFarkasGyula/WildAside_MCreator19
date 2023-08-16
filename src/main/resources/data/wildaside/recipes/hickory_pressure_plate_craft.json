@@ -3,10 +3,13 @@
   "group": "hickory_pressure_plate",
   "category": "building",
   "pattern": [
-    "HH"
+    "01"
   ],
   "key": {
-    "H": {
+    "0": {
+      "item": "wildaside:hickory_planks"
+    },
+    "1": {
       "item": "wildaside:hickory_planks"
     }
   },

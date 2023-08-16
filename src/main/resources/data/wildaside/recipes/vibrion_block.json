@@ -3,11 +3,20 @@
   "group": "vibrion_block",
   "category": "misc",
   "pattern": [
-    "VV",
-    "VV"
+    "01",
+    "23"
   ],
   "key": {
-    "V": {
+    "0": {
+      "item": "wildaside:vibrion"
+    },
+    "1": {
+      "item": "wildaside:vibrion"
+    },
+    "2": {
+      "item": "wildaside:vibrion"
+    },
+    "3": {
       "item": "wildaside:vibrion"
     }
   },

@@ -13,8 +13,6 @@
  */
 package net.gyula.wildaside;
 
-import software.bernie.geckolib.GeckoLib;
-
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -31,6 +29,7 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.gyula.wildaside.init.WildasideModTabs;
 import net.gyula.wildaside.init.WildasideModParticleTypes;
 import net.gyula.wildaside.init.WildasideModMobEffects;
 import net.gyula.wildaside.init.WildasideModMenus;
@@ -60,18 +59,17 @@ public class WildasideMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		WildasideModBlocks.REGISTRY.register(bus);
+		WildasideModBlockEntities.REGISTRY.register(bus);
 		WildasideModItems.REGISTRY.register(bus);
 		WildasideModEntities.REGISTRY.register(bus);
-		WildasideModBlockEntities.REGISTRY.register(bus);
+		WildasideModEnchantments.REGISTRY.register(bus);
+		WildasideModTabs.REGISTRY.register(bus);
 		WildasideModFeatures.REGISTRY.register(bus);
-
 		WildasideModMobEffects.REGISTRY.register(bus);
 
-		WildasideModEnchantments.REGISTRY.register(bus);
 		WildasideModParticleTypes.REGISTRY.register(bus);
-		WildasideModMenus.REGISTRY.register(bus);
 
-		GeckoLib.initialize();
+		WildasideModMenus.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

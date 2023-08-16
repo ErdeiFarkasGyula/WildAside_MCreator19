@@ -3,11 +3,26 @@
   "group": "hickory_trapdoor",
   "category": "building",
   "pattern": [
-    "HHH",
-    "HHH"
+    "012",
+    "345"
   ],
   "key": {
-    "H": {
+    "0": {
+      "item": "wildaside:hickory_planks"
+    },
+    "1": {
+      "item": "wildaside:hickory_planks"
+    },
+    "2": {
+      "item": "wildaside:hickory_planks"
+    },
+    "3": {
+      "item": "wildaside:hickory_planks"
+    },
+    "4": {
+      "item": "wildaside:hickory_planks"
+    },
+    "5": {
       "item": "wildaside:hickory_planks"
     }
   },

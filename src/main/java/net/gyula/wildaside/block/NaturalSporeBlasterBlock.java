@@ -1,9 +1,9 @@
 
 package net.gyula.wildaside.block;
 
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.FluidState;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -29,7 +29,7 @@ public class NaturalSporeBlasterBlock extends Block {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 	public NaturalSporeBlasterBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_CYAN).sound(SoundType.SHROOMLIGHT).strength(10f, 4f));
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.COLOR_CYAN).sound(SoundType.SHROOMLIGHT).strength(10f, 4f));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
 

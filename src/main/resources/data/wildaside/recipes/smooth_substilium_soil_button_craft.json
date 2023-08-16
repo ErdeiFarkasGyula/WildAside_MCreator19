@@ -3,10 +3,10 @@
   "group": "smooth_substilium_soil_button",
   "category": "building",
   "pattern": [
-    "S"
+    "0"
   ],
   "key": {
-    "S": {
+    "0": {
       "item": "wildaside:smooth_substilium_soil"
     }
   },

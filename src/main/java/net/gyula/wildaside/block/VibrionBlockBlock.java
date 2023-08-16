@@ -6,8 +6,7 @@ import org.checkerframework.checker.units.qual.s;
 import net.minecraftforge.common.IPlantable;
 
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -31,7 +30,7 @@ import net.gyula.wildaside.procedures.DropXP2_10Procedure;
 
 public class VibrionBlockBlock extends Block {
 	public VibrionBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.SHROOMLIGHT).strength(2.3f, 1f).lightLevel(s -> 7).randomTicks());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_YELLOW).sound(SoundType.SHROOMLIGHT).strength(2.3f, 1f).lightLevel(s -> 7).randomTicks());
 	}
 
 	@Override

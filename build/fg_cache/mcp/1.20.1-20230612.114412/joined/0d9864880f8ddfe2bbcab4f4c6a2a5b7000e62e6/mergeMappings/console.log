@@ -1,0 +1,16 @@
+JVM:         G:\MCreator.EAP.2023.333711.Windows.64bit\MCreatorEAP2023333711\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "E:\WildAside_MCreator19\build\fg_cache\mcp\1.20.1-20230612.114412\joined\0d9864880f8ddfe2bbcab4f4c6a2a5b7000e62e6\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "E:\WildAside_MCreator19\build\fg_cache\mcp\1.20.1-20230612.114412\joined\0d9864880f8ddfe2bbcab4f4c6a2a5b7000e62e6\mergeMappings\output.jar"
+Classpath:   C:\Users\Felhasználó\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar
+Working Dir: E:\WildAside_MCreator19\build\fg_cache\mcp\1.20.1-20230612.114412\joined\0d9864880f8ddfe2bbcab4f4c6a2a5b7000e62e6\mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config\joined.tsrg
+         null
+Right:   E:\WildAside_MCreator19\build\fg_cache\mcp\1.20.1-20230612.114412\joined\0d9864880f8ddfe2bbcab4f4c6a2a5b7000e62e6\downloadClientMappings\client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  E:\WildAside_MCreator19\build\fg_cache\mcp\1.20.1-20230612.114412\joined\0d9864880f8ddfe2bbcab4f4c6a2a5b7000e62e6\mergeMappings\output.jar

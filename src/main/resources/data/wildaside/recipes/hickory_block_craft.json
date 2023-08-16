@@ -3,11 +3,20 @@
   "group": "hickory_block",
   "category": "building",
   "pattern": [
-    "HH",
-    "HH"
+    "01",
+    "23"
   ],
   "key": {
-    "H": {
+    "0": {
+      "item": "wildaside:hickory_log"
+    },
+    "1": {
+      "item": "wildaside:hickory_log"
+    },
+    "2": {
+      "item": "wildaside:hickory_log"
+    },
+    "3": {
       "item": "wildaside:hickory_log"
     }
   },

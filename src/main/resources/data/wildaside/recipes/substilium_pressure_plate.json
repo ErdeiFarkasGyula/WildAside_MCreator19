@@ -3,10 +3,13 @@
   "group": "substilium_pressure_plate",
   "category": "building",
   "pattern": [
-    "SS"
+    "01"
   ],
   "key": {
-    "S": {
+    "0": {
+      "item": "wildaside:substilium_planks"
+    },
+    "1": {
       "item": "wildaside:substilium_planks"
     }
   },

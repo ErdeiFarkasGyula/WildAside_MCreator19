@@ -9,8 +9,7 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.material.PushReaction;
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -38,7 +37,7 @@ import net.gyula.wildaside.block.entity.SporeAirBlockEntity;
 
 public class SporeAirBlock extends Block implements EntityBlock {
 	public SporeAirBlock() {
-		super(BlockBehaviour.Properties.of(Material.AIR, MaterialColor.COLOR_YELLOW).sound(SoundType.GRAVEL).instabreak().noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false).noLootTable());
+		super(BlockBehaviour.Properties.of().air().mapColor(MapColor.COLOR_YELLOW).sound(SoundType.GRAVEL).instabreak().noCollission().noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false).noLootTable());
 	}
 
 	@Override
@@ -69,11 +68,6 @@ public class SporeAirBlock extends Block implements EntityBlock {
 	@Override
 	public BlockPathTypes getBlockPathType(BlockState state, BlockGetter world, BlockPos pos, Mob entity) {
 		return BlockPathTypes.DANGER_OTHER;
-	}
-
-	@Override
-	public PushReaction getPistonPushReaction(BlockState state) {
-		return PushReaction.DESTROY;
 	}
 
 	@Override

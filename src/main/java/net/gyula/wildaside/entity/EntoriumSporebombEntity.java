@@ -71,25 +71,25 @@ public class EntoriumSporebombEntity extends AbstractArrow implements ItemSuppli
 	@Override
 	public void playerTouch(Player entity) {
 		super.playerTouch(entity);
-		EntoriumSporebombProjectileHitsPlayerProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), entity, this.getOwner());
+		EntoriumSporebombProjectileHitsPlayerProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entity, this.getOwner());
 	}
 
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		EntoriumSporebombProjectileHitsPlayerProcedure.execute(this.level, this.getX(), this.getY(), this.getZ(), entityHitResult.getEntity(), this.getOwner());
+		EntoriumSporebombProjectileHitsPlayerProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ(), entityHitResult.getEntity(), this.getOwner());
 	}
 
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		EntoriumSporebombProjectileHitsBlockProcedure.execute(this.level, blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ(), this);
+		EntoriumSporebombProjectileHitsBlockProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ(), this);
 	}
 
 	@Override
 	public void tick() {
 		super.tick();
-		EntoriumSporebombWhileProjectileFlyingTickProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
+		EntoriumSporebombWhileProjectileFlyingTickProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 		if (this.inGround)
 			this.discard();
 	}
@@ -107,7 +107,7 @@ public class EntoriumSporebombEntity extends AbstractArrow implements ItemSuppli
 	}
 
 	public static EntoriumSporebombEntity shoot(LivingEntity entity, LivingEntity target) {
-		EntoriumSporebombEntity entityarrow = new EntoriumSporebombEntity(WildasideModEntities.ENTORIUM_SPOREBOMB.get(), entity, entity.level);
+		EntoriumSporebombEntity entityarrow = new EntoriumSporebombEntity(WildasideModEntities.ENTORIUM_SPOREBOMB.get(), entity, entity.level());
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
@@ -116,8 +116,8 @@ public class EntoriumSporebombEntity extends AbstractArrow implements ItemSuppli
 		entityarrow.setBaseDamage(0);
 		entityarrow.setKnockback(1);
 		entityarrow.setCritArrow(true);
-		entity.level.addFreshEntity(entityarrow);
-		entity.level.playSound(null, entity.getX(), entity.getY(), entity.getZ(), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")), SoundSource.PLAYERS, 1, 1f / (RandomSource.create().nextFloat() * 0.5f + 1));
+		entity.level().addFreshEntity(entityarrow);
+		entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")), SoundSource.PLAYERS, 1, 1f / (RandomSource.create().nextFloat() * 0.5f + 1));
 		return entityarrow;
 	}
 }

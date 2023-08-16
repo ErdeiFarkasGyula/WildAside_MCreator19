@@ -5,8 +5,7 @@ import net.minecraftforge.common.IPlantable;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -27,7 +26,7 @@ import net.gyula.wildaside.procedures.DropXP0_3Procedure;
 
 public class SubstiliumSoilBlock extends Block {
 	public SubstiliumSoilBlock() {
-		super(BlockBehaviour.Properties.of(Material.GRASS, MaterialColor.COLOR_CYAN).sound(SoundType.ROOTED_DIRT).strength(2f, 5f));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_CYAN).sound(SoundType.ROOTED_DIRT).strength(2f, 5f));
 	}
 
 	@Override

@@ -10,8 +10,7 @@ import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
 import net.minecraft.world.level.material.PushReaction;
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
@@ -53,7 +52,7 @@ public class HangingVibrionVinesBlock extends WeepingVinesBlock implements Simpl
 	public static final IntegerProperty AGE = IntegerProperty.create("age", 0, 25);
 
 	public HangingVibrionVinesBlock() {
-		super(BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.SHROOMLIGHT).strength(0.3f, 0.5f).lightLevel(s -> 7).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false)
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_ORANGE).sound(SoundType.SHROOMLIGHT).strength(0.3f, 0.5f).lightLevel(s -> 7).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false)
 				.offsetType(Block.OffsetType.XZ));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
 	}
@@ -110,14 +109,6 @@ public class HangingVibrionVinesBlock extends WeepingVinesBlock implements Simpl
 	@Override
 	public PushReaction getPistonPushReaction(BlockState state) {
 		return PushReaction.DESTROY;
-	}
-
-	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
 	}
 
 	@Override

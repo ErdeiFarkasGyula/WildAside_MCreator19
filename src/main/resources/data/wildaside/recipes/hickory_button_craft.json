@@ -3,10 +3,10 @@
   "group": "hickory_button",
   "category": "building",
   "pattern": [
-    "H"
+    "0"
   ],
   "key": {
-    "H": {
+    "0": {
       "item": "wildaside:hickory_planks"
     }
   },

@@ -3,12 +3,27 @@
   "group": "smooth_substilium_soil_stairs",
   "category": "building",
   "pattern": [
-    "  S",
-    " SS",
-    "SSS"
+    "  2",
+    " 45",
+    "678"
   ],
   "key": {
-    "S": {
+    "2": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "4": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "5": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "6": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "7": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "8": {
       "item": "wildaside:smooth_substilium_soil"
     }
   },

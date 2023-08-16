@@ -3,12 +3,27 @@
   "group": "substilium_door",
   "category": "building",
   "pattern": [
-    "SS",
-    "SS",
-    "SS"
+    "01",
+    "23",
+    "45"
   ],
   "key": {
-    "S": {
+    "0": {
+      "item": "wildaside:substilium_planks"
+    },
+    "1": {
+      "item": "wildaside:substilium_planks"
+    },
+    "2": {
+      "item": "wildaside:substilium_planks"
+    },
+    "3": {
+      "item": "wildaside:substilium_planks"
+    },
+    "4": {
+      "item": "wildaside:substilium_planks"
+    },
+    "5": {
       "item": "wildaside:substilium_planks"
     }
   },

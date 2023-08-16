@@ -3,12 +3,27 @@
   "group": "hickory_stairs",
   "category": "building",
   "pattern": [
-    "  H",
-    " HH",
-    "HHH"
+    "  2",
+    " 45",
+    "678"
   ],
   "key": {
-    "H": {
+    "2": {
+      "item": "wildaside:hickory_planks"
+    },
+    "4": {
+      "item": "wildaside:hickory_planks"
+    },
+    "5": {
+      "item": "wildaside:hickory_planks"
+    },
+    "6": {
+      "item": "wildaside:hickory_planks"
+    },
+    "7": {
+      "item": "wildaside:hickory_planks"
+    },
+    "8": {
       "item": "wildaside:hickory_planks"
     }
   },

@@ -3,16 +3,37 @@
   "group": "lit_vibrion_glass_pane",
   "category": "building",
   "pattern": [
-    "VVV",
-    "VIV",
-    "VVV"
+    "012",
+    "345",
+    "678"
   ],
   "key": {
-    "V": {
+    "0": {
       "item": "wildaside:vibrion_glass_pane"
     },
-    "I": {
+    "1": {
+      "item": "wildaside:vibrion_glass_pane"
+    },
+    "2": {
+      "item": "wildaside:vibrion_glass_pane"
+    },
+    "3": {
+      "item": "wildaside:vibrion_glass_pane"
+    },
+    "4": {
       "item": "wildaside:vibrion_block"
+    },
+    "5": {
+      "item": "wildaside:vibrion_glass_pane"
+    },
+    "6": {
+      "item": "wildaside:vibrion_glass_pane"
+    },
+    "7": {
+      "item": "wildaside:vibrion_glass_pane"
+    },
+    "8": {
+      "item": "wildaside:vibrion_glass_pane"
     }
   },
   "result": {

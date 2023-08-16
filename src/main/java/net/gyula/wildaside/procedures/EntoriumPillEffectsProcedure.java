@@ -16,10 +16,10 @@ public class EntoriumPillEffectsProcedure {
 		if (entity == null)
 			return;
 		if (0.6 >= Math.random()) {
-			if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+			if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 				_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 300, 0, false, true));
 		}
-		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(WildasideModMobEffects.IMMUNE_PROTECTION.get(), 500, 0, false, true));
 		if (entity instanceof ServerPlayer _player) {
 			Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:temporary_solution"));

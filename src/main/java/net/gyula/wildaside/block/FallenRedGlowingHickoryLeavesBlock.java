@@ -7,8 +7,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -26,7 +25,7 @@ import net.gyula.wildaside.procedures.FallenRedGlowingHickoryLeavesPlantDestroye
 
 public class FallenRedGlowingHickoryLeavesBlock extends FlowerBlock {
 	public FallenRedGlowingHickoryLeavesBlock() {
-		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.GRASS).sound(SoundType.GRASS).strength(0.1f, 0.1f).lightLevel(s -> 7).noCollission().offsetType(BlockBehaviour.OffsetType.NONE));
+		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_RED).sound(SoundType.GRASS).strength(0.1f, 0.1f).lightLevel(s -> 7).noCollission().offsetType(BlockBehaviour.OffsetType.NONE));
 	}
 
 	@Override

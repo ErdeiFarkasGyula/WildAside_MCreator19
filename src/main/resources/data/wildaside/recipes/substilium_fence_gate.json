@@ -3,15 +3,27 @@
   "group": "substilium_fence_gate",
   "category": "building",
   "pattern": [
-    "SUS",
-    "SUS"
+    "012",
+    "345"
   ],
   "key": {
-    "S": {
+    "0": {
       "item": "minecraft:stick"
     },
-    "U": {
+    "1": {
       "item": "wildaside:substilium_planks"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "4": {
+      "item": "wildaside:substilium_planks"
+    },
+    "5": {
+      "item": "minecraft:stick"
     }
   },
   "result": {

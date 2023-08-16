@@ -3,15 +3,27 @@
   "group": "hickory_fence",
   "category": "building",
   "pattern": [
-    "HSH",
-    "HSH"
+    "012",
+    "345"
   ],
   "key": {
-    "H": {
+    "0": {
       "item": "wildaside:hickory_planks"
     },
-    "S": {
+    "1": {
       "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "wildaside:hickory_planks"
+    },
+    "3": {
+      "item": "wildaside:hickory_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "wildaside:hickory_planks"
     }
   },
   "result": {

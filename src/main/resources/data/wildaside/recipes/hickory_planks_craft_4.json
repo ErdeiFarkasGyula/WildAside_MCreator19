@@ -3,10 +3,10 @@
   "group": "hickory_planks",
   "category": "building",
   "pattern": [
-    "S"
+    "0"
   ],
   "key": {
-    "S": {
+    "0": {
       "item": "wildaside:stripped_hickory_block"
     }
   },

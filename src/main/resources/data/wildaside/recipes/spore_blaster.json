@@ -3,24 +3,36 @@
   "group": "spore_blaster",
   "category": "redstone",
   "pattern": [
-    "VEV",
-    "NDN",
-    "SSS"
+    "012",
+    "345",
+    "678"
   ],
   "key": {
-    "V": {
+    "0": {
       "item": "wildaside:vibrion"
     },
-    "E": {
+    "1": {
       "item": "wildaside:entorium_sporebomb"
     },
-    "N": {
+    "2": {
+      "item": "wildaside:vibrion"
+    },
+    "3": {
       "item": "wildaside:entorium"
     },
-    "D": {
+    "4": {
       "item": "minecraft:dispenser"
     },
-    "S": {
+    "5": {
+      "item": "wildaside:entorium"
+    },
+    "6": {
+      "item": "wildaside:substilium_soil"
+    },
+    "7": {
+      "item": "wildaside:substilium_soil"
+    },
+    "8": {
       "item": "wildaside:substilium_soil"
     }
   },

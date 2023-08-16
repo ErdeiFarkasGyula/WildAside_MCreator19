@@ -9,8 +9,7 @@ import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -32,7 +31,7 @@ import net.gyula.wildaside.procedures.GiveContaminationEffectProcedure;
 
 public class VibrionSporeholderBlock extends FlowerBlock {
 	public VibrionSporeholderBlock() {
-		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_YELLOW).sound(SoundType.FUNGUS).strength(1.5f, 2f).lightLevel(s -> 5).noCollission());
+		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of().mapColor(MapColor.TERRACOTTA_ORANGE).sound(SoundType.FUNGUS).strength(1.5f, 2f).lightLevel(s -> 5).noCollission());
 	}
 
 	@Override

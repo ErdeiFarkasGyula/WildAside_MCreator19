@@ -4,10 +4,10 @@ package net.gyula.wildaside.block;
 import net.minecraftforge.common.PlantType;
 
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.pathfinder.BlockPathTypes;
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -17,7 +17,6 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Mob;
@@ -35,17 +34,13 @@ import java.util.Collections;
 
 public class SubstiliumSproutsBlock extends FlowerBlock {
 	public SubstiliumSproutsBlock() {
-		super(() -> MobEffects.MOVEMENT_SPEED, 100, BlockBehaviour.Properties.of(Material.PLANT, MaterialColor.COLOR_CYAN).sound(SoundType.ROOTS).strength(0.1f, 0f).noCollission());
+		super(() -> MobEffects.MOVEMENT_SPEED, 100,
+				BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_CYAN).sound(SoundType.ROOTS).strength(0.1f, 0f).noCollission().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override
 	public int getEffectDuration() {
 		return 100;
-	}
-
-	@Override
-	public boolean canBeReplaced(BlockState state, BlockPlaceContext useContext) {
-		return useContext.getItemInHand().getItem() != this.asItem();
 	}
 
 	@Override
@@ -59,7 +54,7 @@ public class SubstiliumSproutsBlock extends FlowerBlock {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

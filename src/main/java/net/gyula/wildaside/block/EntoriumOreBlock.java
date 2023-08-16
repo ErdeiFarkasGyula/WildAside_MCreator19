@@ -4,8 +4,8 @@ package net.gyula.wildaside.block;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -22,7 +22,7 @@ import net.gyula.wildaside.procedures.SpawnEntoriumParticlesProcedure;
 
 public class EntoriumOreBlock extends Block {
 	public EntoriumOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.COLOR_PURPLE).sound(SoundType.NETHER_ORE).strength(3.5f, 5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.COLOR_PURPLE).sound(SoundType.NETHER_ORE).strength(3.5f, 5f).requiresCorrectToolForDrops());
 	}
 
 	@Override
