@@ -23,7 +23,7 @@ import java.util.Collections;
 public class SubstiliumSoilTileWallBlock extends WallBlock {
 	public SubstiliumSoilTileWallBlock() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.COLOR_CYAN).sound(SoundType.DEEPSLATE_TILES).strength(2f, 5f).requiresCorrectToolForDrops().noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
+				.isRedstoneConductor((bs, br, bp) -> false).dynamicShape().forceSolidOn());
 	}
 
 	@Override

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "smooth_substilium_soil_wall",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "1": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "2": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "3": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "4": {
+      "item": "wildaside:smooth_substilium_soil"
+    },
+    "5": {
+      "item": "wildaside:smooth_substilium_soil"
+    }
+  },
+  "result": {
+    "item": "wildaside:smooth_substilium_soil_wall",
+    "count": 6
+  }
+}

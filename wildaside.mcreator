@@ -9109,24 +9109,6 @@
       "path": "~/Procedures/Advancement"
     },
     {
-      "name": "Poofer",
-      "type": "animatedentity",
-      "sortid": 11,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "poofer",
-      "metadata": {
-        "files": [
-          "src/main/java/net/gyula/wildaside/entity/PooferEntity.java",
-          "src/main/java/net/gyula/wildaside/entity/model/PooferModel.java",
-          "src/main/resources/assets/wildaside/models/item/poofer_spawn_egg.json",
-          "src/main/java/net/gyula/wildaside/client/renderer/PooferRenderer.java",
-          "src/main/resources/data/wildaside/forge/biome_modifier/poofer_biome_modifier.json"
-        ]
-      },
-      "path": "~/Entities"
-    },
-    {
       "name": "HickoryCabinBarellLoot",
       "type": "loottable",
       "sortid": 513,
@@ -9302,6 +9284,24 @@
         ]
       },
       "path": "~/Loot Tables"
+    },
+    {
+      "name": "Poofer",
+      "type": "animatedentity",
+      "sortid": 524,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poofer",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/entity/PooferEntity.java",
+          "src/main/java/net/gyula/wildaside/entity/model/PooferModel.java",
+          "src/main/resources/assets/wildaside/models/item/poofer_spawn_egg.json",
+          "src/main/java/net/gyula/wildaside/client/renderer/PooferRenderer.java",
+          "src/main/resources/data/wildaside/forge/biome_modifier/poofer_biome_modifier.json"
+        ]
+      },
+      "path": "~/Entities"
     }
   ],
   "variable_elements": [
@@ -9744,5 +9744,5 @@
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300333711
+  "mcreatorVersion": 202300335319
 }

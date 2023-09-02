@@ -19,9 +19,8 @@ import java.util.Collections;
 
 public class BaldCypressPressurePlateBlock extends PressurePlateBlock {
 	public BaldCypressPressurePlateBlock() {
-		super(Sensitivity.EVERYTHING,
-				BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.TERRACOTTA_ORANGE).sound(SoundType.WOOD).strength(1.3f, 3f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape(),
-				BlockSetType.OAK);
+		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.TERRACOTTA_ORANGE).sound(SoundType.WOOD).strength(1.3f, 3f).noOcclusion()
+				.isRedstoneConductor((bs, br, bp) -> false).dynamicShape().forceSolidOn(), BlockSetType.OAK);
 	}
 
 	@Override

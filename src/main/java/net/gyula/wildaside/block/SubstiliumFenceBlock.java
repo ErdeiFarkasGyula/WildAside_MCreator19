@@ -18,7 +18,8 @@ import java.util.Collections;
 
 public class SubstiliumFenceBlock extends FenceBlock {
 	public SubstiliumFenceBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
+		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.COLOR_CYAN).sound(SoundType.WOOD).strength(2f, 1.5f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape()
+				.forceSolidOn());
 	}
 
 	@Override

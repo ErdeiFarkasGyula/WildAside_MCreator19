@@ -1,0 +1,34 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "substilium_door",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "wildaside:substilium_planks"
+    },
+    "1": {
+      "item": "wildaside:substilium_planks"
+    },
+    "2": {
+      "item": "wildaside:substilium_planks"
+    },
+    "3": {
+      "item": "wildaside:substilium_planks"
+    },
+    "4": {
+      "item": "wildaside:substilium_planks"
+    },
+    "5": {
+      "item": "wildaside:substilium_planks"
+    }
+  },
+  "result": {
+    "item": "wildaside:substilium_door",
+    "count": 3
+  }
+}

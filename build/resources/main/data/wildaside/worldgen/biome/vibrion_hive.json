@@ -1,0 +1,71 @@
+{
+  "has_precipitation": false,
+  "temperature": 0.2,
+  "downfall": 0,
+  "effects": {
+    "ambient_sound": "ambient.crimson_forest.loop",
+    "mood_sound": {
+      "sound": "ambient.soul_sand_valley.mood",
+      "tick_delay": 4000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "additions_sound": {
+      "sound": "ambient.nether_wastes.additions",
+      "tick_chance": 0.0111
+    },
+    "particle": {
+      "options": {
+        "type": "wildaside:still_substilium_particle"
+      },
+      "probability": 0.006
+    },
+    "foliage_color": -6184663,
+    "grass_color": -6184663,
+    "sky_color": 7972607,
+    "fog_color": 12638463,
+    "water_color": -6184663,
+    "water_fog_color": -6184663
+  },
+  "spawners": {
+    "monster": [],
+    "creature": [],
+    "ambient": [],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground"
+    ],
+    [],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower",
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_gold_extra",
+      "minecraft:ore_emerald"
+    ],
+    [],
+    [],
+    [],
+    []
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hickory_button",
+  "category": "building",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "wildaside:hickory_planks"
+    }
+  },
+  "result": {
+    "item": "wildaside:hickory_button",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:stonecutting",
+  "group": "substilium_soil_tile_stairs",
+  "count": 1,
+  "ingredient": {
+    "item": "wildaside:substilium_soil_tiles"
+  },
+  "result": "wildaside:substilium_soil_tile_stairs"
+}

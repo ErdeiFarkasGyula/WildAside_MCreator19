@@ -24,7 +24,7 @@ import java.util.Collections;
 public class SmoothSubstiliumSoilPressurePlateBlock extends PressurePlateBlock {
 	public SmoothSubstiliumSoilPressurePlateBlock() {
 		super(Sensitivity.MOBS, BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.COLOR_CYAN).sound(SoundType.POLISHED_DEEPSLATE).strength(2f, 5f).requiresCorrectToolForDrops().noOcclusion()
-				.isRedstoneConductor((bs, br, bp) -> false).dynamicShape(), BlockSetType.IRON);
+				.isRedstoneConductor((bs, br, bp) -> false).dynamicShape().forceSolidOn(), BlockSetType.IRON);
 	}
 
 	@Override

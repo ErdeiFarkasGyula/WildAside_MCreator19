@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "hickory_planks",
+  "category": "building",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "wildaside:stripped_hickory_block"
+    }
+  },
+  "result": {
+    "item": "wildaside:hickory_planks",
+    "count": 4
+  }
+}

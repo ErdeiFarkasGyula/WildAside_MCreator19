@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "vibrion_glass_pane",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "wildaside:vibrion_glass"
+    },
+    "1": {
+      "item": "wildaside:vibrion_glass"
+    },
+    "2": {
+      "item": "wildaside:vibrion_glass"
+    },
+    "3": {
+      "item": "wildaside:vibrion_glass"
+    },
+    "4": {
+      "item": "wildaside:vibrion_glass"
+    },
+    "5": {
+      "item": "wildaside:vibrion_glass"
+    }
+  },
+  "result": {
+    "item": "wildaside:vibrion_glass_pane",
+    "count": 16
+  }
+}

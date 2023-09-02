@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "entorium_gauntlet",
+  "category": "equipment",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "wildaside:entorium"
+    },
+    "1": {
+      "item": "wildaside:entorium"
+    },
+    "2": {
+      "item": "wildaside:entorium"
+    },
+    "3": {
+      "item": "wildaside:entorium"
+    },
+    "4": {
+      "item": "wildaside:entorium_sporebomb"
+    },
+    "5": {
+      "item": "wildaside:entorium"
+    },
+    "6": {
+      "item": "wildaside:entorium"
+    },
+    "7": {
+      "item": "minecraft:golden_pickaxe"
+    },
+    "8": {
+      "item": "wildaside:entorium"
+    }
+  },
+  "result": {
+    "item": "wildaside:entorium_gauntlet",
+    "count": 1
+  }
+}

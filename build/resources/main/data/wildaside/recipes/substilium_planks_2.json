@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "substilium_planks",
+  "category": "building",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "wildaside:substilium_wood"
+    }
+  },
+  "result": {
+    "item": "wildaside:substilium_planks",
+    "count": 4
+  }
+}

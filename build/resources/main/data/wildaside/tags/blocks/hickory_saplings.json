@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "wildaside:brown_glowing_hickory_sapling",
+    "wildaside:green_glowing_hickory_sapling",
+    "wildaside:hickory_sapling",
+    "wildaside:yellow_glowing_hickory_sapling",
+    "wildaside:red_glowing_hickory_sapling"
+  ]
+}

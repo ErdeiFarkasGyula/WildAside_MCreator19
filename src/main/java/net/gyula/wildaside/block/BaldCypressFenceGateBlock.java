@@ -19,8 +19,8 @@ import java.util.Collections;
 
 public class BaldCypressFenceGateBlock extends FenceGateBlock {
 	public BaldCypressFenceGateBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.TERRACOTTA_ORANGE).sound(SoundType.WOOD).strength(1.3f, 3f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape(),
-				WoodType.OAK);
+		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).mapColor(MapColor.TERRACOTTA_ORANGE).sound(SoundType.WOOD).strength(1.3f, 3f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape()
+				.forceSolidOn(), WoodType.OAK);
 	}
 
 	@Override

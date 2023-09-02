@@ -28,7 +28,6 @@ public class WildasideModTabs {
 				tabData.accept(WildasideModBlocks.VIBRION_ROOTS.get().asItem());
 				tabData.accept(WildasideModBlocks.HANGING_VIBRION_VINES.get().asItem());
 				tabData.accept(WildasideModBlocks.VIBRION_SPOREHOLDER.get().asItem());
-				tabData.accept(WildasideModItems.POOFER_SPAWN_EGG.get());
 				tabData.accept(WildasideModItems.ENTORIUM.get());
 				tabData.accept(WildasideModItems.ENTORIUM_PILL.get());
 				tabData.accept(WildasideModItems.ENTORIUM_SPOREBOMB.get());
@@ -122,6 +121,7 @@ public class WildasideModTabs {
 				tabData.accept(WildasideModBlocks.BALD_CYPRESS_PRESSURE_PLATE.get().asItem());
 				tabData.accept(WildasideModBlocks.BALD_CYPRESS_BUTTON.get().asItem());
 				tabData.accept(WildasideModBlocks.BALD_CYPRESS_LEAVES.get().asItem());
+				tabData.accept(WildasideModItems.POOFER_SPAWN_EGG.get());
 			})
 
 					.build());

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "substilium_soil_tile_button",
+  "category": "building",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "wildaside:substilium_soil_tiles"
+    }
+  },
+  "result": {
+    "item": "wildaside:substilium_soil_tile_button",
+    "count": 1
+  }
+}

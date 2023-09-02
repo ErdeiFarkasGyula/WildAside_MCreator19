@@ -1,0 +1,7 @@
+{
+    "name": "wildaside.lexicon.name",
+    "landing_text": "wildaside.lexicon.landing_text",
+    "texture": "wildaside:textures/items/lexicon.png",
+    "creative_tab": "tabwildaside_tab",
+    "version": 1
+}
