@@ -9289,7 +9289,7 @@
       "name": "Poofer",
       "type": "animatedentity",
       "sortid": 524,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "poofer",
       "metadata": {
@@ -9302,6 +9302,21 @@
         ]
       },
       "path": "~/Entities"
+    },
+    {
+      "name": "ConfigOnModLoaded",
+      "type": "procedure",
+      "sortid": 525,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config_on_mod_loaded",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/ConfigOnModLoadedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Procedures"
     }
   ],
   "variable_elements": [
@@ -9357,8 +9372,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
       "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
+      "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
       "advancements.grow_the_glow.title": "Grow The Glow",
       "item.wildaside.entorium": "Entorium",
       "advancements.still_not_enough.descr": "Try breaking Bedrock with an Entorium Gauntlet",
@@ -9736,11 +9751,13 @@
       "geckolib"
     ],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
     "credits": "Imagined by Gyula \u0026 Lyof. Developed by Gyula. Quality management by Lyof. Textures by Gyula \u0026 Dylanvhs. Concept art by Toma400 \u0026 Gyula. Special thanks to Aqu.",
     "modElementsPackage": "net.gyula.wildaside",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300334614
+  "mcreatorVersion": 202300335319
 }

@@ -51,10 +51,10 @@ public class WildasideModBiomes {
 				// Inject biomes to biome source
 				if (chunkGenerator.getBiomeSource() instanceof MultiNoiseBiomeSource noiseSource) {
 					List<Pair<Climate.ParameterPoint, Holder<Biome>>> parameters = new ArrayList<>(noiseSource.parameters().values());
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.4f, 0.5f), Climate.Parameter.span(-0.4f, 0.5f), Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-1f, 0.4f), Climate.Parameter.point(0.0f),
-							Climate.Parameter.span(-1f, 0.5f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "hickory_forest")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.4f, 0.5f), Climate.Parameter.span(-0.4f, 0.5f), Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-1f, 0.4f), Climate.Parameter.point(1.0f),
-							Climate.Parameter.span(-1f, 0.5f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "hickory_forest")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.1f, 0.5f), Climate.Parameter.span(-0.1f, 0.5f), Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-1f, 0.5f), Climate.Parameter.point(0.0f),
+							Climate.Parameter.span(-1f, 0.6f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "hickory_forest")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.1f, 0.5f), Climate.Parameter.span(-0.1f, 0.5f), Climate.Parameter.span(0.1f, 1f), Climate.Parameter.span(-1f, 0.5f), Climate.Parameter.point(1.0f),
+							Climate.Parameter.span(-1f, 0.6f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "hickory_forest")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.3f, 0.8f), Climate.Parameter.span(0f, 0.6999f), Climate.Parameter.span(0f, 1.3f), Climate.Parameter.span(-0.3f, 1.1f), Climate.Parameter.point(0.0f),
 							Climate.Parameter.span(-0.4f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("wildaside", "glowing_hickory_forest")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.3f, 0.8f), Climate.Parameter.span(0f, 0.6999f), Climate.Parameter.span(0f, 1.3f), Climate.Parameter.span(-0.3f, 1.1f), Climate.Parameter.point(1.0f),

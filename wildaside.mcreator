@@ -9302,6 +9302,21 @@
         ]
       },
       "path": "~/Entities"
+    },
+    {
+      "name": "ConfigOnModLoaded",
+      "type": "procedure",
+      "sortid": 525,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "config_on_mod_loaded",
+      "metadata": {
+        "files": [
+          "src/main/java/net/gyula/wildaside/procedures/ConfigOnModLoadedProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Config"
     }
   ],
   "variable_elements": [
@@ -9357,8 +9372,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
       "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
+      "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
       "advancements.grow_the_glow.title": "Grow The Glow",
       "item.wildaside.entorium": "Entorium",
       "advancements.still_not_enough.descr": "Try breaking Bedrock with an Entorium Gauntlet",
@@ -9716,6 +9731,10 @@
       },
       {
         "name": "Entities",
+        "children": []
+      },
+      {
+        "name": "Config",
         "children": []
       }
     ]
