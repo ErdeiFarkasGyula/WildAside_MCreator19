@@ -1,6 +1,6 @@
 {
-  "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
   "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
+  "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
   "advancements.grow_the_glow.title": "Grow The Glow",
   "item.wildaside.entorium": "Entorium",
   "advancements.still_not_enough.descr": "Try breaking Bedrock with an Entorium Gauntlet",
@@ -75,7 +75,7 @@
   "advancements.spread_onehundred.descr": "Have the Contamination effect for the first time",
   "advancements.danger_eliminated.title": "Danger Eliminated",
   "block.wildaside.stripped_hickory_log": "Substilium Hickory Log",
-  "biome.wildaside.glowing_hickory_forest": "Hickory Forest",
+  "biome.wildaside.glowing_hickory_forest": "Glowing Hickory Forest",
   "block.wildaside.smooth_substilium_soil": "Smooth Substilium Soil",
   "block.wildaside.substilium_wood": "Substilium Wood",
   "block.wildaside.bald_cypress_wood": "Bald Cypress Wood",

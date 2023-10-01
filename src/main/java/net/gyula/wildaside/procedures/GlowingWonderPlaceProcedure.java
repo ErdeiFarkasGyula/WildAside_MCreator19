@@ -32,7 +32,7 @@ public class GlowingWonderPlaceProcedure {
 		if (entity == null)
 			return;
 		if (world.getBiome(BlockPos.containing(x, y, z)).is(new ResourceLocation("wildaside:glowing_hickory_forest"))) {
-			if (world.dayTime() >= 12000) {
+			if (world.dayTime() >= 13000) {
 				if (world.dayTime() <= 23000) {
 					if (entity instanceof ServerPlayer _player) {
 						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("wildaside:glowing_wonder"));

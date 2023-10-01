@@ -28,7 +28,7 @@ public class RedGlowingHickoryLeavesUpdateTickProcedure {
 				}
 			} else {
 				if (world.dayTime() >= 12000) {
-					if (world.dayTime() >= 22500) {
+					if (world.dayTime() >= 23000) {
 						if (((world.getBlockState(BlockPos.containing(x, y, z))).getBlock().getStateDefinition().getProperty("light") instanceof IntegerProperty _getip11
 								? (world.getBlockState(BlockPos.containing(x, y, z))).getValue(_getip11)
 								: -1) > 0) {
