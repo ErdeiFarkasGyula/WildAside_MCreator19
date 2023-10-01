@@ -1,6 +1,6 @@
 {
-  "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
   "block.wildaside.stripped_substilium_stem": "Stripped Substilium Stem",
+  "block.wildaside.substilium_soil_tile_slab": "Substilium Soil Tile Slab",
   "advancements.grow_the_glow.title": "Grow The Glow",
   "item.wildaside.entorium": "Entorium",
   "advancements.still_not_enough.descr": "Try breaking Bedrock with an Entorium Gauntlet",
@@ -60,6 +60,7 @@
   "advancements.quattuor_essentiae.title": "Quattuor Essentiae",
   "effect.wildaside.contamination": "Contamination",
   "gamerule.wildasideDebugMode": "Wild Aside Debugmode",
+  "entity.wildaside.glutton": "Glutton",
   "block.wildaside.compressed_substilium_soil": "Compressed Substilium Soil",
   "block.wildaside.cracked_substilium_soil_tile_wall": "Cracked Substilium Soil Tile Wall",
   "entity.wildaside.poofer": "Poofer",
@@ -113,6 +114,7 @@
   "block.wildaside.hickory_pressure_plate": "Hickory Pressure Plate",
   "block.wildaside.substilium_soil_tile_wall": "Substilium Soil Tile Wall",
   "gamerule.givePlayersLexiconWhenEnteringWildasideBiomes": "Give players a lexicon when entering Wild Aside biomes",
+  "item.wildaside.glutton_spawn_egg": "Glutton Spawn Egg",
   "block.wildaside.substilium_stairs": "Substilium Stairs",
   "advancements.barrier_of_bacteria.title": "Barrier Of Bacteria",
   "gamerule.giveWildasideLexionToPlayer.description": "Give Wildaside Lexicon To Player when entering a Wildaside biome",

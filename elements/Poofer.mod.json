@@ -141,12 +141,15 @@
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "height": 0.3,
-    "spawnThisMob": true,
+    "spawnThisMob": false,
     "doesDespawnWhenIdle": true,
-    "spawningProbability": 20,
+    "spawningCondition": {
+      "name": "PooferNaturalEntitySpawningCondition"
+    },
+    "spawningProbability": 1000,
     "mobSpawningType": "ambient",
-    "minNumberOfMobsPerGroup": 1,
-    "maxNumberOfMobsPerGroup": 3,
+    "minNumberOfMobsPerGroup": 2,
+    "maxNumberOfMobsPerGroup": 4,
     "restrictionBiomes": [
       {
         "value": "CUSTOM:VibrionHive"

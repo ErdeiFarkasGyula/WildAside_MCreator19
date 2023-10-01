@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.gyula.wildaside.entity.PooferEntity;
+import net.gyula.wildaside.entity.GluttonEntity;
 import net.gyula.wildaside.entity.EntoriumSporebombEntity;
 import net.gyula.wildaside.WildasideMod;
 
@@ -27,6 +28,8 @@ public class WildasideModEntities {
 			.setCustomClientFactory(EntoriumSporebombEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<PooferEntity>> POOFER = register("poofer",
 			EntityType.Builder.<PooferEntity>of(PooferEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PooferEntity::new).fireImmune().sized(0.7f, 0.5f));
+	public static final RegistryObject<EntityType<GluttonEntity>> GLUTTON = register("glutton",
+			EntityType.Builder.<GluttonEntity>of(GluttonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GluttonEntity::new).fireImmune().sized(1f, 3f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -36,11 +39,13 @@ public class WildasideModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			PooferEntity.init();
+			GluttonEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(POOFER.get(), PooferEntity.createAttributes().build());
+		event.put(GLUTTON.get(), GluttonEntity.createAttributes().build());
 	}
 }

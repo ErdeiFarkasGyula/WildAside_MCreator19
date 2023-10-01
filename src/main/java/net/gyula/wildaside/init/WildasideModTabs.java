@@ -122,6 +122,7 @@ public class WildasideModTabs {
 				tabData.accept(WildasideModBlocks.BALD_CYPRESS_BUTTON.get().asItem());
 				tabData.accept(WildasideModBlocks.BALD_CYPRESS_LEAVES.get().asItem());
 				tabData.accept(WildasideModItems.POOFER_SPAWN_EGG.get());
+				tabData.accept(WildasideModItems.GLUTTON_SPAWN_EGG.get());
 			})
 
 					.build());

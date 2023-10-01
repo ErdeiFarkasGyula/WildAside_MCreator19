@@ -9,6 +9,9 @@
     "entities": [
       {
         "value": "CUSTOM:Poofer"
+      },
+      {
+        "value": "CUSTOM:Glutton"
       }
     ],
     "biomes": [],

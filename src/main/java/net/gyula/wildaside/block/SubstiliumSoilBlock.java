@@ -16,17 +16,19 @@ import net.minecraft.world.level.Explosion;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.util.RandomSource;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 import net.minecraft.client.Minecraft;
 
+import net.gyula.wildaside.procedures.SubstiliumSoilUpdateTickProcedure;
 import net.gyula.wildaside.procedures.SubstiliumSoilParticlesProcedure;
 import net.gyula.wildaside.procedures.DropXP2_10Procedure;
 import net.gyula.wildaside.procedures.DropXP0_3Procedure;
 
 public class SubstiliumSoilBlock extends Block {
 	public SubstiliumSoilBlock() {
-		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_CYAN).sound(SoundType.ROOTED_DIRT).strength(2f, 5f));
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_CYAN).sound(SoundType.ROOTED_DIRT).strength(2f, 5f).randomTicks());
 	}
 
 	@Override
@@ -37,6 +39,15 @@ public class SubstiliumSoilBlock extends Block {
 	@Override
 	public boolean canSustainPlant(BlockState state, BlockGetter world, BlockPos pos, Direction direction, IPlantable plantable) {
 		return true;
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		SubstiliumSoilUpdateTickProcedure.execute(world, x, y, z);
 	}
 
 	@OnlyIn(Dist.CLIENT)
