@@ -47,7 +47,7 @@
     },
     "particlesProbability": 0.6,
     "rainingPossibility": 0.0,
-    "temperature": 0.19999999999999998,
+    "temperature": 0.0,
     "spawnBiome": false,
     "spawnInCaves": true,
     "spawnBiomeNether": false,
@@ -64,11 +64,11 @@
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.4,
+      "min": -1.0,
       "max": 1.0
     },
     "genWeirdness": {
-      "min": -1.0,
+      "min": 0.0,
       "max": 1.0
     },
     "treesPerChunk": 0,
