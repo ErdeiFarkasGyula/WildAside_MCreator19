@@ -1,25 +1,32 @@
 {
+  "wildaside:spread_onehundred": {
+    "criteria": {
+      "spread_onehundred": "2023-10-02 21:22:08 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/crafting_table": {
     "criteria": {
-      "unlock_right_away": "2023-10-01 22:28:51 +0200"
+      "unlock_right_away": "2023-10-02 21:20:35 +0200"
     },
     "done": true
   },
   "wildaside:unsafe_haven": {
     "criteria": {
-      "unsafe_haven": "2023-10-01 22:29:07 +0200"
+      "unsafe_haven": "2023-10-02 21:21:35 +0200"
     },
     "done": true
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
-      "minecraft:forest": "2023-10-01 22:29:01 +0200"
+      "minecraft:river": "2023-10-02 21:20:59 +0200",
+      "minecraft:savanna": "2023-10-02 21:20:41 +0200"
     },
     "done": false
   },
   "wildaside:wild_wilder_wildest": {
     "criteria": {
-      "wild_wilder_wildest": "2023-10-01 22:28:50 +0200"
+      "wild_wilder_wildest": "2023-10-02 21:20:35 +0200"
     },
     "done": true
   },

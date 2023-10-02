@@ -18,8 +18,8 @@ import net.gyula.wildaside.client.renderer.GluttonRenderer;
 public class WildasideModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(WildasideModEntities.ENTORIUM_SPOREBOMB.get(), ThrownItemRenderer::new);
 		event.registerEntityRenderer(WildasideModEntities.POOFER.get(), PooferRenderer::new);
 		event.registerEntityRenderer(WildasideModEntities.GLUTTON.get(), GluttonRenderer::new);
+		event.registerEntityRenderer(WildasideModEntities.ENTORIUM_SPOREBOMB.get(), ThrownItemRenderer::new);
 	}
 }

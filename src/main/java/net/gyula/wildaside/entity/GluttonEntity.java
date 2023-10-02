@@ -275,6 +275,19 @@ public class GluttonEntity extends Animal implements RangedAttackMob, GeoEntity 
 	}
 
 	@Override
+	public boolean isPushable() {
+		return false;
+	}
+
+	@Override
+	protected void doPush(Entity entityIn) {
+	}
+
+	@Override
+	protected void pushEntities() {
+	}
+
+	@Override
 	public void aiStep() {
 		super.aiStep();
 		this.updateSwingTime();
@@ -300,6 +313,20 @@ public class GluttonEntity extends Animal implements RangedAttackMob, GeoEntity 
 			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.glutton.idle"));
 		}
 		return PlayState.STOP;
+	}
+
+	private PlayState attackingPredicate(AnimationState event) {
+		double d1 = this.getX() - this.xOld;
+		double d0 = this.getZ() - this.zOld;
+		float velocity = (float) Math.sqrt(d1 * d1 + d0 * d0);
+		if (getAttackAnim(event.getPartialTick()) > 0f && !this.swinging) {
+			this.swinging = true;
+		}
+		if ((this.swinging || this.entityData.get(SHOOT)) && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
+			event.getController().forceAnimationReset();
+			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.glutton.attack"));
+		}
+		return PlayState.CONTINUE;
 	}
 
 	private PlayState procedurePredicate(AnimationState event) {
@@ -350,6 +377,7 @@ public class GluttonEntity extends Animal implements RangedAttackMob, GeoEntity 
 	@Override
 	public void registerControllers(AnimatableManager.ControllerRegistrar data) {
 		data.add(new AnimationController<>(this, "movement", 4, this::movementPredicate));
+		data.add(new AnimationController<>(this, "attacking", 4, this::attackingPredicate));
 		data.add(new AnimationController<>(this, "procedure", 4, this::procedurePredicate));
 	}
 

@@ -37,8 +37,8 @@ public class ConfigOnModLoadedProcedure {
 			} catch (IOException exception) {
 				exception.printStackTrace();
 			}
-			jsonobject.addProperty("hickory_forest_spawnrate", 1);
-			jsonobject.addProperty("hickory_forest_spawnrate_comment", "Default value is 1. Giving a value lower or higher than 1 will reduce the range that the biome spawns in proportionally");
+			jsonobject.addProperty("test_config", 1);
+			jsonobject.addProperty("test_config_comment", "Default value is 1. Giving a value lower or higher than 1 will reduce the range that the biome spawns in proportionally");
 			{
 				Gson mainGSONBuilderVariable = new GsonBuilder().setPrettyPrinting().create();
 				try {
